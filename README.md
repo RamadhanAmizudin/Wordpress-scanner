@@ -27,8 +27,10 @@ ramadhan.amizudin at gmail dot com
 
 #### Install
 
-*Installing on Windows*
+*Installing on Windows*  
+
 ```Download http://windows.php.net/downloads/releases/php-5.3.21-Win32-VC9-x86.msi```  
+
 ```Tick cURL Extension on installation step```  
 
 #### To Do List
