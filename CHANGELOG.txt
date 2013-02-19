@@ -1,0 +1,5 @@
+* 19/02/2013
+	- update plugin function, now return plugin url and svn
+	
+* 16/02/2013
+	- Initial Release

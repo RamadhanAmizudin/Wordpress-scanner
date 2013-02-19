@@ -19,6 +19,7 @@
 
 date_default_timezone_set('Asia/Kuala_Lumpur');
 define('ROOT_PATH', dirname(__FILE__));
+define('Version', '0.02beta');
 
 if( strtolower(php_sapi_name()) != 'cli' ) {
 	printf("%s\n", "Please run only from command line internface.");
@@ -67,7 +68,13 @@ $wpscan->search_plugins();
 
 if($wpscan->list_plugins) {
 	foreach($wpscan->list_plugins as $plugin) {
-		msg("[+] Found {$plugin} plugin.");
+		msg("[+] Found {$plugin['plugin_name']} plugin.");
+		if(isset($plugin['url'])) {
+			msg("[!] Plugin URL: {$plugin['url']}");
+		}
+		if(isset($plugin['svn'])) {
+			msg("[!] Plugin SVN: {$plugin['svn']}");
+		}
 	}
 	$found_plugin = true;
 } else {
@@ -75,7 +82,7 @@ if($wpscan->list_plugins) {
 }
 
 msg("");
-print "[!] Enumerate plugins name? [y/n] ";
+print "[!] Enumerate plugins name? [y/N] ";
 $answer = strtolower( trim( fgets(STDIN) ) );
 
 if($answer == 'y') {
@@ -94,7 +101,7 @@ if($answer == 'y') {
 
 if($found_plugin) {
 	msg("");
-	print "[!] Start searching for plugin vulnerability? [y/n] ";
+	print "[!] Start searching for plugin vulnerability? [y/N] ";
 	$answer = strtolower( trim( fgets(STDIN) ) );
 	if($answer == 'y') {
 		$wpvuln = new WPVuln;

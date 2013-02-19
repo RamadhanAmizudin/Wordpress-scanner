@@ -33,7 +33,7 @@ $text = "
  \  /\  / (_) | | | (_| | |_) | | |  __/\__ \__ \
   \/  \/ \___/|_|  \__,_| .__/|_|  \___||___/___/
                         |_|                      
-                                    Scanner vBETA\n";
+                                    Scanner v".Version."\n";
 echo $text;
 }
 
@@ -68,9 +68,21 @@ class WPScan {
 	}
 	
 	function search_plugins() {
+		$data_path = ROOT_PATH . '/base/data/list-plugins.txt';
+		$data = array_map('trim', file($data_path));
 		preg_match_all("/wp-content\/plugins\/(.*?)\//i", $this->homepage_sc, $match);
 		$plugins = array_unique($match[1]);
-		$this->list_plugins = array_unique($match[1]);
+		$_plugins = array();
+		foreach($plugins as $plugin) {
+			if(in_array($plugin, $data)) {
+				$_plugins[] = array('plugin_name' => $plugin,
+								   'url' => 'http://wordpress.org/extend/plugins/'.$plugin.'/',
+								   'svn' => 'http://svn.wp-plugins.org/' . $plugin . '/');
+			} else {
+				$_plugins[] = array('plugin_name' => $plugin);
+			}
+		}
+		$this->list_plugins = $_plugins;
 	}
 	
 	function parser() {

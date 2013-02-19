@@ -36,8 +36,13 @@ class WPPlugin {
 			// yeah lot of slow single-thread request!
 			$resp = HTTPRequest($this->url . '/wp-content/plugins/' . $plugin);
 			if(stripos($resp, '200 ok') !== false) {
-				$plugins[] = $plugin;
+				$plugins[] = array('plugin_name' => $plugin,
+								   'url' => 'http://wordpress.org/extend/plugins/'.$plugin.'/',
+								   'svn' => 'http://svn.wp-plugins.org/' . $plugin . '/');
+								   
 				msg("[+] Found {$plugin} plugin.");
+				msg("[!] Plugin URL: http://wordpress.org/extend/plugins/" . $plugin . "/");
+				msg("[!] Plugin SVN: http://svn.wp-plugins.org/" . $plugin . "/");
 			}
 		}
 		return $plugins;

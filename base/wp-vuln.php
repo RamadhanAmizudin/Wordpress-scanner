@@ -20,7 +20,7 @@ class WPVuln {
 
 	function plugin($plugins = array()) {
 		foreach($plugins as $plugin) {
-			$this->_plugin($plugin);
+			$this->_plugin($plugin['plugin_name']);
 		}
 	}
 	
