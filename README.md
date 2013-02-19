@@ -37,3 +37,4 @@ ramadhan.amizudin at gmail dot com
 - Add Proxy Support
 - Wordpress version checking by file hash
 - Better plugin enumeration request?
+- Web UI
