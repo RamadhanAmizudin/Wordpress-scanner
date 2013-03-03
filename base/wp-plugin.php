@@ -32,8 +32,10 @@ class WPPlugin {
 	
 	function enumerate() {
 		$plugins = false;
+		$start = 1;
 		foreach($this->a_plugin as $plugin) {
 			// yeah lot of slow single-thread request!
+			progress_bar($start, $this->total_plugins);
 			$resp = HTTPRequest($this->url . '/wp-content/plugins/' . $plugin);
 			if(stripos($resp, '200 ok') !== false) {
 				$plugins[] = array('plugin_name' => $plugin,
@@ -44,6 +46,7 @@ class WPPlugin {
 				msg("[!] Plugin URL: http://wordpress.org/extend/plugins/" . $plugin . "/");
 				msg("[!] Plugin SVN: http://svn.wp-plugins.org/" . $plugin . "/");
 			}
+			$start++;
 		}
 		return $plugins;
 	}

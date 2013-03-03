@@ -83,4 +83,10 @@ function HTTPRequest($url = '', $post = false, $postfield = '') {
 function msg($txt) {
 	printf("%s\n", $txt);
 }
+
+function progress_bar($done, $total) {
+    $percentage = (double)($done/$total);
+    printf("\r[!] Progress: %d/%d - %d%%", $done, $total, number_format($percentage*100, 0));
+    flush();
+}
 ?>
