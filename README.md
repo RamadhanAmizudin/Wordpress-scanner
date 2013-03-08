@@ -1,6 +1,6 @@
 #### LICENSE
   
-A Wordpress Scaner  
+A Wordpress Scanner  
 Copyright (C) 2013  Ramadhan Amizudin  
   
 This program is free software: you can redistribute it and/or modify  
