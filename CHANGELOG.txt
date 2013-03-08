@@ -1,3 +1,8 @@
+* 09/03/2013
+	- added multi site detection
+	- added web registration enable
+	- added searching for searchreplace2db script
+	
 * 19/02/2013
 	- update plugin function, now return plugin url and svn
 	
