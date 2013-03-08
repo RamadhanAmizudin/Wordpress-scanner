@@ -87,7 +87,7 @@ print "[!] Enumerate plugins name? [y/N] ";
 $answer = strtolower( trim( fgets(STDIN) ) );
 
 if($answer == 'y') {
-	msg("[+] Wordpress Plugin Database - Revision 668735");
+	msg("[+] Wordpress Plugin Database - Revision 678288");
 	msg("[!] Warning: This may take a while!");
 	$wpplugin = new WPPlugin($wpscan->url);
 	msg("[!] Total {$wpplugin->total_plugins} plugins!");
