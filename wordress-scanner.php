@@ -75,6 +75,7 @@ if($wpscan->list_plugins) {
 		if(isset($plugin['svn'])) {
 			msg("[!] Plugin SVN: {$plugin['svn']}");
 		}
+		msg("");
 	}
 	$found_plugin = true;
 } else {
