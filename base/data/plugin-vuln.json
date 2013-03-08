@@ -3343,6 +3343,11 @@
 		"name": "1-flash-gallery",
 		"vulnerability": [
 			{
+				"title": "1-flash-gallery <= 1.9.0 XSS in ZeroClipboard.swf",
+				"reference": "http://1337day.com/exploit/20396",
+				"type": "XSS"
+			},
+			{
 				"title": "1 Flash Gallery Arbiraty File Upload Exploit (MSF)",
 				"reference": "http://www.exploit-db.com/exploits/17801/",
 				"type": "UPLOAD"
@@ -4252,6 +4257,11 @@
 		"name": "wp-topbar",
 		"vulnerability": [
 			{
+				"title": "wp-topbar <= 3.04 XSS in ZeroClipboard.swf",
+				"reference": "http://1337day.com/exploit/20396",
+				"type": "XSS"
+			},
+			{
 				"title": "WordPress WP-TopBar Plugin < 4.0.3 Cross-Site Request Forgery Vulnerability",
 				"reference": "http://secunia.com/advisories/50693/",
 				"type": "CSRF"
@@ -4462,6 +4472,11 @@
 		"name": "wp-table-reloaded",
 		"vulnerability": [
 			{
+				"title": "wp-table-reloaded <= 1.9.3 XSS in ZeroClipboard.swf",
+				"reference": "http://1337day.com/exploit/20396",
+				"type": "XSS"
+			},
+			{
 				"title": "Wordpress wp-table-reloaded plugin < 1.9.4 cross-site scripting in SWF",
 				"reference": [
 					"http://packetstormsecurity.com/files/119968/wptablereloaded-xss.txt",
@@ -4658,6 +4673,146 @@
 			{
 				"title": "Responsive Logo Slideshow Cross Site Scripting",
 				"reference": "http://packetstormsecurity.com/files/120379/wpresponsivelogo-xss.txt",
+				"type": "XSS"
+			}
+		]
+	},
+	{
+		"name": "zopim-live-chat",
+		"vulnerability": [
+			{
+				"title": "zopim-live-chat <= 1.2.5 XSS in ZeroClipboard.swf",
+				"reference": "http://1337day.com/exploit/20396",
+				"type": "XSS"
+			}
+		]
+	},
+	{
+		"name": "ed2k-link-selector",
+		"vulnerability": [
+			{
+				"title": "ed2k-link-selector <= 1.1.7 XSS in ZeroClipboard.swf",
+				"reference": "http://1337day.com/exploit/20396",
+				"type": "XSS"
+			}
+		]
+	},
+	{
+		"name": "wppygments",
+		"vulnerability": [
+			{
+				"title": "wppygments <= 0.3.2 XSS in ZeroClipboard.swf",
+				"reference": "http://1337day.com/exploit/20396",
+				"type": "XSS"
+			}
+		]
+	},
+	{
+		"name": "copy-in-clipboard",
+		"vulnerability": [
+			{
+				"title": "copy-in-clipboard <= 0.8 XSS in ZeroClipboard.swf",
+				"reference": "http://1337day.com/exploit/20396",
+				"type": "XSS"
+			}
+		]
+	},
+	{
+		"name": "search-and-share",
+		"vulnerability": [
+			{
+				"title": "search-and-share <= 0.9.3 XSS in ZeroClipboard.swf",
+				"reference": "http://1337day.com/exploit/20396",
+				"type": "XSS"
+			}
+		]
+	},
+	{
+		"name": "placester",
+		"vulnerability": [
+			{
+				"title": "placester <= 0.3.12 XSS in ZeroClipboard.swf",
+				"reference": "http://1337day.com/exploit/20396",
+				"type": "XSS"
+			}
+		]
+	},
+	{
+		"name": "drp-coupon",
+		"vulnerability": [
+			{
+				"title": "drp-coupon <= 2.1 XSS in ZeroClipboard.swf",
+				"reference": "http://1337day.com/exploit/20396",
+				"type": "XSS"
+			}
+		]
+	},
+	{
+		"name": "coupon-code-plugin",
+		"vulnerability": [
+			{
+				"title": "coupon-code-plugin <= 2.1 XSS in ZeroClipboard.swf",
+				"reference": "http://1337day.com/exploit/20396",
+				"type": "XSS"
+			}
+		]
+	},
+	{
+		"name": "q2w3-inc-manager",
+		"vulnerability": [
+			{
+				"title": "q2w3-inc-manager <= 2.3.1 XSS in ZeroClipboard.swf",
+				"reference": "http://1337day.com/exploit/20396",
+				"type": "XSS"
+			}
+		]
+	},
+	{
+		"name": "scorerender",
+		"vulnerability": [
+			{
+				"title": "scorerender <= 0.3.4 XSS in ZeroClipboard.swf",
+				"reference": "http://1337day.com/exploit/20396",
+				"type": "XSS"
+			}
+		]
+	},
+	{
+		"name": "wp-link-to-us",
+		"vulnerability": [
+			{
+				"title": "wp-link-to-us <= 2.0 XSS in ZeroClipboard.swf",
+				"reference": "http://1337day.com/exploit/20396",
+				"type": "XSS"
+			}
+		]
+	},
+	{
+		"name": "buckets",
+		"vulnerability": [
+			{
+				"title": "buckets <= 0.1.9.2 XSS in ZeroClipboard.swf",
+				"reference": "http://1337day.com/exploit/20396",
+				"type": "XSS"
+			}
+		]
+	},
+	{
+		"name": "java-trackback",
+		"vulnerability": [
+			{
+				"title": "java-trackback <= 0.2 XSS in ZeroClipboard.swf",
+				"reference": "http://1337day.com/exploit/20396",
+				"type": "XSS"
+			}
+		]
+	},
+	{
+		"name": "slidedeck2",
+		"vulnerability": [
+			{
+				"title": "slidedeck2 <= 2.1.20130228 XSS in ZeroClipboard.swf",
+				"reference": "http://1337day.com/exploit/20396",
 				"type": "XSS"
 			}
 		]
