@@ -56,7 +56,7 @@ $user_agents = array(
     "Opera/9.80 (X11; Linux x86_64; U; pl) Presto/2.7.62 Version/11.00",
     "Mozilla/5.0 (X11; U; Linux x86_64; us; rv:1.9.1.19) Gecko/20110430 shadowfox/7.0 (like Firefox/7.0");
 
-function HTTPRequest($url = '', $post = false, $postfield = '') {
+function HTTPRequest($url = '', $post = false, $postfield = '', $follow_redirection = true) {
 	global $user_agents;
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_HEADER, 1);
@@ -67,7 +67,9 @@ function HTTPRequest($url = '', $post = false, $postfield = '') {
 	curl_setopt($ch, CURLOPT_USERAGENT, $user_agents[ array_rand($user_agents) ]);
 	// curl_setopt($ch, CURLOPT_COOKIEJAR, dirname(__FILE__).'/cookie.txt');
 	// curl_setopt($ch, CURLOPT_COOKIEFILE, dirname(__FILE__).'/cookie.txt');
-	curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+	if($follow_redirection) {
+		curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+	}
 	if($post) {
 		curl_setopt($ch, CURLOPT_POST, 1);
 		curl_setopt($ch, CURLOPT_POSTFIELDS, $postfield);

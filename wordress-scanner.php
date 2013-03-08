@@ -19,7 +19,7 @@
 
 date_default_timezone_set('Asia/Kuala_Lumpur');
 define('ROOT_PATH', dirname(__FILE__));
-define('Version', '0.03beta');
+define('Version', '0.04beta');
 
 if( strtolower(php_sapi_name()) != 'cli' ) {
 	printf("%s\n", "Please run only from command line internface.");
@@ -30,11 +30,13 @@ require_once(ROOT_PATH . '/base/load.php');
 banner();
 check_requirement();
 
+$target = (!stripos($argv[1], 'http')) ? 'http://' . $argv[1] : $argv[1];
+
 $found_plugin = false;
 $e_plugins = false;
 $found_e_plugin = false;
 
-$wpscan = new WPScan($argv[1]);
+$wpscan = new WPScan( $target );
 msg("[+] Target: " . $wpscan->url);
 $start_time = time();
 msg("[+] Start Time: " . date('d-m-Y h:iA', $start_time));
@@ -59,11 +61,22 @@ if($wpscan->robots_path) {
 if($wpscan->readme_path) {
 	msg("[+] Wordpress Readme file at " . $wpscan->readme_path);
 }
+if($wpscan->sdb_path) {
+	msg("[+] Found script for database replacing: " . $wpscan->sdb_path);
+}
+if($wpscan->is_multisite) {
+	msg("[+] Multi-site enabled (http://codex.wordpress.org/Glossary#Multisite)");
+}
+if($wpscan->registration_enabled) {
+	msg("[+] Registration enabled! ");
+}
 if($wpscan->xmlrpc_path) {
 	msg("[+] XML-RPC Interface available under " . $wpscan->xmlrpc_path);
 }
 
+msg("");
 msg("[+] Looking for visible plugins on homepage...");
+msg("");
 $wpscan->search_plugins();
 
 if($wpscan->list_plugins) {
@@ -86,7 +99,7 @@ msg("");
 print "[!] Enumerate plugins name? [y/N] ";
 $answer = strtolower( trim( fgets(STDIN) ) );
 
-if($answer == 'y') {
+if( (!empty($answer)) AND $answer == 'y') {
 	msg("[+] Wordpress Plugin Database - Revision 678288");
 	msg("[!] Warning: This may take a while!");
 	$wpplugin = new WPPlugin($wpscan->url);

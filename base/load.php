@@ -39,14 +39,15 @@ echo $text;
 
 class WPScan {
 
-	var $url, $wp_path, $xmlrpc_path, $rss_path, $robots_path, $readme_path, $theme_name;
+	var $url, $wp_path, $xmlrpc_path, $rss_path, $robots_path, $readme_path, $theme_name, $sdb_path;
+	var $is_multisite, $registration_enabled;
 	var $list_plugins = false;
 	var $wp_content_path = 'wp-content';
 	var $plugin_path = 'plugins';
 	protected $homepage_sc;
 	
 	function __construct($host) {
-		$this->url = rtrim($host, '/');
+		$this->url = $this->new_url( rtrim( $host, '/' ) );
 	}
 		
 	function get_version() {
@@ -94,7 +95,63 @@ class WPScan {
 		$this->robots_path = (preg_match('/200 ok/i', HTTPRequest($this->url.'/robots.txt'))) ? $this->url.'/robots.txt' : false;
 		$this->readme_path = (preg_match('/200 ok/i', HTTPRequest($this->url.'/readme.html'))) ? $this->url.'/readme.html' : false;
 		$this->theme_name = (isset($theme[1])) ? trim($theme[1]) : false;
+		$this->sdb_path = $this->__search_sdb();
+		$this->__is_multisite();
+		$this->__registration_enabled();
 	}
 	
+	private function __registration_enabled() {
+		$path = ($this->is_multisite) ? '/wp-signup.php' : '/wp-login.php?action=register';
+		$response = HTTPRequest($this->url . $path, false, '', false);
+		if(stripos($response, '302 Found')) {
+			$this->registration_enabled = false;
+		} elseif(preg_match('/<form id="setupform" method="post" action="[^"]*wp-signup\.php[^"]*">/i', $response)) {
+			$this->registration_enabled = true;
+		} elseif(preg_match('/<form name="registerform" id="registerform" action="[^"]*wp-login\.php[^"]*"/i', $response)) {
+			$this->registration_enabled = true;
+		} else {
+			$this->registration_enabled = false;
+		}
+	}
+	
+	private function __is_multisite() {
+		$response = HTTPRequest($this->url . '/wp-signup.php', false, '', false);	
+		$headers = explode("\r\n", $response);
+		foreach($headers as $header) {
+			if(stripos($header, 'location:') === 0) {
+				if(preg_match('/wp-login\.php\?action=register/i', $header)) {
+					$this->is_multisite =  false;
+				} elseif(preg_match('/wp-signup\.php/i', $header)) {
+					$this->is_multisite =  true;
+				}
+			}
+			if(stripos($header, 'HTTP/1.1 200 OK') !== false) {
+				$this->is_multisite =  true;
+			}
+		}
+		$this->is_multisite =  false;		
+	}
+	
+	private function __search_sdb() {
+		$files = array('sdb.php', 'searchreplacedb2.php');
+		foreach($files as $file) {
+			$response = HTTPRequest($this->url . '/' . $file);
+			if(stripos($response, 'by interconnect') !== false) {
+				return $this->url . '/' . $file;
+			}
+		}
+		return false;
+	}
+	
+	private function new_url($current) {
+		$response = HTTPRequest($current, false, '', false);
+		$headers = explode("\r\n", $response);
+		foreach($headers as $header) {
+			if(stripos($header, 'location:') === 0) {
+				return rtrim( ltrim( str_ireplace('location:', '', $header) ), '/' );
+			}
+		}
+		return $current;
+	}
 }
 ?>
