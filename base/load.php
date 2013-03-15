@@ -21,6 +21,7 @@ defined('ROOT_PATH') or die();
 
 require ROOT_PATH . '/base/helper.php';
 require ROOT_PATH . '/base/requirement.php';
+require ROOT_PATH . '/base/update.php';
 require ROOT_PATH . '/base/wp-version.php';
 require ROOT_PATH . '/base/wp-vuln.php';
 require ROOT_PATH . '/base/wp-plugin.php';

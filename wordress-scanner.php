@@ -19,7 +19,7 @@
 
 date_default_timezone_set('Asia/Kuala_Lumpur');
 define('ROOT_PATH', dirname(__FILE__));
-define('Version', '0.04beta');
+define('Version', '0.05beta');
 
 if( strtolower(php_sapi_name()) != 'cli' ) {
 	printf("%s\n", "Please run only from command line internface.");
@@ -29,6 +29,7 @@ if( strtolower(php_sapi_name()) != 'cli' ) {
 require_once(ROOT_PATH . '/base/load.php');
 banner();
 check_requirement();
+check_version();
 
 $target = (!stripos($argv[1], 'http')) ? 'http://' . $argv[1] : $argv[1];
 
