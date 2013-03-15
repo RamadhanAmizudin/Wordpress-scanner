@@ -1208,6 +1208,10 @@
 				"title" : "LeagueManager <= 3.7 Cross Site Scripting",
 				"reference" : ["http:\/\/packetstormsecurity.org\/files\/112698\/", "http:\/\/secunia.com\/advisories\/49949\/"],
 				"type" : "XSS"
+			}, {
+				"title" : "LeagueManager v3.8 SQL Injection",
+				"reference" : "http:\/\/www.exploit-db.com\/exploits\/24789\/",
+				"type" : "SQLI"
 			}
 		]
 	}, {
@@ -3827,6 +3831,14 @@
 		"vulnerability" : [{
 				"title" : "CVE-2009-4168: vkontakte-api XSS vulnerability",
 				"reference" : "http:\/\/www.openwall.com\/lists\/oss-security\/2013\/03\/11\/1",
+				"type" : "XSS"
+			}
+		]
+	}, {
+		"name" : "terillion-reviews",
+		"vulnerability" : [{
+				"title" : "Terillion Reviews Cross Site Scripting",
+				"reference" : "http:\/\/packetstormsecurity.com\/files\/120730\/wpterillionreviews-xss.txt",
 				"type" : "XSS"
 			}
 		]
