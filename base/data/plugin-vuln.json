@@ -2640,6 +2640,10 @@
 				"title" : "WP e-Commerce plugin <= 3.8.6 SQL Injection Vulnerability",
 				"reference" : "http:\/\/www.exploit-db.com\/exploits\/17832\/",
 				"type" : "SQLI"
+			}, {
+				"title" : "WP-e-Commerce plugin v3.8.9.5 Cross Site Scripting Vulnerability",
+				"reference" : "http:\/\/1337day.com\/exploit\/20517",
+				"type" : "XSS"
 			}
 		]
 	}, {
@@ -3839,6 +3843,22 @@
 		"vulnerability" : [{
 				"title" : "Terillion Reviews Cross Site Scripting",
 				"reference" : "http:\/\/packetstormsecurity.com\/files\/120730\/wpterillionreviews-xss.txt",
+				"type" : "XSS"
+			}
+		]
+	}, {
+		"name" : "o2s-gallery",
+		"vulnerability" : [{
+				"title" : "o2s-gallery plugin Cross Site Scripting Vulnerability",
+				"reference" : "http:\/\/1337day.com\/exploit\/20516",
+				"type" : "XSS"
+			}
+		]
+	}, {
+		"name" : "bp-gallery",
+		"vulnerability" : [{
+				"title" : "bp-gallery plugin v1.2.5 Cross Site Scripting Vulnerability",
+				"reference" : "http:\/\/1337day.com\/exploit\/20518",
 				"type" : "XSS"
 			}
 		]
