@@ -31,7 +31,7 @@ banner();
 check_requirement();
 check_version();
 
-$target = (!stripos($argv[1], 'http')) ? 'http://' . $argv[1] : $argv[1];
+$target = (!preg_match('/http:/', $argv[1])) ? 'http://' . $argv[1] : $argv[1];
 
 $found_plugin = false;
 $e_plugins = false;
