@@ -1850,6 +1850,14 @@
         "name": "better-wp-security",
         "vulnerability": [
             {
+                "title": "Better WP Security <= 3.5.3 Stored XSS",
+                "reference": [
+                    "https:\/\/github.com\/wpscanteam\/wpscan\/issues\/251",
+                    "http:\/\/www.securityfocus.com\/archive\/1\/527634\/30\/0\/threaded"
+                ],
+                "type": "XSS"
+            },
+            {
                 "title": "Better WP Security v3.4.3",
                 "reference": "http:\/\/seclists.org\/bugtraq\/2012\/Oct\/9",
                 "type": "XSS"
