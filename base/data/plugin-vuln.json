@@ -1641,6 +1641,11 @@
         "name": "sharebar",
         "vulnerability": [
             {
+                "title": "Sharebar <= 1.2.5 Button Manipulation CSRF",
+                "reference": "http:\/\/osvdb.org\/94843",
+                "type": "CSRF"
+            },
+            {
                 "title": "Sharebar <= 1.2.1 SQL Injection \/ Cross Site Scripting",
                 "reference": "http:\/\/packetstormsecurity.org\/files\/112690\/",
                 "type": "MULTI"
@@ -1853,7 +1858,8 @@
                 "title": "Better WP Security <= 3.5.3 Stored XSS",
                 "reference": [
                     "https:\/\/github.com\/wpscanteam\/wpscan\/issues\/251",
-                    "http:\/\/www.securityfocus.com\/archive\/1\/527634\/30\/0\/threaded"
+                    "http:\/\/www.securityfocus.com\/archive\/1\/527634\/30\/0\/threaded",
+                    "http:\/\/osvdb.org\/95884"
                 ],
                 "type": "XSS"
             },
@@ -2781,8 +2787,16 @@
         "vulnerability": [
             {
                 "title": "Events SQL Injection Vulnerability",
-                "reference": "http:\/\/www.exploit-db.com\/exploits\/10929\/",
+                "reference": [
+                    "http:\/\/www.exploit-db.com\/exploits\/10929\/",
+                    "http:\/\/osvdb.org\/95677"
+                ],
                 "type": "SQLI"
+            },
+            {
+                "title": "WP Events Calendar wp-admin\/admin.php EC_id Parameter XSS",
+                "reference": "http:\/\/osvdb.org\/74705",
+                "type": "XSS"
             }
         ]
     },
@@ -4270,6 +4284,16 @@
             {
                 "title": "WordPress WooCommerce Predictive Search Plugin \"rs\" Cross-Site Scripting Vulnerability",
                 "reference": "http:\/\/secunia.com\/advisories\/51385\/",
+                "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "woocommerce",
+        "vulnerability": [
+            {
+                "title": " WooCommerce index.php calc_shipping_state Parameter XSS",
+                "reference": "http:\/\/osvdb.org\/95480",
                 "type": "XSS"
             }
         ]
@@ -6069,6 +6093,49 @@
                 "title": "Stream Video Player Plugin for WordPress Setting Manipulation CSRF",
                 "reference": "http:\/\/osvdb.org\/94466",
                 "type": "CSRF"
+            }
+        ]
+    },
+    {
+        "name": "duplicator",
+        "vulnerability": [
+            {
+                "title": "Duplicator installer.cleanup.php package Parameter XSS",
+                "reference": "http:\/\/osvdb.org\/95627",
+                "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "citizen-space",
+        "vulnerability": [
+            {
+                "title": "Citizen Space Script Insertion CSRF",
+                "reference": "http:\/\/osvdb.org\/95570",
+                "type": "CSRF"
+            }
+        ]
+    },
+    {
+        "name": "spicy-blogroll",
+        "vulnerability": [
+            {
+                "title": "Spicy Blogroll spicy-blogroll-ajax.php Multiple Parameter Remote File Inclusion",
+                "reference": [
+                    "http:\/\/osvdb.org\/95557",
+                    "www.exploit-db.com\/exploits\/26804"
+                ],
+                "type": "RFI"
+            }
+        ]
+    },
+    {
+        "name": "pie-register",
+        "vulnerability": [
+            {
+                "title": "Pie Register wp-login.php Multiple Parameter XSS",
+                "reference": "http:\/\/osvdb.org\/95160",
+                "type": "XSS"
             }
         ]
     }
