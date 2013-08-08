@@ -1864,7 +1864,7 @@
                 "type": "XSS"
             },
             {
-                "title": "Better WP Security v3.4.3",
+                "title": "Better WP Security v3.4.3 Multiple XSS",
                 "reference": "http:\/\/seclists.org\/bugtraq\/2012\/Oct\/9",
                 "type": "XSS"
             },
