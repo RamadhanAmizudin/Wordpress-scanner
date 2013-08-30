@@ -3886,6 +3886,11 @@
                 "title": "plugin BackWPup 1.5.2, 1.6.1, 1.7.1 Remote and Local Code Execution Vulnerability",
                 "reference": "",
                 "type": "RCE"
+            },
+            {
+                "title": "BackWPup wp-admin\/admin.php tab Parameter XSS",
+                "reference": "",
+                "type": "XSS"
             }
         ]
     },
