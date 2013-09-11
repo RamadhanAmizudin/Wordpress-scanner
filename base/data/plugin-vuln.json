@@ -5818,5 +5818,50 @@
                 "type": "CSRF"
             }
         ]
+    },
+    {
+        "name": "hms-testimonials",
+        "vulnerability": [
+            {
+                "title": "CSRF in HMS Testimonials 2.0.10",
+                "reference": "",
+                "type": ""
+            },
+            {
+                "title": "XSS in HMS Testimonials 2.0.10",
+                "reference": "",
+                "type": ""
+            }
+        ]
+    },
+    {
+        "name": "indianic-testimonial",
+        "vulnerability": [
+            {
+                "title": "CSRF vulnerability in IndiaNIC Testimonial 2.2",
+                "reference": "",
+                "type": ""
+            },
+            {
+                "title": "SQL Injection vulnerability in IndiaNIC Testimonial 2.2",
+                "reference": "",
+                "type": ""
+            },
+            {
+                "title": "XSS vulnerability in IndiaNIC Testimonial 2.2",
+                "reference": "",
+                "type": ""
+            }
+        ]
+    },
+    {
+        "name": "usernoise",
+        "vulnerability": [
+            {
+                "title": "XSS vulnerability in Usernoise 3.7.8",
+                "reference": "",
+                "type": ""
+            }
+        ]
     }
 ]
