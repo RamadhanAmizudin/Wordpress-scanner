@@ -5863,5 +5863,15 @@
                 "type": ""
             }
         ]
+    },
+    {
+        "name": "platinum-seo-pack",
+        "vulnerability": [
+            {
+                "title": "platinum_seo_pack.php s Parameter Reflected XSS",
+                "reference": "",
+                "type": ""
+            }
+        ]
     }
 ]
