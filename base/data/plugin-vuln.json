@@ -2551,6 +2551,11 @@
                 "title": "Mingle Forum 1.0.33.3 Multiple Parameter SQL Injection",
                 "reference": "",
                 "type": "SQLI"
+            },
+            {
+                "title": "Privilege Escalation CSRF",
+                "reference": "",
+                "type": "CSRF"
             }
         ]
     },
@@ -5869,6 +5874,31 @@
         "vulnerability": [
             {
                 "title": "platinum_seo_pack.php s Parameter Reflected XSS",
+                "reference": "",
+                "type": ""
+            }
+        ]
+    },
+    {
+        "name": "design-approval-system",
+        "vulnerability": [
+            {
+                "title": "\/admin\/walkthrough\/walkthrough.php step Parameter Reflected XSS",
+                "reference": "",
+                "type": ""
+            }
+        ]
+    },
+    {
+        "name": "event-easy-calendar",
+        "vulnerability": [
+            {
+                "title": "Multiple Administrator Action CSRF",
+                "reference": "",
+                "type": ""
+            },
+            {
+                "title": "Multiple Unspecified XSS",
                 "reference": "",
                 "type": ""
             }
