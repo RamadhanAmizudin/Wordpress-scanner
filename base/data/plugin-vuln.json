@@ -98,7 +98,7 @@
         "name": "crayon-syntax-highlighter",
         "vulnerability": [
             {
-                "title": "Crayon Syntax Highlighter Remote File Inclusion",
+                "title": "Crayon Syntax Highlighter Remote File Inclusion Vulnerability",
                 "reference": "",
                 "type": "RFI"
             }
@@ -1548,6 +1548,11 @@
         "name": "sharebar",
         "vulnerability": [
             {
+                "title": "Sharebar <= 1.2.5 sharebar-admin.php page Parameter XSS",
+                "reference": "",
+                "type": "XSS"
+            },
+            {
                 "title": "Sharebar <= 1.2.5 Button Manipulation CSRF",
                 "reference": "",
                 "type": "CSRF"
@@ -2533,12 +2538,12 @@
                 "type": "MULTI"
             },
             {
-                "title": "Mingle Forum plugin <= 1.0.31 SQL Injection Vulnerability",
+                "title": "Mingle Forum <= 1.0.31 SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             },
             {
-                "title": "Mingle Forum (Plugin) <= 1.0.26 Multiple Vulnerabilities",
+                "title": "Mingle Forum <= 1.0.26 Multiple Vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             },
@@ -2553,7 +2558,7 @@
                 "type": "SQLI"
             },
             {
-                "title": "Privilege Escalation CSRF",
+                "title": "Mingle Forum 1.0.35 Privilege Escalation CSRF",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -3848,7 +3853,7 @@
                 "type": "SQLI"
             },
             {
-                "title": "WP Photo Album Plus <= 4.8.12 Cross-Site Scripting",
+                "title": "WP Photo Album Plus <= 4.8.12 wp-photo-album-plus.php wppa-searchstring XSS",
                 "reference": "",
                 "type": "XSS"
             },
@@ -3858,17 +3863,12 @@
                 "type": "FPD"
             },
             {
-                "title": "WP Photo Album Plus XSS",
+                "title": "WP Photo Album Plus index.php wppa-tag Parameter XSS",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "WP Photo Album Plus XSS",
-                "reference": "",
-                "type": "XSS"
-            },
-            {
-                "title": "WordPress WP Photo Album Plus Plugin \"commentid\" Cross-Site Scripting Vulnerability",
+                "title": "WordPress WP Photo Album Plus \"commentid\" Cross-Site Scripting Vulnerability",
                 "reference": "",
                 "type": "XSS"
             },
@@ -4261,16 +4261,6 @@
                 "title": "Wordpress Download Shortcode Plugin \"file\" Arbitrary File Disclosure Vulnerability",
                 "reference": "",
                 "type": "LFI"
-            }
-        ]
-    },
-    {
-        "name": "crayon-syntax-hightlighter",
-        "vulnerability": [
-            {
-                "title": "WordPress Crayon Syntax Highlighter Plugin \"wp_load\" Remote File Inclusion Vulnerability",
-                "reference": "",
-                "type": "RFI"
             }
         ]
     },
@@ -5911,6 +5901,36 @@
                 "title": "falha.php URI Reflected XSS",
                 "reference": "",
                 "type": ""
+            }
+        ]
+    },
+    {
+        "name": "social-hashtags",
+        "vulnerability": [
+            {
+                "title": "New Post Title Field Stored XSS",
+                "reference": "",
+                "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "simple-flickr-display",
+        "vulnerability": [
+            {
+                "title": "Simple Flickr Display Username Field Stored XSS",
+                "reference": "",
+                "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "lazy-seo",
+        "vulnerability": [
+            {
+                "title": "Lazy SEO lazyseo.php File Upload Arbitrary Code Execution",
+                "reference": "",
+                "type": "UPLOAD"
             }
         ]
     }
