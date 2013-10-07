@@ -5933,5 +5933,65 @@
                 "type": "UPLOAD"
             }
         ]
+    },
+    {
+        "name": "seo-watcher",
+        "vulnerability": [
+            {
+                "title": "SEO Watcher - Open Flash Chart Arbitrary File Creation Vulnerability",
+                "reference": "",
+                "type": "UPLOAD"
+            }
+        ]
+    },
+    {
+        "name": "all-in-one-seo-pack",
+        "vulnerability": [
+            {
+                "title": "All in One SEO Pack <= 2.3.0 - XSS Vulnerability",
+                "reference": "",
+                "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "simple-dropbox-upload-form",
+        "vulnerability": [
+            {
+                "title": "Simple Dropbox Upload - Arbitrary File Upload Vulnerability",
+                "reference": "",
+                "type": "UPLOAD"
+            }
+        ]
+    },
+    {
+        "name": "wp-ultimate-email-marketer",
+        "vulnerability": [
+            {
+                "title": "WP Ultimate Email Marketer - Multiple Vulnerabilities",
+                "reference": "",
+                "type": "MULTI"
+            }
+        ]
+    },
+    {
+        "name": "wp-miniaudioplayer",
+        "vulnerability": [
+            {
+                "title": "miniAudioPlayer - Two XSS Vulnerabilities",
+                "reference": "",
+                "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "simple-custom-website-data",
+        "vulnerability": [
+            {
+                "title": "Custom Website Data - XSS Vulnerability",
+                "reference": "",
+                "type": "XSS"
+            }
+        ]
     }
 ]
