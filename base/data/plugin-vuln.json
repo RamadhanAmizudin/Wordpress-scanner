@@ -280,10 +280,55 @@
         ]
     },
     {
-        "name": "RokBox",
+        "name": "wp_rokbox",
         "vulnerability": [
             {
                 "title": "RokBox Multiple Vulnerabilities",
+                "reference": "",
+                "type": "MULTI"
+            },
+            {
+                "title": "RokBox <= 2.13 - XSS,DoS,Disclosure,Upload Vulnerabilities",
+                "reference": "",
+                "type": "MULTI"
+            }
+        ]
+    },
+    {
+        "name": "wp_rokintroscroller",
+        "vulnerability": [
+            {
+                "title": "RokIntroScroller <= 1.8 - XSS,DoS,Disclosure,Upload Vulnerabilities",
+                "reference": "",
+                "type": "MULTI"
+            }
+        ]
+    },
+    {
+        "name": "wp_rokmicronews",
+        "vulnerability": [
+            {
+                "title": "RokMicroNews <= 1.5 - XSS,DoS,Disclosure,Upload Vulnerabilities",
+                "reference": "",
+                "type": "MULTI"
+            }
+        ]
+    },
+    {
+        "name": "wp_roknewspager",
+        "vulnerability": [
+            {
+                "title": "RokNewsPager <= 1.17 - XSS,DoS,Disclosure,Upload Vulnerabilities",
+                "reference": "",
+                "type": "MULTI"
+            }
+        ]
+    },
+    {
+        "name": "wp_rokstories",
+        "vulnerability": [
+            {
+                "title": "RokStories <= 1.25 - XSS,DoS,Disclosure,Upload Vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -836,6 +881,11 @@
                 "title": "Wordfence 3.3.5 XSS and IAA",
                 "reference": "",
                 "type": "MULTI"
+            },
+            {
+                "title": "Wordfence 3.8.1 - XSS",
+                "reference": "",
+                "type": "XSS"
             }
         ]
     },
@@ -1088,9 +1138,14 @@
         "name": "videowhisper-video-conference-integration",
         "vulnerability": [
             {
-                "title": "VideoWhisper Video Conference\n        4.51 Arbitrary File Upload Vulnerability\n      ",
+                "title": "VideoWhisper Video Conference 4.51 - Arbitrary File Upload Vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
+            },
+            {
+                "title": "Video Whisper - XSS",
+                "reference": "",
+                "type": "XSS"
             }
         ]
     },
@@ -1548,17 +1603,17 @@
         "name": "sharebar",
         "vulnerability": [
             {
-                "title": "Sharebar <= 1.2.5 sharebar-admin.php page Parameter XSS",
+                "title": "Sharebar <= 1.2.5 - sharebar-admin.php page Parameter XSS",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "Sharebar <= 1.2.5 Button Manipulation CSRF",
+                "title": "Sharebar <= 1.2.5 - Button Manipulation CSRF",
                 "reference": "",
                 "type": "CSRF"
             },
             {
-                "title": "Sharebar <= 1.2.1 SQL Injection \/ Cross Site Scripting",
+                "title": "Sharebar <= 1.2.1 - SQL Injection \/ Cross Site Scripting",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -2588,9 +2643,14 @@
         "name": "nextgen-smooth-gallery",
         "vulnerability": [
             {
-                "title": "NextGEN Smooth Gallery Blind SQL Injection Vulnerability",
+                "title": "NextGEN Smooth Gallery - Blind SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
+            },
+            {
+                "title": "NextGen Smooth Gallery - XSS",
+                "reference": "",
+                "type": "XSS"
             }
         ]
     },
@@ -2943,7 +3003,7 @@
         "name": "fgallery",
         "vulnerability": [
             {
-                "title": "plugin fGallery 2.4.1 fimrss.php SQL Injection Vulnerability",
+                "title": "fGallery 2.4.1 - fimrss.php SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3883,17 +3943,17 @@
         "name": "backwpup",
         "vulnerability": [
             {
-                "title": "BackWPUp 2.1.4 Code Execution",
+                "title": "BackWPUp 2.1.4 - Code Execution",
                 "reference": "",
                 "type": "RCE"
             },
             {
-                "title": "plugin BackWPup 1.5.2, 1.6.1, 1.7.1 Remote and Local Code Execution Vulnerability",
+                "title": "plugin BackWPup 1.5.2, 1.6.1, 1.7.1 - Remote and Local Code Execution Vulnerability",
                 "reference": "",
                 "type": "RCE"
             },
             {
-                "title": "BackWPup wp-admin\/admin.php tab Parameter XSS",
+                "title": "BackWPup 3.0.12 - wp-admin\/admin.php tab Parameter XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4010,6 +4070,16 @@
         ]
     },
     {
+        "name": "wp-slimstat-ex",
+        "vulnerability": [
+            {
+                "title": "SlimStat-Ex - Open Flash Chart Arbitrary File Creation Vulnerability",
+                "reference": "",
+                "type": "UPLOAD"
+            }
+        ]
+    },
+    {
         "name": "browser-rejector",
         "vulnerability": [
             {
@@ -4073,12 +4143,17 @@
         "name": "events-manager",
         "vulnerability": [
             {
-                "title": "WordPress Events Manager Plugin Multiple Cross-Site Scripting Vulnerabilities",
+                "title": "Events Manager - Multiple XSS Vulnerabilities",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "WordPress Events Manager Multiple Cross Site Scripting Vulnerabilities",
+                "title": "Events Manager - Multiple XSS Vulnerabilities",
+                "reference": "",
+                "type": "XSS"
+            },
+            {
+                "title": "Events Manager - Multiple Unspecified XSS Vulnerabilities",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5833,19 +5908,19 @@
         "name": "indianic-testimonial",
         "vulnerability": [
             {
-                "title": "CSRF vulnerability in IndiaNIC Testimonial 2.2",
+                "title": "IndiaNIC Testimonial 2.2 - CSRF vulnerability",
                 "reference": "",
-                "type": ""
+                "type": "CSRF"
             },
             {
-                "title": "SQL Injection vulnerability in IndiaNIC Testimonial 2.2",
+                "title": "IndiaNIC Testimonial 2.2 - SQL Injection vulnerability",
                 "reference": "",
-                "type": ""
+                "type": "SQLI"
             },
             {
-                "title": "XSS vulnerability in IndiaNIC Testimonial 2.2",
+                "title": "IndiaNIC Testimonial 2.2 - XSS vulnerability",
                 "reference": "",
-                "type": ""
+                "type": "XSS"
             }
         ]
     },
@@ -5873,9 +5948,9 @@
         "name": "design-approval-system",
         "vulnerability": [
             {
-                "title": "\/admin\/walkthrough\/walkthrough.php step Parameter Reflected XSS",
+                "title": "Design Approval System 3.6 - XSS Vulnerability",
                 "reference": "",
-                "type": ""
+                "type": "XSS"
             }
         ]
     },
@@ -5883,14 +5958,14 @@
         "name": "event-easy-calendar",
         "vulnerability": [
             {
-                "title": "Multiple Administrator Action CSRF",
+                "title": "Event Easy Calendar 1.0.0 - Multiple Administrator Action CSRF",
                 "reference": "",
-                "type": ""
+                "type": "CSRF"
             },
             {
-                "title": "Multiple Unspecified XSS",
+                "title": "Event Easy Calendar 1.0.0 - Multiple Unspecified XSS",
                 "reference": "",
-                "type": ""
+                "type": "XSS"
             }
         ]
     },
@@ -5898,9 +5973,9 @@
         "name": "bradesco-gateway",
         "vulnerability": [
             {
-                "title": "falha.php URI Reflected XSS",
+                "title": "Bradesco - falha.php URI Reflected XSS",
                 "reference": "",
-                "type": ""
+                "type": "XSS"
             }
         ]
     },
@@ -5908,7 +5983,7 @@
         "name": "social-hashtags",
         "vulnerability": [
             {
-                "title": "New Post Title Field Stored XSS",
+                "title": "Social Hashtags 2.0.0 - New Post Title Field Stored XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5928,7 +6003,7 @@
         "name": "lazy-seo",
         "vulnerability": [
             {
-                "title": "Lazy SEO lazyseo.php File Upload Arbitrary Code Execution",
+                "title": "Lazy SEO 1.1.9 - lazyseo.php File Upload Arbitrary Code Execution",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -5989,6 +6064,106 @@
         "vulnerability": [
             {
                 "title": "Custom Website Data - XSS Vulnerability",
+                "reference": "",
+                "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "complete-gallery-manager",
+        "vulnerability": [
+            {
+                "title": "Complete Gallery Manager 3.3.3 - Arbitrary File Upload Vulnerability",
+                "reference": "",
+                "type": "UPLOAD"
+            }
+        ]
+    },
+    {
+        "name": "lbg_zoominoutslider",
+        "vulnerability": [
+            {
+                "title": "LBG Zoominoutslider - XSS Vulnerability",
+                "reference": "",
+                "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "woopra",
+        "vulnerability": [
+            {
+                "title": "Woopra - Remote Code Execution",
+                "reference": "",
+                "type": "RCE"
+            }
+        ]
+    },
+    {
+        "name": "fgallery_plus",
+        "vulnerability": [
+            {
+                "title": "fGallery_Plus - XSS",
+                "reference": "",
+                "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "nospampti",
+        "vulnerability": [
+            {
+                "title": "NOSpamPTI 2.1 - Blind SQL Injection",
+                "reference": "",
+                "type": "SQLI"
+            }
+        ]
+    },
+    {
+        "name": "comment-attachment",
+        "vulnerability": [
+            {
+                "title": "Comment Attachment 1.0 - XSS Vulnerability",
+                "reference": "",
+                "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "mukioplayer-for-wordpress",
+        "vulnerability": [
+            {
+                "title": "Mukioplayer 1.6 - SQL Injection",
+                "reference": "",
+                "type": "SQLI"
+            }
+        ]
+    },
+    {
+        "name": "encrypted-blog",
+        "vulnerability": [
+            {
+                "title": "Encrypted Blog 0.0.6.2 - XSS, Open Redirect",
+                "reference": "",
+                "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "wp-simple-login-registration-plugin",
+        "vulnerability": [
+            {
+                "title": "Simple Login Registration 1.0.1 - XSS",
+                "reference": "",
+                "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "post-gallery",
+        "vulnerability": [
+            {
+                "title": "Post Gallery - XSS",
                 "reference": "",
                 "type": "XSS"
             }
