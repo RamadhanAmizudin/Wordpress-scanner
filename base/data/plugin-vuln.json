@@ -233,7 +233,7 @@
         "name": "google-document-embedder",
         "vulnerability": [
             {
-                "title": "Google Document Embedder Arbitrary File Disclosure",
+                "title": "Google Document Embedder - Arbitrary File Disclosure",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -388,9 +388,14 @@
         "name": "reflex-gallery",
         "vulnerability": [
             {
-                "title": "ReFlex Gallery Shell Upload",
+                "title": "ReFlex Gallery 1.3 - Shell Upload",
                 "reference": "",
                 "type": "UPLOAD"
+            },
+            {
+                "title": "ReFlex Gallery 1.4 - reflex-gallery.php Direct Request Path Disclosure",
+                "reference": "",
+                "type": ""
             }
         ]
     },
@@ -398,7 +403,7 @@
         "name": "uploader",
         "vulnerability": [
             {
-                "title": "Uploader 1.0.4 Shell Upload",
+                "title": "Uploader 1.0.4 - Shell Upload",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -408,7 +413,7 @@
         "name": "xerte-online",
         "vulnerability": [
             {
-                "title": "Xerte Online 0.32 Shell Upload",
+                "title": "Xerte Online 0.32 - Shell Upload",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -933,7 +938,7 @@
         "name": "bbpress",
         "vulnerability": [
             {
-                "title": "BBPress SQL Injection \/ Path Disclosure",
+                "title": "BBPress - SQL Injection \/ Path Disclosure",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -1508,7 +1513,7 @@
         "name": "html5avmanager",
         "vulnerability": [
             {
-                "title": "HTML5 AV Manager 0.2.7 Arbitrary File Upload",
+                "title": "HTML5 AV Manager 0.2.7 - Arbitrary File Upload",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -1813,9 +1818,14 @@
         "name": "bulletproof-security",
         "vulnerability": [
             {
-                "title": "BulletProof Security <= 0.47 Cross Site Scripting",
+                "title": "BulletProof Security <= 0.47 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
+            },
+            {
+                "title": "BulletProof Security - Security Log Script Insertion Vulnerability",
+                "reference": "",
+                "type": ""
             }
         ]
     },
@@ -4178,7 +4188,7 @@
         "name": "solvemedia",
         "vulnerability": [
             {
-                "title": "WordPress SolveMedia CSRF Vulnerability",
+                "title": "SolveMedia 1.1.0 - CSRF Vulnerability",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -5903,7 +5913,7 @@
         "name": "sexybookmarks",
         "vulnerability": [
             {
-                "title": "CSRF in sexybookmarks",
+                "title": "SexyBookmarks - Setting Manipulation CSRF",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -6251,6 +6261,66 @@
                 "title": "IndiaNIC FAQs Manager Plugin 1.0 - Blind SQL Injection",
                 "reference": "",
                 "type": "SQLI"
+            }
+        ]
+    },
+    {
+        "name": "booking-system",
+        "vulnerability": [
+            {
+                "title": "Booking System - events_facualty_list.php eid Parameter Reflected XSS",
+                "reference": "",
+                "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "js-restaurant",
+        "vulnerability": [
+            {
+                "title": "JS Restaurant - popup.php restuarant_id Parameter SQL Injection",
+                "reference": "",
+                "type": "SQLI"
+            }
+        ]
+    },
+    {
+        "name": "FlagEm",
+        "vulnerability": [
+            {
+                "title": "FlagEm Plugin - flagit.php cID Parameter XSS",
+                "reference": "",
+                "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "chat",
+        "vulnerability": [
+            {
+                "title": "Chat - message Parameter XSS",
+                "reference": "",
+                "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "shareaholic",
+        "vulnerability": [
+            {
+                "title": "Shareaholic - Unspecified CSRF",
+                "reference": "",
+                "type": "CSRF"
+            }
+        ]
+    },
+    {
+        "name": "page-showcaser-boxes",
+        "vulnerability": [
+            {
+                "title": "Page Showcaser Boxes - Title Field Stored XSS",
+                "reference": "",
+                "type": "XSS"
             }
         ]
     }
