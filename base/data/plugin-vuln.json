@@ -3,7 +3,7 @@
         "name": "content-slide",
         "vulnerability": [
             {
-                "title": "Content Slide Plugin Cross-Site Requst Forgery Vulnerability",
+                "title": "Content Slide - Cross-Site Requst Forgery Vulnerability",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -13,7 +13,7 @@
         "name": "wordpress-simple-paypal-shopping-cart",
         "vulnerability": [
             {
-                "title": "Simple Paypal Shopping Cart Plugin Cross-Site Request Forgery Vulnerability",
+                "title": "Simple Paypal Shopping Cart - Cross-Site Request Forgery Vulnerability",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -23,12 +23,12 @@
         "name": "wp-sendsms",
         "vulnerability": [
             {
-                "title": "WP-SendSMS Plugin for WordPress Setting Manipulation CSRF",
+                "title": "WP-SendSMS - Setting Manipulation CSRF",
                 "reference": "",
                 "type": "CSRF"
             },
             {
-                "title": "WP-SendSMS Plugin for WordPress wp-admin\/admin.php Multiple Parameter XSS",
+                "title": "WP-SendSMS - wp-admin\/admin.php Multiple Parameter XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -38,7 +38,7 @@
         "name": "mail-subscribe-list",
         "vulnerability": [
             {
-                "title": "Mail Subscribe List Plugin Script Insertion Vulnerability",
+                "title": "Mail Subscribe List - Script Insertion Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -48,7 +48,7 @@
         "name": "s3-video",
         "vulnerability": [
             {
-                "title": "VideoJS Cross-Site Scripting Vulnerability",
+                "title": "VideoJS Cross - Site Scripting Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -58,7 +58,7 @@
         "name": "video-embed-thumbnail-generator",
         "vulnerability": [
             {
-                "title": "VideoJS Cross-Site Scripting Vulnerability",
+                "title": "VideoJS Cross - Site Scripting Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -68,7 +68,7 @@
         "name": "1player",
         "vulnerability": [
             {
-                "title": "VideoJS Cross-Site Scripting Vulnerability",
+                "title": "VideoJS Cross - Site Scripting Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -78,7 +78,7 @@
         "name": "external-video-for-everybody",
         "vulnerability": [
             {
-                "title": "VideoJS Cross-Site Scripting Vulnerability",
+                "title": "VideoJS Cross - Site Scripting Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -88,7 +88,7 @@
         "name": "EasySqueezePage",
         "vulnerability": [
             {
-                "title": "VideoJS Cross-Site Scripting Vulnerability",
+                "title": "VideoJS Cross - Site Scripting Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -98,7 +98,7 @@
         "name": "crayon-syntax-highlighter",
         "vulnerability": [
             {
-                "title": "Crayon Syntax Highlighter Remote File Inclusion Vulnerability",
+                "title": "Crayon Syntax Highlighter - Remote File Inclusion Vulnerability",
                 "reference": "",
                 "type": "RFI"
             }
@@ -108,12 +108,12 @@
         "name": "ungallery",
         "vulnerability": [
             {
-                "title": "UnGallery plugin <= 1.5.8 Local File Disclosure Vulnerability",
+                "title": "UnGallery <= 1.5.8 - Local File Disclosure Vulnerability",
                 "reference": "",
                 "type": "LFI"
             },
             {
-                "title": "UnGallery Arbitrary Command Execution",
+                "title": "UnGallery - Arbitrary Command Execution",
                 "reference": "",
                 "type": "RCE"
             }
@@ -123,7 +123,7 @@
         "name": "thanks-you-counter-button",
         "vulnerability": [
             {
-                "title": "Thank You Counter Button XSS",
+                "title": "Thank You Counter Button - XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -133,7 +133,7 @@
         "name": "bookings",
         "vulnerability": [
             {
-                "title": "Bookings XSS",
+                "title": "Bookings - XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -143,7 +143,7 @@
         "name": "cimy-user-manager",
         "vulnerability": [
             {
-                "title": "Cimy User Manager Arbitrary File Disclosure",
+                "title": "Cimy User Manager - Arbitrary File Disclosure",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -153,12 +153,12 @@
         "name": "fs-real-estate-plugin",
         "vulnerability": [
             {
-                "title": "WordPress FireStorm Professional Real Estate Plugin \"id\" SQL Injection Vulnerability",
+                "title": "FireStorm Professional Real Estate - \"id\" SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             },
             {
-                "title": "FireStorm Professional Real Estate Plugin Multiple SQL Injection",
+                "title": "FireStorm Professional Real Estate - Multiple SQL Injection",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -168,12 +168,12 @@
         "name": "wp125",
         "vulnerability": [
             {
-                "title": "WP125 Multiple XSS",
+                "title": "WP125 Multiple - XSS",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "WordPress WP125 Plugin CSRF",
+                "title": "WP125 - CSRF",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -183,7 +183,7 @@
         "name": "all-video-gallery",
         "vulnerability": [
             {
-                "title": "Wordpress All Video Gallery Plugin Multiple SQL Injection Vulnerabilities",
+                "title": "All Video Gallery - Multiple SQL Injection Vulnerabilities",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -193,7 +193,7 @@
         "name": "buddystream",
         "vulnerability": [
             {
-                "title": "BuddyStream XSS",
+                "title": "BuddyStream - XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -203,7 +203,7 @@
         "name": "post-views",
         "vulnerability": [
             {
-                "title": "post-views XSS",
+                "title": "post-views - XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -263,7 +263,7 @@
         "name": "wordpress-multibox-plugin",
         "vulnerability": [
             {
-                "title": "multibox plugin Full Path Disclosure vulnerability",
+                "title": "multibox - Full Path Disclosure vulnerability",
                 "reference": "",
                 "type": "FPD"
             }
@@ -368,7 +368,7 @@
                 "type": "FPD"
             },
             {
-                "title": "Wp-UserOnline <= 0.62 Persistent XSS",
+                "title": "Wp-UserOnline <= 0.62 - Persistent XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -423,7 +423,7 @@
         "name": "advanced-custom-fields",
         "vulnerability": [
             {
-                "title": "Advanced Custom Fields <= 3.5.1 Remote File Inclusion",
+                "title": "Advanced Custom Fields <= 3.5.1 - Remote File Inclusion",
                 "reference": "",
                 "type": "RFI"
             }
@@ -433,7 +433,7 @@
         "name": "sitepress-multilingual-cms",
         "vulnerability": [
             {
-                "title": "Wordpress sitepress-multilingual-cms Full Path Disclosure",
+                "title": "sitepress-multilingual-cms Full Path Disclosure",
                 "reference": "",
                 "type": "FPD"
             }
@@ -443,12 +443,12 @@
         "name": "asset-manager",
         "vulnerability": [
             {
-                "title": "Asset Manager 0.2 Arbitrary File Upload",
+                "title": "Asset Manager 0.2 - Arbitrary File Upload",
                 "reference": "",
                 "type": "UPLOAD"
             },
             {
-                "title": "WordPress plugin Asset manager upload.php Arbitrary Code Execution",
+                "title": "Asset Manager - upload.php Arbitrary Code Execution",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -673,7 +673,7 @@
                 "type": "XSS"
             },
             {
-                "title": "WordPress Carousel Slideshow Plugin Unspecified Vulnerabilities",
+                "title": "Carousel Slideshow - Unspecified Vulnerabilities",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -748,7 +748,7 @@
                 "type": "XSS"
             },
             {
-                "title": "WordPress Image News slider Plugin Unspecified Vulnerabilities",
+                "title": "Image News slider - Unspecified Vulnerabilities",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -858,7 +858,7 @@
         "name": "answer-my-question",
         "vulnerability": [
             {
-                "title": "Answer My Question 1.1 Multiple XSS",
+                "title": "Answer My Question 1.1 - Multiple XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -878,7 +878,7 @@
                 "type": "MULTI"
             },
             {
-                "title": "Spider Catalog Plugin 1.4.6 - Multiple Vulnerabilities",
+                "title": "Spider Catalog 1.4.6 - Multiple Vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -888,7 +888,7 @@
         "name": "wordfence",
         "vulnerability": [
             {
-                "title": "Wordfence 3.3.5 XSS and IAA",
+                "title": "Wordfence 3.3.5 - XSS and IAA",
                 "reference": "",
                 "type": "MULTI"
             },
@@ -908,7 +908,7 @@
                 "type": "MULTI"
             },
             {
-                "title": "WordPress Slideshow Plugin Multiple Script Insertion Vulnerabilities",
+                "title": "Slideshow - Multiple Script Insertion Vulnerabilities",
                 "reference": "",
                 "type": "XSS"
             }
@@ -978,7 +978,7 @@
         "name": "quick-post-widget",
         "vulnerability": [
             {
-                "title": "Quick Post Widget 1.9.1 Multiple Cross-site scripting vulnerabilities",
+                "title": "Quick Post Widget 1.9.1 - Multiple Cross-site scripting vulnerabilities",
                 "reference": "",
                 "type": "XSS"
             }
@@ -988,7 +988,7 @@
         "name": "threewp-email-reflector",
         "vulnerability": [
             {
-                "title": "ThreeWP Email Reflector 1.13 Stored XSS",
+                "title": "ThreeWP Email Reflector 1.13 - Stored XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -998,7 +998,7 @@
         "name": "wp-simplemail",
         "vulnerability": [
             {
-                "title": "SimpleMail 1.0.6 Stored XSS",
+                "title": "SimpleMail 1.0.6 - Stored XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1008,7 +1008,7 @@
         "name": "postie",
         "vulnerability": [
             {
-                "title": "Postie 1.4.3 Stored XSS",
+                "title": "Postie 1.4.3 - Stored XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1018,7 +1018,7 @@
         "name": "rsvpmaker",
         "vulnerability": [
             {
-                "title": "RSVPMaker v2.5.4 Persistent XSS",
+                "title": "RSVPMaker v2.5.4 - Persistent XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1028,7 +1028,7 @@
         "name": "mz-jajak",
         "vulnerability": [
             {
-                "title": "Mz-jajak <= 2.1 SQL Injection Vulnerability",
+                "title": "Mz-jajak <= 2.1 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -1038,7 +1038,7 @@
         "name": "resume-submissions-job-postings",
         "vulnerability": [
             {
-                "title": "Resume Submissions Job Posting v2.5.1 Unrestricted File Upload",
+                "title": "Resume Submissions Job Posting v2.5.1 - Unrestricted File Upload",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -1048,7 +1048,7 @@
         "name": "wp-predict",
         "vulnerability": [
             {
-                "title": "WP-Predict v1.0 Blind SQL Injection",
+                "title": "WP-Predict v1.0 - Blind SQL Injection",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -1058,7 +1058,7 @@
         "name": "backup",
         "vulnerability": [
             {
-                "title": "Backup Plugin Information Disclosure",
+                "title": "Backup - Information Disclosure",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -1068,7 +1068,7 @@
         "name": "moodthingy-mood-rating-widget",
         "vulnerability": [
             {
-                "title": "MoodThingy Widget v0.8.7 Blind SQL Injection",
+                "title": "MoodThingy Widget v0.8.7 - Blind SQL Injection",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -1078,7 +1078,7 @@
         "name": "paid-business-listings",
         "vulnerability": [
             {
-                "title": "Paid Business Listings v1.0.2 Blind SQL Injection",
+                "title": "Paid Business Listings v1.0.2 - Blind SQL Injection",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -1088,7 +1088,7 @@
         "name": "website-faq",
         "vulnerability": [
             {
-                "title": "Website FAQ Plugin v1.0 SQL Injection",
+                "title": "Website FAQ 1.0 - SQL Injection",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -1098,7 +1098,7 @@
         "name": "radykal-fancy-gallery",
         "vulnerability": [
             {
-                "title": "Fancy Gallery 1.2.4 Shell Upload",
+                "title": "Fancy Gallery 1.2.4 - Shell Upload",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -1108,7 +1108,7 @@
         "name": "flipbook",
         "vulnerability": [
             {
-                "title": "Flip Book 1.0 Shell Upload",
+                "title": "Flip Book 1.0 - Shell Upload",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -1118,7 +1118,7 @@
         "name": "ajax_multi_upload",
         "vulnerability": [
             {
-                "title": "Ajax Multi Upload 1.1 Shell Upload",
+                "title": "Ajax Multi Upload 1.1 - Shell Upload",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -1128,7 +1128,7 @@
         "name": "schreikasten",
         "vulnerability": [
             {
-                "title": "Schreikasten 0.14.13 XSS",
+                "title": "Schreikasten 0.14.13 - XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1138,7 +1138,7 @@
         "name": "wp-automatic",
         "vulnerability": [
             {
-                "title": "Wordpress Automatic 2.0.3 CSRF",
+                "title": "Automatic 2.0.3 - CSRF",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -1163,7 +1163,7 @@
         "name": "auctionplugin",
         "vulnerability": [
             {
-                "title": "Auctions Plugin 2.0.1.3 Arbitrary\n        File Upload Vulnerability\n      ",
+                "title": "Auctions - 2.0.1.3 - Arbitrary\n        File Upload Vulnerability\n      ",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -1173,7 +1173,7 @@
         "name": "lb-mixed-slideshow",
         "vulnerability": [
             {
-                "title": "LB Mixed Slideshow 1.0 Arbitrary File Upload Vulnerability",
+                "title": "LB Mixed Slideshow 1.0 - Arbitrary File Upload Vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -1183,7 +1183,7 @@
         "name": "lim4wp",
         "vulnerability": [
             {
-                "title": "Lim4wp 1.1.1 Arbitrary File Upload Vulnerability",
+                "title": "Lim4wp 1.1.1 - Arbitrary File Upload Vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -1193,7 +1193,7 @@
         "name": "wp-imagezoom",
         "vulnerability": [
             {
-                "title": "Wp-ImageZoom 1.0.3 Remote File Disclosure",
+                "title": "Wp-ImageZoom 1.0.3 - Remote File Disclosure",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -1203,7 +1203,7 @@
         "name": "invit0r",
         "vulnerability": [
             {
-                "title": "Invit0r 0.22 Shell Upload",
+                "title": "Invit0r 0.22 - Shell Upload",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -1213,7 +1213,7 @@
         "name": "announces",
         "vulnerability": [
             {
-                "title": "Annonces 1.2.0.1 Shell Upload",
+                "title": "Annonces 1.2.0.1 - Shell Upload",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -1223,7 +1223,7 @@
         "name": "contus-video-galleryversion-10",
         "vulnerability": [
             {
-                "title": "Contus Video Gallery 1.3 Arbitrary\n        File Upload Vulnerability\n      ",
+                "title": "Contus Video Gallery 1.3 - Arbitrary\n        File Upload Vulnerability\n      ",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -1233,12 +1233,12 @@
         "name": "contus-hd-flv-player",
         "vulnerability": [
             {
-                "title": "Contus HD FLV Player plugin <= 1.3 SQL Injection Vulnerability",
+                "title": "Contus HD FLV Player <= 1.3 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             },
             {
-                "title": "Contus HD FLV Player 1.7 Arbitrary\n        File Upload Vulnerability\n      ",
+                "title": "Contus HD FLV Player 1.7 - Arbitrary File Upload Vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -1248,7 +1248,7 @@
         "name": "user-meta",
         "vulnerability": [
             {
-                "title": "User Meta Version 1.1.1 Arbitrary File Upload Vulnerability",
+                "title": "User Meta Version 1.1.1 - Arbitrary File Upload Vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -1258,7 +1258,7 @@
         "name": "topquark",
         "vulnerability": [
             {
-                "title": "Top Quark Architecture Version 2.10 Arbitrary File Upload Vulnerability",
+                "title": "Top Quark Architecture Version 2.10 - Arbitrary File Upload Vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -1268,7 +1268,7 @@
         "name": "sfbrowser",
         "vulnerability": [
             {
-                "title": "SfBrowser Version 1.4.5 Arbitrary File Upload Vulnerability",
+                "title": "SfBrowser Version 1.4.5 - Arbitrary File Upload Vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -1283,12 +1283,12 @@
                 "type": "XSS"
             },
             {
-                "title": "Pica Photo Gallery 1.0 Arbitrary File Upload Vulnerability",
+                "title": "Pica Photo Gallery 1.0 - Arbitrary File Upload Vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             },
             {
-                "title": "PICA Photo Gallery 1.0 Remote File Disclosure",
+                "title": "PICA Photo Gallery 1.0 - Remote File Disclosure",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -1303,17 +1303,17 @@
                 "type": "XSS"
             },
             {
-                "title": "WordPress Mac Photo Gallery Plugin Two Security Bypass Security Issues",
+                "title": "Mac Photo Gallery - Two Security Bypass Security Issues",
                 "reference": "",
                 "type": "AUTHBYPASS"
             },
             {
-                "title": "WordPress Mac Photo Gallery Plugin Multiple Script Insertion Vulnerabilities",
+                "title": "Mac Photo Gallery - Multiple Script Insertion Vulnerabilities",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "Mac Photo Gallery 2.7 Arbitrary File Upload",
+                "title": "Mac Photo Gallery 2.7 - Arbitrary File Upload",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -1323,7 +1323,7 @@
         "name": "drag-drop-file-uploader",
         "vulnerability": [
             {
-                "title": "drag and drop file upload 0.1 Arbitrary File Upload Vulnerability",
+                "title": "drag and drop file upload 0.1 - Arbitrary File Upload Vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -1343,7 +1343,7 @@
         "name": "wp-gpx-map",
         "vulnerability": [
             {
-                "title": "wp-gpx-max version 1.1.21 Arbitrary File Upload",
+                "title": "wp-gpx-max version 1.1.21 - Arbitrary File Upload",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -1353,7 +1353,7 @@
         "name": "front-file-manager",
         "vulnerability": [
             {
-                "title": "Front File Manager Plugin 0.1 Arbitrary File Upload",
+                "title": "Front File Manager 0.1 - Arbitrary File Upload",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -1363,12 +1363,12 @@
         "name": "front-end-upload",
         "vulnerability": [
             {
-                "title": "Front End Upload 0.5.3 Arbitrary File Upload",
+                "title": "Front End Upload 0.5.3 - Arbitrary File Upload",
                 "reference": "",
                 "type": "UPLOAD"
             },
             {
-                "title": "Front End Upload v0.5.4 Arbitrary PHP File Upload",
+                "title": "Front End Upload v0.5.4 - Arbitrary PHP File Upload",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -1378,7 +1378,7 @@
         "name": "omni-secure-files",
         "vulnerability": [
             {
-                "title": "Omni Secure Files 0.1.13 Arbitrary File Upload",
+                "title": "Omni Secure Files 0.1.13 - Arbitrary File Upload",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -1388,7 +1388,7 @@
         "name": "easy-contact-forms-exporter",
         "vulnerability": [
             {
-                "title": "Easy Contact Forms Export 1.1.0 Information Disclosure Vulnerability",
+                "title": "Easy Contact Forms Export 1.1.0 - Information Disclosure Vulnerability",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -1398,7 +1398,7 @@
         "name": "plugin-newsletter",
         "vulnerability": [
             {
-                "title": "Plugin: Newsletter 1.5 Remote File Disclosure Vulnerability",
+                "title": "Plugin: Newsletter 1.5 - Remote File Disclosure Vulnerability",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -1408,7 +1408,7 @@
         "name": "rbxgallery",
         "vulnerability": [
             {
-                "title": "RBX Gallery 2.1 Arbitrary File Upload",
+                "title": "RBX Gallery 2.1 - Arbitrary File Upload",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -1418,7 +1418,7 @@
         "name": "simple-download-button-shortcode",
         "vulnerability": [
             {
-                "title": "Simple Download Button Shortcode 1.0 Remote File Disclosure",
+                "title": "Simple Download Button Shortcode 1.0 - Remote File Disclosure",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -1428,7 +1428,7 @@
         "name": "thinkun-remind",
         "vulnerability": [
             {
-                "title": "Thinkun Remind 1.1.3 Remote File Disclosure",
+                "title": "Thinkun Remind 1.1.3 - Remote File Disclosure",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -1438,7 +1438,7 @@
         "name": "tinymce-thumbnail-gallery",
         "vulnerability": [
             {
-                "title": "Tinymce Thumbnail Gallery 1.0.7 Remote File Disclosure",
+                "title": "Tinymce Thumbnail Gallery 1.0.7 - Remote File Disclosure",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -1448,7 +1448,7 @@
         "name": "wpstorecart",
         "vulnerability": [
             {
-                "title": "wpStoreCart Plugin 2.5.27-2.5.29 Arbitrary File Upload",
+                "title": "wpStoreCart 2.5.27-2.5.29 - Arbitrary File Upload",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -1458,7 +1458,7 @@
         "name": "gallery-plugin",
         "vulnerability": [
             {
-                "title": "Gallery 3.06 Arbitrary File Upload",
+                "title": "Gallery 3.06 - Arbitrary File Upload",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -1468,7 +1468,7 @@
         "name": "font-uploader",
         "vulnerability": [
             {
-                "title": "Font Uploader 1.2.4 Arbitrary File Upload",
+                "title": "Font Uploader 1.2.4 - Arbitrary File Upload",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -1488,7 +1488,7 @@
         "name": "wpmarketplace",
         "vulnerability": [
             {
-                "title": "WP Marketplace 1.5.0 - 1.6.1 Arbitrary File Upload",
+                "title": "WP Marketplace 1.5.0-1.6.1 - Arbitrary File Upload",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -1523,12 +1523,12 @@
         "name": "foxypress",
         "vulnerability": [
             {
-                "title": "Foxypress 0.4.1.1 - 0.4.2.1 Arbitrary File Upload",
+                "title": "Foxypress 0.4.1.1-0.4.2.1 - Arbitrary File Upload",
                 "reference": "",
                 "type": "UPLOAD"
             },
             {
-                "title": "FoxyPress 0.4.2.5 XSS \/ CSRF \/ SQL Injection",
+                "title": "FoxyPress 0.4.2.5 - XSS \/ CSRF \/ SQL Injection",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -1538,7 +1538,7 @@
         "name": "track-that-stat",
         "vulnerability": [
             {
-                "title": "Track That Stat <= 1.0.8 Cross Site Scripting",
+                "title": "Track That Stat <= 1.0.8 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1548,7 +1548,7 @@
         "name": "wp-facethumb",
         "vulnerability": [
             {
-                "title": "WP-Facethumb Gallery <= 0.1 Reflected Cross Site Scripting",
+                "title": "WP-Facethumb Gallery <= 0.1 - Reflected Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1558,7 +1558,7 @@
         "name": "wp-survey-and-quiz-tool",
         "vulnerability": [
             {
-                "title": "Survey And Quiz Tool <= 2.9.2 Cross Site Scripting",
+                "title": "Survey And Quiz Tool <= 2.9.2 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1568,7 +1568,7 @@
         "name": "wp-statistics",
         "vulnerability": [
             {
-                "title": "WP Statistics <= 2.2.4 Cross Site Scripting",
+                "title": "WP Statistics <= 2.2.4 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1578,12 +1578,12 @@
         "name": "wp-easy-gallery",
         "vulnerability": [
             {
-                "title": "WP Easy Gallery <= 1.7 Cross Site Scripting",
+                "title": "WP Easy Gallery <= 1.7 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "WP Easy Gallery <= 2.7 CSRF",
+                "title": "WP Easy Gallery <= 2.7 - CSRF",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -1593,7 +1593,7 @@
         "name": "subscribe2",
         "vulnerability": [
             {
-                "title": "Subscribe2 <= 8.0 Cross Site Scripting",
+                "title": "Subscribe2 <= 8.0 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1603,7 +1603,7 @@
         "name": "soundcloud-is-gold",
         "vulnerability": [
             {
-                "title": "Soundcloud Is Gold <= 2.1 Cross Site Scripting",
+                "title": "Soundcloud Is Gold <= 2.1 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1633,7 +1633,7 @@
         "name": "share-and-follow",
         "vulnerability": [
             {
-                "title": "Share And Follow <= 1.80.3 Cross Site Scripting",
+                "title": "Share And Follow <= 1.80.3 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1643,7 +1643,7 @@
         "name": "sabre",
         "vulnerability": [
             {
-                "title": "SABRE <= 1.2.0 Cross Site Scripting",
+                "title": "SABRE <= 1.2.0 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1653,17 +1653,17 @@
         "name": "pretty-link",
         "vulnerability": [
             {
-                "title": "Pretty Link Lite <= 1.5.2 Cross Site Scripting",
+                "title": "Pretty Link Lite <= 1.5.2 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "Pretty Link Lite <= 1.6.1 Cross Site Scripting",
+                "title": "Pretty Link Lite <= 1.6.1 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "WordPress pretty-link plugin XSS in SWF",
+                "title": "pretty-link - XSS in SWF",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1673,7 +1673,7 @@
         "name": "newsletter-manager",
         "vulnerability": [
             {
-                "title": "Newsletter Manager <= 1.0 Cross Site Scripting",
+                "title": "Newsletter Manager <= 1.0 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1683,7 +1683,7 @@
         "name": "network-publisher",
         "vulnerability": [
             {
-                "title": "Network Publisher <= 5.0.1 Cross Site Scripting",
+                "title": "Network Publisher <= 5.0.1 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1693,12 +1693,12 @@
         "name": "leaguemanager",
         "vulnerability": [
             {
-                "title": "LeagueManager <= 3.7 Cross Site Scripting",
+                "title": "LeagueManager <= 3.7 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "LeagueManager v3.8 SQL Injection",
+                "title": "LeagueManager v3.8 - SQL Injection",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -1708,7 +1708,7 @@
         "name": "leaflet",
         "vulnerability": [
             {
-                "title": "Leaflet <= 0.0.1 Cross Site Scripting",
+                "title": "Leaflet <= 0.0.1 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1718,7 +1718,7 @@
         "name": "joliprint",
         "vulnerability": [
             {
-                "title": "PDF And Print Button Joliprint <= 1.3.0 Cross Site Scripting",
+                "title": "PDF And Print Button Joliprint <= 1.3.0 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1728,7 +1728,7 @@
         "name": "iframe-admin-pages",
         "vulnerability": [
             {
-                "title": "IFrame Admin Pages <= 0.1 Cross Site Scripting",
+                "title": "IFrame Admin Pages <= 0.1 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1738,7 +1738,7 @@
         "name": "ezpz-one-click-backup",
         "vulnerability": [
             {
-                "title": "EZPZ One Click Backup <= 12.03.10 Cross Site Scripting",
+                "title": "EZPZ One Click Backup <= 12.03.10 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1748,7 +1748,7 @@
         "name": "dynamic-widgets",
         "vulnerability": [
             {
-                "title": "Dynamic Widgets <= 1.5.1 Cross Site Scripting",
+                "title": "Dynamic Widgets <= 1.5.1 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1758,17 +1758,17 @@
         "name": "download-monitor",
         "vulnerability": [
             {
-                "title": "Download Monitor < 3.3.6.2 Cross Site Scripting",
+                "title": "Download Monitor < 3.3.6.2 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "Download Monitor <= 3.3.5.7 Cross Site Scripting",
+                "title": "Download Monitor <= 3.3.5.7 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "Download Monitor <= 3.3.5.4 Cross Site Scripting",
+                "title": "Download Monitor <= 3.3.5.4 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1778,7 +1778,7 @@
         "name": "download-manager",
         "vulnerability": [
             {
-                "title": "Download Manager <= 2.2 Cross Site Scripting",
+                "title": "Download Manager <= 2.2 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1788,7 +1788,7 @@
         "name": "codestyling-localization",
         "vulnerability": [
             {
-                "title": "Code Styling Localization <= 1.99.16 Cross Site Scripting",
+                "title": "Code Styling Localization <= 1.99.16 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1798,7 +1798,7 @@
         "name": "catablog",
         "vulnerability": [
             {
-                "title": "Catablog <= 1.6 Cross Site Scripting",
+                "title": "Catablog <= 1.6 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1808,7 +1808,7 @@
         "name": "bad-behavior",
         "vulnerability": [
             {
-                "title": "Bad Behavior <= 2.24 Cross Site Scripting",
+                "title": "Bad Behavior <= 2.24 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1833,17 +1833,17 @@
         "name": "better-wp-security",
         "vulnerability": [
             {
-                "title": "Better WP Security <= 3.5.3 Stored XSS",
+                "title": "Better WP Security <= 3.5.3 - Stored XSS",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "Better WP Security v3.4.3 Multiple XSS",
+                "title": "Better WP Security v3.4.3 - Multiple XSS",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "Better WP Security <= 3.2.4 Cross Site Scripting",
+                "title": "Better WP Security <= 3.2.4 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1853,7 +1853,7 @@
         "name": "custom-contact-forms",
         "vulnerability": [
             {
-                "title": "Custom Contact Forms <= 5.0.0.1 Cross Site Scripting",
+                "title": "Custom Contact Forms <= 5.0.0.1 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1863,12 +1863,12 @@
         "name": "2-click-socialmedia-button",
         "vulnerability": [
             {
-                "title": "2-Click-Socialmedia-Buttons <= 0.34 Cross Site Scripting",
+                "title": "2-Click-Socialmedia-Buttons <= 0.34 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "2-Click-Socialmedia-Buttons <= 0.32.2 Cross Site Scripting",
+                "title": "2-Click-Socialmedia-Buttons <= 0.32.2 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1878,12 +1878,12 @@
         "name": "login-with-ajax",
         "vulnerability": [
             {
-                "title": "Login With Ajax plugin Cross Site Scripting",
+                "title": "Login With Ajax - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "WordPress Login With Ajax Plugin Cross-Site Request Forgery Vulnerability",
+                "title": "Login With Ajax - Cross-Site Request Forgery Vulnerability",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -1893,12 +1893,12 @@
         "name": "media-library-categories",
         "vulnerability": [
             {
-                "title": "Media Library Categories plugin <= 1.0.6 SQL Injection Vulnerability",
+                "title": "Media Library Categories <= 1.0.6 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             },
             {
-                "title": "Media Library Categories plugin <= 1.1.1 Cross Site Scripting",
+                "title": "Media Library Categories <= 1.1.1 - Cross Site Scripting",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -1908,7 +1908,7 @@
         "name": "deans-fckeditor-with-pwwangs-code-plugin-for-wordpress",
         "vulnerability": [
             {
-                "title": "FCKeditor Deans With Pwwangs Code <= 1.0.0 Remote Shell Upload",
+                "title": "FCKeditor Deans With Pwwangs Code <= 1.0.0 - Remote Shell Upload",
                 "reference": "",
                 "type": "RFI"
             }
@@ -1918,22 +1918,22 @@
         "name": "zingiri-web-shop",
         "vulnerability": [
             {
-                "title": "WordPress Zingiri Web Shop Plugin Cookie SQL Injection Vulnerability",
+                "title": "Zingiri Web Shop - Cookie SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             },
             {
-                "title": "Zingiri Web Shop <= 2.4.0 Multiple XSS Vulnerabilities",
+                "title": "Zingiri Web Shop <= 2.4.0 - Multiple XSS Vulnerabilities",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "Zingiri Web Shop <= 2.3.5 Cross Site Scripting",
+                "title": "Zingiri Web Shop <= 2.3.5 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "Zingiri Web Shop 2.4.3 Shell Upload",
+                "title": "Zingiri Web Shop 2.4.3 - Shell Upload",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -1943,7 +1943,7 @@
         "name": "organizer",
         "vulnerability": [
             {
-                "title": "Organizer 1.2.1 Cross Site Scripting \/ Path Disclosure",
+                "title": "Organizer 1.2.1 - Cross Site Scripting \/ Path Disclosure",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -1953,7 +1953,7 @@
         "name": "zingiri-tickets",
         "vulnerability": [
             {
-                "title": "Zingiri Tickets plugin File Disclosure",
+                "title": "Zingiri Tickets - File Disclosure",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -1973,9 +1973,19 @@
         "name": "all-in-one-event-calendar",
         "vulnerability": [
             {
-                "title": "Multiple XSS vulnerabilities in All-in-One Event Calendar for WordPress",
+                "title": "All-in-One Event Calendar 1.4 - Multiple XSS vulnerabilities",
                 "reference": "",
                 "type": "XSS"
+            },
+            {
+                "title": "All-in-One Event Calendar 1.9 - wp-admin\/post-new.php Multiple Parameter XSS",
+                "reference": "",
+                "type": "XSS"
+            },
+            {
+                "title": "All-in-One Event Calendar 1.9 - index.php Multiple Parameter SQL Injection",
+                "reference": "",
+                "type": "SQLI"
             }
         ]
     },
@@ -1983,7 +1993,7 @@
         "name": "buddypress",
         "vulnerability": [
             {
-                "title": "Buddypress <= 1.5.5 SQL Injection",
+                "title": "Buddypress <= 1.5.5 - SQL Injection",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -1993,7 +2003,7 @@
         "name": "register-plus-redux",
         "vulnerability": [
             {
-                "title": "Register Plus Redux <= 3.8.3 Cross Site Scripting",
+                "title": "Register Plus Redux <= 3.8.3 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -2003,7 +2013,7 @@
         "name": "magn-html5-drag-and-drop-media-uploader",
         "vulnerability": [
             {
-                "title": "Magn WP Drag and Drop <= 1.1.4 Upload Shell Upload Vulnerability",
+                "title": "Magn WP Drag and Drop <= 1.1.4 - Upload Shell Upload Vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -2013,7 +2023,7 @@
         "name": "kish-guest-posting",
         "vulnerability": [
             {
-                "title": "Kish Guest Posting 1.0 Arbitrary File Upload",
+                "title": "Kish Guest Posting 1.0 - Arbitrary File Upload",
                 "reference": "",
                 "type": "RFI"
             }
@@ -2023,12 +2033,12 @@
         "name": "allwebmenus-wordpress-menu-plugin",
         "vulnerability": [
             {
-                "title": "AllWebMenus Shell Upload <= 1.1.9 Shell Upload",
+                "title": "AllWebMenus Shell Upload <= 1.1.9 - Shell Upload",
                 "reference": "",
                 "type": "RFI"
             },
             {
-                "title": "AllWebMenus 1.1.3 Remote File Inclusion",
+                "title": "AllWebMenus 1.1.3 - Remote File Inclusion",
                 "reference": "",
                 "type": "RFI"
             }
@@ -2038,7 +2048,7 @@
         "name": "shortcode-redirect",
         "vulnerability": [
             {
-                "title": "Shortcode Redirect <= 1.0.01 Stored Cross Site Scripting",
+                "title": "Shortcode Redirect <= 1.0.01 - Stored Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -2048,7 +2058,7 @@
         "name": "ucan-post",
         "vulnerability": [
             {
-                "title": "uCan Post plugin <= 1.0.09 Stored XSS",
+                "title": "uCan Post <= 1.0.09 - Stored XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -2058,7 +2068,7 @@
         "name": "wp-cycle-playlist",
         "vulnerability": [
             {
-                "title": "WP Cycle Playlist plugin Multiple Vulnerabilities",
+                "title": "WP Cycle Playlist - Multiple Vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -2068,7 +2078,7 @@
         "name": "myeasybackup",
         "vulnerability": [
             {
-                "title": "myEASYbackup 1.0.8.1 Directory Traversal",
+                "title": "myEASYbackup 1.0.8.1 - Directory Traversal",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -2078,27 +2088,27 @@
         "name": "count-per-day",
         "vulnerability": [
             {
-                "title": "Count per Day Plugin 3.2.5 (counter.php) - XSS Vulnerability",
+                "title": "Count per Day 3.2.5 - counter.php XSS Vulnerability",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "Count Per Day 3.2.3 Cross Site Scripting",
+                "title": "Count Per Day 3.2.3 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "Count Per Day 3.1.1 Cross Site Scripting",
+                "title": "Count Per Day 3.1.1 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "Count Per Day plugin <= 3.1.1 Multiple Vulnerabilities",
+                "title": "Count Per Day <= 3.1.1 - Multiple Vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             },
             {
-                "title": "Count per Day plugin <= 2.17 SQL Injection Vulnerability",
+                "title": "Count per Day <= 2.17 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -2108,7 +2118,7 @@
         "name": "wp-autoyoutube",
         "vulnerability": [
             {
-                "title": "WP-AutoYoutube plugin <= 0.1 Blind SQL Injection Vulnerability",
+                "title": "WP-AutoYoutube <= 0.1 - Blind SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -2118,7 +2128,7 @@
         "name": "age-verification",
         "vulnerability": [
             {
-                "title": "Age Verification plugin <= 0.4 Open Redirect",
+                "title": "Age Verification <= 0.4 - Open Redirect",
                 "reference": "",
                 "type": "REDIRECT"
             }
@@ -2128,7 +2138,7 @@
         "name": "yousaytoo-auto-publishing-plugin",
         "vulnerability": [
             {
-                "title": "Yousaytoo Auto Publishing <= 1.0 Cross Site Scripting",
+                "title": "Yousaytoo Auto Publishing <= 1.0 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -2138,7 +2148,7 @@
         "name": "pay-with-tweet",
         "vulnerability": [
             {
-                "title": "Pay With Tweet plugin <= 1.1 Multiple Vulnerabilities",
+                "title": "Pay With Tweet <= 1.1 - Multiple Vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -2148,7 +2158,7 @@
         "name": "wp-whois",
         "vulnerability": [
             {
-                "title": "Whois Search <= 1.4.2 Cross Site Scripting",
+                "title": "Whois Search <= 1.4.2 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -2158,7 +2168,7 @@
         "name": "upm-polls",
         "vulnerability": [
             {
-                "title": "BLIND SQL injection UPM-POLLS plugin 1.0.4",
+                "title": "UPM-POLLS 1.0.4 - BLIND SQL injection",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -2168,7 +2178,7 @@
         "name": "disqus-comment-system",
         "vulnerability": [
             {
-                "title": "Disqus Comment System <= 2.68 Reflected Cross-Site Scripting (XSS)",
+                "title": "Disqus Comment System <= 2.68 - Reflected Cross-Site Scripting (XSS)",
                 "reference": "",
                 "type": "XSS"
             }
@@ -2178,7 +2188,7 @@
         "name": "wp-recaptcha",
         "vulnerability": [
             {
-                "title": "Google reCAPTCHA <= 3.1.3 Reflected XSS Vulnerability",
+                "title": "Google reCAPTCHA <= 3.1.3 - Reflected XSS Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -2188,7 +2198,7 @@
         "name": "link-library",
         "vulnerability": [
             {
-                "title": "Link Library plugin <= 5.2.1 SQL Injection",
+                "title": "Link Library <= 5.2.1 - SQL Injection",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -2198,7 +2208,7 @@
         "name": "cevhershare",
         "vulnerability": [
             {
-                "title": "CevherShare 2.0 plugin SQL Injection Vulnerability",
+                "title": "CevherShare 2.0 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -2208,7 +2218,7 @@
         "name": "meenews",
         "vulnerability": [
             {
-                "title": "meenews 5.1 plugin Cross-Site Scripting Vulnerabilities",
+                "title": "meenews 5.1 - Cross-Site Scripting Vulnerabilities",
                 "reference": "",
                 "type": "XSS"
             }
@@ -2228,7 +2238,7 @@
         "name": "adminimize",
         "vulnerability": [
             {
-                "title": "adminimize 1.7.21 Cross-Site Scripting Vulnerabilities",
+                "title": "adminimize 1.7.21 - Cross-Site Scripting Vulnerabilities",
                 "reference": "",
                 "type": "XSS"
             }
@@ -2238,7 +2248,7 @@
         "name": "advanced-text-widget",
         "vulnerability": [
             {
-                "title": "Advanced Text Widget <= 2.0.0 Cross Site Scripting Vulnerability",
+                "title": "Advanced Text Widget <= 2.0.0 - Cross Site Scripting Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -2248,7 +2258,7 @@
         "name": "mm-duplicate",
         "vulnerability": [
             {
-                "title": "MM Duplicate plugin <= 1.2 SQL Injection Vulnerability",
+                "title": "MM Duplicate <= 1.2 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -2258,7 +2268,7 @@
         "name": "wp-menu-creator",
         "vulnerability": [
             {
-                "title": "Menu Creator plugin <= 1.1.7 SQL Injection Vulnerability",
+                "title": "Menu Creator <= 1.1.7 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -2268,7 +2278,7 @@
         "name": "allow-php-in-posts-and-pages",
         "vulnerability": [
             {
-                "title": "Allow PHP in Posts and Pages plugin <= 2.0.0.RC1 SQL Injection Vulnerability",
+                "title": "Allow PHP in Posts and Pages <= 2.0.0.RC1 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -2278,7 +2288,7 @@
         "name": "global-content-blocks",
         "vulnerability": [
             {
-                "title": "Global Content Blocks plugin <= 1.2 SQL Injection Vulnerability",
+                "title": "Global Content Blocks <= 1.2 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -2288,7 +2298,7 @@
         "name": "ajaxgallery",
         "vulnerability": [
             {
-                "title": "Ajax Gallery plugin <= 3.0 SQL Injection Vulnerability",
+                "title": "Ajax Gallery <= 3.0 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -2298,7 +2308,7 @@
         "name": "wp-ds-faq",
         "vulnerability": [
             {
-                "title": "WP DS FAQ plugin <= 1.3.2 SQL Injection Vulnerability",
+                "title": "WP DS FAQ <= 1.3.2 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -2308,7 +2318,7 @@
         "name": "odihost-newsletter-plugin",
         "vulnerability": [
             {
-                "title": "OdiHost Newsletter plugin <= 1.0 SQL Injection Vulnerability",
+                "title": "OdiHost Newsletter <= 1.0 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -2318,7 +2328,7 @@
         "name": "easy-contact-form-lite",
         "vulnerability": [
             {
-                "title": "Easy Contact Form Lite plugin <= 1.0.7 SQL Injection Vulnerability",
+                "title": "Easy Contact Form Lite <= 1.0.7 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -2328,22 +2338,22 @@
         "name": "wp-symposium",
         "vulnerability": [
             {
-                "title": "WP Symposium plugin <= 0.64 SQL Injection Vulnerability",
+                "title": "WP Symposium <= 0.64 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             },
             {
-                "title": "WP Symposium plugin <= 12.12 Multiple SQL Injection Vulnerabilities",
+                "title": "WP Symposium <= 12.12 - Multiple SQL Injection Vulnerabilities",
                 "reference": "",
                 "type": "SQLI"
             },
             {
-                "title": "WordPress WP Symposium Plugin \"u\" XSS",
+                "title": "WP Symposium \"u\" XSS",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "WordPress WP Symposium Plugin \"u\" Redirection Weakness",
+                "title": "WP Symposium \"u\" Redirection Weakness",
                 "reference": "",
                 "type": "REDIRECT"
             }
@@ -2353,7 +2363,7 @@
         "name": "file-groups",
         "vulnerability": [
             {
-                "title": "File Groups plugin <= 1.1.2 SQL Injection Vulnerability",
+                "title": "File Groups <= 1.1.2 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -2363,7 +2373,7 @@
         "name": "ip-logger",
         "vulnerability": [
             {
-                "title": "IP-Logger plugin <= 3.0 SQL Injection Vulnerability",
+                "title": "IP-Logger <= 3.0 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -2373,7 +2383,7 @@
         "name": "beer-recipes",
         "vulnerability": [
             {
-                "title": "Beer Recipes v.1.0 XSS",
+                "title": "Beer Recipes v.1.0 - XSS",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -2383,7 +2393,7 @@
         "name": "is-human",
         "vulnerability": [
             {
-                "title": "Is-human <=1.4.2 Remote Command Execution Vulnerability",
+                "title": "Is-human <=1.4.2 - Remote Command Execution Vulnerability",
                 "reference": "",
                 "type": "RCE"
             }
@@ -2393,7 +2403,7 @@
         "name": "editormonkey",
         "vulnerability": [
             {
-                "title": "EditorMonkey plugin (FCKeditor) Arbitrary File Upload",
+                "title": "EditorMonkey (FCKeditor) Arbitrary File Upload",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -2403,7 +2413,7 @@
         "name": "sermon-browser",
         "vulnerability": [
             {
-                "title": "SermonBrowser 0.43 SQL Injection",
+                "title": "SermonBrowser 0.43 - SQL Injection",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -2413,7 +2423,7 @@
         "name": "ajax-category-dropdown",
         "vulnerability": [
             {
-                "title": "Ajax Category Dropdown 0.1.5 Multiple Vulnerabilities",
+                "title": "Ajax Category Dropdown 0.1.5 - Multiple Vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -2423,7 +2433,7 @@
         "name": "wp-custom-pages",
         "vulnerability": [
             {
-                "title": "WP Custom Pages 0.5.0.1 LFI Vulnerability",
+                "title": "WP Custom Pages 0.5.0.1 - LFI Vulnerability",
                 "reference": "",
                 "type": "LFI"
             }
@@ -2433,7 +2443,7 @@
         "name": "flash-album-gallery",
         "vulnerability": [
             {
-                "title": "WordPress GRAND FlAGallery Plugin Multiple Vulnerabilities",
+                "title": "GRAND FlAGallery - Multiple Vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             },
@@ -2443,32 +2453,32 @@
                 "type": "XSS"
             },
             {
-                "title": "GRAND Flash Album Gallery 1.9.0 and 2.0.0 Multiple Vulnerabilities",
+                "title": "GRAND Flash Album Gallery 1.9.0 and 2.0.0 - Multiple Vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             },
             {
-                "title": "GRAND Flash Album Gallery 0.55 Multiple Vulnerabilities",
+                "title": "GRAND Flash Album Gallery 0.55 - Multiple Vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             },
             {
-                "title": "GRAND Flash Album Gallery <= 1.56 XSS Vulnerability",
+                "title": "GRAND Flash Album Gallery <= 1.56 - XSS Vulnerability",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "GRAND Flash Album Gallery <= 1.71 XSS Vulnerability",
+                "title": "GRAND Flash Album Gallery <= 1.71 - XSS Vulnerability",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "WordPress GRAND FlAGallery Plugin \"gid\" SQL Injection Vulnerability",
+                "title": "GRAND FlAGallery - \"gid\" SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             },
             {
-                "title": "GRAND FlAGallery Plugin \"s\" Cross-Site Scripting Vulnerability",
+                "title": "GRAND FlAGallery - \"s\" Cross-Site Scripting Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -2478,7 +2488,7 @@
         "name": "php_speedy_wp",
         "vulnerability": [
             {
-                "title": "PHP Speedy <= 0.5.2 (admin_container.php) Remote Code Exec Exploit",
+                "title": "PHP Speedy <= 0.5.2 - (admin_container.php) Remote Code Exec Exploit",
                 "reference": "",
                 "type": "RCE"
             }
@@ -2488,7 +2498,7 @@
         "name": "old-post-spinner",
         "vulnerability": [
             {
-                "title": "OPS Old Post Spinner 2.2.1 LFI Vulnerability",
+                "title": "OPS Old Post Spinner 2.2.1 - LFI Vulnerability",
                 "reference": "",
                 "type": "LFI"
             }
@@ -2498,7 +2508,7 @@
         "name": "jquery-mega-menu",
         "vulnerability": [
             {
-                "title": "jQuery Mega Menu 1.0 Local File Inclusion",
+                "title": "jQuery Mega Menu 1.0 - Local File Inclusion",
                 "reference": "",
                 "type": "LFI"
             }
@@ -2508,7 +2518,7 @@
         "name": "iwant-one-ihave-one",
         "vulnerability": [
             {
-                "title": "IWantOneButton 3.0.1 Multiple Vulnerabilities",
+                "title": "IWantOneButton 3.0.1 - Multiple Vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -2518,17 +2528,17 @@
         "name": "forum-server",
         "vulnerability": [
             {
-                "title": "WP Forum Server 1.6.5 SQL Injection Vulnerability",
+                "title": "WP Forum Server 1.6.5 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             },
             {
-                "title": "WP Forum Server plugin <= 1.7 SQL Injection Vulnerability",
+                "title": "WP Forum Server <= 1.7 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             },
             {
-                "title": "WP Forum Server plugin <= 1.7.3 SQL Injection \/ XSS Vulnerabilities",
+                "title": "WP Forum Server <= 1.7.3 - SQL Injection \/ XSS Vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -2538,7 +2548,7 @@
         "name": "relevanssi",
         "vulnerability": [
             {
-                "title": "Relevanssi 2.7.2 Stored XSS Vulnerability",
+                "title": "Relevanssi 2.7.2 - Stored XSS Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -2548,7 +2558,7 @@
         "name": "gigpress",
         "vulnerability": [
             {
-                "title": "GigPress 2.1.10 Stored XSS Vulnerability",
+                "title": "GigPress 2.1.10 - Stored XSS Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -2558,12 +2568,12 @@
         "name": "comment-rating",
         "vulnerability": [
             {
-                "title": "WordPress Comment Rating 2.9.32 SQL Injection \/ Bypass",
+                "title": "Comment Rating 2.9.32 - Security Bypass Weakness and SQL Injection",
                 "reference": "",
                 "type": "MULTI"
             },
             {
-                "title": "Comment Rating 2.9.23 Multiple Vulnerabilities",
+                "title": "Comment Rating 2.9.23 - Multiple Vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -2573,7 +2583,7 @@
         "name": "z-vote",
         "vulnerability": [
             {
-                "title": "Z-Vote 1.1 SQL Injection Vulnerability",
+                "title": "Z-Vote 1.1 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -2603,32 +2613,32 @@
         "name": "mingle-forum",
         "vulnerability": [
             {
-                "title": "Mingle Forum <= 1.0.32.1 Cross Site Scripting \/ SQL Injection",
+                "title": "Mingle Forum <= 1.0.32.1 - Cross Site Scripting \/ SQL Injection",
                 "reference": "",
                 "type": "MULTI"
             },
             {
-                "title": "Mingle Forum <= 1.0.31 SQL Injection Vulnerability",
+                "title": "Mingle Forum <= 1.0.31 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             },
             {
-                "title": "Mingle Forum <= 1.0.26 Multiple Vulnerabilities",
+                "title": "Mingle Forum <= 1.0.26 - Multiple Vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             },
             {
-                "title": "Mingle Forum <= 1.0.33 Cross Site Scripting",
+                "title": "Mingle Forum <= 1.0.33 - Cross Site Scripting",
                 "reference": "",
                 "type": "MULTI"
             },
             {
-                "title": "Mingle Forum 1.0.33.3 Multiple Parameter SQL Injection",
+                "title": "Mingle Forum 1.0.33.3 - Multiple Parameter SQL Injection",
                 "reference": "",
                 "type": "SQLI"
             },
             {
-                "title": "Mingle Forum 1.0.35 Privilege Escalation CSRF",
+                "title": "Mingle Forum 1.0.35 - Privilege Escalation CSRF",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -2638,7 +2648,7 @@
         "name": "accept-signups",
         "vulnerability": [
             {
-                "title": "Accept Signups 0.1 XSS",
+                "title": "Accept Signups 0.1 - XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -2703,7 +2713,7 @@
         "name": "cimy-counter",
         "vulnerability": [
             {
-                "title": "Vulnerabilities in Cimy Counter for WordPress",
+                "title": "Cimy Counter - Vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -2728,7 +2738,7 @@
                 "type": "MULTI"
             },
             {
-                "title": "NextGEN Gallery 1.9.12 Arbitrary File Upload",
+                "title": "NextGEN Gallery 1.9.12 - Arbitrary File Upload",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -2773,7 +2783,7 @@
         "name": "wp-cumulus",
         "vulnerability": [
             {
-                "title": "Vulnerabilities in WP-Cumulus <= 1.20 for WordPress",
+                "title": "WP-Cumulus <= 1.20 - Vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             },
@@ -2788,7 +2798,7 @@
         "name": "wp-syntax",
         "vulnerability": [
             {
-                "title": "WP-Syntax <= 0.9.1 Remote Command Execution",
+                "title": "WP-Syntax <= 0.9.1 - Remote Command Execution",
                 "reference": "",
                 "type": "RCE"
             }
@@ -2798,7 +2808,7 @@
         "name": "my-category-order",
         "vulnerability": [
             {
-                "title": "My Category Order <= 2.8 SQL Injection Vulnerability",
+                "title": "My Category Order <= 2.8 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -2808,7 +2818,7 @@
         "name": "related-sites",
         "vulnerability": [
             {
-                "title": "Related Sites 2.1 Blind SQL Injection Vulnerability",
+                "title": "Related Sites 2.1 - Blind SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -2823,12 +2833,12 @@
                 "type": "XSS"
             },
             {
-                "title": "DM Albums 1.9.2 Remote File Disclosure Vulnerability",
+                "title": "DM Albums 1.9.2 - Remote File Disclosure Vulnerability",
                 "reference": "",
                 "type": "LFI"
             },
             {
-                "title": "DM Albums 1.9.2 Remote File Inclusion Vuln",
+                "title": "DM Albums 1.9.2 - Remote File Inclusion Vuln",
                 "reference": "",
                 "type": "RFI"
             }
@@ -2838,17 +2848,17 @@
         "name": "photoracer",
         "vulnerability": [
             {
-                "title": "Photoracer 1.0 (id) SQL Injection Vulnerability",
+                "title": "Photoracer 1.0 - (id) SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             },
             {
-                "title": "Photoracer plugin <= 1.0 SQL Injection Vulnerability",
+                "title": "Photoracer <= 1.0 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             },
             {
-                "title": "Photoracer plugin <= 1.0 Multiple Vulnerabilities",
+                "title": "Photoracer <= 1.0 - Multiple Vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -2868,7 +2878,7 @@
         "name": "fmoblog",
         "vulnerability": [
             {
-                "title": "fMoblog 2.1 (id) SQL Injection Vulnerability",
+                "title": "fMoblog 2.1 - (id) SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -2878,7 +2888,7 @@
         "name": "page-flip-image-gallery",
         "vulnerability": [
             {
-                "title": "Page Flip Image Gallery <= 0.2.2 Remote FD Vuln",
+                "title": "Page Flip Image Gallery <= 0.2.2 - Remote FD Vuln",
                 "reference": "",
                 "type": "LFI"
             }
@@ -2888,7 +2898,7 @@
         "name": "wp-shopping-cart",
         "vulnerability": [
             {
-                "title": "e-Commerce <= 3.4 Arbitrary File Upload Exploit",
+                "title": "e-Commerce <= 3.4 - Arbitrary File Upload Exploit",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -2898,7 +2908,7 @@
         "name": "downloads-manager",
         "vulnerability": [
             {
-                "title": "Download Manager 0.2 Arbitrary File Upload Exploit",
+                "title": "Download Manager 0.2 - Arbitrary File Upload Exploit",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -2908,7 +2918,7 @@
         "name": "wpSS",
         "vulnerability": [
             {
-                "title": "Spreadsheet <= 0.6 SQL Injection Vulnerability",
+                "title": "Spreadsheet <= 0.6 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -2928,7 +2938,7 @@
         "name": "sniplets",
         "vulnerability": [
             {
-                "title": "Sniplets 1.1.2 (RFI\/XSS\/RCE) Multiple Vulnerabilities",
+                "title": "Sniplets 1.1.2 - (RFI\/XSS\/RCE) Multiple Vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -2948,12 +2958,12 @@
         "name": "sf-forum",
         "vulnerability": [
             {
-                "title": "Simple Forum 2.0-2.1 SQL Injection Vulnerability",
+                "title": "Simple Forum 2.0-2.1 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             },
             {
-                "title": "Simple Forum 1.10-1.11 SQL Injection Vulnerability",
+                "title": "Simple Forum 1.10-1.11 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -2988,7 +2998,7 @@
         "name": "dmsguestbook",
         "vulnerability": [
             {
-                "title": "dmsguestbook 1.7.0 Multiple Remote Vulnerabilities",
+                "title": "dmsguestbook 1.7.0 - Multiple Remote Vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -2998,7 +3008,7 @@
         "name": "wassup",
         "vulnerability": [
             {
-                "title": "WassUp 1.4.3 (spy.php to_date) SQL Injection Exploit",
+                "title": "WassUp 1.4.3 - (spy.php to_date) SQL Injection Exploit",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3008,7 +3018,7 @@
         "name": "wp-adserve",
         "vulnerability": [
             {
-                "title": "Adserve 0.2 adclick.php SQL Injection Exploit",
+                "title": "Adserve 0.2 - adclick.php SQL Injection Exploit",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3028,7 +3038,7 @@
         "name": "wp-cal",
         "vulnerability": [
             {
-                "title": "WP-Cal 0.3 editevent.php SQL Injection Vulnerability",
+                "title": "WP-Cal 0.3 - editevent.php SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3038,12 +3048,12 @@
         "name": "wpforum",
         "vulnerability": [
             {
-                "title": "plugin WP-Forum 1.7.4 Remote SQL Injection Vulnerability",
+                "title": "plugin WP-Forum 1.7.4 - Remote SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             },
             {
-                "title": "plugin WP-Forum 1.7.8 Remote SQL Injection Vulnerability",
+                "title": "plugin WP-Forum 1.7.8 - Remote SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3068,7 +3078,7 @@
         "name": "pictpress",
         "vulnerability": [
             {
-                "title": "PictPress <= 0.91 Remote File Disclosure Vulnerability",
+                "title": "PictPress <= 0.91 - Remote File Disclosure Vulnerability",
                 "reference": "",
                 "type": "LFI"
             }
@@ -3088,7 +3098,7 @@
         "name": "myflash",
         "vulnerability": [
             {
-                "title": "plugin myflash <= 1.00 (wppath) RFI Vulnerability",
+                "title": "plugin myflash <= 1.00 - (wppath) RFI Vulnerability",
                 "reference": "",
                 "type": "RFI"
             }
@@ -3098,7 +3108,7 @@
         "name": "wordtube",
         "vulnerability": [
             {
-                "title": "plugin wordTube <= 1.43 (wpPATH) RFI Vulnerability",
+                "title": "plugin wordTube <= 1.43 - (wpPATH) RFI Vulnerability",
                 "reference": "",
                 "type": "RFI"
             }
@@ -3108,7 +3118,7 @@
         "name": "wp-table",
         "vulnerability": [
             {
-                "title": "plugin wp-Table <= 1.43 (inc_dir) RFI Vulnerability",
+                "title": "plugin wp-Table <= 1.43 - (inc_dir) RFI Vulnerability",
                 "reference": "",
                 "type": "RFI"
             }
@@ -3118,7 +3128,7 @@
         "name": "mygallery",
         "vulnerability": [
             {
-                "title": "myGallery <= 1.4b4 Remote File Inclusion Vulnerability",
+                "title": "myGallery <= 1.4b4 - Remote File Inclusion Vulnerability",
                 "reference": "",
                 "type": "RFI"
             }
@@ -3128,7 +3138,7 @@
         "name": "sendit",
         "vulnerability": [
             {
-                "title": "SendIt plugin <= 1.5.9 Blind SQL Injection Vulnerability",
+                "title": "SendIt <= 1.5.9 - Blind SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3138,7 +3148,7 @@
         "name": "js-appointment",
         "vulnerability": [
             {
-                "title": "Js-appointment plugin <= 1.5 SQL Injection Vulnerability",
+                "title": "Js-appointment <= 1.5 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3148,12 +3158,12 @@
         "name": "mm-forms-community",
         "vulnerability": [
             {
-                "title": "MM Forms Community <= 1.2.3 SQL Injection Vulnerability",
+                "title": "MM Forms Community <= 1.2.3 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             },
             {
-                "title": "MM Forms Community 2.2.6 Arbitrary File Upload",
+                "title": "MM Forms Community 2.2.6 - Arbitrary File Upload",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -3163,7 +3173,7 @@
         "name": "super-captcha",
         "vulnerability": [
             {
-                "title": "Super CAPTCHA plugin <= 2.2.4 SQL Injection Vulnerability",
+                "title": "Super CAPTCHA <= 2.2.4 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3173,7 +3183,7 @@
         "name": "collision-testimonials",
         "vulnerability": [
             {
-                "title": "Collision Testimonials plugin <= 3.0 SQL Injection Vulnerability",
+                "title": "Collision Testimonials <= 3.0 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3183,7 +3193,7 @@
         "name": "oqey-headers",
         "vulnerability": [
             {
-                "title": "Oqey Headers plugin <= 0.3 SQL Injection Vulnerability",
+                "title": "Oqey Headers <= 0.3 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3193,7 +3203,7 @@
         "name": "fbpromotions",
         "vulnerability": [
             {
-                "title": "Facebook Promotions plugin <= 1.3.3 SQL Injection Vulnerability",
+                "title": "Facebook Promotions <= 1.3.3 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3203,12 +3213,12 @@
         "name": "evarisk",
         "vulnerability": [
             {
-                "title": "Evarisk plugin <= 5.1.3.6 SQL Injection Vulnerability",
+                "title": "Evarisk <= 5.1.3.6 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             },
             {
-                "title": "Evarisk 5.1.5.4 Shell Upload",
+                "title": "Evarisk 5.1.5.4 - Shell Upload",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -3218,7 +3228,7 @@
         "name": "profiles",
         "vulnerability": [
             {
-                "title": "Profiles plugin <= 2.0 RC1 SQL Injection Vulnerability",
+                "title": "Profiles <= 2.0RC1 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3228,7 +3238,7 @@
         "name": "mystat",
         "vulnerability": [
             {
-                "title": "mySTAT plugin <= 2.6 SQL Injection Vulnerability",
+                "title": "mySTAT <= 2.6 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3238,7 +3248,7 @@
         "name": "sh-slideshow",
         "vulnerability": [
             {
-                "title": "SH Slideshow plugin <= 3.1.4 SQL Injection Vulnerability",
+                "title": "SH Slideshow <= 3.1.4 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3248,7 +3258,7 @@
         "name": "copyright-licensing-tools",
         "vulnerability": [
             {
-                "title": "iCopyright(R) Article Tools plugin <= 1.1.4 SQL Injection Vulnerability",
+                "title": "iCopyright(R) Article Tools <= 1.1.4 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3258,7 +3268,7 @@
         "name": "advertizer",
         "vulnerability": [
             {
-                "title": "Advertizer plugin <= 1.0 SQL Injection Vulnerability",
+                "title": "Advertizer <= 1.0 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3268,17 +3278,17 @@
         "name": "event-registration",
         "vulnerability": [
             {
-                "title": "Event Registration plugin <= 5.44 SQL Injection Vulnerability",
+                "title": "Event Registration <= 5.44 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             },
             {
-                "title": "Event Registration plugin <= 5.43 SQL Injection Vulnerability",
+                "title": "Event Registration <= 5.43 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             },
             {
-                "title": "Event Registration 5.32 SQL Injection Vulnerability",
+                "title": "Event Registration 5.32 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3288,7 +3298,7 @@
         "name": "crawlrate-tracker",
         "vulnerability": [
             {
-                "title": "Craw Rate Tracker plugin <= 2.0.2 SQL Injection Vulnerability",
+                "title": "Craw Rate Tracker <= 2.0.2 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3298,7 +3308,7 @@
         "name": "wp-audio-gallery-playlist",
         "vulnerability": [
             {
-                "title": "wp audio gallery playlist plugin <= 0.12 SQL Injection Vulnerability",
+                "title": "wp audio gallery playlist <= 0.12 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3308,12 +3318,12 @@
         "name": "yolink-search",
         "vulnerability": [
             {
-                "title": "WordPress yolink Search Plugin \"s\" Cross-Site Scripting Vulnerability",
+                "title": "yolink Search \"s\" Cross-Site Scripting Vulnerability",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "yolink Search plugin <= 1.1.4 SQL Injection Vulnerability",
+                "title": "yolink Search <= 1.1.4 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3323,7 +3333,7 @@
         "name": "pure-html",
         "vulnerability": [
             {
-                "title": "PureHTML plugin <= 1.0.0 SQL Injection Vulnerability",
+                "title": "PureHTML <= 1.0.0 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3333,7 +3343,7 @@
         "name": "couponer",
         "vulnerability": [
             {
-                "title": "Couponer plugin <= 1.2 SQL Injection Vulnerability",
+                "title": "Couponer <= 1.2 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3343,7 +3353,7 @@
         "name": "grapefile",
         "vulnerability": [
             {
-                "title": "grapefile plugin <= 1.1 Arbitrary File Upload",
+                "title": "grapefile <= 1.1 - Arbitrary File Upload",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -3353,7 +3363,7 @@
         "name": "image-gallery-with-slideshow",
         "vulnerability": [
             {
-                "title": "image-gallery-with-slideshow plugin <= 1.5 Arbitrary File Upload \/ SQL Injection",
+                "title": "image-gallery-with-slideshow <= 1.5 - Arbitrary File Upload \/ SQL Injection",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -3363,7 +3373,7 @@
         "name": "wordpress-donation-plugin-with-goals-and-paypal-ipn-by-nonprofitcmsorg",
         "vulnerability": [
             {
-                "title": "Donation plugin <= 1.0 SQL Injection Vulnerability",
+                "title": "Donation <= 1.0 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3373,12 +3383,12 @@
         "name": "wp-bannerize",
         "vulnerability": [
             {
-                "title": "WP Bannerize plugin <= 2.8.6 SQL Injection Vulnerability",
+                "title": "WP Bannerize <= 2.8.6 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             },
             {
-                "title": "WP Bannerize plugin <= 2.8.7 SQL Injection Vulnerability",
+                "title": "WP Bannerize <= 2.8.7 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3388,7 +3398,7 @@
         "name": "search-autocomplete",
         "vulnerability": [
             {
-                "title": "SearchAutocomplete plugin <= 1.0.8 SQL Injection Vulnerability",
+                "title": "SearchAutocomplete <= 1.0.8 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3398,7 +3408,7 @@
         "name": "videowhisper-video-presentation",
         "vulnerability": [
             {
-                "title": "VideoWhisper Video Presentation plugin <= 1.1 SQL Injection Vulnerability",
+                "title": "VideoWhisper Video Presentation <= 1.1 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             },
@@ -3413,7 +3423,7 @@
         "name": "facebook-opengraph-meta-plugin",
         "vulnerability": [
             {
-                "title": "Facebook Opengraph Meta plugin <= 1.0 SQL Injection Vulnerability",
+                "title": "Facebook Opengraph Meta <= 1.0 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3423,7 +3433,7 @@
         "name": "zotpress",
         "vulnerability": [
             {
-                "title": "Zotpress plugin <= 4.4 SQL Injection Vulnerability",
+                "title": "Zotpress <= 4.4 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3433,7 +3443,7 @@
         "name": "oqey-gallery",
         "vulnerability": [
             {
-                "title": "oQey Gallery plugin <= 0.4.8 SQL Injection Vulnerability",
+                "title": "oQey Gallery <= 0.4.8 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3443,7 +3453,7 @@
         "name": "tweet-old-post",
         "vulnerability": [
             {
-                "title": "Tweet Old Post plugin <= 3.2.5 SQL Injection Vulnerability",
+                "title": "Tweet Old Post <= 3.2.5 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3453,7 +3463,7 @@
         "name": "post-highlights",
         "vulnerability": [
             {
-                "title": "post highlights plugin <= 2.2 SQL Injection Vulnerability",
+                "title": "post highlights <= 2.2 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3463,7 +3473,7 @@
         "name": "knr-author-list-widget",
         "vulnerability": [
             {
-                "title": "KNR Author List Widget plugin <= 2.0.0 SQL Injection Vulnerability",
+                "title": "KNR Author List Widget <= 2.0.0 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3473,7 +3483,7 @@
         "name": "scormcloud",
         "vulnerability": [
             {
-                "title": "SCORM Cloud plugin <= 1.0.6.6 SQL Injection Vulnerability",
+                "title": "SCORM Cloud <= 1.0.6.6 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3483,7 +3493,7 @@
         "name": "eventify",
         "vulnerability": [
             {
-                "title": "Eventify - Simple Events plugin <= 1.7.f SQL Injection Vulnerability",
+                "title": "Eventify - Simple Events <= 1.7.f SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3493,7 +3503,7 @@
         "name": "paid-downloads",
         "vulnerability": [
             {
-                "title": "Paid Downloads plugin <= 2.01 SQL Injection Vulnerability",
+                "title": "Paid Downloads <= 2.01 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3503,7 +3513,7 @@
         "name": "community-events",
         "vulnerability": [
             {
-                "title": "Community Events plugin <= 1.2.1 SQL Injection Vulnerability",
+                "title": "Community Events <= 1.2.1 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3513,7 +3523,7 @@
         "name": "1-flash-gallery",
         "vulnerability": [
             {
-                "title": "1-flash-gallery <= 1.9.0 XSS in ZeroClipboard.swf",
+                "title": "1-flash-gallery <= 1.9.0 - XSS in ZeroClipboard.swf",
                 "reference": "",
                 "type": "XSS"
             },
@@ -3528,12 +3538,12 @@
         "name": "wp-filebase",
         "vulnerability": [
             {
-                "title": "WP-Filebase Download Manager plugin <= 0.2.9 SQL Injection Vulnerability",
+                "title": "WP-Filebase Download Manager <= 0.2.9 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             },
             {
-                "title": "WordPress WP-Filebase Plugin Unspecified Vulnerabilities",
+                "title": "WP-Filebase Unspecified Vulnerabilities",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -3543,7 +3553,7 @@
         "name": "a-to-z-category-listing",
         "vulnerability": [
             {
-                "title": "A to Z Category Listing plugin <= 1.3 SQL Injection Vulnerability",
+                "title": "A to Z Category Listing <= 1.3 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3553,12 +3563,12 @@
         "name": "wp-e-commerce",
         "vulnerability": [
             {
-                "title": "WP e-Commerce plugin <= 3.8.6 SQL Injection Vulnerability",
+                "title": "WP e-Commerce <= 3.8.6 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             },
             {
-                "title": "WP-e-Commerce plugin v3.8.9.5 Cross Site Scripting Vulnerability",
+                "title": "WP-e-Commerce v3.8.9.5 - Cross Site Scripting Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -3568,7 +3578,7 @@
         "name": "filedownload",
         "vulnerability": [
             {
-                "title": "Filedownload 0.1 (download.php) Remote File Disclosure Vulnerability",
+                "title": "Filedownload 0.1 - (download.php) Remote File Disclosure Vulnerability",
                 "reference": "",
                 "type": "LFI"
             }
@@ -3578,12 +3588,12 @@
         "name": "thecartpress",
         "vulnerability": [
             {
-                "title": "TheCartPress <= 1.6 Cross Site Sripting",
+                "title": "TheCartPress <= 1.6 - Cross Site Sripting",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "TheCartPress 1.1.1 Remote File Inclusion",
+                "title": "TheCartPress 1.1.1 - Remote File Inclusion",
                 "reference": "",
                 "type": "RFI"
             }
@@ -3593,7 +3603,7 @@
         "name": "wpeasystats",
         "vulnerability": [
             {
-                "title": "WPEasyStats 1.8 Remote File Inclusion",
+                "title": "WPEasyStats 1.8 - Remote File Inclusion",
                 "reference": "",
                 "type": "RFI"
             }
@@ -3603,7 +3613,7 @@
         "name": "annonces",
         "vulnerability": [
             {
-                "title": "Annonces 1.2.0.0 Remote File Inclusion",
+                "title": "Annonces 1.2.0.0 - Remote File Inclusion",
                 "reference": "",
                 "type": "RFI"
             }
@@ -3613,7 +3623,7 @@
         "name": "livesig",
         "vulnerability": [
             {
-                "title": "Livesig 0.4 Remote File Inclusion",
+                "title": "Livesig 0.4 - Remote File Inclusion",
                 "reference": "",
                 "type": "RFI"
             }
@@ -3623,7 +3633,7 @@
         "name": "disclosure-policy-plugin",
         "vulnerability": [
             {
-                "title": "Disclosure Policy 1.0 Remote File Inclusion",
+                "title": "Disclosure Policy 1.0 - Remote File Inclusion",
                 "reference": "",
                 "type": "RFI"
             }
@@ -3633,7 +3643,7 @@
         "name": "mailz",
         "vulnerability": [
             {
-                "title": "Mailing List 1.3.2 Remote File Inclusion",
+                "title": "Mailing List 1.3.2 - Remote File Inclusion",
                 "reference": "",
                 "type": "RFI"
             },
@@ -3648,12 +3658,12 @@
         "name": "g-web-shop",
         "vulnerability": [
             {
-                "title": "Zingiri Web Shop 2.2.0 Remote File Inclusion",
+                "title": "Zingiri Web Shop 2.2.0 - Remote File Inclusion",
                 "reference": "",
                 "type": "RFI"
             },
             {
-                "title": "Zingiri Web Shop <= 2.2.3 Remote Code Execution",
+                "title": "Zingiri Web Shop <= 2.2.3 - Remote Code Execution",
                 "reference": "",
                 "type": "RCE"
             }
@@ -3663,12 +3673,12 @@
         "name": "mini-mail-dashboard-widget",
         "vulnerability": [
             {
-                "title": "Mini Mail Dashboard Widget 1.36 Remote File Inclusion",
+                "title": "Mini Mail Dashboard Widget 1.36 - Remote File Inclusion",
                 "reference": "",
                 "type": "RFI"
             },
             {
-                "title": "Mini Mail Dashboard Widget 1.42 Stored XSS",
+                "title": "Mini Mail Dashboard Widget 1.42 - Stored XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -3678,7 +3688,7 @@
         "name": "relocate-upload",
         "vulnerability": [
             {
-                "title": "Relocate Upload 0.14 Remote File Inclusion",
+                "title": "Relocate Upload 0.14 - Remote File Inclusion",
                 "reference": "",
                 "type": "RFI"
             }
@@ -3688,7 +3698,7 @@
         "name": "category-grid-view-gallery",
         "vulnerability": [
             {
-                "title": "Category Grid View Gallery plugin 0.1.1 Shell Upload vulnerability",
+                "title": "Category Grid View Gallery 0.1.1 - Shell Upload vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             },
@@ -3703,7 +3713,7 @@
         "name": "auto-attachments",
         "vulnerability": [
             {
-                "title": "Auto Attachments plugin 0.2.9 Shell Upload vulnerability",
+                "title": "Auto Attachments 0.2.9 - Shell Upload vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -3713,7 +3723,7 @@
         "name": "wp-marketplace",
         "vulnerability": [
             {
-                "title": "WP Marketplace plugin 1.1.0 Shell Upload vulnerability",
+                "title": "WP Marketplace 1.1.0 - Shell Upload vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -3723,7 +3733,7 @@
         "name": "dp-thumbnail",
         "vulnerability": [
             {
-                "title": "DP Thumbnail plugin 1.0 Shell Upload vulnerability",
+                "title": "DP Thumbnail 1.0 - Shell Upload vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -3733,7 +3743,7 @@
         "name": "vk-gallery",
         "vulnerability": [
             {
-                "title": "Vk Gallery plugin 1.1.0 Shell Upload vulnerability",
+                "title": "Vk Gallery 1.1.0 - Shell Upload vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -3743,7 +3753,7 @@
         "name": "rekt-slideshow",
         "vulnerability": [
             {
-                "title": "Rekt Slideshow plugin 1.0.5 Shell Upload vulnerability",
+                "title": "Rekt Slideshow 1.0.5 - Shell Upload vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -3753,7 +3763,7 @@
         "name": "cac-featured-content",
         "vulnerability": [
             {
-                "title": "CAC Featured Content plugin 0.8 Shell Upload vulnerability",
+                "title": "CAC Featured Content 0.8 - Shell Upload vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -3763,7 +3773,7 @@
         "name": "rent-a-car",
         "vulnerability": [
             {
-                "title": "Rent A Car plugin 1.0 Shell Upload vulnerability",
+                "title": "Rent A Car 1.0 - Shell Upload vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -3773,7 +3783,7 @@
         "name": "lisl-last-image-slider",
         "vulnerability": [
             {
-                "title": "LISL Last Image Slider plugin 1.0 Shell Upload vulnerability",
+                "title": "LISL Last Image Slider 1.0 - Shell Upload vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -3783,7 +3793,7 @@
         "name": "islidex",
         "vulnerability": [
             {
-                "title": "Islidex plugin 2.7 Shell Upload vulnerability",
+                "title": "Islidex 2.7 - Shell Upload vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -3793,7 +3803,7 @@
         "name": "kino-gallery",
         "vulnerability": [
             {
-                "title": "Kino Gallery plugin 1.0 Shell Upload vulnerability",
+                "title": "Kino Gallery 1.0 - Shell Upload vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -3803,7 +3813,7 @@
         "name": "cms-pack-cache",
         "vulnerability": [
             {
-                "title": "Cms Pack plugin 1.3 Shell Upload vulnerability",
+                "title": "Cms Pack 1.3 - Shell Upload vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -3813,7 +3823,7 @@
         "name": "a-gallery",
         "vulnerability": [
             {
-                "title": "A Gallery plugin 0.9 Shell Upload vulnerability",
+                "title": "A Gallery 0.9 - Shell Upload vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -3823,7 +3833,7 @@
         "name": "category-list-portfolio-page",
         "vulnerability": [
             {
-                "title": "Category List Portfolio Page plugin 0.9 Shell Upload vulnerability",
+                "title": "Category List Portfolio Page 0.9 - Shell Upload vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -3833,7 +3843,7 @@
         "name": "really-easy-slider",
         "vulnerability": [
             {
-                "title": "Really Easy Slider plugin 0.1 Shell Upload vulnerability",
+                "title": "Really Easy Slider 0.1 - Shell Upload vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -3843,7 +3853,7 @@
         "name": "verve-meta-boxes",
         "vulnerability": [
             {
-                "title": "Verve Meta Boxes plugin 1.2.8 Shell Upload vulnerability",
+                "title": "Verve Meta Boxes 1.2.8 - Shell Upload vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -3853,7 +3863,7 @@
         "name": "user-avatar",
         "vulnerability": [
             {
-                "title": "User Avatar plugin 1.3.7 shell upload vulnerability",
+                "title": "User Avatar 1.3.7 - shell upload vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -3863,7 +3873,7 @@
         "name": "extend-wordpress",
         "vulnerability": [
             {
-                "title": "Extend plugin 1.3.7 Shell Upload vulnerability",
+                "title": "Extend 1.3.7 - Shell Upload vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -3873,12 +3883,12 @@
         "name": "adrotate",
         "vulnerability": [
             {
-                "title": "AdRotate plugin <= 3.6.5 SQL Injection Vulnerability",
+                "title": "AdRotate <= 3.6.5 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             },
             {
-                "title": "AdRotate plugin <= 3.6.6 SQL Injection Vulnerability",
+                "title": "AdRotate <= 3.6.6 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3888,7 +3898,7 @@
         "name": "wp-spamfree",
         "vulnerability": [
             {
-                "title": "WP-SpamFree 3.2.1 Spam SQL Injection Vulnerability",
+                "title": "WP-SpamFree 3.2.1 - Spam SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3898,17 +3908,17 @@
         "name": "gd-star-rating",
         "vulnerability": [
             {
-                "title": "WordPress GD Star Rating Plugin Export Security Bypass Security Issue",
+                "title": "GD Star Rating - Export Security Bypass Security Issue",
                 "reference": "",
                 "type": "AUTHBYPASS"
             },
             {
-                "title": "GD Star Rating plugin <= 1.9.16 Cross Site Scripting",
+                "title": "GD Star Rating <= 1.9.16 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "GD Star Rating plugin <= 1.9.10 SQL Injection",
+                "title": "GD Star Rating <= 1.9.10 - SQL Injection",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3918,7 +3928,7 @@
         "name": "contact-form-wordpress",
         "vulnerability": [
             {
-                "title": "Contact Form plugin <= 2.7.5 SQL Injection",
+                "title": "Contact Form <= 2.7.5 - SQL Injection",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -3928,12 +3938,12 @@
         "name": "wp-photo-album-plus",
         "vulnerability": [
             {
-                "title": "WP Photo Album Plus <= 4.1.1 SQL Injection",
+                "title": "WP Photo Album Plus <= 4.1.1 - SQL Injection",
                 "reference": "",
                 "type": "SQLI"
             },
             {
-                "title": "WP Photo Album Plus <= 4.8.12 wp-photo-album-plus.php wppa-searchstring XSS",
+                "title": "WP Photo Album Plus <= 4.8.12 - wp-photo-album-plus.php wppa-searchstring XSS",
                 "reference": "",
                 "type": "XSS"
             },
@@ -3948,7 +3958,7 @@
                 "type": "XSS"
             },
             {
-                "title": "WordPress WP Photo Album Plus \"commentid\" Cross-Site Scripting Vulnerability",
+                "title": "WP Photo Album Plus \"commentid\" Cross-Site Scripting Vulnerability",
                 "reference": "",
                 "type": "XSS"
             },
@@ -3983,7 +3993,7 @@
         "name": "portable-phpmyadmin",
         "vulnerability": [
             {
-                "title": "portable-phpMyAdmin Authentication Bypass",
+                "title": "portable-phpMyAdmin - Authentication Bypass",
                 "reference": "",
                 "type": "AUTHBYPASS"
             }
@@ -3993,7 +4003,7 @@
         "name": "super-refer-a-friend",
         "vulnerability": [
             {
-                "title": "super-refer-a-friend Full Path Disclosure",
+                "title": "super-refer-a-friend - Full Path Disclosure",
                 "reference": "",
                 "type": "FPD"
             }
@@ -4023,7 +4033,7 @@
         "name": "wp-super-cache",
         "vulnerability": [
             {
-                "title": "WP-Super-Cache Remote Code Execution",
+                "title": "WP-Super-Cache - Remote Code Execution",
                 "reference": "",
                 "type": "RCE"
             }
@@ -4033,12 +4043,12 @@
         "name": "ripe-hd-player",
         "vulnerability": [
             {
-                "title": "ripe-hd-player 1.0 SQL Injection",
+                "title": "ripe-hd-player 1.0 - SQL Injection",
                 "reference": "",
                 "type": "SQLI"
             },
             {
-                "title": "ripe-hd-player 1.0 Full Path Disclosure",
+                "title": "ripe-hd-player 1.0 - Full Path Disclosure",
                 "reference": "",
                 "type": "FPD"
             }
@@ -4048,7 +4058,7 @@
         "name": "floating-tweets",
         "vulnerability": [
             {
-                "title": "floating-tweets persistent XSS",
+                "title": "floating-tweets persistent - XSS",
                 "reference": "",
                 "type": "XSS"
             },
@@ -4063,7 +4073,7 @@
         "name": "ipfeuilledechou",
         "vulnerability": [
             {
-                "title": "ipfeuilledechou SQL Injection Vulnerability",
+                "title": "ipfeuilledechou - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -4073,12 +4083,12 @@
         "name": "simple-login-log",
         "vulnerability": [
             {
-                "title": "Simple Login Log Plugin XSS",
+                "title": "Simple Login Log - XSS",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "Simple Login Log Plugin SQL Injection",
+                "title": "Simple Login Log SQL Injection",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -4118,7 +4128,7 @@
         "name": "wp-file-uploader",
         "vulnerability": [
             {
-                "title": "WordPress File Uploader Plugin PHP File Upload Vulnerability",
+                "title": "File Uploader PHP File Upload Vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -4128,7 +4138,7 @@
         "name": "cardoza-wordpress-poll",
         "vulnerability": [
             {
-                "title": "WordPress Poll Plugin Cross-Site Request Forgery Vulnerability",
+                "title": "Poll Cross-Site Request Forgery Vulnerability",
                 "reference": "",
                 "type": "CSRF"
             },
@@ -4138,7 +4148,7 @@
                 "type": "SQLI"
             },
             {
-                "title": "WordPress Poll Plugin Multiple SQL Injection Vulnerabilities",
+                "title": "Poll Multiple SQL Injection Vulnerabilities",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -4148,7 +4158,7 @@
         "name": "devformatter",
         "vulnerability": [
             {
-                "title": "Wordpress Developer Formatter CSRF and XSS Vulnerability",
+                "title": "Developer Formatter CSRF and XSS Vulnerability",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -4158,7 +4168,7 @@
         "name": "dvs-custom-notification",
         "vulnerability": [
             {
-                "title": "WordPress DVS Custom Notification Plugin Cross-Site Request Forgery Vulnerability",
+                "title": "DVS Custom Notification Cross-Site Request Forgery Vulnerability",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -4198,7 +4208,7 @@
         "name": "usc-e-shop",
         "vulnerability": [
             {
-                "title": "WordPress Welcart e-Commerce Plugin Cross-Site Scripting and Request Forgery Vulnerabilities",
+                "title": "Welcart e-Commerce Cross-Site Scripting and Request Forgery Vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -4208,7 +4218,7 @@
         "name": "knews",
         "vulnerability": [
             {
-                "title": "WordPress Knews Multilingual Newsletters Plugin Cross-Site Request Forgery Vulnerability",
+                "title": "Knews Multilingual Newsletters Cross-Site Request Forgery Vulnerability",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -4218,7 +4228,7 @@
         "name": "video-lead-form",
         "vulnerability": [
             {
-                "title": "WordPress Video Lead Form Plugin \"errMsg\" Cross-Site Scripting Vulnerability",
+                "title": "Video Lead Form \"errMsg\" Cross-Site Scripting Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4228,7 +4238,7 @@
         "name": "woocommerce-predictive-search",
         "vulnerability": [
             {
-                "title": "WordPress WooCommerce Predictive Search Plugin \"rs\" Cross-Site Scripting Vulnerability",
+                "title": "WooCommerce Predictive Search \"rs\" Cross-Site Scripting Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4248,7 +4258,7 @@
         "name": "wp-e-commerce-predictive-search",
         "vulnerability": [
             {
-                "title": "WordPress WP e-Commerce Predictive Search Plugin \"rs\" Cross-Site Scripting Vulnerability",
+                "title": "WP e-Commerce Predictive Search \"rs\" Cross-Site Scripting Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4258,7 +4268,7 @@
         "name": "wp-tiger",
         "vulnerability": [
             {
-                "title": "WordPress vTiger CRM Lead Capture Plugin Unspecified Vulnerability",
+                "title": "vTiger CRM Lead Capture Unspecified Vulnerability",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -4268,12 +4278,12 @@
         "name": "wp-postviews",
         "vulnerability": [
             {
-                "title": "WordPress post-views Plugin \"search_input\" Cross-Site Scripting Vulnerability",
+                "title": "WP-PostViews \"search_input\" Cross-Site Scripting Vulnerability",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "WordPress WP-PostViews Plugin Cross-Site Request Forgery Vulnerability",
+                "title": "WP-PostViews Cross-Site Request Forgery Vulnerability",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -4283,7 +4293,7 @@
         "name": "dx-contribute",
         "vulnerability": [
             {
-                "title": "WordPress DX-Contribute Plugin Cross-Site Request Forgery Vulnerability",
+                "title": "DX-Contribute Cross-Site Request Forgery Vulnerability",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -4298,7 +4308,7 @@
                 "type": "SQLI"
             },
             {
-                "title": "WordPress Wysija Newsletters Plugin swfupload Cross-Site Scripting Vulnerability",
+                "title": "Wysija Newsletters swfupload Cross-Site Scripting Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4308,7 +4318,7 @@
         "name": "hitasoft_player",
         "vulnerability": [
             {
-                "title": "WordPress Hitasoft FLV Player Plugin \"id\" SQL Injection Vulnerability",
+                "title": "Hitasoft FLV Player - \"id\" SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -4318,7 +4328,7 @@
         "name": "spider-calendar",
         "vulnerability": [
             {
-                "title": "Spider Calendar Plugin \"many_sp_calendar\" Cross-Site Scripting Vulnerability",
+                "title": "Spider Calendar - \"many_sp_calendar\" Cross-Site Scripting Vulnerability",
                 "reference": "",
                 "type": "XSS"
             },
@@ -4333,7 +4343,7 @@
         "name": "dynamic-font-replacement-4wp",
         "vulnerability": [
             {
-                "title": "Wordpress Dynamic Font Replacement 1.3 plugin SQL Injection Vulnerability",
+                "title": "Dynamic Font Replacement 1.3 - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -4343,7 +4353,7 @@
         "name": "form",
         "vulnerability": [
             {
-                "title": "WordPress Zingiri Form Builder Plugin \"error\" Cross-Site Scripting Vulnerability",
+                "title": "Zingiri Form Builder - \"error\" Cross-Site Scripting Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4353,7 +4363,7 @@
         "name": "white-label-cms",
         "vulnerability": [
             {
-                "title": "WordPress White Label CMS Plugin Cross-Site Request Forgery Vulnerability",
+                "title": "White Label CMS - Cross-Site Request Forgery Vulnerability",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -4363,7 +4373,7 @@
         "name": "download-shortcode",
         "vulnerability": [
             {
-                "title": "Wordpress Download Shortcode Plugin \"file\" Arbitrary File Disclosure Vulnerability",
+                "title": "Download Shortcode - \"file\" Arbitrary File Disclosure Vulnerability",
                 "reference": "",
                 "type": "LFI"
             }
@@ -4373,7 +4383,7 @@
         "name": "eshop-magic",
         "vulnerability": [
             {
-                "title": "WordPress eShop Magic Plugin \"file\" Arbitrary File Disclosure Vulnerability",
+                "title": "eShop Magic - \"file\" Arbitrary File Disclosure Vulnerability",
                 "reference": "",
                 "type": "LFI"
             }
@@ -4383,7 +4393,7 @@
         "name": "pinterest-pin-it-button",
         "vulnerability": [
             {
-                "title": "WordPress Pinterest \"Pin It\" Button Lite Plugin Multiple Unspecified Vulnerabilities",
+                "title": "Pinterest \"Pin It\" Button Lite - Multiple Unspecified Vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -4393,7 +4403,7 @@
         "name": "css-plus",
         "vulnerability": [
             {
-                "title": "WordPress CSS Plus Plugin Unspecified Vulnerabilities",
+                "title": "CSS Plus - Unspecified Vulnerabilities",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -4403,7 +4413,7 @@
         "name": "multisite-plugin-manager",
         "vulnerability": [
             {
-                "title": "WordPress Multisite Plugin Manager Plugin Two Cross-Site Scripting Vulnerabilities",
+                "title": "Multisite plugin Manager - Two Cross-Site Scripting Vulnerabilities",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4413,7 +4423,7 @@
         "name": "abc-test",
         "vulnerability": [
             {
-                "title": "WordPress ABC Test Plugin \"id\" Cross-Site Scripting Vulnerability",
+                "title": "ABC Test - \"id\" Cross-Site Scripting Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4423,7 +4433,7 @@
         "name": "token-manager",
         "vulnerability": [
             {
-                "title": "Wordpress Token Manager Plugin \"tid\" Cross-Site Scripting Vulnerabilities",
+                "title": "Token Manager - \"tid\" Cross-Site Scripting Vulnerabilities",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4433,7 +4443,7 @@
         "name": "sexy-add-template",
         "vulnerability": [
             {
-                "title": "WordPress Sexy Add Template Plugin Cross-Site Request Forgery Vulnerability",
+                "title": "Sexy Add Template - Cross-Site Request Forgery Vulnerability",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -4443,7 +4453,7 @@
         "name": "notices",
         "vulnerability": [
             {
-                "title": "WordPress Notices Ticker Plugin Cross-Site Request Forgery Vulnerability",
+                "title": "Notices Ticker - Cross-Site Request Forgery Vulnerability",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -4453,7 +4463,7 @@
         "name": "mf-gig-calendar",
         "vulnerability": [
             {
-                "title": "WordPress MF Gig Calendar Plugin URL Cross-Site Scripting Vulnerability",
+                "title": "MF Gig Calendar - URL Cross-Site Scripting Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4463,12 +4473,12 @@
         "name": "wp-topbar",
         "vulnerability": [
             {
-                "title": "wp-topbar <= 3.04 XSS in ZeroClipboard.swf",
+                "title": "wp-topbar <= 3.04 - XSS in ZeroClipboard.swf",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "WordPress WP-TopBar Plugin Cross-Site Request Forgery Vulnerability",
+                "title": "WP-TopBar - Cross-Site Request Forgery Vulnerability",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -4478,7 +4488,7 @@
         "name": "webplayer",
         "vulnerability": [
             {
-                "title": "WordPress HD Webplayer Plugin Two SQL Injection Vulnerabilities",
+                "title": "HD Webplayer - Two SQL Injection Vulnerabilities",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -4488,7 +4498,7 @@
         "name": "cloudsafe365-for-wp",
         "vulnerability": [
             {
-                "title": "WordPress Cloudsafe365 Plugin Multiple Vulnerabilities",
+                "title": "Cloudsafe365 - Multiple Vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -4498,7 +4508,7 @@
         "name": "vitamin",
         "vulnerability": [
             {
-                "title": "WordPress Vitamin Plugin Two Arbitrary File Disclosure Vulnerabilities",
+                "title": "Vitamin - Two Arbitrary File Disclosure Vulnerabilities",
                 "reference": "",
                 "type": "LFI"
             }
@@ -4508,7 +4518,7 @@
         "name": "featured-post-with-thumbnail",
         "vulnerability": [
             {
-                "title": "WordPress Featured Post with thumbnail Plugin Unspecified timthumb Vulnerability",
+                "title": "Featured Post with thumbnail - Unspecified timthumb Vulnerability",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -4518,7 +4528,7 @@
         "name": "wp-effective-lead-management",
         "vulnerability": [
             {
-                "title": "WordPress WP Lead Management Plugin Script Insertion Vulnerabilities",
+                "title": "WP Lead Management - Script Insertion Vulnerabilities",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4528,7 +4538,7 @@
         "name": "xve-various-embed",
         "vulnerability": [
             {
-                "title": "WordPress XVE Various Embed Plugin JW Player Multiple Cross-Site Scripting Vulnerabilities\n      ",
+                "title": "XVE Various Embed - JW Player Multiple Cross-Site Scripting Vulnerabilities\n      ",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4538,7 +4548,7 @@
         "name": "g-lock-double-opt-in-manager",
         "vulnerability": [
             {
-                "title": "WordPress G-Lock Double Opt-in Manager Plugin Two Security Bypass Vulnerabilities",
+                "title": "G-Lock Double Opt-in Manager - Two Security Bypass Vulnerabilities",
                 "reference": "",
                 "type": "AUTHBYPASS"
             }
@@ -4548,7 +4558,7 @@
         "name": "kau-boys-backend-localization",
         "vulnerability": [
             {
-                "title": "WordPress Backend Localization Plugin Cross-Site Scripting Vulnerabilities",
+                "title": "Backend Localization - Cross-Site Scripting Vulnerabilities",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4558,7 +4568,7 @@
         "name": "flexi-quote-rotator",
         "vulnerability": [
             {
-                "title": "WordPress Flexi Quote Rotator Plugin Cross-Site Request Forgery and SQL Injection Vulnerabilities",
+                "title": "Flexi Quote Rotator - Cross-Site Request Forgery and SQL Injection Vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -4568,7 +4578,7 @@
         "name": "gotmls",
         "vulnerability": [
             {
-                "title": "WordPress Get Off Malicious Scripts Cross-Site Scripting Vulnerability",
+                "title": "Get Off Malicious Scripts Cross-Site Scripting Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4578,7 +4588,7 @@
         "name": "cimy-user-extra-fields",
         "vulnerability": [
             {
-                "title": "WordPress Cimy User Extra Fields Plugin Arbitrary File Upload Vulnerability",
+                "title": "Cimy User Extra Fields - Arbitrary File Upload Vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -4588,7 +4598,7 @@
         "name": "nmedia-user-file-uploader",
         "vulnerability": [
             {
-                "title": "WordPress Nmedia Users File Uploader Plugin Arbitrary File Upload Vulnerability",
+                "title": "Nmedia Users File Uploader - Arbitrary File Upload Vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -4628,7 +4638,7 @@
         "name": "RLSWordPressSearch",
         "vulnerability": [
             {
-                "title": "Wordpress RLSWordPressSearch plugin SQL Injection",
+                "title": "RLSWordPressSearch - SQL Injection",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -4638,7 +4648,7 @@
         "name": "wordpress-simple-shout-box",
         "vulnerability": [
             {
-                "title": "wordpress-simple-shout-box Plugin SQL Injection",
+                "title": "wordpress-simple-shout-box - SQL Injection",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -4648,7 +4658,7 @@
         "name": "portfolio-slideshow-pro",
         "vulnerability": [
             {
-                "title": "Wordpress portfolio-slideshow-pro v3 Plugin SQL Injection",
+                "title": "portfolio-slideshow-pro v3 - SQL Injection",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -4658,7 +4668,7 @@
         "name": "simple-history",
         "vulnerability": [
             {
-                "title": "WordPress Simple History Plugin RSS Feed \"rss_secret\" Disclosure Weakness",
+                "title": "Simple History - RSS Feed \"rss_secret\" Disclosure Weakness",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -4668,7 +4678,7 @@
         "name": "p1m-media-manager",
         "vulnerability": [
             {
-                "title": "WordPress p1m media manager plugin SQL Injection Vulnerability",
+                "title": "p1m media manager - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -4678,12 +4688,12 @@
         "name": "wp-table-reloaded",
         "vulnerability": [
             {
-                "title": "wp-table-reloaded <= 1.9.3 XSS in ZeroClipboard.swf",
+                "title": "wp-table-reloaded <= 1.9.3 - XSS in ZeroClipboard.swf",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "Wordpress wp-table-reloaded plugin cross-site scripting in SWF",
+                "title": "wp-table-reloaded - cross-site scripting in SWF",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4693,7 +4703,7 @@
         "name": "wordpress-gallery",
         "vulnerability": [
             {
-                "title": "WordPress Gallery Plugin \"load\" Remote File Inclusion Vulnerability",
+                "title": "Gallery - \"load\" Remote File Inclusion Vulnerability",
                 "reference": "",
                 "type": "RFI"
             }
@@ -4703,7 +4713,7 @@
         "name": "forumconverter",
         "vulnerability": [
             {
-                "title": "Wordpress plugins ForumConverter SQL Injection Vulnerability",
+                "title": "ForumConverter SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -4713,12 +4723,12 @@
         "name": "newsletter",
         "vulnerability": [
             {
-                "title": "WordPress plugins Newsletter SQL Injection Vulnerability",
+                "title": "Newsletter SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             },
             {
-                "title": "WordPress Newsletter Plugin \"alert\" Cross-Site Scripting Vulnerability",
+                "title": "Newsletter - \"alert\" Cross-Site Scripting Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4738,7 +4748,7 @@
         "name": "wp-forum",
         "vulnerability": [
             {
-                "title": "Wordpress wp-forum plugin SQL Injection",
+                "title": "wp-forum - SQL Injection",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -4748,7 +4758,7 @@
         "name": "wp-ecommerce-shop-styling",
         "vulnerability": [
             {
-                "title": "WordPress WP ecommerce Shop Styling Plugin \"dompdf\" Remote File Inclusion Vulnerability",
+                "title": "WP ecommerce Shop Styling - \"dompdf\" Remote File Inclusion Vulnerability",
                 "reference": "",
                 "type": "RFI"
             }
@@ -4758,7 +4768,7 @@
         "name": "audio-player",
         "vulnerability": [
             {
-                "title": "Wordpress Audio Player Plugin XSS in SWF",
+                "title": "Audio Player - XSS in SWF",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4768,7 +4778,7 @@
         "name": "ckeditor-for-wordpress",
         "vulnerability": [
             {
-                "title": "Wordpress plugin CKEditor 4.0 Arbitrary File Upload Exploit",
+                "title": "CKEditor 4.0 - Arbitrary File Upload Exploit",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -4778,7 +4788,7 @@
         "name": "myftp-ftp-like-plugin-for-wordpress",
         "vulnerability": [
             {
-                "title": "wordpress myftp-ftp-like-plugin-for-wordpress plugin v2 Plugin SQL Injection",
+                "title": "myftp-ftp-like-plugin-for-wordpress v2 - SQL Injection",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -4788,7 +4798,7 @@
         "name": "wp-online-store",
         "vulnerability": [
             {
-                "title": "WordPress WP Online Store Plugin 1.3.1 downloaded before 2013-01-17 File Disclosure and File Inclusion\n        Vulnerabilities\n      ",
+                "title": "WP Online Store 1.3.1 - downloaded before 2013-01-17 File Disclosure and File Inclusion\n        Vulnerabilities\n      ",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -4798,7 +4808,7 @@
         "name": "password-protected",
         "vulnerability": [
             {
-                "title": "Password Protected 1.4 Login Process redirect_to Parameter Arbitrary Site Redirect",
+                "title": "Password Protected 1.4 - Login Process redirect_to Parameter Arbitrary Site Redirect",
                 "reference": "",
                 "type": "REDIRECT"
             }
@@ -4808,7 +4818,7 @@
         "name": "contact-form-plugin",
         "vulnerability": [
             {
-                "title": "Contact Form Plugin XSS",
+                "title": "Contact Form - XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4828,7 +4838,7 @@
         "name": "GoogleAlertandtwitterplugin",
         "vulnerability": [
             {
-                "title": "Google Alert And Twitter v.3.1.5 XSS Exploit, SQL Injection",
+                "title": "Google Alert And Twitter 3.1.5 - XSS Exploit, SQL Injection",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -4868,7 +4878,7 @@
         "name": "zopim-live-chat",
         "vulnerability": [
             {
-                "title": "zopim-live-chat <= 1.2.5 XSS in ZeroClipboard",
+                "title": "zopim-live-chat <= 1.2.5 - XSS in ZeroClipboard",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4878,7 +4888,7 @@
         "name": "ed2k-link-selector",
         "vulnerability": [
             {
-                "title": "ed2k-link-selector <= 1.1.7 XSS in ZeroClipboard",
+                "title": "ed2k-link-selector <= 1.1.7 - XSS in ZeroClipboard",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4888,7 +4898,7 @@
         "name": "wppygments",
         "vulnerability": [
             {
-                "title": "wppygments <= 0.3.2 XSS in ZeroClipboard",
+                "title": "wppygments <= 0.3.2 - XSS in ZeroClipboard",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4898,7 +4908,7 @@
         "name": "copy-in-clipboard",
         "vulnerability": [
             {
-                "title": "copy-in-clipboard <= 0.8 XSS in ZeroClipboard",
+                "title": "copy-in-clipboard <= 0.8 - XSS in ZeroClipboard",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4908,7 +4918,7 @@
         "name": "search-and-share",
         "vulnerability": [
             {
-                "title": "search-and-share <= 0.9.3 XSS in ZeroClipboard",
+                "title": "search-and-share <= 0.9.3 - XSS in ZeroClipboard",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4918,7 +4928,7 @@
         "name": "placester",
         "vulnerability": [
             {
-                "title": "placester <= 0.3.12 XSS in ZeroClipboard",
+                "title": "placester <= 0.3.12 - XSS in ZeroClipboard",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4928,7 +4938,7 @@
         "name": "drp-coupon",
         "vulnerability": [
             {
-                "title": "drp-coupon <= 2.1 XSS in ZeroClipboard",
+                "title": "drp-coupon <= 2.1 - XSS in ZeroClipboard",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4938,7 +4948,7 @@
         "name": "coupon-code-plugin",
         "vulnerability": [
             {
-                "title": "coupon-code-plugin <= 2.1 XSS in ZeroClipboard",
+                "title": "coupon-code-plugin <= 2.1 - XSS in ZeroClipboard",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4948,7 +4958,7 @@
         "name": "q2w3-inc-manager",
         "vulnerability": [
             {
-                "title": "q2w3-inc-manager <= 2.3.1 XSS in ZeroClipboard",
+                "title": "q2w3-inc-manager <= 2.3.1 - XSS in ZeroClipboard",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4958,7 +4968,7 @@
         "name": "scorerender",
         "vulnerability": [
             {
-                "title": "scorerender <= 0.3.4 XSS in ZeroClipboard",
+                "title": "scorerender <= 0.3.4 - XSS in ZeroClipboard",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4968,7 +4978,7 @@
         "name": "wp-link-to-us",
         "vulnerability": [
             {
-                "title": "wp-link-to-us <= 2.0 XSS in ZeroClipboard",
+                "title": "wp-link-to-us <= 2.0 - XSS in ZeroClipboard",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4978,7 +4988,7 @@
         "name": "buckets",
         "vulnerability": [
             {
-                "title": "buckets <= 0.1.9.2 XSS in ZeroClipboard",
+                "title": "buckets <= 0.1.9.2 - XSS in ZeroClipboard",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4988,7 +4998,7 @@
         "name": "java-trackback",
         "vulnerability": [
             {
-                "title": "java-trackback <= 0.2 XSS in ZeroClipboard",
+                "title": "java-trackback <= 0.2 - XSS in ZeroClipboard",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4998,7 +5008,7 @@
         "name": "slidedeck2",
         "vulnerability": [
             {
-                "title": "slidedeck2 <= 2.1.20130228 XSS in ZeroClipboard",
+                "title": "slidedeck2 <= 2.1.20130228 - XSS in ZeroClipboard",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5008,7 +5018,7 @@
         "name": "wp-clone-by-wp-academy",
         "vulnerability": [
             {
-                "title": "wp-clone-by-wp-academy <= 2.1.1 XSS in ZeroClipboard",
+                "title": "wp-clone-by-wp-academy <= 2.1.1 - XSS in ZeroClipboard",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5018,7 +5028,7 @@
         "name": "tiny-url",
         "vulnerability": [
             {
-                "title": "tiny-url <= 1.3.2 XSS in ZeroClipboard",
+                "title": "tiny-url <= 1.3.2 - XSS in ZeroClipboard",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5028,7 +5038,7 @@
         "name": "thethe-layout-grid",
         "vulnerability": [
             {
-                "title": "thethe-layout-grid <= 1.0.0 XSS in ZeroClipboard.",
+                "title": "thethe-layout-grid <= 1.0.0 - XSS in ZeroClipboard.",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5038,7 +5048,7 @@
         "name": "paypal-digital-goods-monetization-powered-by-cleeng",
         "vulnerability": [
             {
-                "title": "paypal-digital-goods-monetization-powered-by-cleeng <= 2.2.13 XSS in ZeroClipboard",
+                "title": "paypal-digital-goods-monetization-powered-by-cleeng <= 2.2.13 - XSS in ZeroClipboard",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5048,7 +5058,7 @@
         "name": "mobileview",
         "vulnerability": [
             {
-                "title": "mobileview <= 1.0.7 XSS in ZeroClipboard",
+                "title": "mobileview <= 1.0.7 - XSS in ZeroClipboard",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5058,7 +5068,7 @@
         "name": "jaspreetchahals-coupons-lite",
         "vulnerability": [
             {
-                "title": "jaspreetchahals-coupons-lite <= 2.1 XSS in ZeroClipboard",
+                "title": "jaspreetchahals-coupons-lite <= 2.1 - XSS in ZeroClipboard",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5068,7 +5078,7 @@
         "name": "geshi-source-colorer",
         "vulnerability": [
             {
-                "title": "geshi-source-colorer <= 0.13 XSS in ZeroClipboard",
+                "title": "geshi-source-colorer <= 0.13 - XSS in ZeroClipboard",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5078,7 +5088,7 @@
         "name": "click-to-copy-grab-box",
         "vulnerability": [
             {
-                "title": "click-to-copy-grab-box <= 0.1.1 XSS in ZeroClipboard",
+                "title": "click-to-copy-grab-box <= 0.1.1 - XSS in ZeroClipboard",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5088,7 +5098,7 @@
         "name": "cleeng",
         "vulnerability": [
             {
-                "title": "cleeng <= 2.3.2 XSS in ZeroClipboard",
+                "title": "cleeng <= 2.3.2 - XSS in ZeroClipboard",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5098,7 +5108,7 @@
         "name": "bp-code-snippets",
         "vulnerability": [
             {
-                "title": "bp-code-snippets <= 2.0 XSS in ZeroClipboard",
+                "title": "bp-code-snippets <= 2.0 - XSS in ZeroClipboard",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5108,7 +5118,7 @@
         "name": "snazzy-archives",
         "vulnerability": [
             {
-                "title": "snazzy-archives <= 1.7.1 XSS vulnerability",
+                "title": "snazzy-archives <= 1.7.1 - XSS vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5138,7 +5148,7 @@
         "name": "o2s-gallery",
         "vulnerability": [
             {
-                "title": "o2s-gallery plugin Cross Site Scripting Vulnerability",
+                "title": "o2s-gallery - Cross Site Scripting Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5148,7 +5158,7 @@
         "name": "bp-gallery",
         "vulnerability": [
             {
-                "title": "bp-gallery plugin v1.2.5 Cross Site Scripting Vulnerability",
+                "title": "bp-gallery 1.2.5 - Cross Site Scripting Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5158,7 +5168,7 @@
         "name": "simply-poll",
         "vulnerability": [
             {
-                "title": "Simply Poll Plugin 1.4.1 - Multiple Vulnerabilities",
+                "title": "Simply Poll 1.4.1 - Multiple Vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -5168,7 +5178,7 @@
         "name": "occasions",
         "vulnerability": [
             {
-                "title": "Occasions Plugin 1.0.4 - CSRF Vulnerability",
+                "title": "Occasions 1.0.4 - CSRF Vulnerability",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -5178,7 +5188,7 @@
         "name": "mathjax-latex",
         "vulnerability": [
             {
-                "title": "Mathjax Latex 1.1 CSRF Vulnerability",
+                "title": "Mathjax Latex 1.1 - CSRF Vulnerability",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -5278,7 +5288,7 @@
         "name": "podpress",
         "vulnerability": [
             {
-                "title": "podPress 8.8.10.13 Cross Site Scripting",
+                "title": "podPress 8.8.10.13 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5388,7 +5398,7 @@
         "name": "background-music",
         "vulnerability": [
             {
-                "title": "background-music 1.0 jPlayer.swf XSS",
+                "title": "background-music 1.0 - jPlayer.swf XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5398,7 +5408,7 @@
         "name": "haiku-minimalist-audio-player",
         "vulnerability": [
             {
-                "title": "haiku-minimalist-audio-player <= 1.0.0 jPlayer.swf XSS",
+                "title": "haiku-minimalist-audio-player <= 1.0.0 - jPlayer.swf XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5408,7 +5418,7 @@
         "name": "jammer",
         "vulnerability": [
             {
-                "title": "jammer <= 0.2 jPlayer.swf XSS",
+                "title": "jammer <= 0.2 - jPlayer.swf XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5428,7 +5438,7 @@
         "name": "top-10",
         "vulnerability": [
             {
-                "title": "top-10 CSRF",
+                "title": "top-10 - CSRF",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -5448,7 +5458,7 @@
         "name": "uk-cookie",
         "vulnerability": [
             {
-                "title": "uk-cookie plugin XSS",
+                "title": "uk-cookie - XSS",
                 "reference": "",
                 "type": "XSS"
             },
@@ -5473,7 +5483,7 @@
         "name": "mail-on-update",
         "vulnerability": [
             {
-                "title": "mail-on-update plugin CSRF",
+                "title": "mail-on-update - CSRF",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -5483,7 +5493,7 @@
         "name": "advanced-xml-reader",
         "vulnerability": [
             {
-                "title": "Advanced XML Reader Plugin for WordPress XML External Entity (XXE) Data Parsing Arbitrary File Disclosure\n      ",
+                "title": "Advanced XML Reader - XML External Entity (XXE) Data Parsing Arbitrary File Disclosure",
                 "reference": "",
                 "type": "XXE"
             }
@@ -5493,7 +5503,7 @@
         "name": "related-posts-by-zemanta",
         "vulnerability": [
             {
-                "title": "WordPress Related Posts by Zemanta Plugin Cross-Site Request Forgery Vulnerability",
+                "title": "Related Posts by Zemanta - Cross-Site Request Forgery Vulnerability",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -5503,7 +5513,7 @@
         "name": "wordpress-23-related-posts-plugin",
         "vulnerability": [
             {
-                "title": "WordPress WordPress Related Posts Plugin Cross-Site Request Forgery Vulnerability",
+                "title": "WordPress Related Posts - Cross-Site Request Forgery Vulnerability",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -5513,7 +5523,7 @@
         "name": "related-posts",
         "vulnerability": [
             {
-                "title": "WordPress Related Posts Plugin Cross-Site Request Forgery Vulnerability",
+                "title": "Related Posts - Cross-Site Request Forgery Vulnerability",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -5523,7 +5533,7 @@
         "name": "wp-print-friendly",
         "vulnerability": [
             {
-                "title": "WordPress WP Print Friendly Plugin Security Bypass Vulnerability",
+                "title": "WP Print Friendly - Security Bypass Vulnerability",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -5533,7 +5543,7 @@
         "name": "contextual-related-posts",
         "vulnerability": [
             {
-                "title": "WordPress Contextual Related Posts Plugin Cross-Site Request Forgery Vulnerability",
+                "title": "Contextual Related Posts - Cross-Site Request Forgery Vulnerability",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -5543,7 +5553,7 @@
         "name": "calendar",
         "vulnerability": [
             {
-                "title": "WordPress Calendar Plugin Cross-Site Request Forgery Vulnerability",
+                "title": "Calendar - Cross-Site Request Forgery Vulnerability",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -5553,7 +5563,7 @@
         "name": "feedweb",
         "vulnerability": [
             {
-                "title": "WordPress Feedweb Plugin 'wp_post_id' Parameter XSS",
+                "title": "Feedweb - 'wp_post_id' Parameter XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5563,7 +5573,7 @@
         "name": "wp-print",
         "vulnerability": [
             {
-                "title": "WordPress WP-Print Plugin CSRF",
+                "title": "WP-Print - CSRF",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -5573,7 +5583,7 @@
         "name": "trafficanalyzer",
         "vulnerability": [
             {
-                "title": "WordPress WP-Print Plugin CSRF",
+                "title": "WP-Print - CSRF",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5583,7 +5593,7 @@
         "name": "wp-download-manager",
         "vulnerability": [
             {
-                "title": "WordPress WP-DownloadManager Plugin CSRF",
+                "title": "WP-DownloadManager - CSRF",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -5603,7 +5613,7 @@
         "name": "ssquiz",
         "vulnerability": [
             {
-                "title": "SS Quiz Plugin Multiple Unspecified Vulnerabilities",
+                "title": "SS Quiz - Multiple Unspecified Vulnerabilities",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -5663,7 +5673,7 @@
         "name": "exploit-scanner",
         "vulnerability": [
             {
-                "title": "FPD and Security bypass vulnerabilities in Exploit Scanner for WordPress",
+                "title": "Exploit Scanner - FPD and Security bypass vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -5673,9 +5683,9 @@
         "name": "ga-universal",
         "vulnerability": [
             {
-                "title": "FPD and Security bypass vulnerabilities in Exploit Scanner for WordPress",
+                "title": "GA Universal - Cross-Site Request Forgery Vulnerability",
                 "reference": "",
-                "type": "XSS"
+                "type": "CSRF"
             }
         ]
     },
@@ -5693,7 +5703,7 @@
         "name": "qtranslate",
         "vulnerability": [
             {
-                "title": "WordPress qTranslate Plugin Cross-Site Request Forgery Vulnerability",
+                "title": "qTranslate - Cross-Site Request Forgery Vulnerability",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -5703,7 +5713,7 @@
         "name": "image-slider-with-description",
         "vulnerability": [
             {
-                "title": "Image slider with description Plugin Unspecified Vulnerability",
+                "title": "Image slider with description - Unspecified Vulnerability",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -5713,7 +5723,7 @@
         "name": "user-role-editor",
         "vulnerability": [
             {
-                "title": "User Role Editor Plugin Cross-Site Request Forgery Vulnerability",
+                "title": "User Role Editor - Cross-Site Request Forgery Vulnerability",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -5723,7 +5733,7 @@
         "name": "eelv-newsletter",
         "vulnerability": [
             {
-                "title": "EELV Newsletter Plugin Cross-Site Scripting Vulnerability",
+                "title": "EELV Newsletter - Cross-Site Scripting Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5733,7 +5743,7 @@
         "name": "frontier-post",
         "vulnerability": [
             {
-                "title": "Frontier Post Plugin Publishing Posts Security Bypass",
+                "title": "Frontier Post - Publishing Posts Security Bypass",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -5743,7 +5753,7 @@
         "name": "spider-catalog",
         "vulnerability": [
             {
-                "title": "Spider Catalog Plugin Cross-Site Scripting and SQL Injection Vulnerabilities",
+                "title": "Spider Catalog - Cross-Site Scripting and SQL Injection Vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -5753,7 +5763,7 @@
         "name": "spider-event-calendar",
         "vulnerability": [
             {
-                "title": "Spider Event Calendar Plugin Security Bypass, Cross-Site Scripting and SQLi Vulnerabilities",
+                "title": "Spider Event Calendar - Security Bypass, Cross-Site Scripting and SQLi Vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -5763,7 +5773,7 @@
         "name": "antivirus",
         "vulnerability": [
             {
-                "title": "FPD and Security bypass vulnerabilities in AntiVirus for WordPress",
+                "title": "AntiVirus - FPD and Security bypass vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -5803,7 +5813,7 @@
         "name": "xorbin-analog-flash-clock",
         "vulnerability": [
             {
-                "title": "Xorbin Analog Flash Clock 1.0 Flash-based XSS",
+                "title": "Xorbin Analog Flash Clock 1.0 - Flash-based XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5813,7 +5823,7 @@
         "name": "xorbin-digital-flash-clock",
         "vulnerability": [
             {
-                "title": "Xorbin Digital Flash Clock 1.0 Flash-based XSS",
+                "title": "Xorbin Digital Flash Clock 1.0 - Flash-based XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5853,7 +5863,7 @@
         "name": "stream-video-player",
         "vulnerability": [
             {
-                "title": "Stream Video Player Plugin for WordPress Setting Manipulation CSRF",
+                "title": "Stream Video Player - - Setting Manipulation CSRF",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -6233,7 +6243,7 @@
         "name": "quick-contact-form",
         "vulnerability": [
             {
-                "title": "Quick Contact Form Plugin 6.0 - Persistent XSS",
+                "title": "Quick Contact Form 6.0 - Persistent XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -6253,12 +6263,12 @@
         "name": "faqs-manager",
         "vulnerability": [
             {
-                "title": "IndiaNIC FAQs Manager Plugin 1.0 - Multiple Vulnerabilities",
+                "title": "IndiaNIC FAQs Manager 1.0 - Multiple Vulnerabilities",
                 "reference": "",
                 "type": "MULTI"
             },
             {
-                "title": "IndiaNIC FAQs Manager Plugin 1.0 - Blind SQL Injection",
+                "title": "IndiaNIC FAQs Manager 1.0 - Blind SQL Injection",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -6288,7 +6298,7 @@
         "name": "FlagEm",
         "vulnerability": [
             {
-                "title": "FlagEm Plugin - flagit.php cID Parameter XSS",
+                "title": "FlagEm - flagit.php cID Parameter XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -6321,6 +6331,46 @@
                 "title": "Page Showcaser Boxes - Title Field Stored XSS",
                 "reference": "",
                 "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "a-forms",
+        "vulnerability": [
+            {
+                "title": "A Forms 1.4.1 - Form Submission CSRF",
+                "reference": "",
+                "type": "CSRF"
+            }
+        ]
+    },
+    {
+        "name": "share-this",
+        "vulnerability": [
+            {
+                "title": "ShareThis 7.0.3 - Setting Manipulation CSRF",
+                "reference": "",
+                "type": "CSRF"
+            }
+        ]
+    },
+    {
+        "name": "simple-flash-video",
+        "vulnerability": [
+            {
+                "title": "Simple Flash Video 1.7 - Cross Site Scripting",
+                "reference": "",
+                "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "landing-pages",
+        "vulnerability": [
+            {
+                "title": "Landing Pages - Unspecified SQL Injection ",
+                "reference": "",
+                "type": "SQLI"
             }
         ]
     }
