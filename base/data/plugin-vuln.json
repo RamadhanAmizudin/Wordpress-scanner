@@ -3,7 +3,7 @@
         "name": "content-slide",
         "vulnerability": [
             {
-                "title": "Content Slide - Cross-Site Requst Forgery Vulnerability",
+                "title": "Content Slide <=1.4.2 - Cross Site Requst Forgery Vulnerability",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -13,7 +13,7 @@
         "name": "wordpress-simple-paypal-shopping-cart",
         "vulnerability": [
             {
-                "title": "Simple Paypal Shopping Cart - Cross-Site Request Forgery Vulnerability",
+                "title": "Simple Paypal Shopping Cart 3.5 - Cross-Site Request Forgery Vulnerability",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -23,12 +23,12 @@
         "name": "wp-sendsms",
         "vulnerability": [
             {
-                "title": "WP-SendSMS - Setting Manipulation CSRF",
+                "title": "WP-SendSMS 1.0 - Setting Manipulation CSRF",
                 "reference": "",
                 "type": "CSRF"
             },
             {
-                "title": "WP-SendSMS - wp-admin\/admin.php Multiple Parameter XSS",
+                "title": "WP-SendSMS 1.0 - wp-admin\/admin.php Multiple Parameter XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -123,7 +123,7 @@
         "name": "thanks-you-counter-button",
         "vulnerability": [
             {
-                "title": "Thank You Counter Button - XSS",
+                "title": "Thank You Counter Button <=1.8.2 - XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -133,7 +133,7 @@
         "name": "bookings",
         "vulnerability": [
             {
-                "title": "Bookings - XSS",
+                "title": "Bookings <=1.8.2 - XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -143,7 +143,7 @@
         "name": "cimy-user-manager",
         "vulnerability": [
             {
-                "title": "Cimy User Manager - Arbitrary File Disclosure",
+                "title": "Cimy User Manager <=1.4.2 - Arbitrary File Disclosure",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -168,12 +168,12 @@
         "name": "wp125",
         "vulnerability": [
             {
-                "title": "WP125 - Multiple XSS",
+                "title": "WP125 <=1.4.4 - Multiple XSS",
                 "reference": "",
                 "type": "XSS"
             },
             {
-                "title": "WP125 - CSRF",
+                "title": "WP125 <=1.4.9 - CSRF",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -4578,7 +4578,7 @@
         "name": "gotmls",
         "vulnerability": [
             {
-                "title": "Get Off Malicious Scripts Cross-Site Scripting Vulnerability",
+                "title": "Get Off Malicious Scripts - Cross-Site Scripting Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4608,7 +4608,7 @@
         "name": "wp-explorer-gallery",
         "vulnerability": [
             {
-                "title": "wp-explorer-gallery Arbitrary File Upload Vulnerability",
+                "title": "wp-explorer-gallery - Arbitrary File Upload Vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -4618,7 +4618,7 @@
         "name": "accordion",
         "vulnerability": [
             {
-                "title": "accordion Arbitrary File Upload Vulnerability",
+                "title": "accordion - Arbitrary File Upload Vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -4628,7 +4628,7 @@
         "name": "wp-catpro",
         "vulnerability": [
             {
-                "title": "wp-catpro Arbitrary File Upload Vulnerability",
+                "title": "wp-catpro - Arbitrary File Upload Vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -4713,7 +4713,7 @@
         "name": "forumconverter",
         "vulnerability": [
             {
-                "title": "ForumConverter SQL Injection Vulnerability",
+                "title": "ForumConverter - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -4723,7 +4723,7 @@
         "name": "newsletter",
         "vulnerability": [
             {
-                "title": "Newsletter SQL Injection Vulnerability",
+                "title": "Newsletter - SQL Injection Vulnerability",
                 "reference": "",
                 "type": "SQLI"
             },
@@ -4738,7 +4738,7 @@
         "name": "commentluv",
         "vulnerability": [
             {
-                "title": "Cross-Site Scripting (XSS) Vulnerability in CommentLuv WordPress Plugin",
+                "title": "CommentLuv - Cross Site Scripting Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4828,7 +4828,7 @@
         "name": "smart-flv",
         "vulnerability": [
             {
-                "title": "smart-flv jwplayer.swf XSS",
+                "title": "smart-flv - jwplayer.swf XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4858,7 +4858,7 @@
         "name": "marekkis-watermark",
         "vulnerability": [
             {
-                "title": "Marekkis Watermark Cross Site Scripting",
+                "title": "Marekkis Watermark - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4868,7 +4868,7 @@
         "name": "responsive-logo-slideshow",
         "vulnerability": [
             {
-                "title": "Responsive Logo Slideshow Cross Site Scripting",
+                "title": "Responsive Logo Slideshow - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5128,7 +5128,7 @@
         "name": "vkontakte-api",
         "vulnerability": [
             {
-                "title": "vkontakte-api XSS vulnerability",
+                "title": "vkontakte-api - XSS vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5138,7 +5138,7 @@
         "name": "terillion-reviews",
         "vulnerability": [
             {
-                "title": "Terillion Reviews Cross Site Scripting",
+                "title": "Terillion Reviews - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5198,7 +5198,7 @@
         "name": "wp-banners-lite",
         "vulnerability": [
             {
-                "title": "XSS vulnerability on WP-Banners-Lite",
+                "title": "WP-Banners-Lite - XSS vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5228,7 +5228,7 @@
         "name": "chikuncount",
         "vulnerability": [
             {
-                "title": "ofc_upload_image.php Arbitrary File Upload Vulnerability",
+                "title": "chikuncount - ofc_upload_image.php Arbitrary File Upload Vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -5238,7 +5238,7 @@
         "name": "open-flash-chart-core-wordpress-plugin",
         "vulnerability": [
             {
-                "title": "ofc_upload_image.php Arbitrary File Upload Vulnerability",
+                "title": "open-flash-chart-core - ofc_upload_image.php Arbitrary File Upload Vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -5248,7 +5248,7 @@
         "name": "spamtask",
         "vulnerability": [
             {
-                "title": "ofc_upload_image.php Arbitrary File Upload Vulnerability",
+                "title": "spamtask - ofc_upload_image.php Arbitrary File Upload Vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -5258,7 +5258,7 @@
         "name": "php-analytics",
         "vulnerability": [
             {
-                "title": "ofc_upload_image.php Arbitrary File Upload Vulnerability",
+                "title": "php-analytics - ofc_upload_image.php Arbitrary File Upload Vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -5268,7 +5268,7 @@
         "name": "seo-spy-google-wordpress-plugin",
         "vulnerability": [
             {
-                "title": "ofc_upload_image.php Arbitrary File Upload Vulnerability",
+                "title": "seo-spy-google - ofc_upload_image.php Arbitrary File Upload Vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -5278,7 +5278,7 @@
         "name": "wp-seo-spy-google",
         "vulnerability": [
             {
-                "title": "ofc_upload_image.php Arbitrary File Upload Vulnerability",
+                "title": "wp-seo-spy-google - ofc_upload_image.php Arbitrary File Upload Vulnerability",
                 "reference": "",
                 "type": "UPLOAD"
             }
@@ -5298,7 +5298,7 @@
         "name": "fbsurveypro",
         "vulnerability": [
             {
-                "title": "fbsurveypro XSS Vulnerability",
+                "title": "fbsurveypro - XSS Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5308,7 +5308,7 @@
         "name": "timelineoptinpro",
         "vulnerability": [
             {
-                "title": "timelineoptinpro XSS Vulnerability",
+                "title": "timelineoptinpro - XSS Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5318,7 +5318,7 @@
         "name": "kioskprox",
         "vulnerability": [
             {
-                "title": "kioskprox XSS Vulnerability",
+                "title": "kioskprox - XSS Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5328,7 +5328,7 @@
         "name": "bigcontact",
         "vulnerability": [
             {
-                "title": "bigcontact SQLI",
+                "title": "bigcontact - SQLI",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -5338,7 +5338,7 @@
         "name": "drawblog",
         "vulnerability": [
             {
-                "title": "drawblog CSRF",
+                "title": "drawblog - CSRF",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -5348,7 +5348,7 @@
         "name": "social-media-widget",
         "vulnerability": [
             {
-                "title": "social-media-widget malicious code",
+                "title": "social-media-widget - malicious code",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -5358,7 +5358,7 @@
         "name": "facebook-members",
         "vulnerability": [
             {
-                "title": "facebook-members CSRF",
+                "title": "facebook-members - CSRF",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -5368,7 +5368,7 @@
         "name": "foursquare-checkins",
         "vulnerability": [
             {
-                "title": "foursquare-checkins CSRF",
+                "title": "foursquare-checkins - CSRF",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -5378,7 +5378,7 @@
         "name": "formidable",
         "vulnerability": [
             {
-                "title": "formidable Pro Unspecified Vulnerabilities",
+                "title": "formidable Pro - Unspecified Vulnerabilities",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -5388,7 +5388,7 @@
         "name": "all-in-one-webmaster",
         "vulnerability": [
             {
-                "title": "all-in-one-webmaster CSRF",
+                "title": "all-in-one-webmaster - CSRF",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -5428,7 +5428,7 @@
         "name": "syntaxhighlighter",
         "vulnerability": [
             {
-                "title": "syntaxhighlighter clipboard.swf XSS",
+                "title": "syntaxhighlighter - clipboard.swf XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5448,7 +5448,7 @@
         "name": "easy-adsense-lite",
         "vulnerability": [
             {
-                "title": "easy-adsense-lite CSRF",
+                "title": "easy-adsense-lite - CSRF",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -5463,7 +5463,7 @@
                 "type": "XSS"
             },
             {
-                "title": "uk-cookie CSRF",
+                "title": "uk-cookie - CSRF",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -5473,7 +5473,7 @@
         "name": "wp-cleanfix",
         "vulnerability": [
             {
-                "title": "wp-cleanfix Remote Command Execution, CSRF and XSS",
+                "title": "wp-cleanfix - Remote Command Execution, CSRF and XSS",
                 "reference": "",
                 "type": "MULTI"
             }
@@ -5533,7 +5533,7 @@
         "name": "wp-print-friendly",
         "vulnerability": [
             {
-                "title": "WP Print Friendly - Security Bypass Vulnerability",
+                "title": "WP Print Friendly <=0.5.2 - Security Bypass Vulnerability",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -5603,7 +5603,7 @@
         "name": "digg-digg",
         "vulnerability": [
             {
-                "title": "Digg Digg CSRF",
+                "title": "Digg Digg - CSRF",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -5623,7 +5623,7 @@
         "name": "funcaptcha",
         "vulnerability": [
             {
-                "title": "FunCaptcha CSRF",
+                "title": "FunCaptcha - CSRF",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -5633,7 +5633,7 @@
         "name": "xili-language",
         "vulnerability": [
             {
-                "title": "xili-language XSS",
+                "title": "xili-language - XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5643,7 +5643,7 @@
         "name": "wordpress-seo",
         "vulnerability": [
             {
-                "title": "Security issue which allowed any user to reset settings",
+                "title": "wordpress-seo - Security issue which allowed any user to reset settings",
                 "reference": "",
                 "type": "UNKNOWN"
             }
@@ -5653,7 +5653,7 @@
         "name": "underconstruction",
         "vulnerability": [
             {
-                "title": "CSRF in WordPress underConstruction plugin",
+                "title": "Under Construction - CSRF",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -5663,7 +5663,7 @@
         "name": "adif-log-search-widget",
         "vulnerability": [
             {
-                "title": "ADIF Log Search Widget XSS Arbitrary Vulnerability",
+                "title": "ADIF Log Search Widget - XSS Arbitrary Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5693,7 +5693,7 @@
         "name": "export-to-text",
         "vulnerability": [
             {
-                "title": "Remote File Inclusion Vulnerability",
+                "title": "Export to text - Remote File Inclusion Vulnerability",
                 "reference": "",
                 "type": "RFI"
             }
@@ -5783,7 +5783,7 @@
         "name": "wp-maintenance-mode",
         "vulnerability": [
             {
-                "title": "WP Maintenance Mode Setting Manipulation CSRF",
+                "title": "WP Maintenance Mode - Setting Manipulation CSRF",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -5803,7 +5803,7 @@
         "name": "mapsmarker",
         "vulnerability": [
             {
-                "title": "Leaflet Maps Marker Tag Multiple Parameter SQL Injection",
+                "title": "Leaflet Maps Marker - Tag Multiple Parameter SQL Injection",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -5833,7 +5833,7 @@
         "name": "dropdown-menu-widget",
         "vulnerability": [
             {
-                "title": "Dropdown Menu Widget Script Insertion CSRF",
+                "title": "Dropdown Menu Widget - Script Insertion CSRF",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -5843,7 +5843,7 @@
         "name": "buddypress-extended-friendship-request",
         "vulnerability": [
             {
-                "title": "BuddyPress Extended Friendship Request wp-admin\/admin-ajax.php friendship_request_message Parameter XSS\n      ",
+                "title": "BuddyPress Extended Friendship Request - wp-admin\/admin-ajax.php friendship_request_message Parameter XSS\n      ",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5853,7 +5853,7 @@
         "name": "wp-private-messages",
         "vulnerability": [
             {
-                "title": "wp-private-messages \/wp-admin\/profile.php msgid Parameter SQL Injection",
+                "title": "wp-private-messages - \/wp-admin\/profile.php msgid Parameter SQL Injection",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -5863,7 +5863,7 @@
         "name": "stream-video-player",
         "vulnerability": [
             {
-                "title": "Stream Video Player - - Setting Manipulation CSRF",
+                "title": "Stream Video Player - Setting Manipulation CSRF",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -5873,7 +5873,7 @@
         "name": "duplicator",
         "vulnerability": [
             {
-                "title": "Duplicator installer.cleanup.php package Parameter XSS",
+                "title": "Duplicator - installer.cleanup.php package Parameter XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5883,7 +5883,7 @@
         "name": "citizen-space",
         "vulnerability": [
             {
-                "title": "Citizen Space Script Insertion CSRF",
+                "title": "Citizen Space - Script Insertion CSRF",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -5893,7 +5893,7 @@
         "name": "spicy-blogroll",
         "vulnerability": [
             {
-                "title": "Spicy Blogroll spicy-blogroll-ajax.php Multiple Parameter Remote File Inclusion",
+                "title": "Spicy Blogroll - spicy-blogroll-ajax.php Multiple Parameter Remote File Inclusion",
                 "reference": "",
                 "type": "RFI"
             }
@@ -5903,7 +5903,7 @@
         "name": "pie-register",
         "vulnerability": [
             {
-                "title": "Pie Register wp-login.php Multiple Parameter XSS",
+                "title": "Pie Register - wp-login.php Multiple Parameter XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5913,7 +5913,7 @@
         "name": "xhanch-my-twitter",
         "vulnerability": [
             {
-                "title": "CSRF in admin\/setting.php in Xhanch",
+                "title": "Xhanch my Twitter - CSRF in admin\/setting.php",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -5933,12 +5933,12 @@
         "name": "hms-testimonials",
         "vulnerability": [
             {
-                "title": "CSRF in HMS Testimonials 2.0.10",
+                "title": "HMS Testimonials 2.0.10 - CSRF",
                 "reference": "",
                 "type": ""
             },
             {
-                "title": "XSS in HMS Testimonials 2.0.10",
+                "title": "HMS Testimonials 2.0.10 - XSS",
                 "reference": "",
                 "type": ""
             }
@@ -5978,7 +5978,7 @@
         "name": "platinum-seo-pack",
         "vulnerability": [
             {
-                "title": "platinum_seo_pack.php s Parameter Reflected XSS",
+                "title": "platinum_seo_pack.php - s Parameter Reflected XSS",
                 "reference": "",
                 "type": ""
             }
