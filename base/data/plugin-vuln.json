@@ -5448,7 +5448,7 @@
         "name": "easy-adsense-lite",
         "vulnerability": [
             {
-                "title": "easy-adsense-lite - CSRF",
+                "title": "easy-adsense-lite 6.06 - CSRF",
                 "reference": "",
                 "type": "CSRF"
             }
@@ -6384,6 +6384,46 @@
             },
             {
                 "title": "Cart66 - admin.php cart66-products Page Multiple Field Stored XSS",
+                "reference": "",
+                "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "category-wise-search",
+        "vulnerability": [
+            {
+                "title": "Wise Search Widget 1.1 - s Parameter Reflected XSS",
+                "reference": "",
+                "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "catholic-liturgical-calendar",
+        "vulnerability": [
+            {
+                "title": "Catholic Liturgical Calendar Widget 0.0.1 - Title Field Stored XSS",
+                "reference": "",
+                "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "zenphoto",
+        "vulnerability": [
+            {
+                "title": "Zenphoto 1.4.5.2 - wordpress_import.php wp_prefix Function SQL Injection",
+                "reference": "",
+                "type": "SQLI"
+            }
+        ]
+    },
+    {
+        "name": "bp-group-documents",
+        "vulnerability": [
+            {
+                "title": "Group Documents 1.2 - File Uploading Multiple Parameter Stored XSS",
                 "reference": "",
                 "type": "XSS"
             }
