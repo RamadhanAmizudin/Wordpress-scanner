@@ -378,9 +378,14 @@
         "name": "levelfourstorefront",
         "vulnerability": [
             {
-                "title": "Shopping Cart - Shell Upload, SQL Injection",
+                "title": "Shopping Cart 8.1.14 - Shell Upload, SQL Injection",
                 "reference": "",
                 "type": "MULTI"
+            },
+            {
+                "title": "Level Four Storefront - levelfourstorefront\/getsortmanufacturers.php id Parameter SQL Injection",
+                "reference": "",
+                "type": "SQLI"
             }
         ]
     },
@@ -2088,7 +2093,12 @@
         "name": "count-per-day",
         "vulnerability": [
             {
-                "title": "Count per Day 3.2.5 - counter.php XSS Vulnerability",
+                "title": "Count per Day 3.2.5 - \/wp-content\/wp-admin\/index.php daytoshow Parameter XSS",
+                "reference": "",
+                "type": "XSS"
+            },
+            {
+                "title": "Count per Day 3.2.5 - counter.php HTTP Referer Header XSS",
                 "reference": "",
                 "type": "XSS"
             },
@@ -6143,7 +6153,7 @@
         "name": "fgallery_plus",
         "vulnerability": [
             {
-                "title": "fGallery_Plus - XSS",
+                "title": "fGallery_Plus - fim_rss.php album Parameter Reflected XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -6434,6 +6444,56 @@
         "vulnerability": [
             {
                 "title": "AB Categories Search Widget 0.1 - s Parameter Reflected XSS",
+                "reference": "",
+                "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "sl-user-create",
+        "vulnerability": [
+            {
+                "title": "SL User Create 0.2.4 - LSL script Secret String Weakness Information Disclosure",
+                "reference": "",
+                "type": "UNKNOWN"
+            }
+        ]
+    },
+    {
+        "name": "player",
+        "vulnerability": [
+            {
+                "title": "Spider Video Player 2.1 - \/wp-content\/plugins\/player\/settings.php theme Parameter SQL Injection",
+                "reference": "",
+                "type": "SQLI"
+            }
+        ]
+    },
+    {
+        "name": "finalist",
+        "vulnerability": [
+            {
+                "title": "Finalist - Cross Site Scripting",
+                "reference": "",
+                "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "dexs-pm-system",
+        "vulnerability": [
+            {
+                "title": "Dexs PM System Cross Site Scripting",
+                "reference": "",
+                "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "video-metabox",
+        "vulnerability": [
+            {
+                "title": "Video Metabox 1.1 - Persistent XSS Vulnerability Disclosure",
                 "reference": "",
                 "type": "XSS"
             }
