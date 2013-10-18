@@ -5783,9 +5783,14 @@
         "name": "antivirus",
         "vulnerability": [
             {
-                "title": "AntiVirus - FPD and Security bypass vulnerabilities",
+                "title": "AntiVirus 1.0 - PHP Backdoor Detection Bypass",
                 "reference": "",
-                "type": "MULTI"
+                "type": "UNKNOWN"
+            },
+            {
+                "title": "AntiVirus 1.0 - uninstall.php Direct Request Path Disclosure",
+                "reference": "",
+                "type": "FPD"
             }
         ]
     },
@@ -6073,7 +6078,7 @@
         "name": "all-in-one-seo-pack",
         "vulnerability": [
             {
-                "title": "All in One SEO Pack <= 2.3.0 - XSS Vulnerability",
+                "title": "All in One SEO Pack <= 2.0.3 - XSS Vulnerability",
                 "reference": "",
                 "type": "XSS"
             }
@@ -6496,6 +6501,26 @@
                 "title": "Video Metabox 1.1 - Persistent XSS Vulnerability Disclosure",
                 "reference": "",
                 "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "wp-realty",
+        "vulnerability": [
+            {
+                "title": "Wordpress - wp-realty - MySQL Time Based Injection",
+                "reference": "",
+                "type": "SQLI"
+            }
+        ]
+    },
+    {
+        "name": "feed",
+        "vulnerability": [
+            {
+                "title": "Feed - news_dt.php nid Parameter SQL Injection",
+                "reference": "",
+                "type": "SQLI"
             }
         ]
     }
