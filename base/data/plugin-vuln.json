@@ -760,6 +760,16 @@
         ]
     },
     {
+        "name": "wp-image-resizer",
+        "vulnerability": [
+            {
+                "title": "Image Resizer - Cross Site Scripting",
+                "reference": "",
+                "type": "XSS"
+            }
+        ]
+    },
+    {
         "name": "wp-levoslideshow",
         "vulnerability": [
             {
@@ -4258,7 +4268,12 @@
         "name": "woocommerce",
         "vulnerability": [
             {
-                "title": "WooCommerce - index.php calc_shipping_state Parameter XSS",
+                "title": "WooCommerce 2.0.12 - index.php calc_shipping_state Parameter XSS",
+                "reference": "",
+                "type": "XSS"
+            },
+            {
+                "title": "WooCommerce 2.0.17 - Cross Site Scripting",
                 "reference": "",
                 "type": "XSS"
             }
@@ -6168,7 +6183,7 @@
         "name": "nospampti",
         "vulnerability": [
             {
-                "title": "NOSpamPTI 2.1 - Blind SQL Injection",
+                "title": "NOSpamPTI 2.1 - wp-comments-post.php comment_post_ID Parameter SQL Injection",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -6259,6 +6274,16 @@
         "vulnerability": [
             {
                 "title": "Quick Contact Form 6.0 - Persistent XSS",
+                "reference": "",
+                "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "quick-paypal-payments",
+        "vulnerability": [
+            {
+                "title": "Quick Paypal Payments 3.0 - Payment Sending Multiple Parameter XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -6478,7 +6503,7 @@
         "name": "finalist",
         "vulnerability": [
             {
-                "title": "Finalist - Cross Site Scripting",
+                "title": "Finalist - \/wp-content\/plugins\/finalist\/vote.php id Parameter Reflected XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -6488,7 +6513,7 @@
         "name": "dexs-pm-system",
         "vulnerability": [
             {
-                "title": "Dexs PM System Cross Site Scripting",
+                "title": "Dexs PM System 1.0.1 - Private Message subject Parameter Stored XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -6521,6 +6546,16 @@
                 "title": "Feed - news_dt.php nid Parameter SQL Injection",
                 "reference": "",
                 "type": "SQLI"
+            }
+        ]
+    },
+    {
+        "name": "social-sharing-toolkit",
+        "vulnerability": [
+            {
+                "title": "Social Sharing Toolkit 2.2.1 - Setting Manipulation CSRF",
+                "reference": "",
+                "type": "CSRF"
             }
         ]
     }
