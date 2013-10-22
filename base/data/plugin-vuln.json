@@ -4016,6 +4016,11 @@
                 "title": "portable-phpMyAdmin - Authentication Bypass",
                 "reference": "",
                 "type": "AUTHBYPASS"
+            },
+            {
+                "title": "portable-phpMyAdmin - Authentication Bypass",
+                "reference": "",
+                "type": "AUTHBYPASS"
             }
         ]
     },
