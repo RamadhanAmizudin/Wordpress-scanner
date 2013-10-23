@@ -908,7 +908,7 @@
                 "type": "MULTI"
             },
             {
-                "title": "Wordfence 3.8.1 - XSS",
+                "title": "Wordfence 3.8.1 - wp-admin\/admin.php whois Parameter Stored XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -4018,7 +4018,12 @@
                 "type": "AUTHBYPASS"
             },
             {
-                "title": "portable-phpMyAdmin - Authentication Bypass",
+                "title": "Portable phpMyAdmin - \/pma\/phpinfo.php Direct Request System Information Disclosure",
+                "reference": "",
+                "type": ""
+            },
+            {
+                "title": "Portable phpMyAdmin 1.4.1 - Multiple Script Direct Request Authentication Bypass",
                 "reference": "",
                 "type": "AUTHBYPASS"
             }
@@ -4278,7 +4283,7 @@
                 "type": "XSS"
             },
             {
-                "title": "WooCommerce 2.0.17 - Cross Site Scripting",
+                "title": "WooCommerce 2.0.17 - hide-wc-extensions-message Parameter Reflected XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -5673,9 +5678,14 @@
         "name": "wordpress-seo",
         "vulnerability": [
             {
-                "title": "wordpress-seo - Security issue which allowed any user to reset settings",
+                "title": "WordPress SEO - Security issue which allowed any user to reset settings",
                 "reference": "",
                 "type": "UNKNOWN"
+            },
+            {
+                "title": "WordPress SEO 1.14.15 - index.php s Parameter Reflected XSS",
+                "reference": "",
+                "type": "XSS"
             }
         ]
     },
@@ -6218,7 +6228,12 @@
         "name": "encrypted-blog",
         "vulnerability": [
             {
-                "title": "Encrypted Blog 0.0.6.2 - XSS, Open Redirect",
+                "title": "Encrypted Blog 0.0.6.2 - encrypt_blog_form.php redirect_to Parameter Arbitrary Site Redirect",
+                "reference": "",
+                "type": "UNKNOWN"
+            },
+            {
+                "title": "Encrypted Blog 0.0.6.2 - encrypt_blog_form.php redirect_to Parameter Reflected XSS",
                 "reference": "",
                 "type": "XSS"
             }
@@ -6382,6 +6397,11 @@
     {
         "name": "a-forms",
         "vulnerability": [
+            {
+                "title": "A Forms 1.4.0 Multiple Parameters SQL Injection",
+                "reference": "",
+                "type": "SQLI"
+            },
             {
                 "title": "A Forms 1.4.1 - Form Submission CSRF",
                 "reference": "",
@@ -6559,6 +6579,26 @@
         "vulnerability": [
             {
                 "title": "Social Sharing Toolkit 2.2.1 - Setting Manipulation CSRF",
+                "reference": "",
+                "type": "CSRF"
+            }
+        ]
+    },
+    {
+        "name": "videowall",
+        "vulnerability": [
+            {
+                "title": "Videowall - index.php page_id Parameter Reflected XSS",
+                "reference": "",
+                "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "really-simple-facebook-twitter-share-buttons",
+        "vulnerability": [
+            {
+                "title": "Really simple Facebook Twitter share buttons 2.10.4 - Settings Page Manipulation CSRF",
                 "reference": "",
                 "type": "CSRF"
             }
