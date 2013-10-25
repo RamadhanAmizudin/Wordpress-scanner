@@ -463,7 +463,7 @@
         "name": "apptha-banner",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -473,7 +473,7 @@
         "name": "apptha-slider-gallery",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -483,7 +483,7 @@
         "name": "blaze-slide-show-for-wordpress",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -493,7 +493,7 @@
         "name": "comment-extra-field",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -503,7 +503,7 @@
         "name": "fluid-accessible-rich-inline-edit",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -513,7 +513,7 @@
         "name": "fluid-accessible-pager",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -523,7 +523,7 @@
         "name": "fluid-accessible-uploader",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -533,7 +533,7 @@
         "name": "fluid-accessible-ui-options",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -543,7 +543,7 @@
         "name": "fresh-page",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -553,7 +553,7 @@
         "name": "mac-dock-photogallery",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -563,7 +563,7 @@
         "name": "pdw-file-browser",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -578,7 +578,7 @@
                 "type": "UPLOAD"
             },
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -588,7 +588,7 @@
         "name": "slide-show-pro",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -598,7 +598,7 @@
         "name": "smart-slide-show",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -608,7 +608,7 @@
         "name": "spotlightyour",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -618,7 +618,7 @@
         "name": "sprapid",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -628,7 +628,7 @@
         "name": "ultimate-tinymce",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -638,7 +638,7 @@
         "name": "wp-3dbanner-rotator",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -653,7 +653,7 @@
                 "type": "UPLOAD"
             },
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -663,7 +663,7 @@
         "name": "wp-bliss-gallery",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -673,7 +673,7 @@
         "name": "wp-carouselslideshow",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             },
@@ -688,7 +688,7 @@
         "name": "wp-dreamworkgallery",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -698,7 +698,7 @@
         "name": "wp-ecommerce-cvs-importer",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -708,7 +708,7 @@
         "name": "wp-extended",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -718,7 +718,7 @@
         "name": "wp-flipslideshow",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -733,7 +733,7 @@
                 "type": "UPLOAD"
             },
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -748,7 +748,7 @@
                 "type": "UPLOAD"
             },
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             },
@@ -778,7 +778,7 @@
                 "type": "UPLOAD"
             },
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -788,7 +788,7 @@
         "name": "wp-matrix-gallery",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -803,7 +803,7 @@
                 "type": "UPLOAD"
             },
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -818,7 +818,7 @@
                 "type": "UPLOAD"
             },
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -828,7 +828,7 @@
         "name": "wp-superb-slideshow",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             },
@@ -843,7 +843,7 @@
         "name": "wp-vertical-gallery",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -853,7 +853,7 @@
         "name": "wp-yasslideshow",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             }
@@ -1293,7 +1293,7 @@
         "name": "pica-photo-gallery",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             },
@@ -1313,7 +1313,7 @@
         "name": "mac-dock-gallery",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             },
@@ -2473,7 +2473,7 @@
                 "type": "MULTI"
             },
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             },
@@ -2748,7 +2748,7 @@
         "name": "nextgen-gallery",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             },
@@ -2853,7 +2853,7 @@
         "name": "dm-albums",
         "vulnerability": [
             {
-                "title": "SWF Vulnerable to XSS Bundled in Many Wordpress Plugins",
+                "title": "SWF Vulnerable to XSS Bundled in Many WordPress Plugins",
                 "reference": "",
                 "type": "XSS"
             },
@@ -4173,17 +4173,17 @@
         "name": "cardoza-wordpress-poll",
         "vulnerability": [
             {
-                "title": "Cardoza Wordpress poll - Cross-Site Request Forgery Vulnerability",
+                "title": "Cardoza WordPress poll - Cross-Site Request Forgery Vulnerability",
                 "reference": "",
                 "type": "CSRF"
             },
             {
-                "title": "Cardoza Wordpress poll - Multiple SQL injection vulnerabilities",
+                "title": "Cardoza WordPress poll - Multiple SQL injection vulnerabilities",
                 "reference": "",
                 "type": "SQLI"
             },
             {
-                "title": "Cardoza Wordpress poll - Multiple SQL Injection Vulnerabilities",
+                "title": "Cardoza WordPress poll - Multiple SQL Injection Vulnerabilities",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -6558,7 +6558,7 @@
         "name": "wp-realty",
         "vulnerability": [
             {
-                "title": "Wordpress - wp-realty - MySQL Time Based Injection",
+                "title": "wp-realty - MySQL Time Based Injection",
                 "reference": "",
                 "type": "SQLI"
             }
@@ -6616,6 +6616,16 @@
                 "title": "Car Demon 1.0.1 - \/wp-admin\/post.php Multiple Parameter XSS",
                 "reference": "",
                 "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "blue-wrench-videos-widget",
+        "vulnerability": [
+            {
+                "title": "Blue Wrench Video-Widget CSRF and Persistent XSS 0day Disclosure",
+                "reference": "",
+                "type": "MULTI"
             }
         ]
     },
