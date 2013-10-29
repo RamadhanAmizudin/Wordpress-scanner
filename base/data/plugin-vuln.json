@@ -6703,5 +6703,60 @@
                 "type": "RCE"
             }
         ]
+    },
+    {
+        "name": "dhtmlxspreadsheet",
+        "vulnerability": [
+            {
+                "title": "Spreadsheet - \/dhtmlxspreadsheet\/codebase\/spreadsheet.php page Parameter Reflected XSS",
+                "reference": "",
+                "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "tweet-blender",
+        "vulnerability": [
+            {
+                "title": "Tweet Blender 4.0.1 - Unspecified XSS",
+                "reference": "",
+                "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "sb-uploader",
+        "vulnerability": [
+            {
+                "title": "WordPress SB Uploader 3.9 - Arbitrary File Upload Vulnerability",
+                "reference": "",
+                "type": "UPLOAD"
+            }
+        ]
+    },
+    {
+        "name": "connections",
+        "vulnerability": [
+            {
+                "title": "Connections <= 0.7.1.5 - Unspecified Security Vulnerability",
+                "reference": "",
+                "type": "XSS"
+            }
+        ]
+    },
+    {
+        "name": "gallery-bank",
+        "vulnerability": [
+            {
+                "title": "Gallery Bank 2.0.19 - Multiple Unspecified XSS",
+                "reference": "",
+                "type": "XSS"
+            },
+            {
+                "title": "Gallery Bank 2.0.19 - Multiple Unspecified Issues",
+                "reference": "",
+                "type": "UNKNOWN"
+            }
+        ]
     }
 ]
