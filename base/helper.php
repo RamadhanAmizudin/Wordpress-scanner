@@ -74,12 +74,47 @@ function HTTPRequest($url = '', $post = false, $postfield = '', $follow_redirect
 		curl_setopt($ch, CURLOPT_POST, 1);
 		curl_setopt($ch, CURLOPT_POSTFIELDS, $postfield);
 	}
-		$data = curl_exec($ch);
+	$data = curl_exec($ch);
 	if($data) {
 		return $data;
 	} else {
 		return false;
 	}
+}
+
+function HTTPMultiRequest($urls, $follow_redirection = true) {
+    //no support for POST/GET request, yet!
+    global $user_agents;
+    foreach($urls as $i => $url) {
+        $ch[$i] = curl_init();
+        curl_setopt($ch[$i], CURLOPT_HEADER, 1);
+        curl_setopt($ch[$i], CURLOPT_TIMEOUT, 15);
+        curl_setopt($ch[$i], CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch[$i], CURLOPT_SSL_VERIFYPEER, 0);
+        curl_setopt($ch[$i], CURLOPT_URL, $url);
+        curl_setopt($ch[$i], CURLOPT_USERAGENT, $user_agents[ array_rand($user_agents) ]);
+        // curl_setopt($ch[$i], CURLOPT_COOKIEJAR, dirname(__FILE__).'/cookie.txt');
+        // curl_setopt($ch[$i], CURLOPT_COOKIEFILE, dirname(__FILE__).'/cookie.txt');
+        if($follow_redirection) {
+            curl_setopt($ch[$i], CURLOPT_FOLLOWLOCATION, 1);
+        }
+        curl_multi_add_handle($multiCurl, $ch[$i]);
+    }
+    do {
+        curl_multi_exec($multiCurl, $active);
+    } while($active > 0);
+    foreach($ch as $id => $connection) {
+        $data = curl_multi_getcontent($connection);
+        curl_multi_remove_handle($multiCurl, $connection);
+        curl_close($connection);
+        $arrData[$id] = $data;
+    }
+    curl_multi_close($multiCurl);
+    if(!empty($arrData)) {
+        return $arrData;
+    } else {
+        return false;
+    }
 }
 
 function msg($txt) {
