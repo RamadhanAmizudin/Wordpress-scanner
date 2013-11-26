@@ -23,19 +23,19 @@ function check_requirement() {
 	if (version_compare(PHP_VERSION, '5.3.0', '<')) {
 		printf("%s\n", "Your PHP Version is: " . PHP_VERSION . ". Recommend PHP Version is PHP 5.3 .");
 	}
-	$curl = callable('curl_init');
+	$curl = isCallable('curl_init');
 	if(!$curl) {
-		printf("%s\n", "Wp-Scan require cURL Extension.");
+		printf("%s\n", "Wordpress Scanner require cURL Extension.");
 		$error = true;
 	}
-	$fsock = callable('fsockopen');
+	$fsock = isCallable('fsockopen');
 	if(!$fsock) {
-		printf("%s\n", "Wp-Scan require Socket Extension.");
+		printf("%s\n", "Wordpress Scanner require Socket Extension.");
 		$error = true;
 	}
-	$xml = callable('simplexml_load_file');
+	$xml = isCallable('simplexml_load_file');
 	if(!$xml) {
-		printf("%s\n", "Wp-Scan require SimpleXML Extension.");
+		printf("%s\n", "WWordpress Scanner require SimpleXML Extension.");
 		$error = true;
 	}
 	if($error) exit;
@@ -53,8 +53,8 @@ function usage() {
 	msg("[!] php {$argv[0]} http://wordpress.org/blog/");
 }
 
-function callable($function = '') {
-	if(!function_exists($function) OR !is_callable($function) OR (strpos(ini_get('disable_functions'), $function) !== false)) {
+function isCallable($function = '') {
+	if(!function_exists($function) OR !is_isCallable($function) OR (strpos(ini_get('disable_functions'), $function) !== false)) {
 		return false;
 	} else {
 		return true;
