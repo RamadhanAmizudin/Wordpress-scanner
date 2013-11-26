@@ -1,7 +1,51 @@
 [
    {
-      "src":"wp-includes\/js\/tiny_mce.js",
+      "src":"wp-includes\/js\/tinymce\/plugins\/wpeditimage\/editor_plugin_src.js",
       "hash":[
+         {
+            "md5":"5d01c0e812cdcd6356b78ee0cb4e5426",
+            "version":"3.7.1"
+         }
+      ]
+   },
+   {
+      "src":"wp-includes\/js\/jquery\/jquery.form.js",
+      "hash":[
+         {
+            "md5":"e5afd8e41d2ec22c19932b068cd90a71",
+            "version":"3.7"
+         }
+      ]
+   },
+   {
+      "src":"wp-admin\/js\/common.js",
+      "hash":[
+         {
+            "md5":"03eaffeef39119f0523a49c7f9767f3b",
+            "version":"3.6.1"
+         },
+         {
+            "md5":"4516252d47a73630280869994d510180",
+            "version":"3.3"
+         }
+      ]
+   },
+   {
+      "src":"wp-includes\/js\/jquery\/jquery.js",
+      "hash":[
+         {
+            "md5":"9dcde2d5e8aeda556a0c52239fa2f44c",
+            "version":"3.6"
+         }
+      ]
+   },
+   {
+      "src":"wp-includes\/js\/tinymce\/tiny_mce.js",
+      "hash":[
+         {
+            "md5":"eddb5fda74d41dbdac018167536d8d53",
+            "version":"3.5.2"
+         },
          {
             "md5":"6e79ab6d786c5c95920064add33ee599",
             "version":"3.5.1"
@@ -66,15 +110,6 @@
          {
             "md5":"7b423e0b7c9221092737ad5271d09863",
             "version":"3.2"
-         }
-      ]
-   },
-   {
-      "src":"wp-admin\/js\/common.js",
-      "hash":[
-         {
-            "md5":"4516252d47a73630280869994d510180",
-            "version":"3.3"
          }
       ]
    },
