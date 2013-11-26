@@ -3,4 +3,4 @@
 This file is to give credit to Wordpress Scanner contributors.
 
 Big thanks to WPScan.org team for providing vulnerable plugins list and md5 file hash for version checking. - WPScan.org
-
+Another thanks for Mokhdzani Faeq (https://github.com/mokhdzanifaeq/) - multithread support for plugin enumeration.
