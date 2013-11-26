@@ -32,21 +32,25 @@ class WPPlugin {
 	
 	function enumerate() {
 		$plugins = false;
-		$start = 1;
-		foreach($this->a_plugin as $plugin) {
-			// yeah lot of slow single-thread request!
-			progress_bar($start, $this->total_plugins);
-			$resp = HTTPRequest($this->url . '/wp-content/plugins/' . $plugin);
-			if(stripos($resp, '200 ok') !== false) {
-				$plugins[] = array('plugin_name' => $plugin,
-								   'url' => 'http://wordpress.org/extend/plugins/'.$plugin.'/',
-								   'svn' => 'http://svn.wp-plugins.org/' . $plugin . '/');
-								   
-				msg("[+] Found {$plugin} plugin.");
-				msg("[!] Plugin URL: http://wordpress.org/extend/plugins/" . $plugin . "/");
-				msg("[!] Plugin SVN: http://svn.wp-plugins.org/" . $plugin . "/");
+		$start = 0;
+		progress_bar($start, $this->total_plugins);
+		foreach(array_chunk($this->a_plugin, 5) as $pluginsChunk) { //multithread, threads = 5 ;d
+			foreach ($pluginsChunk as $pluginName) {
+				$urls[] = $this->url . '/wp-content/plugins/' . $pluginName;
 			}
-			$start++;
+			$resp = HTTPMultiRequest($urls);
+			foreach ($respons as $key => $resp) {
+				if(stripos($resp, '200 ok') !== false) {
+				$plugins[] = array('plugin_name' => $pluginsChunk[$key],
+								   'url' => 'http://wordpress.org/extend/plugins/'. $pluginsChunk[$key] .'/',
+								   'svn' => 'http://svn.wp-plugins.org/' . $pluginsChunk[$key] . '/');
+								   
+				msg("[+] Found {$pluginsChunk[$key]} plugin.");
+				msg("[!] Plugin URL: http://wordpress.org/extend/plugins/" . $pluginsChunk[$key] . "/");
+				msg("[!] Plugin SVN: http://svn.wp-plugins.org/" . $pluginsChunk[$key] . "/");
+				}
+			}
+			$start += count($pluginsChunk);
 		}
 		return $plugins;
 	}
