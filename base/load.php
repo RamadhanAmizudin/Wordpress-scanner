@@ -72,7 +72,7 @@ class WPScan {
 	function search_plugins() {
 		$data_path = ROOT_PATH . '/base/data/list-plugins.txt';
 		$data = array_map('trim', file($data_path));
-		preg_match_all("/wp-content\/plugins\/(.*?)\//i", $this->homepage_sc, $match);
+		preg_match_all("/wp-content\/plugins\/(.*?)(\/|'|\")/i", $this->homepage_sc, $match);
 		//caching plugins from header
 		preg_match('/x-powered-by: w3 total cache\/[0-9.]+/i', $this->homepage_sc, $w3tc_header);
 		preg_match('/wp-super-cache: served supercache/i', $this->homepage_sc, $supercache_header);

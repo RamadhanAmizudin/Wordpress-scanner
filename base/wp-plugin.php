@@ -33,12 +33,15 @@ class WPPlugin {
 	function enumerate() {
 		$plugins = false;
 		$start = 0;
-		progress_bar($start, $this->total_plugins);
-		foreach(array_chunk($this->a_plugin, 5) as $pluginsChunk) { //multithread, threads = 5 ;d
+		print "[!] how many threads to use? [default = 10] ";
+		$answer = trim(fgets(STDIN));
+		$threads = ctype_digit($answer) ? $answer : 10;   
+		foreach(array_chunk($this->a_plugin, $threads) as $pluginsChunk) {
+			progress_bar($start, $this->total_plugins);
 			foreach ($pluginsChunk as $pluginName) {
 				$urls[] = $this->url . '/wp-content/plugins/' . $pluginName;
 			}
-			$resp = HTTPMultiRequest($urls);
+			$respons = HTTPMultiRequest($urls);
 			foreach ($respons as $key => $resp) {
 				if(stripos($resp, '200 ok') !== false) {
 				$plugins[] = array('plugin_name' => $pluginsChunk[$key],
