@@ -54,7 +54,7 @@ function usage() {
 }
 
 function isCallable($function = '') {
-	if(!function_exists($function) OR !is_isCallable($function) OR (strpos(ini_get('disable_functions'), $function) !== false)) {
+	if(!function_exists($function) OR !is_callable($function) OR (strpos(ini_get('disable_functions'), $function) !== false)) {
 		return false;
 	} else {
 		return true;
