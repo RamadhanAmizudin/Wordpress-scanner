@@ -1,4 +1,12 @@
-* 16/03/2012
+* 27/11/2013
+	- Few bug fixes & fix some typos 
+	
+* 26/11/2013
+	- Added multi-thread support for plugin enumeration.
+	- Updated plugin list to latest.
+	- Fixed function name confusion on php 5.5
+	
+* 16/03/2013
 	- added new version checker
 
 * 09/03/2013
