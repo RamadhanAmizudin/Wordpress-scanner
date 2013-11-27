@@ -19,7 +19,7 @@
 
 date_default_timezone_set('Asia/Kuala_Lumpur');
 define('ROOT_PATH', dirname(__FILE__));
-define('Version', '0.11beta');
+define('Version', '0.20beta');
 
 if( strtolower(php_sapi_name()) != 'cli' ) {
 	printf("%s\n", "Please run only from command line internface.");
