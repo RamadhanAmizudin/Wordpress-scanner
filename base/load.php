@@ -25,6 +25,8 @@ require ROOT_PATH . '/base/update.php';
 require ROOT_PATH . '/base/wp-version.php';
 require ROOT_PATH . '/base/wp-vuln.php';
 require ROOT_PATH . '/base/wp-plugin.php';
+require ROOT_PATH . '/base/wp-theme.php';
+require ROOT_PATH . '/base/wp-user.php';
 
 function banner() {
 $text = "
@@ -34,7 +36,8 @@ $text = "
  \  /\  / (_) | | | (_| | |_) | | |  __/\__ \__ \
   \/  \/ \___/|_|  \__,_| .__/|_|  \___||___/___/
                         |_|                      
-                                    Scanner v".Version."\n";
+                                    Scanner v".Version."\n
+";
 echo $text;
 }
 
@@ -92,7 +95,7 @@ class WPScan {
 			if(in_array($plugin, $data)) {
 				$_plugins[] = array('plugin_name' => $plugin,
 								   'url' => 'http://wordpress.org/extend/plugins/'.$plugin.'/',
-								   'svn' => 'http://svn.wp-plugins.org/' . $plugin . '/');
+								   'svn' => 'http://plugins.svn.wordpress.org/' . $plugin . '/');
 			} else {
 				$_plugins[] = array('plugin_name' => $plugin);
 			}
