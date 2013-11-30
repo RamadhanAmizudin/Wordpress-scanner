@@ -83,11 +83,12 @@ function HTTPRequest($url = '', $post = false, $postfield = '', $follow_redirect
 }
 
 function HTTPMultiRequest($urls = array(), $follow_redirection = true) {
-    //no support for POST/GET request, yet!
+    //no support for GET request, yet!
     global $user_agents;
     $multiCurl = curl_multi_init();
     foreach($urls as $i => $url) {
         $ch[$i] = curl_init();
+        curl_setopt($ch[$i], CURLOPT_NOBODY, 1);
         curl_setopt($ch[$i], CURLOPT_HEADER, 1);
         curl_setopt($ch[$i], CURLOPT_TIMEOUT, 15);
         curl_setopt($ch[$i], CURLOPT_RETURNTRANSFER, 1);

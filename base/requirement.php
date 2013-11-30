@@ -28,16 +28,6 @@ function check_requirement() {
 		printf("%s\n", "Wordpress Scanner require cURL Extension.");
 		$error = true;
 	}
-	$fsock = isCallable('fsockopen');
-	if(!$fsock) {
-		printf("%s\n", "Wordpress Scanner require Socket Extension.");
-		$error = true;
-	}
-	$xml = isCallable('simplexml_load_file');
-	if(!$xml) {
-		printf("%s\n", "WWordpress Scanner require SimpleXML Extension.");
-		$error = true;
-	}
 	if($error) exit;
 	if(!isset($argv[1])) {
 		usage();

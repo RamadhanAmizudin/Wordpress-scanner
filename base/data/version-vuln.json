@@ -1,0 +1,1910 @@
+{
+  "3.5.2": {
+    "vulnerability": {
+      "title": "SWFUpload Content Spoofing",
+      "references": {
+        "url": [
+          "http:\/\/bot24.blogspot.ca\/2013\/04\/swfupload-object-injectioncsrf.html",
+          "https:\/\/github.com\/wpscanteam\/wpscan\/issues\/243"
+        ]
+      }
+    }
+  },
+  "3.5.1": {
+    "vulnerability": [
+      {
+        "title": "Wordpress 3.4 - 3.5.1 \/wp-admin\/users.php Malformed s Parameter Path Disclosure",
+        "references": {
+          "osvdb": "95060",
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2013\/Jul\/70"
+        }
+      },
+      {
+        "title": "WordPress 3.4-3.5.1 DoS in class-phpass.php",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2013\/Jun\/65",
+          "secunia": "53676",
+          "osvdb": "94235",
+          "cve": "2013-2173"
+        }
+      },
+      {
+        "title": "WordPress Multiple XSS",
+        "references": {
+          "osvdb": [
+            "94791",
+            "94785",
+            "94786",
+            "94790"
+          ]
+        }
+      },
+      {
+        "title": "WordPress TinyMCE Plugin Flash Applet Unspecified Spoofing Weakness",
+        "references": {
+          "osvdb": "94787"
+        }
+      },
+      {
+        "title": "WordPress File Upload Unspecified Path Disclosure",
+        "references": {
+          "osvdb": "94788"
+        }
+      },
+      {
+        "title": "WordPress oEmbed Unspecified XML External Entity (XXE) Arbitrary File Disclosure",
+        "references": {
+          "osvdb": "94789"
+        }
+      },
+      {
+        "title": "WordPress Multiple Role Remote Privilege Escalation",
+        "references": {
+          "osvdb": "94783"
+        }
+      },
+      {
+        "title": "WordPress HTTP API Unspecified Server Side Request Forgery (SSRF)",
+        "references": {
+          "osvdb": "94784"
+        }
+      }
+    ]
+  },
+  "3.5": {
+    "vulnerability": [
+      {
+        "title": "Wordpress 3.4 - 3.5.1 \/wp-admin\/users.php Malformed s Parameter Path Disclosure",
+        "references": {
+          "osvdb": "95060",
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2013\/Jul\/70"
+        }
+      },
+      {
+        "title": "WordPress 3.4-3.5.1 DoS in class-phpass.php",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2013\/Jun\/65",
+          "secunia": "53676",
+          "osvdb": "94235",
+          "cve": "2013-2173"
+        }
+      },
+      {
+        "title": "WordPress 3.5 to 3.3.2 Cross-Site Scripting (XSS) (Issue 3)",
+        "references": {
+          "url": "https:\/\/github.com\/wpscanteam\/wpscan\/wiki\/WordPress-3.5-Issues"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "3.4.2": {
+    "vulnerability": [
+      {
+        "title": "Wordpress 3.4 - 3.5.1 \/wp-admin\/users.php Malformed s Parameter Path Disclosure",
+        "references": {
+          "osvdb": "95060",
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2013\/Jul\/70"
+        }
+      },
+      {
+        "title": "WordPress 3.4-3.5.1 DoS in class-phpass.php",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2013\/Jun\/65",
+          "secunia": "53676",
+          "osvdb": "94235",
+          "cve": "2013-2173"
+        }
+      },
+      {
+        "title": "WordPress 3.5 to 3.3.2 Cross-Site Scripting (XSS) (Issue 3)",
+        "references": {
+          "url": "https:\/\/github.com\/wpscanteam\/wpscan\/wiki\/WordPress-3.5-Issues"
+        }
+      },
+      {
+        "title": "WordPress 3.4.2 Cross Site Request Forgery",
+        "references": {
+          "url": "http:\/\/packetstormsecurity.org\/files\/116785\/WordPress-3.4.2-Cross-Site-Request-Forgery.html"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "3.4.1": {
+    "vulnerability": [
+      {
+        "title": "Wordpress 3.4 - 3.5.1 \/wp-admin\/users.php Malformed s Parameter Path Disclosure",
+        "references": {
+          "osvdb": "95060",
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2013\/Jul\/70"
+        }
+      },
+      {
+        "title": "WordPress 3.4-3.5.1 DoS in class-phpass.php",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2013\/Jun\/65",
+          "secunia": "53676",
+          "osvdb": "94235",
+          "cve": "2013-2173"
+        }
+      },
+      {
+        "title": "WordPress 3.5 to 3.3.2 Cross-Site Scripting (XSS) (Issue 3)",
+        "references": {
+          "url": "https:\/\/github.com\/wpscanteam\/wpscan\/wiki\/WordPress-3.5-Issues"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "3.4": {
+    "vulnerability": [
+      {
+        "title": "Wordpress 3.4 - 3.5.1 \/wp-admin\/users.php Malformed s Parameter Path Disclosure",
+        "references": {
+          "osvdb": "95060",
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2013\/Jul\/70"
+        }
+      },
+      {
+        "title": "WordPress 3.4-3.5.1 DoS in class-phpass.php",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2013\/Jun\/65",
+          "secunia": "53676",
+          "osvdb": "94235",
+          "cve": "2013-2173"
+        }
+      },
+      {
+        "title": "WordPress 3.5 to 3.3.2 Cross-Site Scripting (XSS) (Issue 3)",
+        "references": {
+          "url": "https:\/\/github.com\/wpscanteam\/wpscan\/wiki\/WordPress-3.5-Issues"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "3.4-beta4": {
+    "vulnerability": [
+      {
+        "title": "WordPress 3.5 to 3.3.2 Cross-Site Scripting (XSS) (Issue 3)",
+        "references": {
+          "url": "https:\/\/github.com\/wpscanteam\/wpscan\/wiki\/WordPress-3.5-Issues"
+        }
+      },
+      {
+        "title": "Wordpress 3.3.1 Multiple CSRF Vulnerabilities",
+        "references": {
+          "exploitdb": "18791"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "3.3.3": {
+    "vulnerability": [
+      {
+        "title": "WordPress 3.5 to 3.3.2 Cross-Site Scripting (XSS) (Issue 3)",
+        "references": {
+          "url": "https:\/\/github.com\/wpscanteam\/wpscan\/wiki\/WordPress-3.5-Issues"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "3.3.2": {
+    "vulnerability": [
+      {
+        "title": "WordPress 3.5 to 3.3.2 Cross-Site Scripting (XSS) (Issue 3)",
+        "references": {
+          "url": "https:\/\/github.com\/wpscanteam\/wpscan\/wiki\/WordPress-3.5-Issues"
+        }
+      },
+      {
+        "title": "Wordpress 3.3.1 Multiple CSRF Vulnerabilities",
+        "references": {
+          "exploitdb": "18791"
+        }
+      },
+      {
+        "title": "WordPress 3.3.2 Cross Site Scripting",
+        "references": {
+          "url": "http:\/\/packetstormsecurity.org\/files\/113254"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "3.3.1": {
+    "vulnerability": [
+      {
+        "title": "Multiple vulnerabilities including XSS and Privilege Escalation",
+        "references": {
+          "url": "http:\/\/wordpress.org\/news\/2012\/04\/wordpress-3-3-2\/"
+        }
+      },
+      {
+        "title": "Wordpress 3.3.1 Multiple CSRF Vulnerabilities",
+        "references": {
+          "exploitdb": "18791"
+        }
+      },
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "3.3": {
+    "vulnerability": [
+      {
+        "title": "Reflected Cross-Site Scripting in WordPress 3.3",
+        "references": {
+          "url": "http:\/\/oldmanlab.blogspot.com\/2012\/01\/wordpress-33-xss-vulnerability.html"
+        }
+      },
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "3.2.1": {
+    "vulnerability": [
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "3.2": {
+    "vulnerability": [
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "3.1.4": {
+    "vulnerability": [
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "3.1.3": {
+    "vulnerability": [
+      {
+        "title": "Multiple SQL Injection Vulnerabilities",
+        "references": {
+          "exploitdb": "17465"
+        }
+      },
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "3.1.2": {
+    "vulnerability": [
+      {
+        "title": "Wordpress <= 3.1.2 Clickjacking Vulnerability",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2011\/Sep\/219"
+        }
+      },
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "3.1.1": {
+    "vulnerability": [
+      {
+        "title": "WordPress wp-includes\/formatting.php make_clickable() PCRE Library Remote DoS",
+        "references": {
+          "osvdb": "72142"
+        }
+      },
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "3.1": {
+    "vulnerability": [
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "3.0.6": {
+    "vulnerability": [
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "3.0.5": {
+    "vulnerability": [
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "3.0.4": {
+    "vulnerability": [
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "3.0.3": {
+    "vulnerability": [
+      {
+        "title": "SQL injection vulnerability in do_trackbacks() Wordpress function",
+        "references": {
+          "exploitdb": "15684"
+        }
+      },
+      {
+        "title": "Wordpress 3.0.3 stored XSS IE7,6 NS8.1",
+        "references": {
+          "exploitdb": "15858"
+        }
+      },
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "3.0.2": {
+    "vulnerability": [
+      {
+        "title": "WordPress XML-RPC Interface Access Restriction Bypass",
+        "references": {
+          "osvdb": "69761"
+        }
+      },
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "3.0.1": {
+    "vulnerability": [
+      {
+        "title": "WordPress: Information Disclosure via SQL Injection Attack",
+        "references": {
+          "url": "http:\/\/blog.sjinks.pro\/wordpress\/858-information-disclosure-via-sql-injection-attack\/"
+        }
+      },
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "3.0": {
+    "vulnerability": [
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.9.2": {
+    "vulnerability": [
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.9.1": {
+    "vulnerability": [
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.9": {
+    "vulnerability": [
+      {
+        "title": "WordPress 2.9 Failure to Restrict URL Access",
+        "references": {
+          "exploitdb": "11441"
+        }
+      },
+      {
+        "title": "Wordpress DOS <= 2.9",
+        "references": {
+          "exploitdb": "11441"
+        }
+      },
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.8.6": {
+    "vulnerability": [
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.8.5": {
+    "vulnerability": [
+      {
+        "title": "WordPress <= 2.8.5 Unrestricted File Upload Arbitrary PHP Code Execution",
+        "references": {
+          "exploitdb": "10089"
+        }
+      },
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.8.4": {
+    "vulnerability": [
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.8.3": {
+    "vulnerability": [
+      {
+        "title": "Wordpress <= 2.8.3 Remote Admin Reset Password Vulnerability",
+        "references": {
+          "exploitdb": "9410"
+        }
+      },
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.8.2": {
+    "vulnerability": [
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.8.1": {
+    "vulnerability": [
+      {
+        "title": "Wordpress 2.8.1 (url) Remote Cross Site Scripting Exploit",
+        "references": {
+          "exploitdb": "9250"
+        }
+      },
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.8": {
+    "vulnerability": [
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.7.1": {
+    "vulnerability": [
+      {
+        "title": "WordPress 2.0 - 2.7.1 admin.php Module Configuration Security Bypass Vulnerability",
+        "references": {
+          "url": "http:\/\/www.securityfocus.com\/bid\/35584\/"
+        }
+      },
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.7": {
+    "vulnerability": [
+      {
+        "title": "WordPress 2.0 - 2.7.1 admin.php Module Configuration Security Bypass Vulnerability",
+        "references": {
+          "url": "http:\/\/www.securityfocus.com\/bid\/35584\/"
+        }
+      },
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.6.5": {
+    "vulnerability": [
+      {
+        "title": "WordPress 2.0 - 2.7.1 admin.php Module Configuration Security Bypass Vulnerability",
+        "references": {
+          "url": "http:\/\/www.securityfocus.com\/bid\/35584\/"
+        }
+      },
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.6.4": {
+    "vulnerability": [
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.6.3": {
+    "vulnerability": [
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.6.2": {
+    "vulnerability": [
+      {
+        "title": "WordPress 2.0 - 2.7.1 admin.php Module Configuration Security Bypass Vulnerability",
+        "references": {
+          "url": "http:\/\/www.securityfocus.com\/bid\/35584\/"
+        }
+      },
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.6.1": {
+    "vulnerability": [
+      {
+        "title": "WordPress 2.0 - 2.7.1 admin.php Module Configuration Security Bypass Vulnerability",
+        "references": {
+          "url": "http:\/\/www.securityfocus.com\/bid\/35584\/"
+        }
+      },
+      {
+        "title": "Wordpress 2.6.1 (SQL Column Truncation) Admin Takeover Exploit",
+        "references": {
+          "exploitdb": "6421"
+        }
+      },
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.6": {
+    "vulnerability": [
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.5.1": {
+    "vulnerability": [
+      {
+        "title": "WordPress 2.0 - 2.7.1 admin.php Module Configuration Security Bypass Vulnerability",
+        "references": {
+          "url": "http:\/\/www.securityfocus.com\/bid\/35584\/"
+        }
+      },
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.5": {
+    "vulnerability": [
+      {
+        "title": "Wordpress 2.5 Cookie Integrity Protection Vulnerability",
+        "references": {
+          "url": "http:\/\/www.securityfocus.com\/archive\/1\/archive\/1\/491356\/100\/0\/threaded",
+          "cve": "2008-1930"
+        }
+      },
+      {
+        "title": "XSS vulnerability in swfupload in WordPress",
+        "references": {
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2012\/Nov\/51"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.3.3": {
+    "vulnerability": [
+      {
+        "title": "WordPress 2.0 - 2.7.1 admin.php Module Configuration Security Bypass Vulnerability",
+        "references": {
+          "url": "http:\/\/www.securityfocus.com\/bid\/35584\/"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.3.2": {
+    "vulnerability": [
+      {
+        "title": "WordPress 2.0 - 2.7.1 admin.php Module Configuration Security Bypass Vulnerability",
+        "references": {
+          "url": "http:\/\/www.securityfocus.com\/bid\/35584\/"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "http:\/\/www.securityfocus.com\/bid\/35584\/"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.3.1": {
+    "vulnerability": [
+      {
+        "title": "WordPress 2.0 - 2.7.1 admin.php Module Configuration Security Bypass Vulnerability",
+        "references": {
+          "url": "http:\/\/www.securityfocus.com\/bid\/35584\/"
+        }
+      },
+      {
+        "title": "Wordpress <= 2.3.1 Charset Remote SQL Injection Vulnerability",
+        "references": {
+          "exploitdb": "4721"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.3": {
+    "vulnerability": [
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.2.3": {
+    "vulnerability": [
+      {
+        "title": "WordPress 2.0 - 2.7.1 admin.php Module Configuration Security Bypass Vulnerability",
+        "references": {
+          "url": "http:\/\/www.securityfocus.com\/bid\/35584\/"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.2.2": {
+    "vulnerability": [
+      {
+        "title": "WordPress 2.0 - 2.7.1 admin.php Module Configuration Security Bypass Vulnerability",
+        "references": {
+          "url": "http:\/\/www.securityfocus.com\/bid\/35584\/"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.2.1": {
+    "vulnerability": [
+      {
+        "title": "WordPress 2.0 - 2.7.1 admin.php Module Configuration Security Bypass Vulnerability",
+        "references": {
+          "url": "http:\/\/www.securityfocus.com\/bid\/35584\/"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.2": {
+    "vulnerability": [
+      {
+        "title": "WordPress 2.0 - 2.7.1 admin.php Module Configuration Security Bypass Vulnerability",
+        "references": {
+          "url": "http:\/\/www.securityfocus.com\/bid\/35584\/"
+        }
+      },
+      {
+        "title": "WordPress 2.2 (wp-app.php) Arbitrary File Upload Exploit",
+        "references": {
+          "exploitdb": "4113"
+        }
+      },
+      {
+        "title": "Wordpress 2.2 (xmlrpc.php) Remote SQL Injection Exploit",
+        "references": {
+          "exploitdb": "4039"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.1.3": {
+    "vulnerability": [
+      {
+        "title": "WordPress 2.0 - 2.7.1 admin.php Module Configuration Security Bypass Vulnerability",
+        "references": {
+          "url": "http:\/\/www.securityfocus.com\/bid\/35584\/"
+        }
+      },
+      {
+        "title": "Wordpress 2.1.3 admin-ajax.php SQL Injection Blind Fishing Exploit",
+        "references": {
+          "exploitdb": "3960"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.1.2": {
+    "vulnerability": [
+      {
+        "title": "WordPress 2.0 - 2.7.1 admin.php Module Configuration Security Bypass Vulnerability",
+        "references": {
+          "url": "http:\/\/www.securityfocus.com\/bid\/35584\/"
+        }
+      },
+      {
+        "title": "WordPress \"year\" Cross-Site Scripting Vulnerability",
+        "references": {
+          "secunia": "24485",
+          "url": "http:\/\/www.securityfocus.com\/archive\/1\/archive\/1\/462374\/100\/0\/threaded"
+        }
+      },
+      {
+        "title": "Wordpress 2.1.2 (xmlrpc) Remote SQL Injection Exploit",
+        "references": {
+          "exploitdb": "3656"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.1.1": {
+    "vulnerability": [
+      {
+        "title": "WordPress 2.0 - 2.7.1 admin.php Module Configuration Security Bypass Vulnerability",
+        "references": {
+          "url": "http:\/\/www.securityfocus.com\/bid\/35584\/"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.1": {
+    "vulnerability": [
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.0.11": {
+    "vulnerability": [
+      {
+        "title": "WordPress 2.0 - 2.7.1 admin.php Module Configuration Security Bypass Vulnerability",
+        "references": {
+          "url": "http:\/\/www.securityfocus.com\/bid\/35584\/"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.0.10": {
+    "vulnerability": [
+      {
+        "title": "WordPress 2.0 - 2.7.1 admin.php Module Configuration Security Bypass Vulnerability",
+        "references": {
+          "url": "http:\/\/www.securityfocus.com\/bid\/35584\/"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.0.9": {
+    "vulnerability": [
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.0.8": {
+    "vulnerability": [
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.0.7": {
+    "vulnerability": [
+      {
+        "title": "WordPress 2.0 - 2.7.1 admin.php Module Configuration Security Bypass Vulnerability",
+        "references": {
+          "url": "http:\/\/www.securityfocus.com\/bid\/35584\/"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.0.6": {
+    "vulnerability": [
+      {
+        "title": "WordPress 2.0 - 2.7.1 admin.php Module Configuration Security Bypass Vulnerability",
+        "references": {
+          "url": "http:\/\/www.securityfocus.com\/bid\/35584\/"
+        }
+      },
+      {
+        "title": "Wordpress <= 2.0.6 wp-trackback.php Remote SQL Injection Exploit",
+        "references": {
+          "exploitdb": "3109"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.0.5": {
+    "vulnerability": [
+      {
+        "title": "WordPress 2.0 - 2.7.1 admin.php Module Configuration Security Bypass Vulnerability",
+        "references": {
+          "url": "http:\/\/www.securityfocus.com\/bid\/35584\/"
+        }
+      },
+      {
+        "title": "Wordpress 2.0.5 Trackback UTF-7 Remote SQL Injection Exploit",
+        "references": {
+          "exploitdb": "3095"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.0.4": {
+    "vulnerability": [
+      {
+        "title": "WordPress 2.0 - 2.7.1 admin.php Module Configuration Security Bypass Vulnerability",
+        "references": {
+          "url": "http:\/\/www.securityfocus.com\/bid\/35584\/"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.0.3": {
+    "vulnerability": [
+      {
+        "title": "WordPress 2.0 - 2.7.1 admin.php Module Configuration Security Bypass Vulnerability",
+        "references": {
+          "url": "http:\/\/www.securityfocus.com\/bid\/35584\/"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.0.2": {
+    "vulnerability": [
+      {
+        "title": "WordPress 2.0 - 2.7.1 admin.php Module Configuration Security Bypass Vulnerability",
+        "references": {
+          "url": "http:\/\/www.securityfocus.com\/bid\/35584\/"
+        }
+      },
+      {
+        "title": "WordPress <= 2.0.2 (cache) Remote Shell Injection Exploit",
+        "references": {
+          "exploitdb": "6"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.0.1": {
+    "vulnerability": [
+      {
+        "title": "WordPress 2.0 - 2.7.1 admin.php Module Configuration Security Bypass Vulnerability",
+        "references": {
+          "url": "http:\/\/www.securityfocus.com\/bid\/35584\/"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "2.0": {
+    "vulnerability": [
+      {
+        "title": "WordPress 2.0 - 2.7.1 admin.php Module Configuration Security Bypass Vulnerability",
+        "references": {
+          "url": "http:\/\/www.securityfocus.com\/bid\/35584\/"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "1.5.2": {
+    "vulnerability": [
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "1.5.1.3": {
+    "vulnerability": [
+      {
+        "title": "Wordpress <= 1.5.1.3 Remote Code Execution eXploit (metasploit)",
+        "references": {
+          "exploitdb": "1145"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "1.5.1.2": {
+    "vulnerability": [
+      {
+        "title": "Wordpress <= 1.5.1.2 xmlrpc Interface SQL Injection Exploit",
+        "references": {
+          "exploitdb": "1077"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "1.5.1.1": {
+    "vulnerability": [
+      {
+        "title": "WordPress <= 1.5.1.1 \"add new admin\" SQL Injection Exploit",
+        "references": {
+          "secunia": "1059"
+        }
+      },
+      {
+        "title": "WordPress <= 1.5.1.1 SQL Injection Exploit",
+        "references": {
+          "exploitdb": "1033"
+        }
+      },
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "1.5.1": {
+    "vulnerability": [
+      {
+        "title": "XMLRPC Pingback API Internal\/External Port Scanning",
+        "references": {
+          "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
+        }
+      },
+      {
+        "title": "WordPress XMLRPC pingback additional issues",
+        "references": {
+          "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  }
+}

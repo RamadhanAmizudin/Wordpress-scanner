@@ -18,31 +18,68 @@
 **/
 class WPVuln {
 
-	function plugin($plugins = array()) {
-		foreach($plugins as $plugin) {
-			$this->_plugin($plugin['plugin_name']);
-		}
+	var $data_path;
+	var $type;
+	var $found;
+
+	function __construct($type) {
+		$this->data_path = ROOT_PATH . "/base/data/{$type}-vuln.json";
+		$this->type = $type;
+		$this->found = 0;
 	}
-	
-	protected function _plugin($plugin) {
-		$data_path = ROOT_PATH . '/base/data/plugin-vuln.json';
-		$data = json_decode(file_get_contents($data_path), true);
-		foreach($data as $_plugin) {
-			if(strtolower($_plugin['name']) == strtolower($plugin)) {
-				foreach($_plugin['vulnerability'] as $vuln) {
-					msg("");
-					msg("[+] Found " . $vuln['title']);
-					msg("[+] Reference:");
-					if(is_array($vuln['reference'])) {
-						foreach($vuln['reference'] as $ref) {
-							msg("[*]\t" . $ref);
-						}
-					} else {
-						msg("[*]\t" . $vuln['reference']);
-					}
+
+	function vuln($var) {
+		$data = json_decode(file_get_contents($this->data_path), true);
+		foreach((array)$var as $vuln) {
+			if(isset($data[$vuln["{$this->type}_name"]])) {
+				msg("");
+				msg("[+] Found " . $data[$vuln["{$this->type}_name"]]['vulnerability']['title']);
+				$this->reference($data[$vuln["{$this->type}_name"]]['vulnerability']['references']);
+				$this->found++;
+			}
+		}
+		$this->found ?: msg("[-] No vulnerability was found");
+	}
+
+	function version($version) {
+		$data = json_decode(file_get_contents($this->data_path), true);
+		if(isset($data[$version])) {
+			msg("");
+			msg("[+] Found " . $data[$version]['vulnerability']['title']);
+			$this->reference($data[$version]['vulnerability']['references']);
+			$this->found++;
+		}
+		$this->found ?: msg("[-] No vulnerability was found");
+	}
+
+	function reference($ref) {
+		msg("[+] Reference:");
+		foreach((array)$ref as $key => $reff) {
+			if($key == 'metasploit') {
+				foreach ((array)$reff as $id) {
+					msg("[*]\thttp://www.metasploit.com/modules/" . $id);
+				}
+			} elseif($key == 'cve') {
+				foreach ((array)$reff as $id) {
+					msg("[*]\thttp://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-" . $id);
+				}
+			} elseif($key == 'osvdb') {
+				foreach ((array)$reff as $id) {
+					msg("[*]\thttp://osvdb.org/" . $id);
+				}
+			} elseif($key == 'secunia') {
+				foreach ((array)$reff as $id) {
+					msg("[*]\thttp://secunia.com/advisories/" . $id);
+				}
+			} elseif($key == 'exploitdb') {
+				foreach ((array)$reff as $id) {
+					msg("[*]\thttp://www.exploit-db.com/exploits/" . $id);
+				}
+			} elseif($key == 'url') {
+				foreach ((array)$reff as $url) {
+					msg("[*]\t" . $url);
 				}
 			}
 		}
 	}
-
 }
