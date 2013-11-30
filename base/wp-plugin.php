@@ -25,7 +25,7 @@ class WPPlugin {
 
 	function __construct($url) {
 		$this->url = $url;
-		$this->a_plugin = file($ROOT_PATH . '/base/data/list-plugins.txt');
+		$this->a_plugin = file(ROOT_PATH . '/base/data/list-plugins.txt');
 		$this->total_plugins = count($this->a_plugin);
 	}
 	
