@@ -1,4 +1,67 @@
 {
+  "3.6": {
+    "vulnerability": [
+      {
+        "title": "PHP Object Injection",
+        "references": {
+          "url": [
+            "http:\/\/vagosec.org\/2013\/09\/wordpress-php-object-injection\/",
+            "http:\/\/www.openwall.com\/lists\/oss-security\/2013\/09\/12\/1",
+            "http:\/\/web.nvd.nist.gov\/view\/vuln\/detail?vulnId=CVE-2013-4340",
+            "http:\/\/core.trac.wordpress.org\/changeset\/25325"
+          ],
+          "secunia": "54803",
+          "cve": "2013-4338",
+          "osvdb": "97211"
+        }
+      },
+      {
+        "title": "wp-includes\/functions.php get_allowed_mime_types Function SWF \/ EXE File Upload XSS Weakness",
+        "references": {
+          "osvdb": "97210",
+          "cve": "2013-5739",
+          "url": "http:\/\/core.trac.wordpress.org\/changeset\/25322"
+        }
+      },
+      {
+        "title": "Crafted String URL Redirect Restriction Bypass",
+        "references": {
+          "osvdb": "97212",
+          "cve": "2013-4339",
+          "secunia": "54803",
+          "exploitdb": "28958",
+          "url": [
+            "http:\/\/packetstormsecurity.com\/files\/123589\/",
+            "http:\/\/core.trac.wordpress.org\/changeset\/25323"
+          ]
+        }
+      },
+      {
+        "title": "wp-admin\/includes\/post.php user_ID Parameter Manipulation Post Authorship Spoofing",
+        "references": {
+          "osvdb": "97213",
+          "cve": "2013-4340",
+          "secunia": "54803",
+          "url": "http:\/\/core.trac.wordpress.org\/changeset\/25321"
+        }
+      },
+      {
+        "title": "wp-includes\/functions.php get_allowed_mime_types Function HTML File Upload XSS Weakness",
+        "references": {
+          "osvdb": "97214",
+          "cve": "2013-5738",
+          "url": "http:\/\/core.trac.wordpress.org\/changeset\/25322"
+        }
+      },
+      {
+        "title": "Multiple Function Path Disclosure",
+        "references": {
+          "osvdb": "100487",
+          "url": "http:\/\/seclists.org\/fulldisclosure\/2013\/Nov\/220"
+        }
+      }
+    ]
+  },
   "3.5.2": {
     "vulnerability": {
       "title": "SWFUpload Content Spoofing",
@@ -52,19 +115,19 @@
         }
       },
       {
-        "title": "WordPress oEmbed Unspecified XML External Entity (XXE) Arbitrary File Disclosure",
+        "title": "WordPress 3.5-3.5.1 oEmbed Unspecified XML External Entity (XXE) Arbitrary File Disclosure",
         "references": {
           "osvdb": "94789"
         }
       },
       {
-        "title": "WordPress Multiple Role Remote Privilege Escalation",
+        "title": "WordPress 3.5-3.5.1 Multiple Role Remote Privilege Escalation",
         "references": {
           "osvdb": "94783"
         }
       },
       {
-        "title": "WordPress HTTP API Unspecified Server Side Request Forgery (SSRF)",
+        "title": "WordPress 3.5-3.5.1 HTTP API Unspecified Server Side Request Forgery (SSRF)",
         "references": {
           "osvdb": "94784"
         }
@@ -81,7 +144,7 @@
         }
       },
       {
-        "title": "WordPress 3.4-3.5.1 DoS in class-phpass.php",
+        "title": "WordPress 3.4 - 3.5.1 DoS in class-phpass.php",
         "references": {
           "url": "http:\/\/seclists.org\/fulldisclosure\/2013\/Jun\/65",
           "secunia": "53676",
@@ -90,7 +153,7 @@
         }
       },
       {
-        "title": "WordPress 3.5 to 3.3.2 Cross-Site Scripting (XSS) (Issue 3)",
+        "title": "WordPress 3.3.2 - 3.5 Cross-Site Scripting (XSS) (Issue 3)",
         "references": {
           "url": "https:\/\/github.com\/wpscanteam\/wpscan\/wiki\/WordPress-3.5-Issues"
         }
@@ -119,7 +182,7 @@
         }
       },
       {
-        "title": "WordPress 3.4-3.5.1 DoS in class-phpass.php",
+        "title": "WordPress 3.4 - 3.5.1 DoS in class-phpass.php",
         "references": {
           "url": "http:\/\/seclists.org\/fulldisclosure\/2013\/Jun\/65",
           "secunia": "53676",
@@ -128,7 +191,7 @@
         }
       },
       {
-        "title": "WordPress 3.5 to 3.3.2 Cross-Site Scripting (XSS) (Issue 3)",
+        "title": "WordPress 3.3.2 - 3.5 Cross-Site Scripting (XSS) (Issue 3)",
         "references": {
           "url": "https:\/\/github.com\/wpscanteam\/wpscan\/wiki\/WordPress-3.5-Issues"
         }
@@ -163,7 +226,7 @@
         }
       },
       {
-        "title": "WordPress 3.4-3.5.1 DoS in class-phpass.php",
+        "title": "WordPress 3.4 - 3.5.1 DoS in class-phpass.php",
         "references": {
           "url": "http:\/\/seclists.org\/fulldisclosure\/2013\/Jun\/65",
           "secunia": "53676",
@@ -172,7 +235,7 @@
         }
       },
       {
-        "title": "WordPress 3.5 to 3.3.2 Cross-Site Scripting (XSS) (Issue 3)",
+        "title": "WordPress 3.3.2 - 3.5 Cross-Site Scripting (XSS) (Issue 3)",
         "references": {
           "url": "https:\/\/github.com\/wpscanteam\/wpscan\/wiki\/WordPress-3.5-Issues"
         }
@@ -201,7 +264,7 @@
         }
       },
       {
-        "title": "WordPress 3.4-3.5.1 DoS in class-phpass.php",
+        "title": "WordPress 3.4 - 3.5.1 DoS in class-phpass.php",
         "references": {
           "url": "http:\/\/seclists.org\/fulldisclosure\/2013\/Jun\/65",
           "secunia": "53676",
@@ -210,7 +273,7 @@
         }
       },
       {
-        "title": "WordPress 3.5 to 3.3.2 Cross-Site Scripting (XSS) (Issue 3)",
+        "title": "WordPress 3.3.2 - 3.5 Cross-Site Scripting (XSS) (Issue 3)",
         "references": {
           "url": "https:\/\/github.com\/wpscanteam\/wpscan\/wiki\/WordPress-3.5-Issues"
         }
@@ -232,7 +295,7 @@
   "3.4-beta4": {
     "vulnerability": [
       {
-        "title": "WordPress 3.5 to 3.3.2 Cross-Site Scripting (XSS) (Issue 3)",
+        "title": "WordPress 3.3.2 - 3.5 Cross-Site Scripting (XSS) (Issue 3)",
         "references": {
           "url": "https:\/\/github.com\/wpscanteam\/wpscan\/wiki\/WordPress-3.5-Issues"
         }
@@ -260,7 +323,7 @@
   "3.3.3": {
     "vulnerability": [
       {
-        "title": "WordPress 3.5 to 3.3.2 Cross-Site Scripting (XSS) (Issue 3)",
+        "title": "WordPress 3.3.2 - 3.5 Cross-Site Scripting (XSS) (Issue 3)",
         "references": {
           "url": "https:\/\/github.com\/wpscanteam\/wpscan\/wiki\/WordPress-3.5-Issues"
         }
@@ -282,7 +345,7 @@
   "3.3.2": {
     "vulnerability": [
       {
-        "title": "WordPress 3.5 to 3.3.2 Cross-Site Scripting (XSS) (Issue 3)",
+        "title": "WordPress 3.3.2 - 3.5 Cross-Site Scripting (XSS) (Issue 3)",
         "references": {
           "url": "https:\/\/github.com\/wpscanteam\/wpscan\/wiki\/WordPress-3.5-Issues"
         }
@@ -444,9 +507,11 @@
   "3.1.3": {
     "vulnerability": [
       {
-        "title": "Multiple SQL Injection Vulnerabilities",
+        "title": "wp-admin\/link-manager.php Multiple Parameter SQL Injection",
         "references": {
-          "exploitdb": "17465"
+          "osvdb": "73723",
+          "exploitdb": "17465",
+          "secunia": "45099"
         }
       },
       {
@@ -474,7 +539,10 @@
       {
         "title": "Wordpress <= 3.1.2 Clickjacking Vulnerability",
         "references": {
-          "url": "http:\/\/seclists.org\/fulldisclosure\/2011\/Sep\/219"
+          "url": [
+            "http:\/\/seclists.org\/fulldisclosure\/2011\/Sep\/219",
+            "http:\/\/www.securityfocus.com\/bid\/49730"
+          ]
         }
       },
       {
@@ -1504,6 +1572,17 @@
         }
       },
       {
+        "title": "WordPress Command Execution and PHP Injection",
+        "references": {
+          "cve": "2007-1277",
+          "secunia": "24374",
+          "url": [
+            "http:\/\/www.securityfocus.com\/bid\/22797",
+            "http:\/\/xforce.iss.net\/xforce\/xfdb\/32807"
+          ]
+        }
+      },
+      {
         "title": "XMLRPC Pingback API Internal\/External Port Scanning",
         "references": {
           "url": "https:\/\/github.com\/FireFart\/WordpressPingbackPortScanner"
@@ -1846,7 +1925,20 @@
       {
         "title": "Wordpress <= 1.5.1.2 xmlrpc Interface SQL Injection Exploit",
         "references": {
-          "exploitdb": "1077"
+          "osvdb": [
+            "17636",
+            "17637",
+            "17638",
+            "17639",
+            "17640",
+            "17641"
+          ],
+          "cve": "2005-2108",
+          "exploitdb": "1077",
+          "secunia": [
+            "15831",
+            "15898"
+          ]
         }
       },
       {
@@ -1903,6 +1995,56 @@
         "title": "WordPress XMLRPC pingback additional issues",
         "references": {
           "url": "http:\/\/lab.onsec.ru\/2013\/01\/wordpress-xmlrpc-pingback-additional.html"
+        }
+      }
+    ]
+  },
+  "1.5": {
+    "vulnerability": [
+      {
+        "title": "WordPress wp-trackback.php tb_id Parameter SQL Injection",
+        "references": {
+          "cve": "2005-1687",
+          "osvdb": [
+            "16701",
+            "16702",
+            "16703"
+          ]
+        }
+      },
+      {
+        "title": "WordPress post.php p Parameter XSS",
+        "references": {
+          "osvdb": [
+            "16702",
+            "16701",
+            "16703"
+          ]
+        }
+      },
+      {
+        "title": "WordPress Multiple Script Direct Request Path Disclosure",
+        "references": {
+          "cve": "2005-1688",
+          "osvdb": [
+            "16703",
+            "16701",
+            "16702"
+          ]
+        }
+      },
+      {
+        "title": "WordPress Cross-Site Scripting and SQL Injection Vulnerabilities",
+        "references": {
+          "osvdb": "16478",
+          "secunia": "15324"
+        }
+      },
+      {
+        "title": "WordPress template-functions-post.php Multiple Field XSS",
+        "references": {
+          "cve": "2005-1102",
+          "osvdb": "15643"
         }
       }
     ]
