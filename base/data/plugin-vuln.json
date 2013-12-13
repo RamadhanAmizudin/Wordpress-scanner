@@ -205,13 +205,31 @@
     }
   },
   "floating-social-media-links": {
-    "vulnerability": {
-      "title": "Floating Social Media Links <= 1.4.2 - Remote File Inclusion",
-      "references": {
-        "secunia": "51346",
-        "url": "http:\/\/ceriksen.com\/2013\/01\/12\/wordpress-floating-social-media-link-plugins-remote-file-inclusion\/"
+    "vulnerability": [
+      {
+        "title": "Floating Social Media Links <= 1.4.2 - fsml-admin.js.php wpp Parameter Remote File Inclusion",
+        "references": {
+          "osvdb": "88383",
+          "secunia": "51346",
+          "url": [
+            "http:\/\/www.securityfocus.com\/bid\/56913",
+            "http:\/\/xforce.iss.net\/xforce\/xfdb\/80641",
+            "http:\/\/ceriksen.com\/2013\/01\/12\/wordpress-floating-social-media-link-plugins-remote-file-inclusion\/"
+          ]
+        }
+      },
+      {
+        "title": "Floating Social Media Links <= 1.4.2 - fsml-hideshow.js.php wpp Parameter Remote File Inclusion ",
+        "references": {
+          "osvdb": "88385",
+          "secunia": "51346",
+          "url": [
+            "http:\/\/www.securityfocus.com\/bid\/56913",
+            "http:\/\/ceriksen.com\/2013\/01\/12\/wordpress-floating-social-media-link-plugins-remote-file-inclusion\/"
+          ]
+        }
       }
-    }
+    ]
   },
   "zingiri-forum": {
     "vulnerability": {
@@ -1367,12 +1385,25 @@
     }
   },
   "wp-imagezoom": {
-    "vulnerability": {
-      "title": "Wp-ImageZoom 1.0.3 - Remote File Disclosure",
-      "references": {
-        "url": "http:\/\/packetstormsecurity.com\/files\/113845\/"
+    "vulnerability": [
+      {
+        "title": "Wp-ImageZoom 1.0.3 - Remote File Disclosure",
+        "references": {
+          "url": "http:\/\/packetstormsecurity.com\/files\/113845\/"
+        }
+      },
+      {
+        "title": "Wp-ImageZoom - zoom.php id Parameter SQL Injection",
+        "references": {
+          "osvdb": "87870",
+          "url": [
+            "http:\/\/packetstormsecurity.com\/files\/118371\/",
+            "http:\/\/www.securityfocus.com\/bid\/56691",
+            "http:\/\/xforce.iss.net\/xforce\/xfdb\/80285"
+          ]
+        }
       }
-    }
+    ]
   },
   "invit0r": {
     "vulnerability": {
@@ -2258,6 +2289,23 @@
   "zingiri-web-shop": {
     "vulnerability": [
       {
+        "title": "Zingiri Web Shop 2.5.0 - ajaxfilemanager.php path Parameter File Upload Arbitrary Code Execution",
+        "references": {
+          "osvdb": "87833",
+          "url": [
+            "http:\/\/packetstormsecurity.com\/files\/118318\/",
+            "http:\/\/www.securityfocus.com\/bid\/56659",
+            "http:\/\/xforce.iss.net\/xforce\/xfdb\/80257"
+          ]
+        }
+      },
+      {
+        "title": "Zingiri Web Shop 2.4.3 - Shell Upload",
+        "references": {
+          "url": "http:\/\/packetstormsecurity.com\/files\/113668\/"
+        }
+      },
+      {
         "title": "Zingiri Web Shop - Cookie SQL Injection Vulnerability",
         "references": {
           "secunia": "49398"
@@ -2293,12 +2341,6 @@
         "title": "Zingiri Web Shop <= 2.3.5 - Cross Site Scripting",
         "references": {
           "url": "http:\/\/packetstormsecurity.com\/files\/112684\/"
-        }
-      },
-      {
-        "title": "Zingiri Web Shop 2.4.3 - Shell Upload",
-        "references": {
-          "url": "http:\/\/packetstormsecurity.com\/files\/113668\/"
         }
       }
     ]
@@ -2448,7 +2490,7 @@
   "count-per-day": {
     "vulnerability": [
       {
-        "title": "Count per Day 3.2.5 - \/wp-content\/wp-admin\/index.php daytoshow Parameter XSS",
+        "title": "Count per Day 3.2.5 - wp-admin\/index.php daytoshow Parameter XSS",
         "references": {
           "osvdb": "90893",
           "secunia": "52436",
@@ -3276,6 +3318,9 @@
           "http:\/\/xforce.iss.net\/xforce\/xfdb\/47568"
         ]
       }
+    },
+    "comment": {
+      
     }
   },
   "wp-shopping-cart": {
@@ -3457,12 +3502,21 @@
     }
   },
   "myflash": {
-    "vulnerability": {
-      "title": "plugin myflash <= 1.00 - (wppath) RFI Vulnerability",
-      "references": {
-        "exploitdb": "3828"
+    "vulnerability": [
+      {
+        "title": "Myflash <= 1.00 - (wppath) RFI Vulnerability",
+        "references": {
+          "exploitdb": "3828"
+        }
+      },
+      {
+        "title": "Myflash - myextractXML.php path Parameter Arbitrary File Access",
+        "references": {
+          "osvdb": "88260",
+          "url": "http:\/\/packetstormsecurity.com\/files\/118400\/"
+        }
       }
-    }
+    ]
   },
   "wordtube": {
     "vulnerability": {
@@ -4872,6 +4926,7 @@
     "vulnerability": {
       "title": "HD Webplayer - Two SQL Injection Vulnerabilities",
       "references": {
+        "osvdb": "87832",
         "secunia": "50466"
       }
     }
@@ -5779,7 +5834,7 @@
   },
   "haiku-minimalist-audio-player": {
     "vulnerability": {
-      "title": "haiku-minimalist-audio-player <= 1.0.0 - jPlayer.swf XSS",
+      "title": "haiku-minimalist-audio-player <= 1.1.0 - jPlayer.swf XSS",
       "references": {
         "secunia": "51336"
       }
@@ -5957,16 +6012,22 @@
   },
   "trafficanalyzer": {
     "vulnerability": {
-      "title": "WP-Print - CSRF",
+      "title": "Traffic Analyzer 3.3.2 - js\/ta_loaded.js.php aoid Parameter XSS",
       "references": {
-        "url": "http:\/\/packetstorm.wowhacker.com\/1304-exploits\/wptrafficanalyzer-xss.txt"
+        "osvdb": "92197",
+        "cve": "2013-3526",
+        "secunia": "52929",
+        "url": "http:\/\/packetstormsecurity.com\/files\/121167\/"
       }
     }
   },
   "wp-download-manager": {
     "vulnerability": {
-      "title": "WP-DownloadManager - CSRF",
+      "title": "WP-DownloadManager 1.60 - Script Insertion CSRF",
       "references": {
+        "osvdb": "92119",
+        "cve": "2013-2697",
+        "secunia": "52863",
         "url": "http:\/\/www.securityfocus.com\/bid\/58937"
       }
     }
@@ -5992,14 +6053,23 @@
     }
   },
   "funcaptcha": {
-    "vulnerability": {
-      "title": "FunCaptcha 0.3.2- Setting Manipulation CSRF",
-      "references": {
-        "osvdb": "92272",
-        "secunia": "53021",
-        "url": "http:\/\/wordpress.org\/extend\/plugins\/funcaptcha\/changelog\/"
+    "vulnerability": [
+      {
+        "title": "FunCaptcha 0.3.2- Setting Manipulation CSRF",
+        "references": {
+          "osvdb": "92272",
+          "secunia": "53021",
+          "url": "http:\/\/wordpress.org\/extend\/plugins\/funcaptcha\/changelog\/"
+        }
+      },
+      {
+        "title": "FunCaptcha 0.4.3 - wp_funcaptcha_admin_activate.php URI XSS",
+        "references": {
+          "osvdb": "100392",
+          "secunia": "55863"
+        }
       }
-    }
+    ]
   },
   "xili-language": {
     "vulnerability": {
@@ -6940,7 +7010,8 @@
       "references": {
         "osvdb": "96884",
         "cve": "2013-3479",
-        "secunia": "53135"
+        "secunia": "53135",
+        "url": "http:\/\/www.securityfocus.com\/bid\/62154"
       }
     }
   },
@@ -6949,7 +7020,10 @@
       "title": "Simple Flash Video 1.7 - Cross Site Scripting",
       "references": {
         "osvdb": "98371",
-        "url": "http:\/\/packetstormsecurity.com\/files\/123562\/"
+        "url": [
+          "http:\/\/packetstormsecurity.com\/files\/123562\/",
+          "http:\/\/www.securityfocus.com\/bid\/62950"
+        ]
       }
     }
   },
@@ -7044,22 +7118,31 @@
     }
   },
   "player": {
-    "vulnerability": {
-      "title": "Spider Video Player 2.1 - \/wp-content\/plugins\/player\/settings.php theme Parameter SQL Injection",
-      "references": {
-        "osvdb": "92264",
-        "cve": "2013-3532",
-        "url": [
-          "http:\/\/packetstormsecurity.com\/files\/121250\/",
-          "http:\/\/www.securityfocus.com\/bid\/59021",
-          "http:\/\/xforce.iss.net\/xforce\/xfdb\/83374"
-        ]
+    "vulnerability": [
+      {
+        "title": "Spider Video Player 2.1 - settings.php theme Parameter SQL Injection",
+        "references": {
+          "osvdb": "92264",
+          "cve": "2013-3532",
+          "url": [
+            "http:\/\/packetstormsecurity.com\/files\/121250\/",
+            "http:\/\/www.securityfocus.com\/bid\/59021",
+            "http:\/\/xforce.iss.net\/xforce\/xfdb\/83374"
+          ]
+        }
+      },
+      {
+        "title": "Spider Video Player 2.1 - settings.php s_v_player_id Parameter Reflected XSS",
+        "references": {
+          "osvdb": "100848",
+          "url": "http:\/\/packetstormsecurity.com\/files\/124353\/"
+        }
       }
-    }
+    ]
   },
   "finalist": {
     "vulnerability": {
-      "title": "Finalist - \/wp-content\/plugins\/finalist\/vote.php id Parameter Reflected XSS",
+      "title": "Finalist - vote.php id Parameter Reflected XSS",
       "references": {
         "osvdb": "98665",
         "url": "http:\/\/packetstormsecurity.com\/files\/123597\/"
@@ -7262,6 +7345,7 @@
       "references": {
         "osvdb": "98978",
         "cve": "2013-6342",
+        "secunia": "55780",
         "url": "http:\/\/packetstormsecurity.com\/files\/124047\/"
       }
     }
@@ -7572,7 +7656,143 @@
     "vulnerability": {
       "title": "Contact Form 7 3.5.2 - File Upload Remote Code Execution",
       "references": {
-        "osvdb": "100189"
+        "osvdb": "100189",
+        "url": "http:\/\/packetstormsecurity.com\/files\/124154\/"
+      }
+    }
+  },
+  "store-locator": {
+    "vulnerability": {
+      "title": "Store Locator <= 2.6.1 - Cross-Site Request Forgery Vulnerability",
+      "references": {
+        "osvdb": "100485",
+        "secunia": "55276"
+      }
+    }
+  },
+  "optinfirex": {
+    "vulnerability": {
+      "title": "Optinfirex - lp\/index.php id Parameter Reflected XSS",
+      "references": {
+        "osvdb": "100435",
+        "url": "http:\/\/packetstormsecurity.com\/files\/124188\/"
+      }
+    }
+  },
+  "amerisale-re": {
+    "vulnerability": {
+      "title": "Amerisale-Re - netriesdetail\/upload.php edit Parameter Reflected XSS",
+      "references": {
+        "osvdb": "100434",
+        "url": [
+          "http:\/\/packetstormsecurity.com\/files\/124187\/",
+          "http:\/\/xforce.iss.net\/xforce\/xfdb\/89263"
+        ]
+      }
+    }
+  },
+  "js-multihotel": {
+    "vulnerability": {
+      "title": "Js-Multi-Hotel 2.2.1 - refreshDate.php roomid Parameter Reflected XSS",
+      "references": {
+        "osvdb": "100575",
+        "secunia": "55919",
+        "url": [
+          "http:\/\/packetstormsecurity.com\/files\/124239\/",
+          "http:\/\/www.securityfocus.com\/bid\/64045"
+        ]
+      }
+    }
+  },
+  "dzs-videogallery": {
+    "vulnerability": [
+      {
+        "title": "DZS Video Gallery - upload.php File Upload Remote Code Execution",
+        "references": {
+          "osvdb": "100620",
+          "exploitdb": "29834"
+        }
+      },
+      {
+        "title": "DZS Video Gallery 3.1.3 - Remote File Disclosure",
+        "references": {
+          "url": "http:\/\/packetstormsecurity.com\/files\/124317\/"
+        }
+      }
+    ]
+  },
+  "askapache-firefox-adsense": {
+    "vulnerability": {
+      "title": "AskApache Firefox Adsense 3.0 - Unspecified CSRF",
+      "references": {
+        "osvdb": "100662"
+      }
+    }
+  },
+  "ad-minister": {
+    "vulnerability": {
+      "title": "Ad-minister 0.6 - Unspecified XSS",
+      "references": {
+        "osvdb": "100663"
+      }
+    }
+  },
+  "tdo-mini-forms-wordpress-plugin": {
+    "vulnerability": {
+      "title": "TDO Mini Forms 0.13.9 - tdomf-upload-inline.php File Upload Remote Code Execution",
+      "references": {
+        "osvdb": "100847",
+        "url": "http:\/\/packetstormsecurity.com\/files\/124352\/"
+      }
+    }
+  },
+  "huskerportfolio": {
+    "vulnerability": {
+      "title": "HuskerPortfolio 0.3 - huskerPortfolio.php File Upload CSRF",
+      "references": {
+        "osvdb": "100845",
+        "url": "http:\/\/packetstormsecurity.com\/files\/124359\/"
+      }
+    }
+  },
+  "formcraft": {
+    "vulnerability": {
+      "title": "FormCraft - form.php id Parameter SQL Injection",
+      "references": {
+        "osvdb": "100877",
+        "secunia": "56044",
+        "url": "http:\/\/packetstormsecurity.com\/files\/124343\/"
+      }
+    }
+  },
+  "photosmash-galleries": {
+    "vulnerability": {
+      "title": "PhotoSmash Galleries 1.0.7 - bwbps-uploader.php File Upload Remote Code Execution",
+      "references": {
+        "osvdb": "100878",
+        "url": "http:\/\/packetstormsecurity.com\/files\/124342\/"
+      }
+    }
+  },
+  "zarzadzanie_kontem": {
+    "vulnerability": {
+      "title": "Zarzadzanie Kontem - ajaxfilemanager.php File Upload Arbitrary Code Execution",
+      "references": {
+        "osvdb": "87834",
+        "url": "http:\/\/packetstormsecurity.com\/files\/118322\/"
+      }
+    }
+  },
+  "ads-box": {
+    "vulnerability": {
+      "title": "Ads Box - iframe_ampl.php count Parameter SQL Injection",
+      "references": {
+        "osvdb": "88257",
+        "url": [
+          "http:\/\/packetstormsecurity.com\/files\/118342\/",
+          "http:\/\/www.securityfocus.com\/bid\/56681",
+          "http:\/\/xforce.iss.net\/xforce\/xfdb\/80256"
+        ]
       }
     }
   }
