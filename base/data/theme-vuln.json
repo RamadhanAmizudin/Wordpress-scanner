@@ -1885,8 +1885,10 @@
     "vulnerability": {
       "title": "Rockstar - Remote File Upload Vulnerability",
       "references": {
+        "exploitdb": "29946",
         "url": [
           "http:\/\/packetstormsecurity.com\/files\/123999\/",
+          "http:\/\/packetstormsecurity.com\/files\/124232\/",
           "http:\/\/1337day.com\/exploit\/21510"
         ]
       }
@@ -1896,8 +1898,10 @@
     "vulnerability": {
       "title": "Reganto - Remote File Upload Vulnerability",
       "references": {
+        "exploitdb": "29946",
         "url": [
           "http:\/\/packetstormsecurity.com\/files\/123999\/",
+          "http:\/\/packetstormsecurity.com\/files\/124232\/",
           "http:\/\/1337day.com\/exploit\/21511"
         ]
       }
@@ -1907,8 +1911,10 @@
     "vulnerability": {
       "title": "Ray of Light - Remote File Upload Vulnerability",
       "references": {
+        "exploitdb": "29946",
         "url": [
           "http:\/\/packetstormsecurity.com\/files\/123999\/",
+          "http:\/\/packetstormsecurity.com\/files\/124232\/",
           "http:\/\/1337day.com\/exploit\/21512"
         ]
       }
@@ -1918,8 +1924,10 @@
     "vulnerability": {
       "title": "Radial - Remote File Upload Vulnerability",
       "references": {
+        "exploitdb": "29946",
         "url": [
           "http:\/\/packetstormsecurity.com\/files\/123999\/",
+          "http:\/\/packetstormsecurity.com\/files\/124232\/",
           "http:\/\/1337day.com\/exploit\/21513"
         ]
       }
@@ -1929,8 +1937,10 @@
     "vulnerability": {
       "title": "Oxygen - Remote File Upload Vulnerability",
       "references": {
+        "exploitdb": "29946",
         "url": [
           "http:\/\/packetstormsecurity.com\/files\/123999\/",
+          "http:\/\/packetstormsecurity.com\/files\/124232\/",
           "http:\/\/1337day.com\/exploit\/21514"
         ]
       }
@@ -1940,8 +1950,10 @@
     "vulnerability": {
       "title": "Bulteno - Remote File Upload Vulnerability",
       "references": {
+        "exploitdb": "29946",
         "url": [
           "http:\/\/packetstormsecurity.com\/files\/123999\/",
+          "http:\/\/packetstormsecurity.com\/files\/124232\/",
           "http:\/\/1337day.com\/exploit\/21515"
         ]
       }
@@ -1951,10 +1963,21 @@
     "vulnerability": {
       "title": "Bordeaux - Remote File Upload Vulnerability",
       "references": {
+        "exploitdb": "29946",
         "url": [
           "http:\/\/packetstormsecurity.com\/files\/123999\/",
+          "http:\/\/packetstormsecurity.com\/files\/124232\/",
           "http:\/\/1337day.com\/exploit\/21516"
         ]
+      }
+    }
+  },
+  "agritourismo-theme": {
+    "vulnerability": {
+      "title": "Agritourismo - Remote File Upload Vulnerability",
+      "references": {
+        "exploitdb": "29946",
+        "url": "http:\/\/packetstormsecurity.com\/files\/124232\/"
       }
     }
   },
@@ -2044,13 +2067,21 @@
     }
   },
   "folo": {
-    "vulnerability": {
-      "title": "Folo - themify-ajax.php File Upload Arbitrary Code Execution",
-      "references": {
-        "osvdb": "100271",
-        "url": "http:\/\/packetstormsecurity.com\/files\/124150\/"
+    "vulnerability": [
+      {
+        "title": "Folo - themify-ajax.php File Upload Arbitrary Code Execution",
+        "references": {
+          "osvdb": "100271",
+          "url": "http:\/\/packetstormsecurity.com\/files\/124150\/"
+        }
+      },
+      {
+        "title": "Folo - Cross Site Scripting",
+        "references": {
+          "url": "http:\/\/packetstormsecurity.com\/files\/124230\/"
+        }
       }
-    }
+    ]
   },
   "Bloggie": {
     "vulnerability": {
@@ -2067,6 +2098,27 @@
       "references": {
         "osvdb": "100271",
         "url": "http:\/\/packetstormsecurity.com\/files\/124156\/"
+      }
+    }
+  },
+  "OptimizePress": {
+    "vulnerability": {
+      "title": "OptimizePress - File Upload Vulnerability",
+      "references": {
+        "osvdb": "100509",
+        "url": [
+          "http:\/\/packetstormsecurity.com\/files\/124246\/",
+          "http:\/\/www.osirt.com\/2013\/11\/wordpress-optimizepress-hack-file-upload-vulnerability\/"
+        ],
+        "metasploit": "exploit\/unix\/webapp\/php_wordpress_optimizepress"
+      }
+    }
+  },
+  "Blooog-v1.1": {
+    "vulnerability": {
+      "title": "Blooog 1.1 - jplayer.swf Cross Site Scripting",
+      "references": {
+        "url": "http:\/\/packetstormsecurity.com\/files\/124240\/"
       }
     }
   }
