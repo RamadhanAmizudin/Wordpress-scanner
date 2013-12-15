@@ -41,9 +41,22 @@ class WPVersion {
 			return array('version' => $version, 'method' => 'Readme File');
 		} elseif($version = $this->links_opml()) {
 			return array('version' => $version, 'method' => 'Links Opml');
+		} elseif($version = $this->file_hash()) {
+			return array('version' => $version, 'method' => 'File Hash');
 		} else {
 			return false;
 		}
+	}
+
+	function file_hash() {
+		$data = json_decode(file_get_contents(ROOT_PATH . '/base/data/wp-version.json'), true);
+		foreach ($data as $file => $hash) {
+			$md5 = md5_file($this->url . '/' . $file;
+			if(array_key_exists($md5, $hash['hash'])) {
+				return $hash['hash'][$md5];
+			}  
+		}
+		return false;
 	}
 	
 	function meta_generator() {
