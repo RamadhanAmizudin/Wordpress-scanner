@@ -28,6 +28,11 @@ function check_requirement() {
 		printf("%s\n", "Wordpress Scanner require cURL Extension.");
 		$error = true;
 	}
+    // nawawi: md5_file need this
+    if ( !ini_get('allow_url_fopen') ) {
+		echo "Wordpress Scanner require allow_url_fopen set to true\n";
+		$error = true;
+    }
 	if($error) exit;
 	if(!isset($argv[1])) {
 		usage();
