@@ -18,7 +18,7 @@
 **/
 
 date_default_timezone_set('Asia/Kuala_Lumpur');
-define('ROOT_PATH', dirname(__FILE__));
+define('ROOT_PATH', dirname(realpath(__FILE__)) );
 define('Version', '0.30Beta');
 
 if( strtolower(php_sapi_name()) != 'cli' ) {
