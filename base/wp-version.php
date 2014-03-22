@@ -49,6 +49,10 @@ class WPVersion {
 	}
 
 	function file_hash() {
+        // set user agent for md5_file, avoid to get ban
+        if ( function_exists('_user_agents') ) {
+            ini_set('user_agent', _user_agents() );
+        }
 		$data = json_decode(file_get_contents(ROOT_PATH . '/base/data/wp-version.json'), true);
 		foreach ($data as $file => $hash) {
 			if ( ( $md5 = @md5_file($this->url . '/' . $file) ) != false ) {
