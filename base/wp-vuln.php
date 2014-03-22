@@ -32,10 +32,14 @@ class WPVuln {
 		$data = json_decode(file_get_contents($this->data_path), true);
 		foreach((array)$var as $vuln) {
 			if(isset($data[$vuln["{$this->type}_name"]])) {
-				msg("");
-				msg("[+] Found " . $data[$vuln["{$this->type}_name"]]['vulnerability']['title']);
-				$this->reference($data[$vuln["{$this->type}_name"]]['vulnerability']['references']);
-				$this->found++;
+                $found = $data[$vuln[$this->type."_name"]]['vulnerability']['title'];
+                $ref = $data[$vuln[$this->type."_name"]]['vulnerability']['references'];
+                if ( $found != '' && $ref != '' ) {
+				    msg("");
+				    msg("[+] Found " . $data[$vuln["{$this->type}_name"]]['vulnerability']['title']);
+				    $this->reference($data[$vuln["{$this->type}_name"]]['vulnerability']['references']);
+				    $this->found++;
+                }
 			}
 		}
 		$this->found ?: msg("[-] No vulnerability was found");
