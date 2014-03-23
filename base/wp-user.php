@@ -34,7 +34,7 @@ class WPUser {
                 if(isset($match[1])) $users[] = $match[1];
                 else break;
             } elseif(stripos($resp, '200 ok') !== false) {
-                preg_match('/<body class="archive author author\-(.*?) author/si">', $resp, $match);
+                preg_match('/<body class="archive author author\-(.*?) author">/si', $resp, $match);
                 if(isset($match[1])) $users[] = $match[1];
                 else break;
             } else break;

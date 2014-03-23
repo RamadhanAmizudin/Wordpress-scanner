@@ -49,12 +49,17 @@ class WPVersion {
 	}
 
 	function file_hash() {
+        // set user agent for md5_file, avoid to get ban
+        if ( function_exists('_user_agents') ) {
+            ini_set('user_agent', _user_agents() );
+        }
 		$data = json_decode(file_get_contents(ROOT_PATH . '/base/data/wp-version.json'), true);
 		foreach ($data as $file => $hash) {
-			$md5 = md5_file($this->url . '/' . $file;
-			if(array_key_exists($md5, $hash['hash'])) {
-				return $hash['hash'][$md5];
-			}  
+			if ( ( $md5 = @md5_file($this->url . '/' . $file) ) != false ) {
+			    if(array_key_exists($md5, $hash['hash'])) {
+				    return $hash['hash'][$md5];
+			    } 
+            } 
 		}
 		return false;
 	}
