@@ -18,7 +18,7 @@
 **/
 
 function check_requirement() {
-	global $argv;
+	$argv = $_SERVER['argv'];
 	$error = false;
 	if (version_compare(PHP_VERSION, '5.3.0', '<')) {
 		printf("%s\n", "Your PHP Version is: " . PHP_VERSION . ". Recommend PHP Version is PHP 5.3 .");
@@ -36,12 +36,12 @@ function check_requirement() {
 	if($error) exit;
 	if(!isset($argv[1])) {
 		usage();
-		exit;
+		exit(1);
 	}
 }
 
 function usage() {
-	global $argv;
+	$argv = $_SERVER['argv'];
 	msg("");
 	msg("[!] php {$argv[0]} <target>");
 	msg("[!] php {$argv[0]} http://wordpress.org/");

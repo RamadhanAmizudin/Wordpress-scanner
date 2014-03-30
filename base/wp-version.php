@@ -43,9 +43,8 @@ class WPVersion {
 			return array('version' => $version, 'method' => 'Links Opml');
 		} elseif($version = $this->file_hash()) {
 			return array('version' => $version, 'method' => 'File Hash');
-		} else {
-			return false;
 		}
+		return false;
 	}
 
 	function file_hash() {
@@ -101,4 +100,3 @@ class WPVersion {
 	}
 }
 
-?>

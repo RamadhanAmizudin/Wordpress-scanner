@@ -171,4 +171,4 @@ class WPScan {
 		return $current;
 	}
 }
-?>
+
