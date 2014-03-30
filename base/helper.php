@@ -62,7 +62,7 @@ function _user_agents() {
 
 /* default */
 function _curl_options() {
-    return array(
+    $options = array(
         CURLOPT_HEADER => 1,
         CURLOPT_TIMEOUT => 15,
         CURLOPT_RETURNTRANSFER => 1,
@@ -70,12 +70,18 @@ function _curl_options() {
         CURLOPT_SSL_VERIFYHOST => 0,
         CURLOPT_USERAGENT => _user_agents()
     );
+    if ( defined('DL_PATH') && is_dir(DL_PATH) && is_writable(DL_PATH) ) {
+        $options[CURLOPT_COOKIEJAR] = DL_PATH."/cookies.txt";
+        $options[CURLOPT_COOKIEFILE] = DL_PATH."/cookies.txt";
+    }
+    return $options;
 }
 
 function HTTPRequest($url = '', $post = false, $postfield = '', $follow_redirection = true) {
     $options = _curl_options();
     if ( $follow_redirection ) {
         $options[CURLOPT_FOLLOWLOCATION] = 1;
+        $options[CURLOPT_MAXREDIRS] = 3;
     }
     if ( $post && $postfield != '' ) {
         $options[CURLOPT_POST] = 1;
@@ -111,6 +117,7 @@ function HTTPMultiRequest($urls = array(), $follow_redirection = true) {
 
     if ( $follow_redirection ) {
         $options[CURLOPT_FOLLOWLOCATION] = 1;
+        $options[CURLOPT_MAXREDIRS] = 3;
     }
 
     foreach($urls as $i => $url) {
@@ -149,4 +156,9 @@ function progress_bar($done, $total) {
     printf("\r[!] Progress: %d/%d - %d%%", $done, $total, number_format($percentage*100, 0));
     flush();
 }
-?>
+
+function _answer_yes($text) {
+    echo "[!] ".$text." [y/N] ";
+	$answer = strtolower( trim( fgets(STDIN) ) );
+	return ( $answer == 'y' ? true : false );
+}

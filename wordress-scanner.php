@@ -23,9 +23,10 @@ define('Version', '0.30Beta');
 
 if( strtolower(php_sapi_name()) != 'cli' ) {
 	printf("%s\n", "Please run only from command line internface.");
-	exit;
+	exit(1);
 }
 
+define('DL_PATH', ROOT_PATH.'/download');
 require_once(ROOT_PATH . '/base/load.php');
 banner();
 check_requirement();
@@ -45,7 +46,7 @@ msg("[+] Start Time: " . date('d-m-Y h:iA', $start_time));
 
 if( !$wpscan->is_wordpress() ) {
 	msg("[-] This site does not seem to be running WordPress!");
-	exit;
+	exit(1);
 }
 
 $wpscan->parser();
@@ -53,10 +54,8 @@ $version = $wpscan->get_version();
 
 if($version) {
 	msg(vsprintf("[+] Wordpress Version %s, using %s method", $version));
-	msg("");
-	print "[!] Start searching for wordpress version vulnerability? [y/N] ";
-	$answer = strtolower( trim( fgets(STDIN) ) );
-	if ($answer == 'y') {
+    msg("");
+    if ( _answer_yes("Start searching for wordpress version vulnerability?") ) {
 		$wpvuln = new WPVuln('version');
 		$wpvuln->version($version['version']);
 	}
@@ -86,10 +85,7 @@ if($wpscan->theme_name) {
 }
 
 msg("");
-print "[!] Enumerate themes name? [y/N] ";
-$answer = strtolower( trim( fgets(STDIN) ) );
-
-if($answer == 'y') {
+if ( _answer_yes("Enumerate themes name?") ) {
 	msg("[!] Warning: This may take a while!");
 	$wptheme = new WPTheme($wpscan->url);
 	msg("[!] Total {$wptheme->total_themes} themes!");
@@ -102,22 +98,19 @@ if($answer == 'y') {
 if($found_theme) {
 	$theme = array_unique(array_merge($theme, $e_themes));
 }
+
 msg("");
-print "[!] Start searching for theme vulnerability? [y/N] ";
-$answer = strtolower( trim( fgets(STDIN) ) );
-if($answer == 'y') {
+if ( _answer_yes("Start searching for theme vulnerability?") ) {
 	$wpvuln = new WPVuln('theme');
 	$wpvuln->vuln($theme);
 }
 
-msg("");
-msg("[+] Looking for visible plugins on homepage...");
+msg("\n[+] Looking for visible plugins on homepage...");
 $wpscan->search_plugins();
 
 if($wpscan->list_plugins) {
 	foreach($wpscan->list_plugins as $plugin) {
-		msg("");
-		msg("[+] Found {$plugin['plugin_name']} plugin.");
+		msg("\n[+] Found {$plugin['plugin_name']} plugin.");
 		if(isset($plugin['url'])) {
 			msg("[!] Plugin URL: {$plugin['url']}");
 		}
@@ -131,10 +124,7 @@ if($wpscan->list_plugins) {
 }
 
 msg("");
-print "[!] Enumerate plugins name? [y/N] ";
-$answer = strtolower( trim( fgets(STDIN) ) );
-
-if($answer == 'y') {
+if ( _answer_yes("Enumerate plugins name?") ) {
 	msg("[!] Warning: This may take a while!");
 	$wpplugin = new WPPlugin($wpscan->url);
 	msg("[!] Total {$wpplugin->total_plugins} plugins!");
@@ -148,19 +138,15 @@ if($answer == 'y') {
 }
 
 if($found_plugin) {
-	msg("");
-	print "[!] Start searching for plugin vulnerability? [y/N] ";
-	$answer = strtolower( trim( fgets(STDIN) ) );
-	if($answer == 'y') {
+    msg("");
+    if ( _answer_yes("Start searching for plugin vulnerability?") ) {
 		$wpvuln = new WPVuln('plugin');
 		$wpvuln->vuln($wpscan->list_plugins);
 	}
 }
 
 msg("");
-print "[!] Enumerate users? [y/N] ";
-$answer = strtolower( trim( fgets(STDIN) ) );
-if($answer == 'y') {
+if ( _answer_yes("Enumerate users?" ) ) {
 	$wpuser = new WPUser($wpscan->url);
 	$userlist = $wpuser->enumerate();
 	if(is_array($userlist)) {
@@ -177,4 +163,5 @@ msg("");
 $end_time = time();
 msg("[+] Finish Scan at " . date('d-m-Y h:iA', $end_time));
 msg("[+] Total time taken is: " . round(($end_time - $start_time), 4) . " seconds");
-?>
+exit(0);
+
