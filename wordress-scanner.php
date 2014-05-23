@@ -22,7 +22,7 @@ define('ROOT_PATH', dirname(realpath(__FILE__)) );
 define('Version', '0.30Beta');
 
 if( strtolower(php_sapi_name()) != 'cli' ) {
-	printf("%s\n", "Please run only from command line internface.");
+	printf("%s\n", "Please run only from command line interface.");
 	exit;
 }
 
