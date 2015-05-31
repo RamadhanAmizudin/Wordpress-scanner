@@ -1,6 +1,6 @@
 <?php
 function check_version() {
-	$latest_version = 'https://raw.github.com/RamadhanAmizudin/Wordpress-scanner/master/wordress-scanner.php';
+	$latest_version = 'https://raw.github.com/RamadhanAmizudin/Wordpress-scanner/master/app.php';
 	$src = HTTPRequest($latest_version);
 	preg_match("#define\('Version', '(.*?)'\);#i", $src, $o);
 	if(isset($o[1])) {

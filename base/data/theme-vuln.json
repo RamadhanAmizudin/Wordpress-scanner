@@ -1,2125 +1,3973 @@
 {
-  "crius": {
-    "vulnerability": {
-      "title": "VideoJS Cross-Site Scripting Vulnerability",
-      "references": {
-        "secunia": "53427",
-        "url": "http:\/\/seclists.org\/fulldisclosure\/2013\/May\/77"
-      }
-    }
-  },
-  "source": {
-    "vulnerability": {
-      "title": "VideoJS Cross-Site Scripting Vulnerability",
-      "references": {
-        "secunia": "53457",
-        "url": "http:\/\/seclists.org\/fulldisclosure\/2013\/May\/77"
-      }
-    }
-  },
-  "i-love-it": {
-    "vulnerability": {
-      "title": "VideoJS Cross-Site Scripting Vulnerability",
-      "references": {
-        "secunia": "53548",
-        "url": "http:\/\/seclists.org\/fulldisclosure\/2013\/May\/77"
-      }
-    }
-  },
-  "smartstart": {
-    "vulnerability": {
-      "title": "VideoJS Cross-Site Scripting Vulnerability",
-      "references": {
-        "secunia": "53460",
-        "url": "http:\/\/seclists.org\/fulldisclosure\/2013\/May\/77"
-      }
-    }
-  },
-  "covertvideopress": {
-    "vulnerability": {
-      "title": "VideoJS Cross-Site Scripting Vulnerability",
-      "references": {
-        "secunia": "53494",
-        "url": "http:\/\/seclists.org\/fulldisclosure\/2013\/May\/77"
-      }
-    }
-  },
-  "photolio": {
-    "vulnerability": {
-      "title": "VideoJS Cross-Site Scripting Vulnerability",
-      "references": {
-        "url": "http:\/\/seclists.org\/fulldisclosure\/2013\/May\/77"
-      }
-    }
-  },
-  "onepagewebsite": {
-    "vulnerability": {
-      "title": "onepagewebsite Full Path Disclosure vulnerability",
-      "references": {
-        "url": "http:\/\/1337day.com\/exploit\/20027"
-      }
-    }
-  },
-  "vithy": {
-    "vulnerability": [
-      {
-        "title": "vithy - Full Path Disclosure vulnerability",
-        "references": {
-          "url": "http:\/\/1337day.com\/exploit\/20040"
+    "crius": {
+        "vulnerability": {
+            "title": "Crius - VideoJS Cross-Site Scripting Vulnerability",
+            "vuln_type": "XSS",
+            "references": {
+                "secunia": [
+                    "53427"
+                ]
+            }
         }
-      },
-      {
-        "title": "vithy - Arbitrary File Upload Vulnerability",
-        "references": {
-          "url": "http:\/\/1337day.com\/exploit\/19830"
+    },
+    "source": {
+        "vulnerability": {
+            "title": "Source - VideoJS Cross-Site Scripting Vulnerability",
+            "vuln_type": "XSS",
+            "references": {
+                "secunia": [
+                    "53457"
+                ]
+            }
         }
-      }
-    ]
-  },
-  "appius": {
-    "vulnerability": [
-      {
-        "title": "appius - Full Path Disclosure vulnerability",
-        "references": {
-          "url": "http:\/\/1337day.com\/exploit\/20039"
+    },
+    "i-love-it": {
+        "vulnerability": {
+            "title": "I Love It - VideoJS Cross-Site Scripting Vulnerability",
+            "vuln_type": "XSS",
+            "references": {
+                "secunia": [
+                    "53548"
+                ]
+            }
         }
-      },
-      {
-        "title": "appius - Arbitrary File Upload Vulnerability",
-        "references": {
-          "url": "http:\/\/1337day.com\/exploit\/19831"
+    },
+    "smartstart": {
+        "vulnerability": {
+            "title": "Smart Start - VideoJS Cross-Site Scripting Vulnerability",
+            "vuln_type": "XSS",
+            "references": {
+                "secunia": [
+                    "53460"
+                ]
+            }
         }
-      }
-    ]
-  },
-  "yvora": {
-    "vulnerability": [
-      {
-        "title": "yvora - Full Path Disclosure vulnerability",
-        "references": {
-          "url": "http:\/\/1337day.com\/exploit\/20038"
+    },
+    "covertvideopress": {
+        "vulnerability": {
+            "title": "Covert Videopress - VideoJS Cross-Site Scripting Vulnerability",
+            "vuln_type": "XSS",
+            "references": {
+                "secunia": [
+                    "53494"
+                ]
+            }
         }
-      },
-      {
-        "title": "yvora - Arbitrary File Upload Vulnerability",
-        "references": {
-          "url": "http:\/\/1337day.com\/exploit\/19834"
+    },
+    "photolio": {
+        "vulnerability": {
+            "title": "Photolio - VideoJS Cross-Site Scripting Vulnerability",
+            "vuln_type": "XSS",
+            "references": {
+                "url": [
+                    "http:\/\/seclists.org\/fulldisclosure\/2013\/May\/77"
+                ]
+            }
         }
-      }
-    ]
-  },
-  "shotzz": {
-    "vulnerability": [
-      {
-        "title": "Shotzz - Full Path Disclosure vulnerability",
-        "references": {
-          "url": "http:\/\/1337day.com\/exploit\/20041"
+    },
+    "onepagewebsite": {
+        "vulnerability": {
+            "title": "onepagewebsite - Full Path Disclosure vulnerability",
+            "vuln_type": "FPD",
+            "references": {
+                "url": [
+                    "http:\/\/1337day.com\/exploit\/20027"
+                ]
+            }
         }
-      },
-      {
-        "title": "Shotzz - Arbitrary File Upload Vulnerability",
-        "references": {
-          "url": "http:\/\/1337day.com\/exploit\/19829"
+    },
+    "vithy": {
+        "vulnerability": {
+            "title": "vithy - Full Path Disclosure vulnerability",
+            "vuln_type": "FPD",
+            "references": {
+                "url": [
+                    "http:\/\/1337day.com\/exploit\/20040"
+                ]
+            }
         }
-      }
-    ]
-  },
-  "dagda": {
-    "vulnerability": {
-      "title": "dagda - Arbitrary File Upload Vulnerability",
-      "references": {
-        "url": "http:\/\/1337day.com\/exploit\/19832"
-      }
-    }
-  },
-  "moneymasters": {
-    "vulnerability": [
-      {
-        "title": "moneymasters - Full Path Disclosure vulnerability",
-        "references": {
-          "url": "http:\/\/1337day.com\/exploit\/20077"
+    },
+    "appius": {
+        "vulnerability": {
+            "title": "appius - Full Path Disclosure vulnerability",
+            "vuln_type": "FPD",
+            "references": {
+                "url": [
+                    "http:\/\/1337day.com\/exploit\/20039"
+                ]
+            }
         }
-      },
-      {
-        "title": "moneymasters - File Upload Vulnerability (metasploit)",
-        "references": {
-          "url": "http:\/\/1337day.com\/exploit\/20076"
+    },
+    "yvora": {
+        "vulnerability": {
+            "title": "yvora - Full Path Disclosure vulnerability",
+            "vuln_type": "FPD",
+            "references": {
+                "url": [
+                    "http:\/\/1337day.com\/exploit\/20038"
+                ]
+            }
         }
-      }
-    ]
-  },
-  "ovum": {
-    "vulnerability": {
-      "title": "XSS vulnerability in Imediapixel premium WordPress themes",
-      "references": {
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/10\/xss-vulnerability-in-imediapixel.html"
-      }
-    }
-  },
-  "avanix": {
-    "vulnerability": {
-      "title": "XSS vulnerability in Imediapixel premium WordPress themes",
-      "references": {
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/10\/xss-vulnerability-in-imediapixel.html"
-      }
-    }
-  },
-  "ebiz": {
-    "vulnerability": {
-      "title": "XSS vulnerability in Imediapixel premium WordPress themes",
-      "references": {
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/10\/xss-vulnerability-in-imediapixel.html"
-      }
-    }
-  },
-  "ecobiz": {
-    "vulnerability": {
-      "title": "XSS vulnerability in Imediapixel premium WordPress themes",
-      "references": {
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/10\/xss-vulnerability-in-imediapixel.html"
-      }
-    }
-  },
-  "traject": {
-    "vulnerability": {
-      "title": "XSS vulnerability in Parallelus premium WordPress themes",
-      "references": {
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/10\/xss-vulnerability-in-parallelus-premium.html"
-      }
-    }
-  },
-  "intersect": {
-    "vulnerability": {
-      "title": "XSS vulnerability in Parallelus premium WordPress themes",
-      "references": {
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/10\/xss-vulnerability-in-parallelus-premium.html"
-      }
-    }
-  },
-  "salutation": {
-    "vulnerability": {
-      "title": "XSS vulnerability in Parallelus premium WordPress themes",
-      "references": {
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/10\/xss-vulnerability-in-parallelus-premium.html"
-      }
-    }
-  },
-  "unite": {
-    "vulnerability": {
-      "title": "XSS vulnerability in Parallelus premium WordPress themes",
-      "references": {
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/10\/xss-vulnerability-in-parallelus-premium.html"
-      }
-    }
-  },
-  "shapeless": {
-    "vulnerability": {
-      "title": "Shapeless - Unspecified XSS",
-      "references": {
-        "osvdb": "85919",
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/09\/xss-vulnerability-in-multiple-premium.html"
-      }
-    }
-  },
-  "brisk": {
-    "vulnerability": {
-      "title": "Brisk - Unspecified XSS",
-      "references": {
-        "osvdb": "85918",
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/09\/xss-vulnerability-in-multiple-premium.html"
-      }
-    }
-  },
-  "blaze": {
-    "vulnerability": {
-      "title": "Blaze - Unspecified XSS",
-      "references": {
-        "osvdb": "85917",
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/09\/xss-vulnerability-in-multiple-premium.html"
-      }
-    }
-  },
-  "eunice": {
-    "vulnerability": {
-      "title": "Eunice - Unspecified XSS",
-      "references": {
-        "osvdb": "85916",
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/09\/xss-vulnerability-in-multiple-premium.html"
-      }
-    }
-  },
-  "explicit": {
-    "vulnerability": {
-      "title": "Explicit - Unspecified XSS",
-      "references": {
-        "osvdb": "85915",
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/09\/xss-vulnerability-in-multiple-premium.html"
-      }
-    }
-  },
-  "essence": {
-    "vulnerability": {
-      "title": "Essence - Unspecified XSS",
-      "references": {
-        "osvdb": "85914",
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/09\/xss-vulnerability-in-multiple-premium.html"
-      }
-    }
-  },
-  "paramount": {
-    "vulnerability": {
-      "title": "Paramount - Unspecified XSS",
-      "references": {
-        "osvdb": "85913",
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/09\/xss-vulnerability-in-multiple-premium.html"
-      }
-    }
-  },
-  "picturefactory": {
-    "vulnerability": {
-      "title": "PictureFactory - Unspecified XSS",
-      "references": {
-        "osvdb": "85912",
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/09\/xss-vulnerability-in-multiple-premium.html"
-      }
-    }
-  },
-  "sparky": {
-    "vulnerability": {
-      "title": "Sparky - Unspecified XSS",
-      "references": {
-        "osvdb": "85911",
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/09\/xss-vulnerability-in-multiple-premium.html"
-      }
-    }
-  },
-  "theagency": {
-    "vulnerability": {
-      "title": "TheAgency - Unspecified XSS",
-      "references": {
-        "osvdb": "85910",
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/09\/xss-vulnerability-in-multiple-premium.html"
-      }
-    }
-  },
-  "konzept": {
-    "vulnerability": {
-      "title": "Konzept - Unspecified XSS",
-      "references": {
-        "osvdb": "85920",
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/09\/xss-vulnerability-in-multiple-premium.html"
-      }
-    }
-  },
-  "daisho": {
-    "vulnerability": {
-      "title": "Daisho - Unspecified XSS",
-      "references": {
-        "osvdb": "85921",
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/09\/xss-vulnerability-in-multiple-premium.html"
-      }
-    }
-  },
-  "choices": {
-    "vulnerability": {
-      "title": "Choices - Unspecified XSS",
-      "references": {
-        "osvdb": "86755",
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/10\/xss-vulnerability-in-wp-themes-by-kriesi.html"
-      }
-    }
-  },
-  "brightbox": {
-    "vulnerability": {
-      "title": "Brightbox - Unspecified XSS",
-      "references": {
-        "osvdb": "86756",
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/10\/xss-vulnerability-in-wp-themes-by-kriesi.html"
-      }
-    }
-  },
-  "broadscope": {
-    "vulnerability": {
-      "title": "Broadscope - Unspecified XSS",
-      "references": {
-        "osvdb": "86757",
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/10\/xss-vulnerability-in-wp-themes-by-kriesi.html"
-      }
-    }
-  },
-  "corona": {
-    "vulnerability": {
-      "title": "Corona - Unspecified XSS",
-      "references": {
-        "osvdb": "86758",
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/10\/xss-vulnerability-in-wp-themes-by-kriesi.html"
-      }
-    }
-  },
-  "flashlight": {
-    "vulnerability": {
-      "title": "Flashlight - Unspecified XSS",
-      "references": {
-        "osvdb": "86759",
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/10\/xss-vulnerability-in-wp-themes-by-kriesi.html"
-      }
-    }
-  },
-  "coalition": {
-    "vulnerability": {
-      "title": "Coalition - Unspecified XSS",
-      "references": {
-        "osvdb": "86760",
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/10\/xss-vulnerability-in-wp-themes-by-kriesi.html"
-      }
-    }
-  },
-  "shoutbox": {
-    "vulnerability": {
-      "title": "Shoutbox - Unspecified XSS",
-      "references": {
-        "osvdb": "86761",
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/10\/xss-vulnerability-in-wp-themes-by-kriesi.html"
-      }
-    }
-  },
-  "velvet": {
-    "vulnerability": {
-      "title": "Velvet - Unspecified XSS",
-      "references": {
-        "osvdb": "86762",
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/10\/xss-vulnerability-in-wp-themes-by-kriesi.html"
-      }
-    }
-  },
-  "upscale": {
-    "vulnerability": {
-      "title": "Upscale - Unspecified XSS",
-      "references": {
-        "osvdb": "86763",
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/10\/xss-vulnerability-in-wp-themes-by-kriesi.html"
-      }
-    }
-  },
-  "expose": {
-    "vulnerability": {
-      "title": "Expose - Unspecified XSS",
-      "references": {
-        "osvdb": "86764",
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/10\/xss-vulnerability-in-wp-themes-by-kriesi.html"
-      }
-    }
-  },
-  "abundance": {
-    "vulnerability": {
-      "title": "Abundance - Unspecified XSS",
-      "references": {
-        "osvdb": "86765",
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/10\/xss-vulnerability-in-wp-themes-by-kriesi.html"
-      }
-    }
-  },
-  "eunoia": {
-    "vulnerability": {
-      "title": "Eunoia - Unspecified XSS",
-      "references": {
-        "osvdb": "86766",
-        "url": "http:\/\/jannefi.blogspot.fi\/2012\/10\/xss-vulnerability-in-wp-themes-by-kriesi.html"
-      }
-    }
-  },
-  "wise": {
-    "vulnerability": {
-      "title": "Site5 Wordpress Themes Email Spoofing",
-      "references": {
-        "url": "http:\/\/packetstormsecurity.org\/files\/114750\/"
-      }
-    }
-  },
-  "webfolio": {
-    "vulnerability": {
-      "title": "Site5 Wordpress Themes Email Spoofing",
-      "references": {
-        "url": "http:\/\/packetstormsecurity.org\/files\/114750\/"
-      }
-    }
-  },
-  "colorbold": {
-    "vulnerability": {
-      "title": "Site5 Wordpress Themes Email Spoofing",
-      "references": {
-        "url": "http:\/\/packetstormsecurity.org\/files\/114750\/"
-      }
-    }
-  },
-  "rockwell": {
-    "vulnerability": {
-      "title": "Site5 Wordpress Themes Email Spoofing",
-      "references": {
-        "url": "http:\/\/packetstormsecurity.org\/files\/114750\/"
-      }
-    }
-  },
-  "xmas": {
-    "vulnerability": {
-      "title": "Site5 Wordpress Themes Email Spoofing",
-      "references": {
-        "url": "http:\/\/packetstormsecurity.org\/files\/114750\/"
-      }
-    }
-  },
-  "designpile": {
-    "vulnerability": {
-      "title": "Site5 Wordpress Themes Email Spoofing",
-      "references": {
-        "url": "http:\/\/packetstormsecurity.org\/files\/114750\/"
-      }
-    }
-  },
-  "alltuts": {
-    "vulnerability": {
-      "title": "Site5 Wordpress Themes Email Spoofing",
-      "references": {
-        "url": "http:\/\/packetstormsecurity.org\/files\/114750\/"
-      }
-    }
-  },
-  "boldy": {
-    "vulnerability": {
-      "title": "Site5 Wordpress Themes Email Spoofing",
-      "references": {
-        "url": "http:\/\/packetstormsecurity.org\/files\/114750\/"
-      }
-    }
-  },
-  "simplo": {
-    "vulnerability": {
-      "title": "Site5 Wordpress Themes Email Spoofing",
-      "references": {
-        "url": "http:\/\/packetstormsecurity.org\/files\/114750\/"
-      }
-    }
-  },
-  "diary": {
-    "vulnerability": {
-      "title": "Site5 Wordpress Themes Email Spoofing",
-      "references": {
-        "url": "http:\/\/packetstormsecurity.org\/files\/114750\/"
-      }
-    }
-  },
-  "journalcrunch": {
-    "vulnerability": {
-      "title": "Site5 Wordpress Themes Email Spoofing",
-      "references": {
-        "url": "http:\/\/packetstormsecurity.org\/files\/114750\/"
-      }
-    }
-  },
-  "prosume": {
-    "vulnerability": {
-      "title": "Site5 Wordpress Themes Email Spoofing",
-      "references": {
-        "url": "http:\/\/packetstormsecurity.org\/files\/114750\/"
-      }
-    }
-  },
-  "famous": {
-    "vulnerability": {
-      "title": "Famous 2.0.5 - Shell Upload",
-      "references": {
-        "url": "http:\/\/packetstormsecurity.org\/files\/113842\/"
-      }
-    }
-  },
-  "deep-blue": {
-    "vulnerability": {
-      "title": "Deep-Blue 1.9.2 - Arbitrary File Upload Vulnerability",
-      "references": {
-        "url": "http:\/\/packetstormsecurity.org\/files\/113843\/"
-      }
-    }
-  },
-  "classipress": {
-    "vulnerability": {
-      "title": "Classipress <= 3.1.4 - Stored XSS",
-      "references": {
-        "exploitdb": "18053",
-        "url": "http:\/\/cxsecurity.com\/issue\/WLB-2011110001"
-      }
-    }
-  },
-  "merchant": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "smpl": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "drawar": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "sentient": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "whitelight": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "unsigned": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "shelflife": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "olya": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "sliding": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "beveled": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "empire-commerce": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "buro-commerce": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "briefed-commerce": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "wikeasi": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "currents": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "emporium": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "biznizz-commerce": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "kaboodle-commerce": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "inspire-commerce": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "teamster": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "argentum": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "statua-commerce": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "simplicity-commerce": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "canvas-commerce": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "wootique": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "woostore": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "coquette": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "buro": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "swatch": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "announcement": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "empire": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "supportpress": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "editorial": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "statua": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "briefed": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "faultpress": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "kaboodle": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "savinggrace": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "premiere": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "simplicity": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "deliciousmagazine": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "bookclub": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "boldnews": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "placeholder": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "biznizz": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "auld": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "listings": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "elefolio": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "chapters": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "continuum": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "diner": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "skeptical": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "caffeinated": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "crisp": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "sealight": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "estate": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "tma": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "coda": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "inspire": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "apz": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "spectrum": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "diarise": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "boast": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "retreat": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "cityguide": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "canvas": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "postcard": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "delegate": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "mystream": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "optimize": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "backstage": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "bueno": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "digitalfarm": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "headlines": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "therapy": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "rockstar": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "DailyDeal": {
-    "vulnerability": {
-      "title": "DailyDeal - File Upload Remote Code Execution",
-      "references": {
-        "osvdb": "98924",
-        "url": [
-          "http:\/\/packetstormsecurity.com\/files\/123748\/",
-          "http:\/\/templatic.com\/app-themes\/daily-deal-premium-wordpress-app-theme"
-        ]
-      }
-    }
-  },
-  "dailyedition": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "object": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "coffeebreak": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "mainstream": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "featurepitch": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "thejournal": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "aperture": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "metamorphosis": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "bloggingstream": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "thestation": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "groovyvideo": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "irresistible": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "cushy": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "wootube": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "abstract": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "busybee": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "blogtheme": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "typebased": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "overeasy": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "snapshot": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "openair": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "freshnews": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "livewire": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "flashnews": {
-    "vulnerability": [
-      {
-        "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-        "references": {
-          "url": "https:\/\/gist.github.com\/2523147"
+    },
+    "shotzz": {
+        "vulnerability": {
+            "title": "Shotzz - Full Path Disclosure vulnerability",
+            "vuln_type": "FPD",
+            "references": {
+                "url": [
+                    "http:\/\/1337day.com\/exploit\/20041"
+                ]
+            }
         }
-      },
-      {
-        "title": "Flash News - thumb.php src Parameter XSS",
-        "references": {
-          "osvdb": "89887",
-          "url": [
-            "http:\/\/packetstormsecurity.com\/files\/120037\/",
-            "http:\/\/seclists.org\/fulldisclosure\/2013\/Feb\/8",
-            "http:\/\/cxsecurity.com\/issue\/WLB-2013020010"
-          ]
+    },
+    "dagda": {
+        "vulnerability": {
+            "title": "dagda - Arbitrary File Upload Vulnerability",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "url": [
+                    "http:\/\/1337day.com\/exploit\/19832"
+                ]
+            }
         }
-      },
-      {
-        "title": "Flash News - Multiple Script Path Disclosure",
-        "references": {
-          "osvdb": "89888",
-          "url": [
-            "http:\/\/packetstormsecurity.com\/files\/120037\/",
-            "http:\/\/seclists.org\/fulldisclosure\/2013\/Feb\/8",
-            "http:\/\/cxsecurity.com\/issue\/WLB-2013020010"
-          ]
+    },
+    "moneymasters": {
+        "vulnerability": {
+            "title": "moneymasters - Full Path Disclosure vulnerability",
+            "vuln_type": "FPD",
+            "references": {
+                "url": [
+                    "http:\/\/1337day.com\/exploit\/20077"
+                ]
+            }
         }
-      },
-      {
-        "title": "Flash News - includes\/test.php a Parameter XSS",
-        "references": {
-          "osvdb": "89889",
-          "url": [
-            "http:\/\/packetstormsecurity.com\/files\/120037\/",
-            "http:\/\/seclists.org\/fulldisclosure\/2013\/Feb\/8",
-            "http:\/\/cxsecurity.com\/issue\/WLB-2013020010"
-          ]
+    },
+    "ovum": {
+        "vulnerability": {
+            "title": "XSS vulnerability in Imediapixel premium WordPress themes",
+            "vuln_type": "XSS",
+            "references": {
+                "url": [
+                    "http:\/\/jannefi.blogspot.fi\/2012\/10\/xss-vulnerability-in-imediapixel.html"
+                ]
+            }
         }
-      },
-      {
-        "title": "Flash News - includes\/test.php Direct Request Information Disclosure",
-        "references": {
-          "osvdb": "89890",
-          "url": [
-            "http:\/\/packetstormsecurity.com\/files\/120037\/",
-            "http:\/\/seclists.org\/fulldisclosure\/2013\/Feb\/8",
-            "http:\/\/cxsecurity.com\/issue\/WLB-2013020010"
-          ]
+    },
+    "avanix": {
+        "vulnerability": {
+            "title": "XSS vulnerability in Imediapixel premium WordPress themes",
+            "vuln_type": "XSS",
+            "references": {
+                "url": [
+                    "http:\/\/jannefi.blogspot.fi\/2012\/10\/xss-vulnerability-in-imediapixel.html"
+                ]
+            }
         }
-      },
-      {
-        "title": "Flash News - thumb.php src Parameter File Upload Arbitrary Code Execution",
-        "references": {
-          "osvdb": "89891",
-          "url": [
-            "http:\/\/packetstormsecurity.com\/files\/120037\/",
-            "http:\/\/seclists.org\/fulldisclosure\/2013\/Feb\/8",
-            "http:\/\/cxsecurity.com\/issue\/WLB-2013020010"
-          ]
+    },
+    "ebiz": {
+        "vulnerability": {
+            "title": "XSS vulnerability in Imediapixel premium WordPress themes",
+            "vuln_type": "XSS",
+            "references": {
+                "url": [
+                    "http:\/\/jannefi.blogspot.fi\/2012\/10\/xss-vulnerability-in-imediapixel.html"
+                ]
+            }
         }
-      },
-      {
-        "title": "Flash News - thumb.php src Parameter Remote DoS",
-        "references": {
-          "osvdb": "89892",
-          "url": [
-            "http:\/\/packetstormsecurity.com\/files\/120037\/",
-            "http:\/\/seclists.org\/fulldisclosure\/2013\/Feb\/8",
-            "http:\/\/cxsecurity.com\/issue\/WLB-2013020010"
-          ]
+    },
+    "ecobiz": {
+        "vulnerability": {
+            "title": "XSS vulnerability in Imediapixel premium WordPress themes",
+            "vuln_type": "XSS",
+            "references": {
+                "url": [
+                    "http:\/\/jannefi.blogspot.fi\/2012\/10\/xss-vulnerability-in-imediapixel.html"
+                ]
+            }
         }
-      }
-    ]
-  },
-  "gazette": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "premiumnews": {
-    "vulnerability": {
-      "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
-      "references": {
-        "url": "https:\/\/gist.github.com\/2523147"
-      }
-    }
-  },
-  "dt-chocolate": {
-    "vulnerability": [
-      {
-        "title": "dt-chocolate - Image Open redirect",
-        "references": {
-          "url": "http:\/\/cxsecurity.com\/issue\/WLB-2013020011"
+    },
+    "traject": {
+        "vulnerability": {
+            "title": "XSS vulnerability in Parallelus premium WordPress themes",
+            "vuln_type": "XSS",
+            "references": {
+                "url": [
+                    "http:\/\/jannefi.blogspot.fi\/2012\/10\/xss-vulnerability-in-parallelus-premium.html"
+                ]
+            }
         }
-      },
-      {
-        "title": "Multiple vulnerabilities in Chocolate WP theme for WordPress",
-        "references": {
-          "url": "http:\/\/seclists.org\/fulldisclosure\/2013\/Jan\/215"
+    },
+    "intersect": {
+        "vulnerability": {
+            "title": "XSS vulnerability in Parallelus premium WordPress themes",
+            "vuln_type": "XSS",
+            "references": {
+                "url": [
+                    "http:\/\/jannefi.blogspot.fi\/2012\/10\/xss-vulnerability-in-parallelus-premium.html"
+                ]
+            }
         }
-      }
-    ]
-  },
-  "sandbox": {
-    "vulnerability": {
-      "title": "sandbox - Arbitrary File Upload\/FD Vulnerability",
-      "references": {
-        "url": "http:\/\/1337day.com\/exploit\/20228"
-      }
-    }
-  },
-  "clockstone": {
-    "vulnerability": {
-      "title": "Clockstone - upload.php Arbitrary File Upload Vulnerability",
-      "references": {
-        "secunia": "51619"
-      }
-    }
-  },
-  "archin": {
-    "vulnerability": {
-      "title": "Archin - Cross-Site Scripting and Arbitrary File Upload Vulnerabilities",
-      "references": {
-        "secunia": "50711"
-      }
-    }
-  },
-  "purity": {
-    "vulnerability": {
-      "title": "Purity - Multiple Cross-Site Scripting Vulnerabilities",
-      "references": {
-        "secunia": "50627"
-      }
-    }
-  },
-  "pinboard": {
-    "vulnerability": [
-      {
-        "title": "Pinboard 1.0.6 - includes\/theme-options.php tab Parameter XSS",
-        "references": {
-          "osvdb": "90070",
-          "cve": "2013-0286",
-          "secunia": "52079",
-          "url": [
-            "http:\/\/seclists.org\/oss-sec\/2013\/q1\/274",
-            "http:\/\/cxsecurity.com\/issue\/WLB-2013020062"
-          ]
+    },
+    "salutation": {
+        "vulnerability": {
+            "title": "XSS vulnerability in Parallelus premium WordPress themes",
+            "vuln_type": "XSS",
+            "references": {
+                "url": [
+                    "http:\/\/jannefi.blogspot.fi\/2012\/10\/xss-vulnerability-in-parallelus-premium.html"
+                ]
+            }
         }
-      },
-      {
-        "title": "Pinboard - themify-ajax.php File Upload Arbitrary Code Execution",
-        "references": {
-          "osvdb": "100271",
-          "url": "http:\/\/packetstormsecurity.com\/files\/124151\/"
+    },
+    "unite": {
+        "vulnerability": {
+            "title": "XSS vulnerability in Parallelus premium WordPress themes",
+            "vuln_type": "XSS",
+            "references": {
+                "url": [
+                    "http:\/\/jannefi.blogspot.fi\/2012\/10\/xss-vulnerability-in-parallelus-premium.html"
+                ]
+            }
         }
-      }
-    ]
-  },
-  "montezuma": {
-    "vulnerability": {
-      "title": "montezuma <= 1.1.3 - XSS in ZeroClipboard.swf",
-      "references": {
-        "url": "http:\/\/1337day.com\/exploit\/20396"
-      }
-    }
-  },
-  "scarlet": {
-    "vulnerability": {
-      "title": "scarlet <= 1.1.3 - XSS in ZeroClipboard.swf",
-      "references": {
-        "url": "http:\/\/1337day.com\/exploit\/20396"
-      }
-    }
-  },
-  "allure-real-estate-theme-for-placester": {
-    "vulnerability": {
-      "title": "allure-real-estate-theme-for-placester <= 0.1.1 - XSS in ZeroClipboard.swf",
-      "references": {
-        "url": "http:\/\/1337day.com\/exploit\/20396"
-      }
-    }
-  },
-  "allure-real-estate-theme-for-real-estate": {
-    "vulnerability": {
-      "title": "allure-real-estate-theme-for-real-estate <= 0.1.1 - XSS in ZeroClipboard.swf",
-      "references": {
-        "url": "http:\/\/1337day.com\/exploit\/20396"
-      }
-    }
-  },
-  "felici": {
-    "vulnerability": {
-      "title": "felici - XSS Vulnerability",
-      "references": {
-        "url": "http:\/\/1337day.com\/exploit\/20560"
-      }
-    }
-  },
-  "classic": {
-    "vulnerability": {
-      "title": "Classic 1.5 - PHP_SELF XSS",
-      "references": {
-        "url": "http:\/\/osvdb.org\/38450",
-        "cve": "2007-4483"
-      }
-    }
-  },
-  "brilliant": {
-    "vulnerability": {
-      "title": "brilliant - File Upload Vulnerability",
-      "references": {
-        "url": "http:\/\/ruinedsec.wordpress.com\/2013\/04\/03\/wordpress-themes-exploits-are-in-action-wpscan\/"
-      }
-    }
-  },
-  "colormix": {
-    "vulnerability": {
-      "title": "Multiple vulnerabilities in Colormix theme",
-      "references": {
-        "url": "http:\/\/seclists.org\/fulldisclosure\/2013\/Apr\/172"
-      }
-    }
-  },
-  "jobroller": {
-    "vulnerability": {
-      "title": "XSS in jobroller theme",
-      "references": {
-        "url": "http:\/\/cxsecurity.com\/issue\/WLB-2013060089"
-      }
-    }
-  },
-  "ambience": {
-    "vulnerability": {
-      "title": "Xss In wordpress ambience theme",
-      "references": {
-        "url": "http:\/\/packetstorm.igor.onlinedirect.bg\/1306-exploits\/wpambience-xss.txt"
-      }
-    }
-  },
-  "slash-wp": {
-    "vulnerability": {
-      "title": "Slash WP - FPD, XSS and CS vulnerabilities",
-      "references": {
-        "url": [
-          "http:\/\/packetstormsecurity.com\/files\/123748\/",
-          "http:\/\/seclists.org\/fulldisclosure\/2013\/Jun\/166"
-        ]
-      }
-    }
-  },
-  "persuasion": {
-    "vulnerability": {
-      "title": "Persuasion - PrettyPhoto DOM XSS",
-      "references": {
-        "url": "http:\/\/www.rafayhackingarticles.net\/2013\/05\/kali-linux-dom-based-xss-writeup.html"
-      }
-    }
-  },
-  "More": {
-    "vulnerability": {
-      "title": "MORE+ - PrettyPhoto XSS Vulnerability",
-      "references": {
-        "secunia": "54924",
-        "url": "http:\/\/archives.neohapsis.com\/archives\/fulldisclosure\/2013-09\/0177.html"
-      }
-    }
-  },
-  "silverorchid": {
-    "vulnerability": {
-      "title": "silverOrchid <= 1.5.0 - XSS Vulnerability",
-      "references": {
-        "osvdb": "96723",
-        "secunia": "54662",
-        "url": "http:\/\/packetstormsecurity.com\/files\/122986\/"
-      }
-    }
-  },
-  "Caulk": {
-    "vulnerability": {
-      "title": "Caulk - path disclosure vulnerability",
-      "references": {
-        "osvdb": "90889",
-        "url": [
-          "http:\/\/packetstormsecurity.com\/files\/120632\/",
-          "http:\/\/themeforest.net\/item\/caulk\/76108"
-        ]
-      }
-    }
-  },
-  "WPLocalPlaces": {
-    "vulnerability": {
-      "title": "WPLocalPlaces - File Upload Remote Code Execution",
-      "references": {
-        "osvdb": "98806",
-        "url": "http:\/\/packetstormsecurity.com\/files\/123697\/"
-      }
-    }
-  },
-  "photocrati-theme": {
-    "vulnerability": {
-      "title": "Photocrati - Multiple Script Direct Request Path Disclosure",
-      "references": {
-        "osvdb": "92836",
-        "url": "http:\/\/seclists.org\/fulldisclosure\/2013\/Apr\/238"
-      }
-    }
-  },
-  "music": {
-    "vulnerability": {
-      "title": "Music - Multiple Script Direct Request Path Disclosure",
-      "references": {
-        "osvdb": "92837",
-        "url": "http:\/\/seclists.org\/fulldisclosure\/2013\/Apr\/238"
-      }
-    }
-  },
-  "imperial-fairytale": {
-    "vulnerability": {
-      "title": "Imperial Fairytale - Multiple Script Direct Request Path Disclosure",
-      "references": {
-        "osvdb": "92838",
-        "url": "http:\/\/seclists.org\/fulldisclosure\/2013\/Apr\/238"
-      }
-    }
-  },
-  "feather12": {
-    "vulnerability": {
-      "title": "Feather12 - Multiple Script Direct Request Path Disclosure",
-      "references": {
-        "osvdb": "92839",
-        "url": "http:\/\/seclists.org\/fulldisclosure\/2013\/Apr\/238"
-      }
-    }
-  },
-  "studiozen": {
-    "vulnerability": {
-      "title": "Studio Zen - Multiple Script Direct Request Path Disclosure",
-      "references": {
-        "osvdb": "92840",
-        "url": "http:\/\/seclists.org\/fulldisclosure\/2013\/Apr\/238"
-      }
-    }
-  },
-  "area53": {
-    "vulnerability": {
-      "title": "AREA53 <= 1.0.5 - File Upload Code Execution",
-      "references": {
-        "osvdb": "98927",
-        "exploitdb": "29068",
-        "url": [
-          "http:\/\/www.securityfocus.com\/bid\/63306",
-          "http:\/\/1337day.com\/exploit\/21442",
-          "http:\/\/themeforest.net\/item\/area53-a-responsive-html5-wordpress-theme\/2538737"
-        ]
-      }
-    }
-  },
-  "sahifa": {
-    "vulnerability": [
-      {
-        "title": "Sahifa 2.4.0 - Multiple Script Path Disclosure Direct Request Path Disclosure",
-        "references": {
-          "osvdb": "88926",
-          "url": [
-            "http:\/\/packetstormsecurity.com\/files\/119191\/",
-            "http:\/\/www.securityfocus.com\/bid\/57109"
-          ]
+    },
+    "shapeless": {
+        "vulnerability": {
+            "title": "Shapeless - Unspecified XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "85919"
+                ]
+            }
         }
-      },
-      {
-        "title": "Sahifa 2.4.0 - Site Setting Reset CSRF",
-        "references": {
-          "osvdb": "88927",
-          "url": [
-            "http:\/\/packetstormsecurity.com\/files\/119191\/",
-            "http:\/\/www.securityfocus.com\/bid\/57109"
-          ]
+    },
+    "brisk": {
+        "vulnerability": {
+            "title": "Brisk - Unspecified XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "85918"
+                ]
+            }
         }
-      }
-    ]
-  },
-  "simpledark": {
-    "vulnerability": {
-      "title": "SimpleDark 1.2.10 - 's' Parameter Cross Site Scripting Vulnerability",
-      "references": {
-        "url": "http:\/\/www.securityfocus.com\/bid\/46615"
-      }
-    }
-  },
-  "geoplaces4": {
-    "vulnerability": {
-      "title": "GeoPlaces - File Upload Handling Remote Command Execution",
-      "references": {
-        "osvdb": "98975",
-        "url": "http:\/\/packetstormsecurity.com\/files\/123773\/"
-      }
-    }
-  },
-  "curvo": {
-    "vulnerability": {
-      "title": "Curvo - wp-content\/themes\/curvo\/functions\/upload-handler.php File Upload CSRF",
-      "references": {
-        "osvdb": "99043",
-        "exploitdb": "29211",
-        "url": [
-          "http:\/\/packetstormsecurity.com\/files\/123799\/",
-          "http:\/\/packetstormsecurity.com\/files\/123820\/"
-        ]
-      }
-    }
-  },
-  "MoneyTheme": {
-    "vulnerability": {
-      "title": "Money - wp-content\/themes\/MoneyTheme\/uploads\/upload.php File Upload Remote Code Execution",
-      "references": {
-        "osvdb": "99187",
-        "url": "http:\/\/packetstormsecurity.com\/files\/123819\/"
-      }
-    }
-  },
-  "saico": {
-    "vulnerability": {
-      "title": "Saico - Arbitrary File Upload Vulnerability",
-      "references": {
-        "exploitdb": "29150",
-        "url": "http:\/\/1337day.com\/exploit\/21440"
-      }
-    }
-  },
-  "ThisWay": {
-    "vulnerability": {
-      "title": "ThisWay - remote shell upload vulnerability",
-      "references": {
-        "secunia": "55587",
-        "url": "http:\/\/packetstormsecurity.com\/files\/123895\/"
-      }
-    }
-  },
-  "ThinkResponsive": {
-    "vulnerability": {
-      "title": "Think Responsive 1.0 - Arbitrary shell upload vulnerability",
-      "references": {
-        "exploitdb": "29332",
-        "url": "http:\/\/packetstormsecurity.com\/files\/123880\/"
-      }
-    }
-  },
-  "anthology": {
-    "vulnerability": {
-      "title": "Anthology - Remote File Upload Vulnerability",
-      "references": {
-        "url": "http:\/\/1337day.com\/exploit\/21460"
-      }
-    }
-  },
-  "amoveo": {
-    "vulnerability": {
-      "title": "Amoveo - Arbitrary File Upload Vulnerability",
-      "references": {
-        "url": "http:\/\/1337day.com\/exploit\/21451"
-      }
-    }
-  },
-  "switchblade": {
-    "vulnerability": {
-      "title": "Switchblade 1.3 - Arbitrary File Upload Vulnerability",
-      "references": {
-        "osvdb": "88918",
-        "exploitdb": "29330",
-        "url": "http:\/\/1337day.com\/exploit\/21457"
-      }
-    }
-  },
-  "magnitudo": {
-    "vulnerability": {
-      "title": "Magnitudo - Arbitrary File Upload Vulnerability",
-      "references": {
-        "url": "http:\/\/1337day.com\/exploit\/21457"
-      }
-    }
-  },
-  "ghost": {
-    "vulnerability": {
-      "title": "Ghost - Arbitrary File Upload Vulnerability",
-      "references": {
-        "url": "http:\/\/1337day.com\/exploit\/21416"
-      }
-    }
-  },
-  "RightNow": {
-    "vulnerability": {
-      "title": "Right Now - Arbitrary File Upload Vulnerability",
-      "references": {
-        "url": "http:\/\/1337day.com\/exploit\/21420"
-      }
-    }
-  },
-  "ColdFusion": {
-    "vulnerability": {
-      "title": "Cold Fusion - Arbitrary File Upload Vulnerability",
-      "references": {
-        "url": "http:\/\/1337day.com\/exploit\/21431"
-      }
-    }
-  },
-  "chameleon": {
-    "vulnerability": {
-      "title": "Chameleon - Arbitrary File Upload Vulnerability",
-      "references": {
-        "url": "http:\/\/1337day.com\/exploit\/21449"
-      }
-    }
-  },
-  "kernel-theme": {
-    "vulnerability": {
-      "title": "Kernel Theme - functions\/upload-handler.php File Upload Remote Code Execution",
-      "references": {
-        "osvdb": "99553",
-        "exploitdb": "29482",
-        "url": "http:\/\/packetstormsecurity.com\/files\/123954\/"
-      }
-    }
-  },
-  "rockstar-theme": {
-    "vulnerability": {
-      "title": "Rockstar - Remote File Upload Vulnerability",
-      "references": {
-        "exploitdb": "29946",
-        "url": [
-          "http:\/\/packetstormsecurity.com\/files\/123999\/",
-          "http:\/\/packetstormsecurity.com\/files\/124232\/",
-          "http:\/\/1337day.com\/exploit\/21510"
-        ]
-      }
-    }
-  },
-  "reganto-theme": {
-    "vulnerability": {
-      "title": "Reganto - Remote File Upload Vulnerability",
-      "references": {
-        "exploitdb": "29946",
-        "url": [
-          "http:\/\/packetstormsecurity.com\/files\/123999\/",
-          "http:\/\/packetstormsecurity.com\/files\/124232\/",
-          "http:\/\/1337day.com\/exploit\/21511"
-        ]
-      }
-    }
-  },
-  "rayoflight-theme": {
-    "vulnerability": {
-      "title": "Ray of Light - Remote File Upload Vulnerability",
-      "references": {
-        "exploitdb": "29946",
-        "url": [
-          "http:\/\/packetstormsecurity.com\/files\/123999\/",
-          "http:\/\/packetstormsecurity.com\/files\/124232\/",
-          "http:\/\/1337day.com\/exploit\/21512"
-        ]
-      }
-    }
-  },
-  "radial-theme": {
-    "vulnerability": {
-      "title": "Radial - Remote File Upload Vulnerability",
-      "references": {
-        "exploitdb": "29946",
-        "url": [
-          "http:\/\/packetstormsecurity.com\/files\/123999\/",
-          "http:\/\/packetstormsecurity.com\/files\/124232\/",
-          "http:\/\/1337day.com\/exploit\/21513"
-        ]
-      }
-    }
-  },
-  "oxygen-theme": {
-    "vulnerability": {
-      "title": "Oxygen - Remote File Upload Vulnerability",
-      "references": {
-        "exploitdb": "29946",
-        "url": [
-          "http:\/\/packetstormsecurity.com\/files\/123999\/",
-          "http:\/\/packetstormsecurity.com\/files\/124232\/",
-          "http:\/\/1337day.com\/exploit\/21514"
-        ]
-      }
-    }
-  },
-  "bulteno-theme": {
-    "vulnerability": {
-      "title": "Bulteno - Remote File Upload Vulnerability",
-      "references": {
-        "exploitdb": "29946",
-        "url": [
-          "http:\/\/packetstormsecurity.com\/files\/123999\/",
-          "http:\/\/packetstormsecurity.com\/files\/124232\/",
-          "http:\/\/1337day.com\/exploit\/21515"
-        ]
-      }
-    }
-  },
-  "bordeaux-theme": {
-    "vulnerability": {
-      "title": "Bordeaux - Remote File Upload Vulnerability",
-      "references": {
-        "exploitdb": "29946",
-        "url": [
-          "http:\/\/packetstormsecurity.com\/files\/123999\/",
-          "http:\/\/packetstormsecurity.com\/files\/124232\/",
-          "http:\/\/1337day.com\/exploit\/21516"
-        ]
-      }
-    }
-  },
-  "agritourismo-theme": {
-    "vulnerability": {
-      "title": "Agritourismo - Remote File Upload Vulnerability",
-      "references": {
-        "exploitdb": "29946",
-        "url": "http:\/\/packetstormsecurity.com\/files\/124232\/"
-      }
-    }
-  },
-  "highlight": {
-    "vulnerability": {
-      "title": "Highlight Powerful Premium - upload-handler.php File Upload CSRF",
-      "references": {
-        "osvdb": "99703",
-        "exploitdb": "29525",
-        "url": "http:\/\/packetstormsecurity.com\/files\/123974\/"
-      }
-    }
-  },
-  "euclid": {
-    "vulnerability": {
-      "title": "Euclid - CSRF Vulnerability",
-      "references": {
-        "exploitdb": "29667",
-        "url": [
-          "http:\/\/packetstormsecurity.com\/files\/124043\/",
-          "http:\/\/1337day.com\/exploit\/21538"
-        ]
-      }
-    }
-  },
-  "dimension": {
-    "vulnerability": {
-      "title": "Dimension - CSRF Vulnerability",
-      "references": {
-        "exploitdb": "29668",
-        "url": [
-          "http:\/\/packetstormsecurity.com\/files\/124042\/",
-          "http:\/\/1337day.com\/exploit\/21537"
-        ]
-      }
-    }
-  },
-  "amplus": {
-    "vulnerability": {
-      "title": "Amplus - CSRF Vulnerability",
-      "references": {
-        "exploitdb": "29669",
-        "url": [
-          "http:\/\/packetstormsecurity.com\/files\/124041\/",
-          "http:\/\/1337day.com\/exploit\/21535"
-        ]
-      }
-    }
-  },
-  "make_a_statement": {
-    "vulnerability": {
-      "title": "Make A Statement - CSRF Vulnerability",
-      "references": {
-        "exploitdb": "29670",
-        "url": [
-          "http:\/\/packetstormsecurity.com\/files\/124044\/",
-          "http:\/\/1337day.com\/exploit\/21536"
-        ]
-      }
-    }
-  },
-  "ithemes2": {
-    "vulnerability": {
-      "title": "iThemes2 - themify-ajax.php File Upload Arbitrary Code Execution",
-      "references": {
-        "osvdb": "100271",
-        "url": "http:\/\/packetstormsecurity.com\/files\/124097\/"
-      }
-    }
-  },
-  "suco": {
-    "vulnerability": {
-      "title": "Suco - themify-ajax.php File Upload Arbitrary Code Execution",
-      "references": {
-        "osvdb": "100271",
-        "url": "http:\/\/packetstormsecurity.com\/files\/124094\/"
-      }
-    }
-  },
-  "elemin": {
-    "vulnerability": {
-      "title": "Elemin - themify-ajax.php File Upload Arbitrary Code Execution",
-      "references": {
-        "osvdb": "100271",
-        "url": "http:\/\/packetstormsecurity.com\/files\/124149\/"
-      }
-    }
-  },
-  "folo": {
-    "vulnerability": [
-      {
-        "title": "Folo - themify-ajax.php File Upload Arbitrary Code Execution",
-        "references": {
-          "osvdb": "100271",
-          "url": "http:\/\/packetstormsecurity.com\/files\/124150\/"
+    },
+    "blaze": {
+        "vulnerability": {
+            "title": "Blaze - Unspecified XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "85917"
+                ]
+            }
         }
-      },
-      {
-        "title": "Folo - Cross Site Scripting",
-        "references": {
-          "url": "http:\/\/packetstormsecurity.com\/files\/124230\/"
+    },
+    "eunice": {
+        "vulnerability": {
+            "title": "Eunice - Unspecified XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "85916"
+                ]
+            }
         }
-      }
-    ]
-  },
-  "Bloggie": {
-    "vulnerability": {
-      "title": "Bloggie - themify-ajax.php File Upload Arbitrary Code Execution",
-      "references": {
-        "osvdb": "100271",
-        "url": "http:\/\/packetstormsecurity.com\/files\/124152\/"
-      }
+    },
+    "explicit": {
+        "vulnerability": {
+            "title": "Explicit - Unspecified XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "85915"
+                ]
+            }
+        }
+    },
+    "essence": {
+        "vulnerability": {
+            "title": "Essence - Unspecified XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "85914"
+                ]
+            }
+        }
+    },
+    "paramount": {
+        "vulnerability": {
+            "title": "Paramount - Unspecified XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "85913"
+                ]
+            }
+        }
+    },
+    "picturefactory": {
+        "vulnerability": {
+            "title": "PictureFactory - Unspecified XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "85912"
+                ]
+            }
+        }
+    },
+    "sparky": {
+        "vulnerability": {
+            "title": "Sparky - Unspecified XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "85911"
+                ]
+            }
+        }
+    },
+    "theagency": {
+        "vulnerability": {
+            "title": "TheAgency - Unspecified XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "85910"
+                ]
+            }
+        }
+    },
+    "konzept": {
+        "vulnerability": {
+            "title": "Konzept - Unspecified XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "85920"
+                ]
+            }
+        }
+    },
+    "daisho": {
+        "vulnerability": {
+            "title": "Daisho - Unspecified XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "85921"
+                ]
+            }
+        }
+    },
+    "choices": {
+        "vulnerability": {
+            "title": "Choices - Unspecified XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "86755"
+                ]
+            }
+        }
+    },
+    "brightbox": {
+        "vulnerability": {
+            "title": "Brightbox - Unspecified XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "86756"
+                ]
+            }
+        }
+    },
+    "broadscope": {
+        "vulnerability": {
+            "title": "Broadscope - Unspecified XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "86757"
+                ]
+            }
+        }
+    },
+    "corona": {
+        "vulnerability": {
+            "title": "Corona - Unspecified XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "86758"
+                ]
+            }
+        }
+    },
+    "flashlight": {
+        "vulnerability": {
+            "title": "Flashlight - Unspecified XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "86759"
+                ]
+            }
+        }
+    },
+    "coalition": {
+        "vulnerability": {
+            "title": "Coalition - Unspecified XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "86760"
+                ]
+            }
+        }
+    },
+    "shoutbox": {
+        "vulnerability": {
+            "title": "Shoutbox - Unspecified XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "86761"
+                ]
+            }
+        }
+    },
+    "velvet": {
+        "vulnerability": {
+            "title": "Velvet - Unspecified XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "86762"
+                ]
+            }
+        }
+    },
+    "upscale": {
+        "vulnerability": {
+            "title": "Upscale - Unspecified XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "86763"
+                ]
+            }
+        }
+    },
+    "expose": {
+        "vulnerability": {
+            "title": "Expose - Unspecified XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "86764"
+                ]
+            }
+        }
+    },
+    "abundance": {
+        "vulnerability": {
+            "title": "Abundance - Unspecified XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "86765"
+                ]
+            }
+        }
+    },
+    "eunoia": {
+        "vulnerability": {
+            "title": "Eunoia - Unspecified XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "86766"
+                ]
+            }
+        }
+    },
+    "wise": {
+        "vulnerability": {
+            "title": "Site5 Wordpress Themes Email Spoofing",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.org\/files\/114750\/"
+                ]
+            }
+        }
+    },
+    "webfolio": {
+        "vulnerability": {
+            "title": "Site5 Wordpress Themes Email Spoofing",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.org\/files\/114750\/"
+                ]
+            }
+        }
+    },
+    "colorbold": {
+        "vulnerability": {
+            "title": "Site5 Wordpress Themes Email Spoofing",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.org\/files\/114750\/"
+                ]
+            }
+        }
+    },
+    "rockwell": {
+        "vulnerability": {
+            "title": "Site5 Wordpress Themes Email Spoofing",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.org\/files\/114750\/"
+                ]
+            }
+        }
+    },
+    "xmas": {
+        "vulnerability": {
+            "title": "Site5 Wordpress Themes Email Spoofing",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.org\/files\/114750\/"
+                ]
+            }
+        }
+    },
+    "designpile": {
+        "vulnerability": {
+            "title": "Site5 Wordpress Themes Email Spoofing",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.org\/files\/114750\/"
+                ]
+            }
+        }
+    },
+    "alltuts": {
+        "vulnerability": {
+            "title": "Site5 Wordpress Themes Email Spoofing",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.org\/files\/114750\/"
+                ]
+            }
+        }
+    },
+    "boldy": {
+        "vulnerability": {
+            "title": "Site5 Wordpress Themes Email Spoofing",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.org\/files\/114750\/"
+                ]
+            }
+        }
+    },
+    "simplo": {
+        "vulnerability": {
+            "title": "Site5 Wordpress Themes Email Spoofing",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.org\/files\/114750\/"
+                ]
+            }
+        }
+    },
+    "diary": {
+        "vulnerability": {
+            "title": "Site5 Wordpress Themes Email Spoofing",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.org\/files\/114750\/"
+                ]
+            }
+        }
+    },
+    "journalcrunch": {
+        "vulnerability": {
+            "title": "Site5 Wordpress Themes Email Spoofing",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.org\/files\/114750\/"
+                ]
+            }
+        }
+    },
+    "prosume": {
+        "vulnerability": {
+            "title": "Site5 Wordpress Themes Email Spoofing",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.org\/files\/114750\/"
+                ]
+            }
+        }
+    },
+    "famous": {
+        "vulnerability": {
+            "title": "Famous 2.0.5 - Shell Upload",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "83013"
+                ]
+            }
+        }
+    },
+    "deep-blue": {
+        "vulnerability": {
+            "title": "Deep-Blue 1.9.2 - Arbitrary File Upload Vulnerability",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "secunia": [
+                    "49611"
+                ]
+            }
+        }
+    },
+    "classipress": {
+        "vulnerability": {
+            "title": "Classipress <= 3.1.4 - Stored XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "exploitdb": [
+                    "18053"
+                ]
+            },
+            "fixed_in": "3.1.5"
+        }
+    },
+    "merchant": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "smpl": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "drawar": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "sentient": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "whitelight": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "unsigned": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "shelflife": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "olya": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "sliding": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "beveled": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "empire-commerce": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "buro-commerce": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "briefed-commerce": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "wikeasi": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "currents": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "emporium": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "biznizz-commerce": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "kaboodle-commerce": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "inspire-commerce": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "teamster": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "argentum": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "statua-commerce": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "simplicity-commerce": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "canvas-commerce": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "wootique": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "woostore": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "coquette": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "buro": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "swatch": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "announcement": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "empire": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "supportpress": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "editorial": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "statua": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "briefed": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "faultpress": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "kaboodle": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "savinggrace": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "premiere": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "simplicity": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "deliciousmagazine": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "bookclub": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "boldnews": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "placeholder": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "biznizz": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "auld": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "listings": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "elefolio": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "chapters": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "continuum": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "diner": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "skeptical": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "caffeinated": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "crisp": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "sealight": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "estate": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "tma": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "coda": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "inspire": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "apz": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "spectrum": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "diarise": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "boast": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "retreat": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "cityguide": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "canvas": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "postcard": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "delegate": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "mystream": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "optimize": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "backstage": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "bueno": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "digitalfarm": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "headlines": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "therapy": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "rockstar": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "dailydeal": {
+        "vulnerability": {
+            "title": "DailyDeal - File Upload Remote Code Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "osvdb": [
+                    "98924"
+                ]
+            }
+        }
+    },
+    "dailyedition": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "object": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "coffeebreak": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "mainstream": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "featurepitch": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "thejournal": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "aperture": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "metamorphosis": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "bloggingstream": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "thestation": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "groovyvideo": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "irresistible": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "cushy": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "wootube": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "abstract": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "busybee": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "blogtheme": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "typebased": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "overeasy": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "snapshot": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "openair": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "freshnews": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "livewire": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "flashnews": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "gazette": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "premiumnews": {
+        "vulnerability": {
+            "title": "WooThemes WooFramework Remote Unauthenticated Shortcode Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/2523147"
+                ]
+            }
+        }
+    },
+    "dt-chocolate": {
+        "vulnerability": {
+            "title": "dt-chocolate - jPlayer XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "secunia": [
+                    "56379"
+                ]
+            }
+        }
+    },
+    "sandbox": {
+        "vulnerability": {
+            "title": "sandbox - Arbitrary File Upload\/FD Vulnerability",
+            "vuln_type": "MULTI",
+            "references": {
+                "url": [
+                    "http:\/\/1337day.com\/exploit\/20228"
+                ]
+            }
+        }
+    },
+    "clockstone": {
+        "vulnerability": {
+            "title": "Clockstone 1.2 - upload.php Arbitrary File Upload Vulnerability",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "secunia": [
+                    "51619"
+                ]
+            }
+        }
+    },
+    "archin": {
+        "vulnerability": {
+            "title": "Archin 3.2 - Cross-Site Scripting and Arbitrary File Upload Vulnerabilities",
+            "vuln_type": "MULTI",
+            "references": {
+                "secunia": [
+                    "50711"
+                ]
+            }
+        }
+    },
+    "purity": {
+        "vulnerability": {
+            "title": "Purity - Multiple Cross-Site Scripting Vulnerabilities",
+            "vuln_type": "XSS",
+            "references": {
+                "secunia": [
+                    "50627"
+                ]
+            }
+        }
+    },
+    "pinboard": {
+        "vulnerability": {
+            "title": "Pinboard 1.0.6 - includes\/theme-options.php tab Parameter XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "secunia": [
+                    "52079"
+                ]
+            }
+        }
+    },
+    "montezuma": {
+        "vulnerability": {
+            "title": "montezuma <= 1.1.3 - XSS in ZeroClipboard.swf",
+            "vuln_type": "XSS",
+            "references": {
+                "url": [
+                    "http:\/\/1337day.com\/exploit\/20396"
+                ]
+            }
+        }
+    },
+    "scarlet": {
+        "vulnerability": {
+            "title": "scarlet <= 1.1.3 - XSS in ZeroClipboard.swf",
+            "vuln_type": "XSS",
+            "references": {
+                "url": [
+                    "http:\/\/1337day.com\/exploit\/20396"
+                ]
+            }
+        }
+    },
+    "allure-real-estate-theme-for-placester": {
+        "vulnerability": {
+            "title": "allure-real-estate-theme-for-placester <= 0.1.1 - XSS in ZeroClipboard.swf",
+            "vuln_type": "XSS",
+            "references": {
+                "url": [
+                    "http:\/\/1337day.com\/exploit\/20396"
+                ]
+            }
+        }
+    },
+    "allure-real-estate-theme-for-real-estate": {
+        "vulnerability": {
+            "title": "allure-real-estate-theme-for-real-estate <= 0.1.1 - XSS in ZeroClipboard.swf",
+            "vuln_type": "XSS",
+            "references": {
+                "url": [
+                    "http:\/\/1337day.com\/exploit\/20396"
+                ]
+            }
+        }
+    },
+    "felici": {
+        "vulnerability": {
+            "title": "felici - XSS Vulnerability",
+            "vuln_type": "XSS",
+            "references": {
+                "url": [
+                    "http:\/\/1337day.com\/exploit\/20560"
+                ]
+            }
+        }
+    },
+    "classic": {
+        "vulnerability": {
+            "title": "Classic 1.5 - PHP_SELF XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "cve": [
+                    "2007-4483"
+                ]
+            }
+        }
+    },
+    "brilliant": {
+        "vulnerability": {
+            "title": "brilliant - File Upload Vulnerability",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "url": [
+                    "http:\/\/ruinedsec.wordpress.com\/2013\/04\/03\/wordpress-themes-exploits-are-in-action-wpscan\/"
+                ]
+            }
+        }
+    },
+    "colormix": {
+        "vulnerability": {
+            "title": "Colormix - Multiple vulnerabilities",
+            "vuln_type": "MULTI",
+            "references": {
+                "url": [
+                    "http:\/\/seclists.org\/fulldisclosure\/2013\/Apr\/172"
+                ]
+            }
+        }
+    },
+    "jobroller": {
+        "vulnerability": {
+            "title": "XSS in jobroller theme",
+            "vuln_type": "XSS",
+            "references": {
+                "url": [
+                    "http:\/\/cxsecurity.com\/issue\/WLB-2013060089"
+                ]
+            }
+        }
+    },
+    "ambience": {
+        "vulnerability": {
+            "title": "Xss In wordpress ambience theme",
+            "vuln_type": "XSS",
+            "references": {
+                "url": [
+                    "http:\/\/www.websecuritywatch.com\/wordpress-ambience-xss\/"
+                ]
+            }
+        }
+    },
+    "slash-wp": {
+        "vulnerability": {
+            "title": "Slash WP - FPD, XSS and CS vulnerabilities",
+            "vuln_type": "MULTI",
+            "references": {
+                "url": [
+                    "http:\/\/seclists.org\/fulldisclosure\/2013\/Jun\/166"
+                ]
+            }
+        }
+    },
+    "persuasion": {
+        "vulnerability": {
+            "title": "Multiple Themes - PrettyPhoto DOM XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "secunia": [
+                    "56583"
+                ]
+            }
+        }
+    },
+    "silverorchid": {
+        "vulnerability": {
+            "title": "silverOrchid <= 1.5.0 - XSS Vulnerability",
+            "vuln_type": "XSS",
+            "references": {
+                "secunia": [
+                    "54662"
+                ]
+            }
+        }
+    },
+    "caulk": {
+        "vulnerability": {
+            "title": "Caulk - path disclosure vulnerability",
+            "vuln_type": "FPD",
+            "references": {
+                "osvdb": [
+                    "90889"
+                ]
+            }
+        }
+    },
+    "wplocalplaces": {
+        "vulnerability": {
+            "title": "WPLocalPlaces - File Upload Remote Code Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "osvdb": [
+                    "98806"
+                ]
+            }
+        }
+    },
+    "photocrati-theme": {
+        "vulnerability": {
+            "title": "Photocrati Theme 4.7.3 -  Reflected Cross-Site Scripting (XSS)",
+            "vuln_type": "XSS",
+            "references": {
+                "secunia": [
+                    "56690"
+                ]
+            }
+        }
+    },
+    "music": {
+        "vulnerability": {
+            "title": "Music - Multiple Script Direct Request Path Disclosure",
+            "vuln_type": "FPD",
+            "references": {
+                "osvdb": [
+                    "92837"
+                ]
+            }
+        }
+    },
+    "imperial-fairytale": {
+        "vulnerability": {
+            "title": "Imperial Fairytale - Multiple Script Direct Request Path Disclosure",
+            "vuln_type": "FPD",
+            "references": {
+                "osvdb": [
+                    "92838"
+                ]
+            }
+        }
+    },
+    "feather12": {
+        "vulnerability": {
+            "title": "Feather12 - Multiple Script Direct Request Path Disclosure",
+            "vuln_type": "FPD",
+            "references": {
+                "osvdb": [
+                    "92839"
+                ]
+            }
+        }
+    },
+    "studiozen": {
+        "vulnerability": {
+            "title": "Studio Zen - Multiple Script Direct Request Path Disclosure",
+            "vuln_type": "FPD",
+            "references": {
+                "osvdb": [
+                    "92840"
+                ]
+            }
+        }
+    },
+    "area53": {
+        "vulnerability": {
+            "title": "AREA53 <= 1.0.5 - File Upload Code Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "exploitdb": [
+                    "29068"
+                ]
+            }
+        }
+    },
+    "sahifa": {
+        "vulnerability": {
+            "title": "Sahifa 2.4.0 - Multiple Script Path Disclosure Direct Request Path Disclosure",
+            "vuln_type": "FPD",
+            "references": {
+                "osvdb": [
+                    "88926"
+                ]
+            }
+        }
+    },
+    "simpledark": {
+        "vulnerability": {
+            "title": "SimpleDark 1.2.10 - 's' Parameter Cross Site Scripting Vulnerability",
+            "vuln_type": "XSS",
+            "references": {
+                "url": [
+                    "http:\/\/www.securityfocus.com\/bid\/46615\/"
+                ]
+            }
+        }
+    },
+    "geoplaces4": {
+        "vulnerability": {
+            "title": "GeoPlaces - File Upload Handling Remote Command Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "osvdb": [
+                    "98975"
+                ]
+            }
+        }
+    },
+    "geoplaces4beta": {
+        "vulnerability": {
+            "title": "GeoPlaces - File Upload Handling Remote Command Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "osvdb": [
+                    "98975"
+                ]
+            }
+        }
+    },
+    "curvo": {
+        "vulnerability": {
+            "title": "Curvo - wp-content\/themes\/curvo\/functions\/upload-handler.php File Upload CSRF",
+            "vuln_type": "CSRF",
+            "references": {
+                "exploitdb": [
+                    "29211"
+                ]
+            }
+        }
+    },
+    "moneytheme": {
+        "vulnerability": {
+            "title": "Money - wp-content\/themes\/MoneyTheme\/uploads\/upload.php File Upload Remote Code Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "osvdb": [
+                    "99187"
+                ]
+            }
+        }
+    },
+    "saico": {
+        "vulnerability": {
+            "title": "Saico - Arbitrary File Upload Vulnerability",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "exploitdb": [
+                    "29150"
+                ]
+            }
+        }
+    },
+    "thisway": {
+        "vulnerability": {
+            "title": "ThisWay - remote shell upload vulnerability",
+            "vuln_type": "RCE",
+            "references": {
+                "secunia": [
+                    "55587"
+                ]
+            }
+        }
+    },
+    "thinkresponsive": {
+        "vulnerability": {
+            "title": "Think Responsive 1.0 - Arbitrary shell upload vulnerability",
+            "vuln_type": "RCE",
+            "references": {
+                "exploitdb": [
+                    "29332"
+                ]
+            }
+        }
+    },
+    "anthology": {
+        "vulnerability": {
+            "title": "Anthology - Remote File Upload Vulnerability",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "url": [
+                    "http:\/\/1337day.com\/exploit\/21460"
+                ]
+            }
+        }
+    },
+    "amoveo": {
+        "vulnerability": {
+            "title": "Amoveo - Arbitrary File Upload Vulnerability",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "url": [
+                    "http:\/\/1337day.com\/exploit\/21451"
+                ]
+            }
+        }
+    },
+    "switchblade": {
+        "vulnerability": {
+            "title": "Switchblade 1.3 - Arbitrary File Upload Vulnerability",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "exploitdb": [
+                    "29330"
+                ]
+            }
+        }
+    },
+    "magnitudo": {
+        "vulnerability": {
+            "title": "Magnitudo - Arbitrary File Upload Vulnerability",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "url": [
+                    "http:\/\/1337day.com\/exploit\/21457"
+                ]
+            }
+        }
+    },
+    "ghost": {
+        "vulnerability": {
+            "title": "Ghost - Arbitrary File Upload Vulnerability",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "url": [
+                    "http:\/\/1337day.com\/exploit\/21416"
+                ]
+            }
+        }
+    },
+    "rightnow": {
+        "vulnerability": {
+            "title": "Right Now - Arbitrary File Upload Vulnerability",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "url": [
+                    "http:\/\/1337day.com\/exploit\/21420"
+                ]
+            }
+        }
+    },
+    "coldfusion": {
+        "vulnerability": {
+            "title": "Cold Fusion - Arbitrary File Upload Vulnerability",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "url": [
+                    "http:\/\/1337day.com\/exploit\/21431"
+                ]
+            }
+        }
+    },
+    "chameleon": {
+        "vulnerability": {
+            "title": "Chameleon - Arbitrary File Upload Vulnerability",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "url": [
+                    "http:\/\/1337day.com\/exploit\/21449"
+                ]
+            }
+        }
+    },
+    "kernel-theme": {
+        "vulnerability": {
+            "title": "Kernel Theme - functions\/upload-handler.php File Upload Remote Code Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "exploitdb": [
+                    "29482"
+                ]
+            }
+        }
+    },
+    "rockstar-theme": {
+        "vulnerability": {
+            "title": "Rockstar - Remote File Upload Vulnerability",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "exploitdb": [
+                    "29946"
+                ]
+            }
+        }
+    },
+    "reganto-theme": {
+        "vulnerability": {
+            "title": "Reganto - Remote File Upload Vulnerability",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "exploitdb": [
+                    "29946"
+                ]
+            }
+        }
+    },
+    "rayoflight-theme": {
+        "vulnerability": {
+            "title": "Ray of Light - Remote File Upload Vulnerability",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "exploitdb": [
+                    "29946"
+                ]
+            }
+        }
+    },
+    "radial-theme": {
+        "vulnerability": {
+            "title": "Radial - Remote File Upload Vulnerability",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "exploitdb": [
+                    "29946"
+                ]
+            }
+        }
+    },
+    "oxygen-theme": {
+        "vulnerability": {
+            "title": "Oxygen - Remote File Upload Vulnerability",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "exploitdb": [
+                    "29946"
+                ]
+            }
+        }
+    },
+    "bulteno-theme": {
+        "vulnerability": {
+            "title": "Bulteno - Remote File Upload Vulnerability",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "exploitdb": [
+                    "29946"
+                ]
+            }
+        }
+    },
+    "bordeaux-theme": {
+        "vulnerability": {
+            "title": "Bordeaux - Remote File Upload Vulnerability",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "exploitdb": [
+                    "29946"
+                ]
+            }
+        }
+    },
+    "agritourismo-theme": {
+        "vulnerability": {
+            "title": "Agritourismo - Remote File Upload Vulnerability",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "exploitdb": [
+                    "29946"
+                ]
+            }
+        }
+    },
+    "highlight": {
+        "vulnerability": {
+            "title": "Highlight Powerful Premium - upload-handler.php File Upload CSRF",
+            "vuln_type": "CSRF",
+            "references": {
+                "exploitdb": [
+                    "29525"
+                ]
+            }
+        }
+    },
+    "euclid": {
+        "vulnerability": {
+            "title": "Euclid - CSRF Vulnerability",
+            "vuln_type": "CSRF",
+            "references": {
+                "exploitdb": [
+                    "29667"
+                ]
+            }
+        }
+    },
+    "dimension": {
+        "vulnerability": {
+            "title": "Dimension - CSRF Vulnerability",
+            "vuln_type": "CSRF",
+            "references": {
+                "exploitdb": [
+                    "29668"
+                ]
+            }
+        }
+    },
+    "amplus": {
+        "vulnerability": {
+            "title": "Amplus - CSRF Vulnerability",
+            "vuln_type": "CSRF",
+            "references": {
+                "exploitdb": [
+                    "29669"
+                ]
+            }
+        }
+    },
+    "make_a_statement": {
+        "vulnerability": {
+            "title": "Make A Statement - CSRF Vulnerability",
+            "vuln_type": "CSRF",
+            "references": {
+                "exploitdb": [
+                    "29670"
+                ]
+            }
+        }
+    },
+    "ithemes2": {
+        "vulnerability": {
+            "title": "iThemes2 - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "suco": {
+        "vulnerability": {
+            "title": "Suco - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "elemin": {
+        "vulnerability": {
+            "title": "Elemin - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "folo": {
+        "vulnerability": {
+            "title": "Folo - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "bloggie": {
+        "vulnerability": {
+            "title": "Bloggie - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "blogfolio": {
+        "vulnerability": {
+            "title": "Blogfolio - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "optimizepress": {
+        "vulnerability": {
+            "title": "OptimizePress - File Upload Vulnerability",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "secunia": [
+                    "56379"
+                ]
+            },
+            "fixed_in": "1.6"
+        }
+    },
+    "blooog": {
+        "vulnerability": {
+            "title": "Blooog 1.1 - jplayer.swf Cross Site Scripting",
+            "vuln_type": "XSS",
+            "references": {
+                "cve": [
+                    "2013-7129"
+                ]
+            }
+        }
+    },
+    "toolbox": {
+        "vulnerability": {
+            "title": "Toolbox 1.4 - flyer.php mls Parameter SQL Injection",
+            "vuln_type": "SQLI",
+            "references": {
+                "osvdb": [
+                    "88293"
+                ]
+            }
+        }
+    },
+    "oberliga_theme": {
+        "vulnerability": {
+            "title": "Oberliga - team.php team Parameter SQL Injection",
+            "vuln_type": "SQLI",
+            "references": {
+                "osvdb": [
+                    "88454"
+                ]
+            }
+        }
+    },
+    "cstardesign": {
+        "vulnerability": {
+            "title": "CStar Design 2.0 - flashmoXML.php id Parameter SQL Injection",
+            "vuln_type": "SQLI",
+            "references": {
+                "osvdb": [
+                    "88291"
+                ]
+            }
+        }
+    },
+    "malmonation": {
+        "vulnerability": {
+            "title": "Malmonation - debate.php id Parameter SQL Injection",
+            "vuln_type": "SQLI",
+            "references": {
+                "osvdb": [
+                    "87866"
+                ]
+            }
+        }
+    },
+    "lightspeed": {
+        "vulnerability": {
+            "title": "LightSpeed - Valums Uploader Shell Upload Exploit",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.com\/files\/119241\/"
+                ]
+            }
+        }
+    },
+    "eptonic": {
+        "vulnerability": {
+            "title": "Eptonic - Valums Uploader Shell Upload Exploit",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.com\/files\/119241\/"
+                ]
+            }
+        }
+    },
+    "nuance": {
+        "vulnerability": {
+            "title": "Nuance - Valums Uploader Shell Upload Exploit",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.com\/files\/119241\/"
+                ]
+            }
+        }
+    },
+    "dejavu": {
+        "vulnerability": {
+            "title": "DejaVu 2.4 - dl-skin.php _mysite_delete_skin_zip Parameter Absolute Path Traversal Remote Directory Deletion",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "exploitdb": [
+                    "30443"
+                ]
+            },
+            "fixed_in": "2.5"
+        }
+    },
+    "elegance": {
+        "vulnerability": {
+            "title": "Elegance - lib\/scripts\/dl-skin.php _mysite_download_skin Parameter Absolute Path Traversal Remote File Access",
+            "vuln_type": "RFI",
+            "references": {
+                "osvdb": [
+                    "108100"
+                ]
+            }
+        }
+    },
+    "echelon": {
+        "vulnerability": {
+            "title": "Echelon - media-upload.php Remote File Upload",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "106929"
+                ]
+            }
+        }
+    },
+    "modular": {
+        "vulnerability": {
+            "title": "Modular 2.4 - dl-skin.php _mysite_delete_skin_zip Parameter Absolute Path Traversal Remote Directory Deletion",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "exploitdb": [
+                    "30443"
+                ]
+            },
+            "fixed_in": "2.5"
+        }
+    },
+    "fusion": {
+        "vulnerability": {
+            "title": "Fusion 2.1 - dl-skin.php _mysite_delete_skin_zip Parameter Absolute Path Traversal Remote Directory Deletion",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "exploitdb": [
+                    "30443"
+                ]
+            },
+            "fixed_in": "2.2"
+        }
+    },
+    "method": {
+        "vulnerability": {
+            "title": "Method 2.1 - dl-skin.php _mysite_delete_skin_zip Parameter Absolute Path Traversal Remote Directory Deletion",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "exploitdb": [
+                    "30443"
+                ]
+            },
+            "fixed_in": "2.5"
+        }
+    },
+    "myriad": {
+        "vulnerability": {
+            "title": "Myriad 2.0 - dl-skin.php _mysite_delete_skin_zip Parameter Absolute Path Traversal Remote Directory Deletion",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "exploitdb": [
+                    "30443"
+                ]
+            },
+            "fixed_in": "2.5"
+        }
+    },
+    "construct": {
+        "vulnerability": {
+            "title": "Construct 1.4 - dl-skin.php _mysite_delete_skin_zip Parameter Absolute Path Traversal Remote Directory Deletion",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "exploitdb": [
+                    "30443"
+                ]
+            },
+            "fixed_in": "2.5"
+        }
+    },
+    "awake": {
+        "vulnerability": {
+            "title": "Awake 3.3 - dl-skin.php _mysite_delete_skin_zip Parameter Absolute Path Traversal Remote Directory Deletion",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "exploitdb": [
+                    "30443"
+                ]
+            },
+            "fixed_in": "2.5"
+        }
+    },
+    "infocus": {
+        "vulnerability": {
+            "title": "InFocus - Local File Inlusion (LFI)",
+            "vuln_type": "RFI",
+            "references": {
+                "osvdb": [
+                    "108099"
+                ]
+            }
+        }
+    },
+    "elegant-grunge": {
+        "vulnerability": {
+            "title": "Elegant Grunge 1.0.3 - s Parameter XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "cve": [
+                    "2011-3856"
+                ]
+            },
+            "fixed_in": "1.0.4"
+        }
+    },
+    "simplebalance": {
+        "vulnerability": {
+            "title": "Simple Balance <= 2.2.1 - index.php s Parameter XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "secunia": [
+                    "46671"
+                ]
+            }
+        }
+    },
+    "codilight": {
+        "vulnerability": {
+            "title": "Codilight Premium 1.0.0 - admin\/front-end\/options.php reset Parameter XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "100791"
+                ]
+            }
+        }
+    },
+    "iloveit": {
+        "vulnerability": {
+            "title": "Love It - XSS \/ Content Spoofing \/ Path Disclosure",
+            "vuln_type": "MULTI",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.com\/files\/122386\/"
+                ]
+            }
+        }
+    },
+    "dandelion": {
+        "vulnerability": {
+            "title": "Dandelion - Arbitry File Upload",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "exploitdb": [
+                    "31424"
+                ]
+            }
+        }
+    },
+    "kiddo": {
+        "vulnerability": {
+            "title": "Kiddo - remote shell upload vulnerability",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "secunia": [
+                    "56874"
+                ]
+            }
+        }
+    },
+    "thecotton_v114": {
+        "vulnerability": {
+            "title": "The Cotton - Remote File Upload Vulnerability",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "103911"
+                ]
+            }
+        }
+    },
+    "realestate": {
+        "vulnerability": {
+            "title": "Real Estate - Templatic Theme CSRF File Upload Vulnerability",
+            "vuln_type": "CSRF",
+            "references": {
+                "url": [
+                    "http:\/\/1337day.com\/exploit\/22091"
+                ]
+            }
+        }
+    },
+    "nightlife": {
+        "vulnerability": {
+            "title": "Nightlife - Templatic Theme CSRF File Upload Vulnerability",
+            "vuln_type": "CSRF",
+            "references": {
+                "url": [
+                    "http:\/\/1337day.com\/exploit\/22091"
+                ]
+            }
+        }
+    },
+    "5star": {
+        "vulnerability": {
+            "title": "5star - Templatic Theme CSRF File Upload Vulnerability",
+            "vuln_type": "CSRF",
+            "references": {
+                "url": [
+                    "http:\/\/1337day.com\/exploit\/22091"
+                ]
+            }
+        }
+    },
+    "specialist": {
+        "vulnerability": {
+            "title": "Specialist - Templatic Theme CSRF File Upload Vulnerability",
+            "vuln_type": "CSRF",
+            "references": {
+                "url": [
+                    "http:\/\/1337day.com\/exploit\/22091"
+                ]
+            }
+        }
+    },
+    "flatshop": {
+        "vulnerability": {
+            "title": "Flatshop - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "magazine": {
+        "vulnerability": {
+            "title": "Magazine - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "parallax": {
+        "vulnerability": {
+            "title": "Parallax - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "bold": {
+        "vulnerability": {
+            "title": "Bold - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "metro": {
+        "vulnerability": {
+            "title": "Metro - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "pinshop": {
+        "vulnerability": {
+            "title": "Pinshop - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "agency": {
+        "vulnerability": {
+            "title": "Agency - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "slide": {
+        "vulnerability": {
+            "title": "Slide - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "postline": {
+        "vulnerability": {
+            "title": "Postline - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "fullscreen": {
+        "vulnerability": {
+            "title": "Fulscreen - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "shopo": {
+        "vulnerability": {
+            "title": "Shopo - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "minshop": {
+        "vulnerability": {
+            "title": "Minshop - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "notes": {
+        "vulnerability": {
+            "title": "Notes - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "shopdock": {
+        "vulnerability": {
+            "title": "Shopdock - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "phototouch": {
+        "vulnerability": {
+            "title": "Phototouch - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "basic": {
+        "vulnerability": {
+            "title": "Basic - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "responz": {
+        "vulnerability": {
+            "title": "Responz - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "simfo": {
+        "vulnerability": {
+            "title": "Simfo - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "grido": {
+        "vulnerability": {
+            "title": "Grido - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "tisa": {
+        "vulnerability": {
+            "title": "Tisa - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "funki": {
+        "vulnerability": {
+            "title": "Funki - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "minblr": {
+        "vulnerability": {
+            "title": "Minblr - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "newsy": {
+        "vulnerability": {
+            "title": "Newsy - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "wumblr": {
+        "vulnerability": {
+            "title": "Wumblr - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "rezo": {
+        "vulnerability": {
+            "title": "Rezo - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "photobox": {
+        "vulnerability": {
+            "title": "Photobox - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "edmin": {
+        "vulnerability": {
+            "title": "Edmin - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "koi": {
+        "vulnerability": {
+            "title": "Koi - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "bizco": {
+        "vulnerability": {
+            "title": "Bizco - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "thememin": {
+        "vulnerability": {
+            "title": "Thememin - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "wigi": {
+        "vulnerability": {
+            "title": "Wigi - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "sidepane": {
+        "vulnerability": {
+            "title": "Sidepane - themify-ajax.php File Upload Arbitrary Code Execution",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "osvdb": [
+                    "100271"
+                ]
+            }
+        }
+    },
+    "sixtees": {
+        "vulnerability": {
+            "title": "Sixtees - Shell Upload",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.com\/files\/125491\/"
+                ]
+            }
+        }
+    },
+    "linenity": {
+        "vulnerability": {
+            "title": "LineNity 1.20 - download.php imgurl Parameter Remote Path Traversal File Access",
+            "vuln_type": "LFI",
+            "references": {
+                "exploitdb": [
+                    "32861"
+                ]
+            }
+        }
+    },
+    "scv1": {
+        "vulnerability": {
+            "title": "SCv1 - download.php file Parameter Traversal Remote File Access",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "osvdb": [
+                    "107940"
+                ]
+            }
+        }
+    },
+    "magazine-basic": {
+        "vulnerability": {
+            "title": "Magazine Basic - wp-content\/themes\/magazine-basic\/view_artist.php id Parameter SQL Injection",
+            "vuln_type": "SQLI",
+            "references": {
+                "osvdb": [
+                    "87838"
+                ]
+            }
+        }
+    },
+    "cakifo": {
+        "vulnerability": {
+            "title": "Cakifo 1.0 - 1.6.1 XSS Vulnerability",
+            "vuln_type": "XSS",
+            "references": {
+                "cve": [
+                    "2014-3903"
+                ]
+            },
+            "fixed_in": "1.6.2"
+        }
+    },
+    "IncredibleWP": {
+        "vulnerability": {
+            "title": "WordPress Slider Revolution Local File Disclosure",
+            "vuln_type": "LFI",
+            "references": {
+                "exploitdb": [
+                    "36039"
+                ]
+            }
+        }
+    },
+    "ultimatum": {
+        "vulnerability": {
+            "title": "WordPress Slider Revolution Local File Disclosure",
+            "vuln_type": "LFI",
+            "references": {
+                "exploitdb": [
+                    "36039"
+                ]
+            }
+        }
+    },
+    "medicate": {
+        "vulnerability": {
+            "title": "WordPress Slider Revolution Local File Disclosure",
+            "vuln_type": "LFI",
+            "references": {
+                "exploitdb": [
+                    "36039"
+                ]
+            }
+        }
+    },
+    "Centum": {
+        "vulnerability": {
+            "title": "WordPress Slider Revolution Local File Disclosure",
+            "vuln_type": "LFI",
+            "references": {
+                "exploitdb": [
+                    "36039"
+                ]
+            }
+        }
+    },
+    "avada": {
+        "vulnerability": {
+            "title": "WordPress Slider Revolution Local File Disclosure",
+            "vuln_type": "LFI",
+            "references": {
+                "exploitdb": [
+                    "36039"
+                ]
+            }
+        }
+    },
+    "striking_r": {
+        "vulnerability": {
+            "title": "WordPress Slider Revolution Local File Disclosure",
+            "vuln_type": "LFI",
+            "references": {
+                "exploitdb": [
+                    "36039"
+                ]
+            }
+        }
+    },
+    "beach_apollo": {
+        "vulnerability": {
+            "title": "WordPress Slider Revolution Local File Disclosure",
+            "vuln_type": "LFI",
+            "references": {
+                "exploitdb": [
+                    "36039"
+                ]
+            }
+        }
+    },
+    "urbancity": {
+        "vulnerability": {
+            "title": " Urban City - download.php Local File Inclusion (LFI)",
+            "vuln_type": "RFI",
+            "references": {
+                "osvdb": [
+                    "111206"
+                ]
+            }
+        }
+    },
+    "more": {
+        "vulnerability": {
+            "title": "Multiple Themes - PrettyPhoto DOM XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "secunia": [
+                    "56583"
+                ]
+            }
+        }
+    },
+    "NativeChurch": {
+        "vulnerability": {
+            "title": "NativeChurch Theme - Arbitrary File Download",
+            "vuln_type": "LFI",
+            "references": {
+                "url": [
+                    "http:\/\/www.intelligentexploit.com\/view-details.html?id=19753"
+                ]
+            }
+        }
+    },
+    "lote27": {
+        "vulnerability": {
+            "title": "lote27 Theme - Arbitrary File Download",
+            "vuln_type": "LFI",
+            "references": {
+                "url": [
+                    "http:\/\/www.intelligentexploit.com\/view-details.html?id=19752"
+                ]
+            }
+        }
+    },
+    "refraction": {
+        "vulnerability": {
+            "title": "Refraction Theme Multiple Vulnerabilities (XSS, FPD)",
+            "vuln_type": "MULTI",
+            "references": {
+                "url": [
+                    "http:\/\/seclists.org\/fulldisclosure\/2014\/Oct\/3"
+                ]
+            }
+        }
+    },
+    "rt_refraction_wp": {
+        "vulnerability": {
+            "title": "Refraction Theme Multiple Vulnerabilities (XSS, FPD)",
+            "vuln_type": "MULTI",
+            "references": {
+                "url": [
+                    "http:\/\/seclists.org\/fulldisclosure\/2014\/Oct\/3"
+                ]
+            }
+        }
+    },
+    "trinity": {
+        "vulnerability": {
+            "title": "Trinity - Arbitrary File Download",
+            "vuln_type": "LFI",
+            "references": {
+                "osvdb": [
+                    "111391"
+                ]
+            }
+        }
+    },
+    "aries": {
+        "vulnerability": {
+            "title": "WordPress Slider Revolution Local File Disclosure",
+            "vuln_type": "LFI",
+            "references": {
+                "exploitdb": [
+                    "36039"
+                ]
+            }
+        }
+    },
+    "revslider": {
+        "vulnerability": {
+            "title": "WordPress Slider Revolution Local File Disclosure",
+            "vuln_type": "LFI",
+            "references": {
+                "exploitdb": [
+                    "36039"
+                ]
+            }
+        }
+    },
+    "showbiz": {
+        "vulnerability": {
+            "title": "WordPress Slider Revolution Local File Disclosure",
+            "vuln_type": "LFI",
+            "references": {
+                "exploitdb": [
+                    "36039"
+                ]
+            }
+        }
+    },
+    "satoshi": {
+        "vulnerability": {
+            "title": "Satoshi Theme <= 2.0 - File Upload CSRF",
+            "vuln_type": "CSRF",
+            "references": {
+                "url": [
+                    "https:\/\/gist.github.com\/ethicalhack3r\/f05c30ca1025525765a1"
+                ]
+            }
+        }
+    },
+    "churchope": {
+        "vulnerability": {
+            "title": "ChurcHope Theme Local File Inclusion (LFI)",
+            "vuln_type": "LFI",
+            "references": {
+                "url": [
+                    "http:\/\/www.compuhowto.com\/security\/lfi-in-wordpress-theme-churchope\/"
+                ]
+            }
+        }
+    },
+    "manbiz2": {
+        "vulnerability": {
+            "title": "WordPress Slider Revolution Local File Disclosure",
+            "vuln_type": "LFI",
+            "references": {
+                "exploitdb": [
+                    "36039"
+                ]
+            }
+        }
+    },
+    "seabird": {
+        "vulnerability": {
+            "title": "WordPress Slider Revolution Local File Disclosure",
+            "vuln_type": "LFI",
+            "references": {
+                "exploitdb": [
+                    "36039"
+                ]
+            }
+        }
+    },
+    "soulmedic": {
+        "vulnerability": {
+            "title": "WordPress Slider Revolution Local File Disclosure",
+            "vuln_type": "LFI",
+            "references": {
+                "exploitdb": [
+                    "36039"
+                ]
+            }
+        }
+    },
+    "bretheon": {
+        "vulnerability": {
+            "title": "WordPress Slider Revolution Local File Disclosure",
+            "vuln_type": "LFI",
+            "references": {
+                "exploitdb": [
+                    "36039"
+                ]
+            }
+        }
+    },
+    "platform": {
+        "vulnerability": {
+            "title": "Platform Theme <= 1.6.2 -  Privilege Escalation & RCE",
+            "vuln_type": "MULTI",
+            "references": {
+                "url": [
+                    "http:\/\/blog.sucuri.net\/2015\/01\/security-advisory-vulnerabilities-in-pagelinesplatform-theme-for-wordpress.html"
+                ]
+            }
+        }
+    },
+    "pagelines": {
+        "vulnerability": {
+            "title": "Pagelines Theme <= 1.4.6 - Privilege escalation",
+            "vuln_type": "BYPASS",
+            "references": {
+                "url": [
+                    "http:\/\/blog.sucuri.net\/2015\/01\/security-advisory-vulnerabilities-in-pagelinesplatform-theme-for-wordpress.html"
+                ]
+            }
+        }
+    },
+    "RedSteel": {
+        "vulnerability": {
+            "title": "RedSteel Theme - File Disclosure",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.com\/files\/130108\/"
+                ]
+            }
+        }
+    },
+    "holding_pattern": {
+        "vulnerability": {
+            "title": "Holding Pattern Theme <= 0.6 - Arbitrary File Upload",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "cve": [
+                    "2015-1172"
+                ]
+            }
+        }
+    },
+    "Divi": {
+        "vulnerability": {
+            "title": "WordPress Slider Revolution Local File Disclosure",
+            "vuln_type": "LFI",
+            "references": {
+                "exploitdb": [
+                    "36039"
+                ]
+            }
+        }
+    },
+    "wplms": {
+        "vulnerability": {
+            "title": "WPLMS 1.8.4.1 - Privilege Escalation",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.com\/files\/130291\/"
+                ]
+            }
+        }
+    },
+    "quasar": {
+        "vulnerability": {
+            "title": "Quasar Theme Rock Form Builder plugin - Previlege Escalation",
+            "vuln_type": "BYPASS",
+            "references": {
+                "url": [
+                    "http:\/\/themeforest.net\/item\/quasar-wordpress-theme-with-animation-builder\/6126939"
+                ]
+            }
+        }
+    },
+    "photocrati-theme-v4": {
+        "vulnerability": {
+            "title": "Photocrati Theme 4.x.x - SQL Injection",
+            "vuln_type": "SQLI",
+            "references": {
+                "exploitdb": [
+                    "36242"
+                ]
+            }
+        }
+    },
+    "dignitas-themes": {
+        "vulnerability": {
+            "title": "Dignitas 1.1.9 - Privilage Escalation",
+            "vuln_type": "AUTHBYPASS",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.com\/files\/130652\/"
+                ]
+            }
+        }
+    },
+    "yaaburnee-themes": {
+        "vulnerability": {
+            "title": "Ya'aburnee 1.0.7 - Privilage Escalation",
+            "vuln_type": "AUTHBYPASS",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.com\/files\/130652\/"
+                ]
+            }
+        }
+    },
+    "custom-community": {
+        "vulnerability": {
+            "title": "Custom Community Theme 2.0 - 2.0.24 - Persistent XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "url": [
+                    "https:\/\/research.g0blin.co.uk\/g0blin-00029\/"
+                ]
+            },
+            "fixed_in": "2.0.25"
+        }
+    },
+    "fraction-theme": {
+        "vulnerability": {
+            "title": "Fraction Theme <= 1.1.1 - Privilege Escalation via CSRF",
+            "vuln_type": "CSRF",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.com\/files\/130738\/"
+                ]
+            }
+        }
+    },
+    "flashy": {
+        "vulnerability": {
+            "title": "Flashy Theme <= 1.3 - Cross-Site Scripting (XSS)",
+            "vuln_type": "XSS",
+            "references": {
+                "cve": [
+                    "2015-0901"
+                ]
+            }
+        }
+    },
+    "designfolio-plus": {
+        "vulnerability": {
+            "title": "DesignFolio Plus Theme <= 1.2 - Arbitrary File Upload",
+            "vuln_type": "UPLOAD",
+            "references": {
+                "exploitdb": [
+                    "36372"
+                ]
+            }
+        }
+    },
+    "qaengine": {
+        "vulnerability": {
+            "title": "QAEngine Theme - Privilege Escalation",
+            "vuln_type": "BYPASS",
+            "references": {
+                "osvdb": [
+                    "121267"
+                ]
+            }
+        }
+    },
+    "simplecart": {
+        "vulnerability": {
+            "title": "SimpleCart - File Upload and Execution",
+            "vuln_type": "RCE",
+            "references": {
+                "exploitdb": [
+                    "36611"
+                ]
+            }
+        }
+    },
+    "lattice": {
+        "vulnerability": {
+            "title": "Lattice - Unspecified XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "121084"
+                ]
+            },
+            "fixed_in": "1.1.4"
+        }
+    },
+    "quota": {
+        "vulnerability": {
+            "title": "Quota - Unspecified XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "121084"
+                ]
+            },
+            "fixed_in": "1.2.5"
+        }
+    },
+    "shoppette": {
+        "vulnerability": {
+            "title": "Shoppette - Unspecified XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "121084"
+                ]
+            },
+            "fixed_in": "1.0.5"
+        }
+    },
+    "digital-store": {
+        "vulnerability": {
+            "title": "Digital Store - Unspecified XSS",
+            "vuln_type": "XSS",
+            "references": {
+                "osvdb": [
+                    "121084"
+                ]
+            },
+            "fixed_in": "1.3.3"
+        }
+    },
+    "weeklynews": {
+        "vulnerability": {
+            "title": "WeeklyNews Premium Theme <= 2.2 - Cross-Site Scripting (XSS)",
+            "vuln_type": "XSS",
+            "references": {
+                "url": [
+                    "http:\/\/themeforest.net\/item\/weekly-news-wordpress-newsmagazine-theme\/9214110"
+                ]
+            },
+            "fixed_in": "2.2.9"
+        }
+    },
+    "the7": {
+        "vulnerability": {
+            "title": "The7 Premium Theme <= 2.1.0 - Cross-Site Scripting (XSS)",
+            "vuln_type": "XSS",
+            "references": {
+                "url": [
+                    "https:\/\/blog.sucuri.net\/2015\/04\/security-advisory-xss-vulnerability-affecting-multiple-wordpress-plugins.html"
+                ]
+            },
+            "fixed_in": "2.1.1"
+        }
+    },
+    "twentyfifteen": {
+        "vulnerability": {
+            "title": "Twenty Fifteen Theme <= 1.1 - DOM Cross-Site Scripting (XSS)",
+            "vuln_type": "XSS",
+            "references": {
+                "cve": [
+                    "2015-3429"
+                ]
+            },
+            "fixed_in": "1.2"
+        }
+    },
+    "exquisite-wp": {
+        "vulnerability": {
+            "title": "Exquisite Ultimate Newspaper Theme <= 1.3.3 - DOM Cross-Site Scripting (XSS)",
+            "vuln_type": "XSS",
+            "references": {
+                "url": [
+                    "http:\/\/themeforest.net\/item\/exquisite-ultimate-newspaper-theme\/6264019"
+                ]
+            }
+        }
+    },
+    "modern": {
+        "vulnerability": {
+            "title": "Modern Theme <= 1.4.1 - DOM Cross-Site Scripting (XSS)",
+            "vuln_type": "XSS",
+            "references": {
+                "url": [
+                    "https:\/\/blog.sucuri.net\/2015\/05\/jetpack-and-twentyfifteen-vulnerable-to-dom-based-xss.html"
+                ]
+            },
+            "fixed_in": "1.4.2"
+        }
+    },
+    "auberge": {
+        "vulnerability": {
+            "title": "Auberge Theme <= 1.4.4 - DOM Cross-Site Scripting (XSS)",
+            "vuln_type": "XSS",
+            "references": {
+                "url": [
+                    "https:\/\/blog.sucuri.net\/2015\/05\/jetpack-and-twentyfifteen-vulnerable-to-dom-based-xss.html"
+                ]
+            },
+            "fixed_in": "1.4.5"
+        }
+    },
+    "artificial-intelligence": {
+        "vulnerability": {
+            "title": "Artificial Intelligence Theme <= 1.2.3 - DOM Cross-Site Scripting (XSS)",
+            "vuln_type": "XSS",
+            "references": {
+                "url": [
+                    "https:\/\/github.com\/duchenerc\/artificial-intelligence\/commit\/c70631b1f80518411df2f88476041351110c6eac"
+                ]
+            },
+            "fixed_in": "1.2.4"
+        }
+    },
+    "estrutura-basica": {
+        "vulnerability": {
+            "title": "Estrutura-Basica - Local File Download  Vulnerability",
+            "vuln_type": "BYPASS",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.com\/files\/132042\/"
+                ]
+            }
+        }
+    },
+    "diplomat": {
+        "vulnerability": {
+            "title": "ThemeMakers Themes - Information Disclosure",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.com\/files\/131957\/"
+                ]
+            }
+        }
+    },
+    "cardealer": {
+        "vulnerability": {
+            "title": "ThemeMakers Themes - Information Disclosure",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.com\/files\/131957\/"
+                ]
+            }
+        }
+    },
+    "accio": {
+        "vulnerability": {
+            "title": "ThemeMakers Themes - Information Disclosure",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.com\/files\/131957\/"
+                ]
+            }
+        }
+    },
+    "axioma": {
+        "vulnerability": {
+            "title": "ThemeMakers Themes - Information Disclosure",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.com\/files\/131957\/"
+                ]
+            }
+        }
+    },
+    "goodnex": {
+        "vulnerability": {
+            "title": "ThemeMakers Themes - Information Disclosure",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.com\/files\/131957\/"
+                ]
+            }
+        }
+    },
+    "GamesTheme": {
+        "vulnerability": {
+            "title": "ThemeMakers Themes - Information Disclosure",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.com\/files\/131957\/"
+                ]
+            }
+        }
+    },
+    "blessing": {
+        "vulnerability": {
+            "title": "ThemeMakers Themes - Information Disclosure",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.com\/files\/131957\/"
+                ]
+            }
+        }
+    },
+    "smartit": {
+        "vulnerability": {
+            "title": "ThemeMakers Themes - Information Disclosure",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.com\/files\/131957\/"
+                ]
+            }
+        }
+    },
+    "freely": {
+        "vulnerability": {
+            "title": "ThemeMakers Themes - Information Disclosure",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.com\/files\/131957\/"
+                ]
+            }
+        }
+    },
+    "politican__": {
+        "vulnerability": {
+            "title": "ThemeMakers Themes - Information Disclosure",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.com\/files\/131957\/"
+                ]
+            }
+        }
+    },
+    "style": {
+        "vulnerability": {
+            "title": "ThemeMakers Themes - Information Disclosure",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.com\/files\/131957\/"
+                ]
+            }
+        }
+    },
+    "weddingalbum": {
+        "vulnerability": {
+            "title": "ThemeMakers Themes - Information Disclosure",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.com\/files\/131957\/"
+                ]
+            }
+        }
+    },
+    "almera": {
+        "vulnerability": {
+            "title": "ThemeMakers Themes - Information Disclosure",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.com\/files\/131957\/"
+                ]
+            }
+        }
+    },
+    "Paradise": {
+        "vulnerability": {
+            "title": "ThemeMakers Themes - Information Disclosure",
+            "vuln_type": "UNKNOWN",
+            "references": {
+                "url": [
+                    "http:\/\/packetstormsecurity.com\/files\/131957\/"
+                ]
+            }
+        }
     }
-  },
-  "blogfolio": {
-    "vulnerability": {
-      "title": "Blogfolio - themify-ajax.php File Upload Arbitrary Code Execution",
-      "references": {
-        "osvdb": "100271",
-        "url": "http:\/\/packetstormsecurity.com\/files\/124156\/"
-      }
-    }
-  },
-  "OptimizePress": {
-    "vulnerability": {
-      "title": "OptimizePress - File Upload Vulnerability",
-      "references": {
-        "osvdb": "100509",
-        "url": [
-          "http:\/\/packetstormsecurity.com\/files\/124246\/",
-          "http:\/\/www.osirt.com\/2013\/11\/wordpress-optimizepress-hack-file-upload-vulnerability\/"
-        ],
-        "metasploit": "exploit\/unix\/webapp\/php_wordpress_optimizepress"
-      }
-    }
-  },
-  "Blooog-v1.1": {
-    "vulnerability": {
-      "title": "Blooog 1.1 - jplayer.swf Cross Site Scripting",
-      "references": {
-        "url": "http:\/\/packetstormsecurity.com\/files\/124240\/"
-      }
-    }
-  }
 }

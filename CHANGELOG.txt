@@ -1,7 +1,11 @@
+* 01/06/2015
+	- rewrite few things
+	- bump version to 2.0.0
+	
 * 29/11/2013
-	- user enumeration
-    - theme enumeration
-    - version vulnerability detection
+   	- user enumeration
+	- theme enumeration
+	- version vulnerability detection
 
 * 27/11/2013
 	- Few bug fixes & fix some typos 
