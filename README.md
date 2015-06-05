@@ -44,7 +44,13 @@ ramadhan.amizudin at gmail dot com
 ```Tick cURL Extension on installation step```  
 
 #### To Do List
+- Rewrite code to be more modular
+- Change to script argument instead of user input for scan options.
+- Unit Tests
 - Add Proxy Support
-- Wordpress version checking by file hash
-- Better plugin enumeration request?
-- Web UI
+- Add Web UI
+- Add Password audit support
+- Add custom wordpress directory(wp-content and wp-plugin)
+- Add support for static user agent(currently random)
+- Vulnerability Database (currently using https://wpvulndb.com)
+
