@@ -87,22 +87,28 @@ function HTTPRequest($url = '', $post = false, $postfield = '', $follow_redirect
 
 }
 
-function HTTPMultiRequest($urls = array(), $follow_redirection = true) {
-    //no support for GET request, yet!
-
+function HTTPMultiRequest($urls = array(), $follow_redirection = true, $postData = array(), $noBody = true) {
     $multiCurl = curl_multi_init();
     $options = _curl_options();
-
-    $options[CURLOPT_NOBODY] = 1;
-    // nawawi: this option will instruct curl to use GET
-    $options[CURLOPT_CUSTOMREQUEST] = "GET";
-
+    if($noBody) {
+        $options[CURLOPT_NOBODY] = 1;
+    }
+    if($postData) {
+        $options[CURLOPT_POST] = 1;
+    } else {
+        // nawawi: this option will instruct curl to use GET
+        $options[CURLOPT_CUSTOMREQUEST] = "GET";
+    }
     if ( $follow_redirection ) {
         $options[CURLOPT_FOLLOWLOCATION] = 1;
     }
 
     foreach($urls as $i => $url) {
         $ch[$i] = curl_init($url);
+        if($postData) {
+            curl_setopt($ch[$i], CURLOPT_POSTFIELDS, $postData[$i][0]);
+            curl_setopt($ch[$i], CURLOPT_HTTPHEADER, $postData[$i][1]);
+        }
         curl_setopt_array($ch[$i], $options);
         curl_multi_add_handle($multiCurl, $ch[$i]);
     }
