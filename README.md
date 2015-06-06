@@ -1,6 +1,7 @@
 #### LICENSE
   
-Yet Another Wordpress Scanner
+Wordpress Vulnerability Scanner 
+
 The MIT License (MIT)
 
 Copyright (c) 2015 Ahmad Ramadhan Amizudin
