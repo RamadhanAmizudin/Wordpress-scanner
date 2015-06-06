@@ -1,6 +1,6 @@
 <?php
 
-function check_requirement() {
+function CheckRequirement() {
 	global $argv;
 	$error = false;
 	if (version_compare(PHP_VERSION, '5.3.0', '<')) {
@@ -8,27 +8,15 @@ function check_requirement() {
 	}
 	$curl = isCallable('curl_init');
 	if(!$curl) {
-		printf("%s\n", "Wordpress Scanner require cURL Extension.");
+		printf("%s\n", "Wordpress Vulnerability Scanner require cURL Extension.");
 		$error = true;
 	}
     // nawawi: md5_file need this
     if ( !ini_get('allow_url_fopen') ) {
-		echo "Wordpress Scanner require allow_url_fopen set to true\n";
+		echo "Wordpress Vulnerability Scanner require allow_url_fopen set to true\n";
 		$error = true;
     }
 	if($error) exit;
-	if(!isset($argv[1])) {
-		usage();
-		exit;
-	}
-}
-
-function usage() {
-	global $argv;
-	msg("");
-	msg("[!] php {$argv[0]} <target>");
-	msg("[!] php {$argv[0]} http://wordpress.org/");
-	msg("[!] php {$argv[0]} http://wordpress.org/blog/");
 }
 
 function isCallable($function = '') {

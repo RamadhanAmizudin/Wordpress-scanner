@@ -1,0 +1,112 @@
+<?php
+
+class Config {
+    
+    protected static $config = array();
+
+    public static function get($name) {
+        if( isset( self::$config[$name] ) ) {
+            return self::$config[$name];
+        } else {
+            return false;
+        }
+    }
+
+    public static function set($name, $value) {
+        self::$config[$name] = $value;
+    }
+
+    public static function all() {
+        return self::$config;
+    }
+
+    public static function handle($argv) {
+
+        if( array_key_exists('url', $argv) ) {
+            $argv['url'] = (stripos($argv['url'], 'http') === false) ? 'http://' . $argv['url'] : $argv['url'];
+            Config::set('url', $argv['url']);
+        }
+
+        if( array_key_exists('u', $argv) ) {
+            $argv['u'] = (stripos($argv['u'], 'http') === false) ? 'http://' . $argv['u'] : $argv['u'];
+            Config::set('url', $argv['u']);
+        }
+
+        if( array_key_exists('proxy', $argv) ) {
+            Config::set('proxy', $argv['proxy']);
+        }
+
+        if( array_key_exists('proxy-auth', $argv) ) {
+            Config::set('proxy_auth', $argv['proxy-auth']);
+        }
+
+        if( array_key_exists('ua', $argv) ) {
+            Config::set('ua', $argv['ua']);
+        }
+
+        if( array_key_exists('user-agent', $argv) ) {
+            Config::set('ua', $argv['user-agent']);
+        }
+
+        if( array_key_exists('h', $argv) OR array_key_exists('help', $argv) ) {
+            Config::set('help', true);
+        }
+
+        if( array_key_exists('dp', $argv) OR array_key_exists('discover-plugin', $argv) ) {
+            Config::set('dp', true);
+        }
+
+        if( array_key_exists('dt', $argv) OR array_key_exists('discover-theme', $argv) ) {
+            Config::set('dt', true);
+        }
+
+        if( array_key_exists('ep', $argv) OR array_key_exists('enumerate-plugin', $argv)) {
+            Config::set('ep', true);
+        }
+
+        if( array_key_exists('et', $argv) OR array_key_exists('enumerate-theme', $argv)) {
+            Config::set('et', true);
+        }
+
+        if( array_key_exists('eu', $argv) OR array_key_exists('enumerate-user', $argv)) {
+            Config::set('eu', true);
+        }
+
+        if( array_key_exists('d', $argv) OR array_key_exists('default', $argv) ) {
+            Config::set('default', true);
+        }
+
+        if( array_key_exists('b', $argv) OR array_key_exists('basic', $argv) ) {
+            Config::set('basic', true);
+        }
+
+        if( array_key_exists('f', $argv) OR array_key_exists('force', $argv) ) {
+            Config::set('force', true);
+        }
+
+        if( array_key_exists('bruteforce', $argv) OR array_key_exists('bf', $argv) ) {
+            Config::set('bf', true);
+        }
+
+        if( array_key_exists('user', $argv) ) {
+            Config::set('bfuser', $argv['user']);
+        }
+
+        if( array_key_exists('U', $argv) ) {
+            Config::set('bfuser', $argv['U']);
+        }
+
+        if( array_key_exists('wordlist', $argv) ) {
+            Config::set('bfwordlist', $argv['wordlist']);
+        }
+
+        if( array_key_exists('w', $argv) ) {
+            Config::set('bfwordlist', $argv['w']);
+        }
+
+        if( array_key_exists('no-logging', $argv) ) {
+            Config::set('nl', true);
+        }
+
+    }
+}

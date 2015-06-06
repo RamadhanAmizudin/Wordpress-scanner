@@ -45,14 +45,19 @@ function _user_agents() {
 
 /* default */
 function _curl_options() {
-    return array(
+    $opt = array(
         CURLOPT_HEADER => 1,
         CURLOPT_TIMEOUT => 15,
         CURLOPT_RETURNTRANSFER => 1,
         CURLOPT_SSL_VERIFYPEER => 0,
         CURLOPT_SSL_VERIFYHOST => 0,
-        CURLOPT_USERAGENT => _user_agents()
+        CURLOPT_USERAGENT => (Config::get('ua')) ? Config::get('ua') : _user_agents()
     );
+    if(Config::get('proxy')) {
+        $opt[CURLOPT_PROXY] = Config::get('proxy');
+        // To do supply proxy auth information.
+    }
+    return $opt;
 }
 
 function HTTPRequest($url = '', $post = false, $postfield = '', $follow_redirection = true) {
@@ -123,12 +128,37 @@ function HTTPMultiRequest($urls = array(), $follow_redirection = true) {
     return ( !empty($arrData) ? $arrData : false );
 }
 
-function msg($txt) {
-	printf("%s\n", $txt);
+function msg($txt = "") {
+    printf("%s\n", $txt);
+    if(!Config::get('nl')) {
+        // Logging
+    }
 }
 
 function progress_bar($done, $total) {
     $percentage = (double)($done/$total);
     printf("\r[!] Progress: %d/%d - %d%%", $done, $total, number_format($percentage*100, 0));
     flush();
+}
+
+/**
+ * parseArgs Command Line Interface (CLI) utility function.
+ * @author              Patrick Fisher <patrick@pwfisher.com>
+ * @see                 https://github.com/pwfisher/CommandLine.php
+ */
+function parseArgs($argv = null) {
+    $argv = $argv ? $argv : $_SERVER['argv']; array_shift($argv); $o = array();
+    for ($i = 0, $j = count($argv); $i < $j; $i++) { $a = $argv[$i];
+        if (substr($a, 0, 2) == '--') { $eq = strpos($a, '=');
+            if ($eq !== false) { $o[substr($a, 2, $eq - 2)] = substr($a, $eq + 1); }
+            else { $k = substr($a, 2);
+                if ($i + 1 < $j && $argv[$i + 1][0] !== '-') { $o[$k] = $argv[$i + 1]; $i++; }
+                else if (!isset($o[$k])) { $o[$k] = true; } } }
+        else if (substr($a, 0, 1) == '-') {
+            if (substr($a, 2, 1) == '=') { $o[substr($a, 1, 1)] = substr($a, 3); }
+            else {
+                foreach (str_split(substr($a, 1)) as $k) { if (!isset($o[$k])) { $o[$k] = true; } }
+                if ($i + 1 < $j && $argv[$i + 1][0] !== '-') { $o[$k] = $argv[$i + 1]; $i++; } } }
+        else { $o[] = $a; } }
+    return $o;
 }

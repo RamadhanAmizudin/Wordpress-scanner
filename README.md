@@ -45,7 +45,6 @@ ramadhan.amizudin at gmail dot com
 
 #### To Do List
 - Rewrite code to be more modular
-- Change to script argument instead of user input for scan options.
 - Unit Tests
 - Add Proxy Support
 - Add Web UI
