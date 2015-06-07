@@ -88,6 +88,14 @@ class Config {
             Config::set('bf', true);
         }
 
+        if( array_key_exists('xmlrpc', $argv) OR array_key_exists('x', $argv) ) {
+            Config::set('xmlrpc', true);
+        }
+
+        if( array_key_exists('protect', $argv) OR array_key_exists('p', $argv) ) {
+            Config::set('protected', true);
+        }
+
         if( array_key_exists('user', $argv) ) {
             Config::set('bfuser', $argv['user']);
         }

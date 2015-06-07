@@ -175,7 +175,28 @@ if( Config::get('eu') ) {
             msg("[+] {$user}");
         }
     } else {
-        msg("[-] no user was found."); 
+        msg("[-] No user was found."); 
+    }
+}
+
+if( Config::get('bf') ) {
+    msg("");
+    msg("[+] Bruteforcing");
+    if( Config::get('xmlrpc') ) {
+        $method = $wpscan->xmlrpc_path ? 'xmlrpc' : 0;
+    } else {
+        $method = 'wp-login';
+    }
+    if($method) {
+        $brute = new WPBrute($wpscan->url, $method);
+        $logins = $brute->brute();
+        if($logins) {
+            foreach ($logins as $cred) {
+                msg("[!] ".$cred[0].":".$cred[1]);
+            }
+        }
+    } else {
+        msg("[-] XMLRPC interface is not available.");
     }
 }
 

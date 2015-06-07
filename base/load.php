@@ -11,6 +11,7 @@ require ROOT_PATH . '/base/wp-vuln.php';
 require ROOT_PATH . '/base/wp-plugin.php';
 require ROOT_PATH . '/base/wp-theme.php';
 require ROOT_PATH . '/base/wp-user.php';
+require ROOT_PATH . '/base/wp-brute.php';
 
 function Banner() {
 $text = "
@@ -52,6 +53,8 @@ function Help() {
     msg("\t--bf, --bruteforce\t\tBruteforce Mode");
     msg('');
     msg('Bruteforce:');
+    msg("\t-x, --xmlrpc\t\t\tBruteforce through XMLRPC interface.");
+    msg("\t-p, --protect\t\t\tCheck if the site is protected before bruteforcing.");
     msg("\t-U, --user\t\t\tSet username or file containing user lists.");
     msg("\t-w, --wordlist\t\t\tSet wordlist file(full path), default will use built-in wordlist.");
     msg();
