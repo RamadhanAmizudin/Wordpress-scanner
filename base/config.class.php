@@ -110,10 +110,18 @@ class Config {
 
         if( array_key_exists('wordlist', $argv) ) {
             Config::set('bfwordlist', $argv['wordlist']);
+        } else {
+            if( Config::get('bf') ) {
+                Config::set('bfwordlist', ROOT_PATH . '/base/data/wordlist.txt');
+            }
         }
 
         if( array_key_exists('w', $argv) ) {
             Config::set('bfwordlist', $argv['w']);
+        } else {
+            if( Config::get('bf') ) {
+                Config::set('bfwordlist', ROOT_PATH . '/base/data/wordlist.txt');
+            }
         }
 
         if( array_key_exists('no-logging', $argv) ) {

@@ -22,7 +22,7 @@ class WPBrute {
 	    $usernames = $this->getList('bfuser');
 	    if(!$usernames) return false;
 	    $passwords = $this->getList('bfwordlist');
-	    if(!$usernames) return false;
+	    if(!$passwords) return false;
         print "[!] how many threads to use? [default = 10] ";
 		$answer = trim(fgets(STDIN));
 		$threads = ctype_digit($answer) ? $answer : 10;
@@ -65,7 +65,7 @@ class WPBrute {
         }
     }
 
-    function getlist($type) {
+    function getList($type) {
     	$str = ucfirst(str_replace(['bf', 'list'], '', $type));
     	if( Config::get($type) ) {
             if( !file_exists( Config::get($type) ) ) {
