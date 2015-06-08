@@ -27,7 +27,7 @@ THE SOFTWARE.
 ramadhan.amizudin at gmail dot com  
 
 #### Run
-```php app.php <url>```
+```php app.php -h```
 
 #### Requirement
   
