@@ -141,12 +141,6 @@ function msg($txt = "") {
     }
 }
 
-function progress_bar($done, $total) {
-    $percentage = (double)($done/$total);
-    printf("\r[!] Progress: %d/%d - %d%%", $done, $total, number_format($percentage*100, 0));
-    flush();
-}
-
 /**
  * parseArgs Command Line Interface (CLI) utility function.
  * @author              Patrick Fisher <patrick@pwfisher.com>

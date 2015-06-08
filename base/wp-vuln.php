@@ -2,51 +2,45 @@
 
 class WPVuln {
 
-	var $data_path;
 	var $type;
 	var $found;
+	var $data;
 
 	function __construct($type) {
-		$this->data_path = ROOT_PATH . "/base/data/{$type}-vuln.json";
 		$this->type = $type;
 		$this->found = 0;
+		$this->data = json_decode(file_get_contents(ROOT_PATH . "/base/data/{$type}-vuln.json"), true);
 	}
 
 	function vuln($var) {
-		$data = json_decode(file_get_contents($this->data_path), true);
-		foreach((array)$var as $vuln) {
-			if(isset($data[$vuln["{$this->type}_name"]])) {
-                $found = $data[$vuln[$this->type."_name"]]['vulnerability']['title'];
-                $ref = $data[$vuln[$this->type."_name"]]['vulnerability']['references'];
-                if ( $found != '' && $ref != '' ) {
-				    msg("");
-				    msg("[+] Found " . $data[$vuln["{$this->type}_name"]]['vulnerability']['title']);
-				    $this->reference($data[$vuln["{$this->type}_name"]]['vulnerability']['references']);
-				    if(isset($data[$vuln[$this->type."_name"]]['vulnerability']['fixed_in'])) {
-				    	msg("[*] Fixed in version " . $data[$vuln[$this->type."_name"]]['vulnerability']['fixed_in']);
-				    }
-				    $this->found++;
-                }
+		foreach ($this->data as $vuln) {
+			if( in_array(key($vuln), (array)$var) ) {
+				$this->output($vuln[key($vuln)]);
 			}
 		}
 		$this->found ?: msg("[-] No vulnerability was found");
 	}
 
-	function version($version) {
-		$data = json_decode(file_get_contents($this->data_path), true);
-		if(isset($data[$version])) {
+	function output($array) {
+		foreach ($array['vulnerabilities'] as $vuln) {
 			msg("");
-			msg("[+] Found " . $data[$version]['vulnerability']['title']);
-			$this->reference($data[$version]['vulnerability']['references']);
+			msg("[!] " . $vuln['title']);
+			if( isset($vuln['fixed_in']) ) {
+				msg("[+] Fixed in version " . $vuln['fixed_in']);
+			}
+			$this->reference($vuln);
 			$this->found++;
 		}
-		$this->found ?: msg("[-] No vulnerability was found");
 	}
 
 	function reference($ref) {
 		msg("[+] Reference:");
 		foreach((array)$ref as $key => $reff) {
-			if($key == 'metasploit') {
+			if($key == 'id') {
+				foreach ((array)$reff as $id) {
+					msg("[*]\thttp://wpvulndb.com/vulnerabilities/" . $id);
+				}
+			} elseif($key == 'metasploit') {
 				foreach ((array)$reff as $id) {
 					msg("[*]\thttp://www.metasploit.com/modules/" . $id);
 				}
