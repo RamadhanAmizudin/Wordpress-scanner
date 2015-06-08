@@ -13,15 +13,53 @@ class WPVuln {
 	}
 
 	function vuln($var) {
-		foreach ($this->data as $vuln) {
-			if( in_array(key($vuln), (array)$var) ) {
-				$this->output($vuln[key($vuln)]);
+		if( Config::get('wpvulndb') ) {
+			$this->wpvulndb($var);
+		} else {
+			foreach ($this->data as $vuln) {
+				if( in_array(key($vuln), (array)$var) ) {
+					$this->output($vuln[key($vuln)]);
+				}
 			}
 		}
 		$this->found ?: msg("[-] No vulnerability was found");
 	}
 
+	function wpvulndb($vars) {
+		switch($this->type) {
+			case 'theme':
+			case 'plugin':
+					$url = "https://wpvulndb.com/api/v1/{$this->type}s/";
+				break;
+
+			case 'version':
+					$url = "https://wpvulndb.com/api/v1/wordpresses/";
+				break;
+
+			default:
+					msg("[!] Unsupported type: {$this->type}");
+					return false;
+				break;
+		}
+		foreach((array)$vars as $var) {
+			foreach((array)$var as $v) {
+				$v = str_ireplace('.', '', $v);
+				$url .= $v;
+				$resp = HTTPRequest($url);
+				if( stripos( $resp, 'The page you were looking for doesn\'t exist (404)') === false ) {
+					$resp = explode("\r\n\r\n", $resp);
+					$resp = $resp[1];
+					$this->output( json_decode( $resp, true ) );
+				}
+			}
+		}
+		return true;
+	}
+
 	function output($array) {
+		if( Config::get('wpvulndb') ) {
+			$array['vulnerabilities'] = ($this->type == 'version') ? $array['wordpress']['vulnerabilities'] : $array[$this->type]['vulnerabilities'];
+		}
 		foreach ($array['vulnerabilities'] as $vuln) {
 			msg("");
 			msg("[!] " . $vuln['title']);

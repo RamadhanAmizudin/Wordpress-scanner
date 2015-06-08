@@ -26,8 +26,38 @@ THE SOFTWARE.
 
 ramadhan.amizudin at gmail dot com  
 
-#### Run
-```php app.php -h```
+#### Arguments
+```
+Usage: php app.php [options]
+
+Options:
+        -h, --help                      Show this help message.
+        -u, --url                       Target URL (e.g. "http://mywp.com/")
+        -f, --force                     Ignore if target is not wordpress.
+        --wpvulndb                      Use WPVulnDB API Instead of local database. (Powered by wpvulndb.com API)
+
+Request:
+        --ua, --user-agent              Set user-agent, default: random user agent
+        --proxy                         Set proxy. eg: protocol://[username:password@]host:port
+
+Scanning:
+        -d, --default                   Default scanning mode
+                                        Equivalent to --dp,--dt,--b option
+        -b, --basic                     Show basic information about target
+                                        Eg: robots.txt path, check multisite, registration enable, readme file
+        --dp, --discover-plugin         Discover plugin(s) via html source
+        --dt, --discover-theme          Discover theme(s) via html source
+        --ep, --enumerate-plugin                Enumerate plugins
+        --et, --enumerate-theme         Enumerate themes
+        --eu, --enumerate-user          Enumerate users
+        --bf, --bruteforce              Bruteforce Mode
+
+Bruteforce:
+        -x, --xmlrpc                    Bruteforce through XMLRPC interface.
+        -p, --protect                   Check if the site is protected before bruteforcing.
+        -U, --user                      Set username or file containing user lists.
+        -w, --wordlist                  Set wordlist file(full path), default will use built-in wordlist.
+```
 
 #### Requirement
   
