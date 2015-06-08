@@ -44,11 +44,10 @@ if( empty($argv) OR !$ok OR !Config::get('url')) {
     NoOption();
 }
 
-$found_plugin = false;
-$found_theme = false;
 $e_plugins = false;
-$found_e_plugin = false;
-$theme = array();
+$e_themes = false;
+$plugins = false;
+$themes = false;
 
 $wpscan = new WPScan( Config::get('url') );
 msg("[+] Target: " . $wpscan->url);
@@ -67,8 +66,9 @@ $version = $wpscan->get_version();
 
 if( $version ) {
     msg(vsprintf("[+] Wordpress Version %s, using %s method", $version));
+    msg("[+] Finding version vulnerability");
     $wpvuln = new WPVuln('version');
-    $wpvuln->version($version['version']);
+    $wpvuln->vuln($version['version']);
     msg("");
 }
 
@@ -92,77 +92,66 @@ if( Config::get('default') OR Config::get('basic') ) {
         msg("[+] XML-RPC Interface available under " . $wpscan->xmlrpc_path);
     }
 }
+
 if( Config::get('default') OR Config::get('dt') ) {
     if($wpscan->theme_name) {
         msg("[+] Target is using {$wpscan->theme_name} theme");
-        $theme[] = array('theme_name' => $wpscan->theme_name); 
+        $themes[] = $wpscan->theme_name;
     }
 }
 
 if( Config::get('et') ) {
     msg("");
-    msg('[+] Enumerating Themes');
+    msg('[+] Enumerating themes');
     msg("[!] Warning: This may take a while!");
-    $wptheme = new WPTheme($wpscan->url);
-    msg("[!] Total {$wptheme->total_themes} themes!");
+    $wptheme = new WPEnum($wpscan->url, 'themes');
+    msg("[!] Total {$wptheme->total} themes!");
     $e_themes = $wptheme->enumerate();
-    if(is_array($e_themes)) {
-        $found_theme = true;
+    if($e_themes AND $wpscan->theme_name) {
+        $themes = array_unique(array_merge((array)$wpscan->theme_name, $e_themes));
+    } elseif($e_themes) {
+        $themes = $e_themes;
     }
 }
 
-if($found_theme) {
-    $theme = array_unique(array_merge($theme, $e_themes));
-}
-
-if( !empty($theme) ) {
+if($themes) {
     msg("");
-    msg("[+] Finding Theme Vulnerability");
-
+    msg("[+] Finding theme vulnerability");
     $wpvuln = new WPVuln('theme');
-    $wpvuln->vuln($theme);
+    $wpvuln->vuln($themes);
+} else {
+    msg("[-] No theme was found");
 }
 
 if( Config::get('dp') OR Config::get('default') ) {
     msg("");
-    msg("[+] Looking for visible plugins on homepage...");
+    msg("[+] Looking for visible plugins on homepage");
     $wpscan->search_plugins();
     if($wpscan->list_plugins) {
-        foreach($wpscan->list_plugins as $plugin) {
-            msg("");
-            msg("[+] Found {$plugin['plugin_name']} plugin.");
-            if(isset($plugin['url'])) {
-                msg("[!] Plugin URL: {$plugin['url']}");
-            }
-            if(isset($plugin['svn'])) {
-                msg("[!] Plugin SVN: {$plugin['svn']}");
-            }
-        }
-        $found_plugin = true;
-    } else {
-        msg("[-] No plugin was found.");
+        $plugins[] = $wpscan->list_plugins; 
     }
 }
 
 if( Config::get('ep') ) {
     msg('[+] Enumerating Plugins');
     msg("[!] Warning: This may take a while!");
-    $wpplugin = new WPPlugin($wpscan->url);
-    msg("[!] Total {$wpplugin->total_plugins} plugins!");
+    $wpplugin = new WPEnum($wpscan->url, 'plugins');
+    msg("[!] Total {$wpplugin->total} plugins!");
     $e_plugins = $wpplugin->enumerate();
-    if(is_array($e_plugins) AND $found_plugin === false) {
-        $found_plugin = true;
-        $wpscan->list_plugins = $e_plugins;
-    } else {
-        $wpscan->list_plugins = array_unique(array_merge($wpscan->list_plugins, $e_plugins));
+    if($e_plugins AND $wpscan->list_plugins) {
+        $plugins = array_unique(array_merge((array)$wpscan->list_plugins, $e_plugins));
+    } elseif($e_plugins) {
+        $plugins = $e_plugins;
     }
 }
 
-if($found_plugin) {
+if($plugins) {
     msg("");
-    msg("[+] Finding Plugin Vulnerability");
+    msg("[+] Finding plugin vulnerability");
     $wpvuln = new WPVuln('plugin');
-    $wpvuln->vuln($wpscan->list_plugins);
+    $wpvuln->vuln($plugins);
+} else {
+    msg("[-] No plugin was found");
 }
 
 if( Config::get('eu') ) {
@@ -201,6 +190,7 @@ if( Config::get('bf') ) {
 }
 
 $end_time = time();
+msg("");
 msg("[+] Finish Scan at " . date('d-m-Y h:iA', $end_time));
 msg("[+] Total time taken is: " . round(($end_time - $start_time), 4) . " seconds");
 msg("");

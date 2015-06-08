@@ -184,6 +184,7 @@ accord
 accordionpress
 accountant
 accountant-child
+accountantlaw
 accountants-theme
 accounting
 ace-theme
@@ -252,7 +253,9 @@ aesma-theme
 aesthete
 aestival
 affyn
+afterlight
 afzaal-wp-framework
+agama
 agency
 aggiornare
 agile-spirit
@@ -369,6 +372,7 @@ amadeus
 amalie-lite
 amandacasey-default-theme
 amaranthine
+amaryllo
 amateur
 amazing
 amazing-grace
@@ -417,6 +421,7 @@ anatomy-lite
 anchor
 anchorage
 andclean
+anderson
 anderson-lite
 andoru
 andrea
@@ -479,6 +484,7 @@ aos-second-version
 apbt
 apelsin
 aperture
+apex
 aphollo
 aphrodite
 apik
@@ -927,6 +933,7 @@ biker
 bikes
 bilbo
 bilej-jako-mliko
+billie
 billions
 billydroid
 bilqis-theme
@@ -948,6 +955,7 @@ biroe
 biruality
 biscayalite
 bisconne
+bistro
 bitlumen
 bito
 bits
@@ -1082,6 +1090,7 @@ blank-page
 blank-theme
 blankpress
 blankslate
+blankspace
 blas-blogger
 blaskan
 blass
@@ -1752,6 +1761,7 @@ catch-flames
 catch-kathmandu
 catch-responsive
 caulk
+causes
 cave
 cayo
 cazuela
@@ -1993,6 +2003,7 @@ cleanr-a-clean-theme
 cleanroar
 cleanspace
 cleantech-theme
+cleantreat
 cleantreat-theme
 clear
 clear-blue
@@ -2790,6 +2801,7 @@ dkret3
 dms
 doc
 docout
+docpress
 docsusan
 doctormedic
 docu
@@ -3402,6 +3414,7 @@ flatly
 flatmag
 flato
 flaton
+flatpress
 flatshop
 flatty
 flatty-plus
@@ -3625,6 +3638,7 @@ fuego-azul
 fuji
 fuji-theme
 fukasawa
+fulgent
 full-frame
 full-gallery
 fullfolio
@@ -4066,6 +4080,7 @@ halloween-pumpkin
 halloween-pumpkins
 halloween-theme-1
 halloween-wpd
+halo
 halves
 hamid-bakeri
 hamid-bakeri-theme
@@ -4588,6 +4603,7 @@ iwebtheme
 iwordpress
 j-log-theme
 j2-simple
+jabbadu-bootstrap
 jabbadu-bootstrap-theme
 jacknebula
 jackswoodworx
@@ -4852,6 +4868,7 @@ kippis
 kiran
 kirana
 kirby
+kirei
 kirumo
 kis-keep-it-simple
 kiss
@@ -4967,6 +4984,7 @@ laurels
 lavender-dream
 lavender-mist
 lavinya-black
+lavish
 law
 law-lawyer
 law-rex
@@ -5414,6 +5432,8 @@ material-design
 material-gaze
 materialist
 materialwp
+materialx
+materialx-child
 matheson
 matisse
 matraman
@@ -5430,6 +5450,7 @@ maximus-buddypress-theme
 maxis
 mayan
 mayura
+mayurtheme-uri-httpthemient-comredwaves-lite
 maze
 mazeld
 mbius
@@ -5534,11 +5555,13 @@ method
 metro
 metro-cimbalino
 metro-creativex
+metro-creativexytheme-uri-httpsthemeisle-comthemesmetrox
 metro-pirate
 metro-style-marketing
 metro-touch
 metro-win8-style
 metro-win8-style-blog-wp-theme
+metroino
 metronome
 metropolis
 metroui
@@ -5769,6 +5792,7 @@ moi-magazine
 mojo-mobile
 moleskine
 molten-iron
+momentous
 momentous-lite
 momo-lite
 mon
@@ -5798,6 +5822,7 @@ monster-style
 monsterblog
 mont-blanc
 montezuma
+monumental-lite
 moonbeams
 moonlight
 moonoliniz
@@ -6140,6 +6165,7 @@ news-print
 news-print-v20
 news-real-estate
 news-tfi
+newsanchor
 newsbeat
 newsblog
 newschannel
@@ -6402,6 +6428,7 @@ onel
 onenews-basic
 onepage
 onepagewebsite
+onepirate
 onepress-framework
 onesquarefoot
 onesun2009
@@ -6437,6 +6464,7 @@ openstrap
 openstrapper
 openswatch
 opentime-lite
+ophelia
 opor-ayam
 oporto
 oprekan
@@ -6500,6 +6528,7 @@ organic
 organic-theme
 organik
 organna
+oriana
 oric
 oriental
 oriental-languages
@@ -6634,6 +6663,7 @@ paraxe
 parchment
 parchment-draft
 pare
+pariganaka-pituwa
 parisian
 park-walk
 paroth
@@ -6654,6 +6684,7 @@ patio
 patra-mesigar
 patriot
 patus
+paul-sheldon
 paulgruson
 pazem
 pb-exposure
@@ -6728,6 +6759,7 @@ phantom
 phantomtemplate
 phat
 phi-portfolio
+philips
 philna
 philna2
 phire
@@ -6847,6 +6879,7 @@ pinnacle
 pinpage
 pinpress
 pinshop
+pinstory
 pinter-theme
 pintumblr
 pinup-meets-grunge
@@ -6912,6 +6945,7 @@ plus-social
 plusminus
 pluto
 pm-newsy
+poet
 poetry
 poetry-clean-theme
 point
@@ -6926,6 +6960,7 @@ pokersite
 polar-lite
 polaris
 polaroids
+politician
 polka-dots
 polkafun
 pollination
@@ -7060,6 +7095,7 @@ profitmag
 profound
 progeny-mmxiv
 progeny-mmxv
+progo-base
 programmatic
 progression
 projapoti
@@ -7121,6 +7157,7 @@ pure-wp
 purelyblue
 purelyshopping
 purephotography
+purito
 purito-theme
 purity
 purity-of-soul
@@ -7760,6 +7797,7 @@ selfish-jerk
 selfish-jerk-3
 selfword
 seller
+selma
 semanitic-ui-for-wordpress-beta-2
 semicolon
 semper-fi
@@ -7803,6 +7841,7 @@ serene
 serene-elegant-free
 serenity
 serenity-orange
+sergdream
 serious-blogger
 serious-blue
 serious-blue-tlog
@@ -8534,6 +8573,7 @@ startup
 startup-free
 startupwp
 state-of-mind
+statement
 states
 static
 staticwhite
@@ -8566,6 +8606,7 @@ stock
 stockholm
 stonehenge
 stoplight
+store
 store-wp
 storefront
 storefront-paper
@@ -9308,6 +9349,7 @@ triphop
 triphop-theme
 triton-lite
 trongam
+trope
 tropical-beach
 tropical-beach-theme
 tropicala
@@ -9711,6 +9753,7 @@ visual-sense-light
 visual-violent
 vita
 vithy
+vito
 vivacity
 vivex
 vivid-night
@@ -10317,6 +10360,7 @@ xmax
 xmotion
 xodogo
 xpinkfevertlx
+xproweb
 xtempt
 xwb
 xydw-blog
@@ -10355,6 +10399,7 @@ yellow-and-blue-theme
 yellow-flowers
 yellow-paradies
 yellowdiamonds
+yelora
 yen-wood
 yep
 yes-co-ores-theme
