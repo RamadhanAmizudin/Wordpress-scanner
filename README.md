@@ -61,7 +61,7 @@ Bruteforce:
 
 #### Requirement
   
-- At least PHP 5.3  
+- At least PHP 5.4
 - PHP cURL Extension  
 - PHP JSON Extension  
 
@@ -77,11 +77,8 @@ Bruteforce:
 #### To Do List
 - Rewrite code to be more modular
 - Unit Tests
-- Add Proxy Support
 - Add Web UI
-- Add Password audit support
 - Add custom wordpress directory(wp-content and wp-plugin)
-- Add support for static user agent(currently random)
 - Vulnerability Database (currently using https://wpvulndb.com)
 
 

@@ -3,8 +3,8 @@
 function CheckRequirement() {
 	global $argv;
 	$error = false;
-	if (version_compare(PHP_VERSION, '5.3.0', '<')) {
-		printf("%s\n", "Your PHP Version is: " . PHP_VERSION . ". Recommend PHP Version is PHP 5.3 .");
+	if (version_compare(PHP_VERSION, '5.4.0', '<')) {
+		printf("%s\n", "Your PHP Version is: " . PHP_VERSION . ". Recommend PHP Version is PHP 5.4 .");
 	}
 	$curl = isCallable('curl_init');
 	if(!$curl) {
