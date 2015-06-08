@@ -80,6 +80,10 @@ class Config {
             Config::set('basic', true);
         }
 
+        if( array_key_exists('wpvulndb', $argv) ) {
+            Config::set('wpvulndb', true);
+        }
+
         if( array_key_exists('f', $argv) OR array_key_exists('force', $argv) ) {
             Config::set('force', true);
         }
