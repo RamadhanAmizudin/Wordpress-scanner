@@ -87,10 +87,10 @@ function HTTPRequest($url = '', $post = false, $postfield = '', $follow_redirect
 
 }
 
-function HTTPMultiRequest($urls = array(), $follow_redirection = true, $postData = array(), $noBody = true) {
+function HTTPMultiRequest($urls = array(), $follow_redirection = true, $postData = false) {
     $multiCurl = curl_multi_init();
     $options = _curl_options();
-    if($noBody) {
+    if(!$postData) {
         $options[CURLOPT_NOBODY] = 1;
     }
     if($postData) {

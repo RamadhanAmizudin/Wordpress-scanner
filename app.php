@@ -15,6 +15,7 @@ Banner();
 CheckRequirement();
 
 $argv = parseArgs($argv);
+
 Config::handle($argv);
 
 if( Config::get('help') ) {

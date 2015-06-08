@@ -87,6 +87,8 @@ class WPScan {
 
     function is_wordpress() {
         $this->homepage_sc = HTTPRequest($this->url);
+        preg_match('/x-pingback: (.+)/i', $this->homepage_sc, $xmlrpc);
+        $this->xmlrpc_path = (isset($xmlrpc[1])) ? trim($xmlrpc[1]) : false;
         if(preg_match('#wp-content#i', $this->homepage_sc)) {
             return true;
         } else {
@@ -135,10 +137,8 @@ class WPScan {
             $this->theme_name = (isset($theme[1])) ? trim($theme[1]) : false;
         }
         if( Config::get('default') OR Config::get('basic') ) {
-            preg_match('/x-pingback: (.+)/i', $this->homepage_sc, $xmlrpc);
             preg_match('#<link .* type="application/rss\+xml" .* href="([^"]+)" />#i', $this->homepage_sc, $rss);
             $this->rss_path = (isset($rss[1])) ? trim($rss[1]) : false;
-            $this->xmlrpc_path = (isset($xmlrpc[1])) ? trim($xmlrpc[1]) : false;
             $this->robots_path = (preg_match('/200 ok/i', HTTPRequest($this->url.'/robots.txt'))) ? $this->url.'/robots.txt' : false;
             $this->readme_path = (preg_match('/200 ok/i', HTTPRequest($this->url.'/readme.html'))) ? $this->url.'/readme.html' : false;
             $this->sdb_path = $this->__search_sdb();

@@ -38,7 +38,7 @@ class WPBrute {
 						$datas[] = [$post, ['Content-type: text/xml', 'Content-length: '.strlen($post)]];
 					}
 				}
-				$responses = HTTPMultiRequest($urls, 1, $datas, !($this->method == 'xmlrpc'));
+				$responses = HTTPMultiRequest($urls, 1, $datas);
 				foreach ($responses as $key => $resp) {
 					preg_match('#HTTP/\d+\.\d+ (\d)#', $resp, $match);
 					if($match[1] != 4 || $match[1] != 5) {
