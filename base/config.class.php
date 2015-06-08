@@ -112,7 +112,7 @@ class Config {
             Config::set('bfwordlist', $argv['wordlist']);
         } else {
             if( Config::get('bf') ) {
-                Config::set('bfwordlist', ROOT_PATH . '/base/data/wordlist.txt');
+                Config::set('bfwordlist', ROOT_PATH . '/base/data/wordlists.txt');
             }
         }
 
@@ -120,7 +120,7 @@ class Config {
             Config::set('bfwordlist', $argv['w']);
         } else {
             if( Config::get('bf') ) {
-                Config::set('bfwordlist', ROOT_PATH . '/base/data/wordlist.txt');
+                Config::set('bfwordlist', ROOT_PATH . '/base/data/wordlists.txt');
             }
         }
 

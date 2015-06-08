@@ -69,8 +69,12 @@ class WPBrute {
     	$str = ucfirst(str_replace(['bf', 'list'], '', $type));
     	if( Config::get($type) ) {
             if( !file_exists( Config::get($type) ) ) {
-                msg("[-] ".$str."list file does not exist");
-                return false;
+                if( $type == 'bfuser' ) {
+                    $array[] = Config::get($type);
+                } else {
+                    msg("[-] ".$str."list file does not exist");
+                    return false;
+                }
             } else {
                 $array = file(Config::get($type), FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
             }
