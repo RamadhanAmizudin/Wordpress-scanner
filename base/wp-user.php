@@ -36,7 +36,7 @@ class WPUser {
                 break;
             }
         }
-        return ( !empty($users) ? $users : $this->feed() );
+        return ( isset($users) ? array_unique($users) : $this->feed() );
     }
 
     #enumerate user from feeds
@@ -63,6 +63,6 @@ class WPUser {
                 break;
             }
         }
-        return (!empty($users) ? array_unique($users) : false);
+        return (isset($users) ? array_unique($users) : false);
     }
 }
