@@ -5,9 +5,11 @@
 class WPVersion {
 	var $url;
 	var $pattern = '([^\r\n"\']+\.[^\r\n"\']+)';
+	protected $homepage_sc;
 	
-	function __construct($host) {
+	function __construct($host, $src) {
 		$this->url = $host;
+		$this->homepage_sc = $src;
 	}
 	
 	function get_version() {
@@ -19,6 +21,8 @@ class WPVersion {
 			return array('version' => $version, 'method' => 'RDF Generator');
 		} elseif($version = $this->atom_generator()) {
 			return array('version' => $version, 'method' => 'Atom Generator');
+		} elseif($version = $this->external_resources()) {
+			return array('version' => $version, 'method' => 'External Resources');
 		} elseif($version = $this->readme()) {
 			return array('version' => $version, 'method' => 'Readme File');
 		} elseif($version = $this->links_opml()) {
@@ -28,6 +32,21 @@ class WPVersion {
 		} else {
 			return false;
 		}
+	}
+
+	function external_resources() {
+		$arr = [];
+		preg_match_all("#<link.+?rel='stylesheet'.+?href='.+ver=(".$pattern.")'.+?/>#i", $this->homepage_sc, $match1);
+		preg_match_all("#<script.+src='.+ver=(".$pattern.")'>#i", $this->homepage_sc, $match2);
+		foreach(array_merge($match1[1], $match2[1]) as $ver) {
+			if( isset($arr[$ver]) ) {
+				$arr[$ver]++;
+			} else {
+				$arr[$ver] = 1;
+			}
+		}
+		array_multisort(array_values($arr), SORT_DESC, array_keys($arr), SORT_DESC, $arr);
+		return count($arr) ? key($arr) : false;
 	}
 
 	function file_hash() {
@@ -47,7 +66,7 @@ class WPVersion {
 	}
 	
 	function meta_generator() {
-		$data = HTTPRequest($this->url);
+		$data = HTTPRequest($this->homepage_sc);
 		preg_match('/name="generator" content="wordpress '.$this->pattern.'"/i', $data, $match);
 		return isset($match[1]) ? $match[1] : false;
 	}
