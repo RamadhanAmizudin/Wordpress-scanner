@@ -135,10 +135,11 @@ function HTTPMultiRequest($urls = array(), $follow_redirection = true, $postData
 }
 
 function msg($txt = "") {
-    printf("%s\n", $txt);
-    if(!Config::get('nl')) {
-        // Logging
+    $text = sprintf("%s\n", $txt);
+    if( !Config::get('nl') ) {
+        write_log($text);
     }
+    print $text;
 }
 
 /**
@@ -161,4 +162,40 @@ function parseArgs($argv = null) {
                 if ($i + 1 < $j && $argv[$i + 1][0] !== '-') { $o[$k] = $argv[$i + 1]; $i++; } } }
         else { $o[] = $a; } }
     return $o;
+}
+
+function getLogFolder() {
+    $url = parse_url( Config::get('url'));
+    $path = '';
+    if( isset( $url['path'] ) ) {
+        $url['path'] = rtrim($url['path'], '/');
+        $path = preg_replace('/[^a-z0-9]/i', '_', $url['path']);
+    }
+    $host_folder = $url['host'] . $path;
+    $log_folder = ROOT_PATH . DS . LOG_FOLDER . DS . $host_folder;
+    if( !is_dir( $log_folder ) ) {
+        mkdir( $log_folder, 0777, true );
+    }
+    return $log_folder;
+}
+
+function write_log( $msg ) {
+    $log_folder = getLogFolder();
+    $fp = fopen($log_folder . DS . 'logs.txt', 'a');
+    fwrite($fp, $msg);
+    fclose($fp);
+}
+
+function write_vuln( $type, $array ) {
+    $log_folder = getLogFolder();
+    $fp = fopen($log_folder . DS . $type . '-vuln.json', 'w');
+    fwrite($fp, json_encode( $array, JSON_PRETTY_PRINT ));
+    fclose($fp);
+}
+
+function write_info( $type, $array ) {
+    $log_folder = getLogFolder();
+    $fp = fopen($log_folder . DS . $type . '.json', 'w');
+    fwrite($fp, json_encode( $array, JSON_PRETTY_PRINT ));
+    fclose($fp);
 }
