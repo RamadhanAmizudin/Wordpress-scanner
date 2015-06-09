@@ -92,6 +92,9 @@ if( Config::get('default') OR Config::get('basic') ) {
     if($wpscan->xmlrpc_path) {
         msg("[+] XML-RPC Interface available under " . $wpscan->xmlrpc_path);
     }
+    if($wpscan->fpd_path) {
+        msg("[+] Full Path Disclosure (FPD) available at : " . $wpscan->fpd_path);
+    }
 }
 
 if( Config::get('default') OR Config::get('dt') ) {
