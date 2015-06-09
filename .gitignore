@@ -1,2 +1,3 @@
 base/db-updater.php
 logs/
+bin/*.phar
