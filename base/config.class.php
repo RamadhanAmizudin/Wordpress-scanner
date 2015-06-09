@@ -128,7 +128,7 @@ class Config {
             }
         }
 
-        if( array_key_exists('no-logging', $argv) ) {
+        if( array_key_exists('no-log', $argv) ) {
             Config::set('nl', true);
         }
 

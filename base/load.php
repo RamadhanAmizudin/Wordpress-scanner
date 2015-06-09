@@ -36,6 +36,7 @@ function Help() {
     msg("\t-u, --url\t\t\tTarget URL (e.g. \"http://mywp.com/\")");
     msg("\t-f, --force\t\t\tIgnore if target is not wordpress.");
     msg("\t--wpvulndb\t\t\tUse WPVulnDB API Instead of local database. (Powered by wpvulndb.com API)");
+    msg("\t--no-log\t\t\tDisable Logging");
     msg("");
     msg("Request:");
     msg("\t--ua, --user-agent\t\tSet user-agent, default: random user agent");
