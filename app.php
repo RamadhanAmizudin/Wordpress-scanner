@@ -35,7 +35,8 @@ foreach( $keys as $key ) {
         case 'dt':
         case 'dp':
         case 'bf':
-        case 'eu':
+	case 'eu':
+	case 'gd':
                 $ok = true;
             break;
     }

@@ -29,6 +29,7 @@ echo $text;
 
 function Help() {
     msg("Usage: php app.php [options]");
+    msg("Guidelines: https://www.owasp.org/index.php/OWASP_Wordpress_Security_Implementation_Guideline");
     msg("");
     msg("Options:");
     msg("\t-h, --help\t\t\tShow this help message.");
@@ -47,7 +48,7 @@ function Help() {
     msg("\t\t\t\t\tEg: robots.txt path, check multisite, registration enable, readme file");
     msg("\t--dp, --discover-plugin\t\tDiscover plugin(s) via html source");
     msg("\t--dt, --discover-theme\t\tDiscover theme(s) via html source");
-    msg("\t--ep, --enumerate-plugin\t\tEnumerate plugins");
+    msg("\t--ep, --enumerate-plugin\tEnumerate plugins");
     msg("\t--et, --enumerate-theme\t\tEnumerate themes");
     msg("\t--eu, --enumerate-user\t\tEnumerate users");
     msg("\t--bf, --bruteforce\t\tBruteforce Mode");
@@ -144,7 +145,7 @@ class WPScan {
             $this->sdb_path = $this->__search_sdb();
             $this->__is_multisite();
             $this->__registration_enabled();
-            $this->__fpd();
+	    $this->__fpd();
         }
     }
     
