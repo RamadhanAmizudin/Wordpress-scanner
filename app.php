@@ -2,6 +2,8 @@
 
 date_default_timezone_set('Asia/Kuala_Lumpur');
 define('ROOT_PATH', dirname(realpath(__FILE__)) );
+define('DS', DIRECTORY_SEPARATOR);
+define('LOG_FOLDER', 'logs');
 define('Version', '3.0.0');
 
 if( strtolower(php_sapi_name()) != 'cli' ) {
@@ -35,7 +37,7 @@ foreach( $keys as $key ) {
         case 'dt':
         case 'dp':
         case 'bf':
-	case 'eu':
+        case 'eu':
                 $ok = true;
             break;
     }
@@ -49,6 +51,7 @@ $e_plugins = false;
 $e_themes = false;
 $plugins = false;
 $themes = false;
+$info = [];
 
 $wpscan = new WPScan( Config::get('url') );
 msg("[+] Target: " . $wpscan->url);
@@ -66,6 +69,7 @@ $wpscan->parser();
 $version = $wpscan->get_version();
 
 if( $version ) {
+    $info['version'] = $version;
     msg(vsprintf("[+] Wordpress Version %s, using %s method", $version));
     msg("[+] Finding version vulnerability");
     $wpvuln = new WPVuln('version');
@@ -75,24 +79,31 @@ if( $version ) {
 
 if( Config::get('default') OR Config::get('basic') ) {
     if($wpscan->robots_path) {
+        $info['robots_path'] = $wpscan->robots_path;
         msg("[+] robots.txt available at " . $wpscan->robots_path);
     }
     if($wpscan->readme_path) {
+        $info['readme_path'] = $wpscan->readme_path;
         msg("[+] Wordpress Readme file at " . $wpscan->readme_path);
     }
     if($wpscan->sdb_path) {
+        $info['sdb_path'] = $wpscan->sdb_path;
         msg("[+] Found script for database replacing: " . $wpscan->sdb_path);
     }
     if($wpscan->is_multisite) {
+        $info['is_multisite'] = $wpscan->is_multisite;
         msg("[+] Multi-site enabled (http://codex.wordpress.org/Glossary#Multisite)");
     }
     if($wpscan->registration_enabled) {
+        $info['registration_enabled'] = $wpscan->registration_enabled;
         msg("[+] Registration enabled! ");
     }
     if($wpscan->xmlrpc_path) {
+        $info['xmlrpc_path'] = $wpscan->xmlrpc_path;
         msg("[+] XML-RPC Interface available under " . $wpscan->xmlrpc_path);
     }
     if($wpscan->fpd_path) {
+        $info['fpd_path'] = $wpscan->fpd_path;
         msg("[+] Full Path Disclosure (FPD) available at : " . $wpscan->fpd_path);
     }
 }
@@ -119,6 +130,7 @@ if( Config::get('et') ) {
 }
 
 if($themes) {
+    $info['themes'] = $themes;
     msg("");
     msg("[+] Finding theme vulnerability");
     $wpvuln = new WPVuln('theme');
@@ -150,6 +162,7 @@ if( Config::get('ep') ) {
 }
 
 if($plugins) {
+    $info['plugins'] = $plugins[0];
     msg("");
     msg("[+] Finding plugin vulnerability");
     $wpvuln = new WPVuln('plugin');
@@ -163,6 +176,7 @@ if( Config::get('eu') ) {
     $wpuser = new WPUser($wpscan->url);
     $userlist = $wpuser->enumerate();
     if(is_array($userlist)) {
+        $info['users'] = $userlist;
         msg("");
         foreach ($userlist as $user) {
             msg("[+] {$user}");
@@ -184,6 +198,7 @@ if( Config::get('bf') ) {
         $brute = new WPBrute($wpscan->url, $method);
         $logins = $brute->brute();
         if($logins) {
+            write_info('credentials', $logins);
             foreach ($logins as $cred) {
                 msg("[!] ".$cred[0].":".$cred[1]);
             }
@@ -191,6 +206,10 @@ if( Config::get('bf') ) {
     } else {
         msg("[-] XMLRPC interface is not available.");
     }
+}
+
+if( !Config::get('nl') ) {
+    write_info('site-information', $info);
 }
 
 $end_time = time();

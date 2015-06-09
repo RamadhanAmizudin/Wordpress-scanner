@@ -60,6 +60,11 @@ class WPVuln {
 		if( Config::get('wpvulndb') ) {
 			$array['vulnerabilities'] = ($this->type == 'version') ? $array['wordpress']['vulnerabilities'] : $array[$this->type]['vulnerabilities'];
 		}
+
+		if( !Config::get('nl') ) {
+			write_vuln($this->type, $array['vulnerabilities']);
+		}
+
 		foreach ($array['vulnerabilities'] as $vuln) {
 			msg("");
 			msg("[!] " . $vuln['title']);
