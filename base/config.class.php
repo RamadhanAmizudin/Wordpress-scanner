@@ -90,7 +90,7 @@ class Config {
 
         if( array_key_exists('bruteforce', $argv) OR array_key_exists('bf', $argv) ) {
             Config::set('bf', true);
-        }
+	}
 
         if( array_key_exists('xmlrpc', $argv) OR array_key_exists('x', $argv) ) {
             Config::set('xmlrpc', true);
