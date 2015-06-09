@@ -52,6 +52,9 @@ function Help() {
     msg("\t--eu, --enumerate-user\t\tEnumerate users");
     msg("\t--bf, --bruteforce\t\tBruteforce Mode");
     msg('');
+    msg('User Enumeration:');
+    msg("\t-f, --feed\t\t\tEnumerate through rss feeds, default: author pages");
+    msg('');
     msg('Bruteforce:');
     msg("\t-x, --xmlrpc\t\t\tBruteforce through XMLRPC interface.");
     msg("\t-p, --protect\t\t\tCheck if the site is protected before bruteforcing.");

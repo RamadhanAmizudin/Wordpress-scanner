@@ -100,6 +100,10 @@ class Config {
             Config::set('protected', true);
         }
 
+        if( array_key_exists('feed', $argv) OR array_key_exists('f', $argv) ) {
+            Config::set('feed', true);
+        }
+
         if( array_key_exists('user', $argv) ) {
             Config::set('bfuser', $argv['user']);
         }

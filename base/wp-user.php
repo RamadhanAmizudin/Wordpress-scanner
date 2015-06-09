@@ -8,8 +8,16 @@ class WPUser {
         $this->url = $url;
     }
 
-    #enumerate user from author page
     function enumerate() {
+        if( Config::get('feed') ) {
+            return $this->feed();
+        } else {
+            return $this->author();
+        }
+    }
+
+    #enumerate user from author page
+    private function author() {
         for($i = 1;; $i++) {
             $resp = HTTPRequest($this->url . '/?author=' . $i, false, null, false);
             if(stripos($resp, '200 ok') !== false) {
@@ -36,7 +44,7 @@ class WPUser {
                 break;
             }
         }
-        return ( isset($users) ? array_unique($users) : $this->feed() );
+        return ( isset($users) ? array_unique($users) : false );
     }
 
     #enumerate user from feeds
