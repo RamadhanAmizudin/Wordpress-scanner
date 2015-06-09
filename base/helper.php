@@ -165,7 +165,7 @@ function parseArgs($argv = null) {
 }
 
 function getLogFolder() {
-    $url = parse_url( Config::get('url'));
+    $url = parse_url( Config::get('url') );
     $path = '';
     if( isset( $url['path'] ) ) {
         $url['path'] = rtrim($url['path'], '/');

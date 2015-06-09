@@ -28,6 +28,7 @@ echo $text;
 }
 
 function Help() {
+    Config::set('nl', true);
     msg("Usage: php app.php [options]");
     msg("Guidelines: https://www.owasp.org/index.php/OWASP_Wordpress_Security_Implementation_Guideline");
     msg("");
@@ -66,6 +67,7 @@ function Help() {
 }
 
 function NoOption() {
+    Config::set('nl', true);
     msg("");
     msg("[!] Usage php app.php [options]");
     msg("[!] app.php: error: missing a mandatory option, use -h or --help for help");
