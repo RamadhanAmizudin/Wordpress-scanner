@@ -71,7 +71,7 @@ function NoOption() {
 class WPScan {
 
     var $url, $wp_path, $xmlrpc_path, $rss_path, $robots_path, $readme_path, $theme_name, $sdb_path;
-    var $is_multisite, $registration_enabled, $list_plugins;
+    var $is_multisite, $registration_enabled, $list_plugins, $fpd_path;
     var $wp_content_path = 'wp-content';
     var $plugin_path = 'plugins';
     protected $homepage_sc;
@@ -144,9 +144,18 @@ class WPScan {
             $this->sdb_path = $this->__search_sdb();
             $this->__is_multisite();
             $this->__registration_enabled();
+            $this->__fpd();
         }
     }
     
+    private function __fpd() {
+        $this->fpd_path = $this->url . '/wp-includes/rss-functions.php';
+        $response = HTTPRequest($this->fpd_path);
+        if(stripos($response, '_deprecated_file()') === false) {
+            $this->fpd_path = false;
+        }
+    }
+
     private function __registration_enabled() {
         $path = ($this->is_multisite) ? '/wp-signup.php' : '/wp-login.php?action=register';
         $response = HTTPRequest($this->url . $path, false, '', false);
