@@ -81,7 +81,7 @@ class WPScan {
     }
         
     function get_version() {
-        $wpversion = new WPVersion($this->url);
+        $wpversion = new WPVersion($this->url, $this->homepage_sc);
         return $wpversion->get_version();
     }
 
