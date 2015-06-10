@@ -1,32 +1,13 @@
-#### LICENSE
-  
-Wordpress Vulnerability Scanner 
+#### Introduction
 
-The MIT License (MIT)
+A Wordpress Scanner written in PHP, focus on vulnerability assessment and security audit of misconfiguration in the Wordpress installation. 
+Wordpress Scanner is capable of finding the flaw in the Wordpress installation and will provide all the information regarding the vulnerability. 
+Wordpress Scanner is not a tool for code auditing, it performs "black box" scanning for the Wordpress powered web application. 
 
-Copyright (c) 2015 Ahmad Ramadhan Amizudin
+The basic security check will review a WordPress installation for common security related mis-configurations. Testing with the basic check option uses regular web requests. 
+The system downloads a handful of pages from the target site, then performs analysis on the resulting html source. 
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-
-ramadhan.amizudin at gmail dot com  
-
-#### Arguments
+#### Usage
 ```
 Usage: php app.php [options]
 
@@ -59,18 +40,18 @@ Bruteforce:
         -w, --wordlist                  Set wordlist file(full path), default will use built-in wordlist.
 ```
 
-#### Requirement
+#### Requirements
   
 - At least PHP 5.4
 - PHP cURL Extension  
 - PHP JSON Extension  
 
 
-#### Install
+#### Installation
 
 *Installing on Windows*  
 
-```Download http://windows.php.net/downloads/releases/php-5.3.21-Win32-VC9-x86.msi```  
+```Download http://windows.php.net/downloads/releases/php-5.4.41-Win32-VC9-x86.zip```  
 
 ```Tick cURL Extension on installation step```  
 
@@ -82,7 +63,7 @@ Bruteforce:
 - Vulnerability Database (currently using https://wpvulndb.com)
 
 
-### Contributing
+### Contribution
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
@@ -91,4 +72,9 @@ Bruteforce:
 5. Push to the branch (`git push origin my-new-feature`)
 6. Create new Pull Request
 7. Pat yourself on the back for being so awesome
+
+### Contacts
+
+ramadhan.amizudin at gmail dot com
+
 
