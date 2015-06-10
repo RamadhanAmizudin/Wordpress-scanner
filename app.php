@@ -25,6 +25,11 @@ if( Config::get('help') ) {
     exit;
 }
 
+if( Config::get('version') ) {
+    check_version();
+    exit;
+}
+
 // credit syahiran
 $ok = false;
 $keys = array_keys( Config::all() );
@@ -37,7 +42,7 @@ foreach( $keys as $key ) {
         case 'dt':
         case 'dp':
         case 'bf':
-        case 'eu':
+	case 'eu':
                 $ok = true;
             break;
     }

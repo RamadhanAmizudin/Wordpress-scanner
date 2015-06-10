@@ -28,7 +28,7 @@ Scanning:
                                         Eg: robots.txt path, check multisite, registration enable, readme file
         --dp, --discover-plugin         Discover plugin(s) via html source
         --dt, --discover-theme          Discover theme(s) via html source
-        --ep, --enumerate-plugin                Enumerate plugins
+        --ep, --enumerate-plugin        Enumerate plugins
         --et, --enumerate-theme         Enumerate themes
         --eu, --enumerate-user          Enumerate users
         --bf, --bruteforce              Bruteforce Mode
