@@ -6,6 +6,7 @@ require ROOT_PATH . '/base/config.class.php';
 require ROOT_PATH . '/base/helper.php';
 require ROOT_PATH . '/base/requirement.php';
 require ROOT_PATH . '/base/update.php';
+require ROOT_PATH . '/base/upgrade.php';
 require ROOT_PATH . '/base/wp-version.php';
 require ROOT_PATH . '/base/wp-vuln.php';
 require ROOT_PATH . '/base/wp-user.php';
@@ -38,7 +39,8 @@ function Help() {
     msg("\t-f, --force\t\t\tIgnore if target is not wordpress.");
     msg("\t--wpvulndb\t\t\tUse WPVulnDB API Instead of local database. (Powered by wpvulndb.com API)");
     msg("\t--no-log\t\t\tDisable Logging");
-    msg("\t-v, --version\t\t\tCheck available version");
+    msg("\t-v, --version\t\t\tCheck for available version");
+    msg("\t-u, --upgrade\t\t\tUpgrade to newer version");
     msg("");
     msg("Request:");
     msg("\t--ua, --user-agent\t\tSet user-agent, default: random user agent");

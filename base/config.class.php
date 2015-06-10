@@ -84,6 +84,10 @@ class Config {
 	    Config::set('version', true);
 	}
 
+	if( array_key_exists('u', $argv) OR array_key_exists('upgrade', $argv) ) {
+	    Config::set('upgrade', true);
+	}
+
         if( array_key_exists('wpvulndb', $argv) ) {
             Config::set('wpvulndb', true);
         }

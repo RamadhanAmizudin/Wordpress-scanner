@@ -30,6 +30,11 @@ if( Config::get('version') ) {
     exit;
 }
 
+if( Config::get('upgrade') ) {
+    download();
+    exit();
+}
+
 // credit syahiran
 $ok = false;
 $keys = array_keys( Config::all() );
