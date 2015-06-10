@@ -14,15 +14,15 @@ require ROOT_PATH . '/base/wp-enum.php';
 
 function Banner() {
 $text = "
-+----------------------------------------------------
-|  __    __              _                         
-| / / /\ \ \___  _ __ __| |_ __  _ __ ___  ___ ___ 
-| \ \/  \/ / _ \| '__/ _` | '_ \| '__/ _ \/ __/ __|
-|  \  /\  / (_) | | | (_| | |_) | | |  __/\__ \__ \
-|   \/  \/ \___/|_|  \__,_| .__/|_|  \___||___/___/
-|                         |_|                      
-|                      Vulnerability Scanner v".Version."
-+----------------------------------------------------
++----------------------------------------------------+
+|  __    __              _                           |
+| / / /\ \ \___  _ __ __| |_ __  _ __ ___  ___ ___   |
+| \ \/  \/ / _ \| '__/ _` | '_ \| '__/ _ \/ __/ __|  |
+|  \  /\  / (_) | | | (_| | |_) | | |  __/\__ \__ \  |
+|   \/  \/ \___/|_|  \__,_| .__/|_|  \___||___/___/  |
+|                         |_|                        |
+|                      Vulnerability Scanner v".Version."  |
++----------------------------------------------------+
 ";
 echo $text;
 }
@@ -38,6 +38,7 @@ function Help() {
     msg("\t-f, --force\t\t\tIgnore if target is not wordpress.");
     msg("\t--wpvulndb\t\t\tUse WPVulnDB API Instead of local database. (Powered by wpvulndb.com API)");
     msg("\t--no-log\t\t\tDisable Logging");
+    msg("\t-v, --version\t\t\tCheck available version");
     msg("");
     msg("Request:");
     msg("\t--ua, --user-agent\t\tSet user-agent, default: random user agent");
@@ -52,17 +53,17 @@ function Help() {
     msg("\t--dt, --discover-theme\t\tDiscover theme(s) via html source");
     msg("\t--ep, --enumerate-plugin\tEnumerate plugins");
     msg("\t--et, --enumerate-theme\t\tEnumerate themes");
-    msg("\t--eu, --enumerate-user\t\tEnumerate users");
-    msg("\t--bf, --bruteforce\t\tBruteforce Mode");
     msg('');
     msg('User Enumeration:');
-    msg("\t-f, --feed\t\t\tEnumerate through rss feeds, default: author pages");
+    msg("\t--eu, --enumerate-user\t\tEnumerate users");
+    msg("\t-f,   --feed\t\t\tEnumerate through rss feeds, default: author pages");
     msg('');
     msg('Bruteforce:');
-    msg("\t-x, --xmlrpc\t\t\tBruteforce through XMLRPC interface.");
-    msg("\t-p, --protect\t\t\tCheck if the site is protected before bruteforcing.");
-    msg("\t-U, --user\t\t\tSet username or file containing user lists.");
-    msg("\t-w, --wordlist\t\t\tSet wordlist file(full path), default will use built-in wordlist.");
+    msg("\t--bf, --bruteforce\t\tBruteforce Mode");
+    msg("\t-x,   --xmlrpc\t\t\tBruteforce through XMLRPC interface.");
+    msg("\t-p,   --protect\t\t\tCheck if the site is protected before bruteforcing.");
+    msg("\t-U,   --user\t\t\tSet username or file containing user lists.");
+    msg("\t-w,   --wordlist\t\tSet wordlist file(full path), default will use built-in wordlist.");
     msg();
 }
 

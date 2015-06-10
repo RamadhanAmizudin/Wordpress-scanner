@@ -25,6 +25,11 @@ if( Config::get('help') ) {
     exit;
 }
 
+if( Config::get('version') ) {
+    check_version();
+    exit;
+}
+
 // credit syahiran
 $ok = false;
 $keys = array_keys( Config::all() );
@@ -37,7 +42,7 @@ foreach( $keys as $key ) {
         case 'dt':
         case 'dp':
         case 'bf':
-        case 'eu':
+	case 'eu':
                 $ok = true;
             break;
     }
@@ -198,8 +203,10 @@ if( Config::get('bf') ) {
     if($method) {
         $brute = new WPBrute($wpscan->url, $method);
         $logins = $brute->brute();
-        if($logins) {
-            write_info('credentials', $logins);
+	if($logins) {
+	    if( !Config::get('nl') ) {
+	          write_info('credentials', $logins);
+	    }
             foreach ($logins as $cred) {
                 msg("[!] ".$cred[0].":".$cred[1]);
             }
