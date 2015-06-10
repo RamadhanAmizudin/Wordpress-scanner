@@ -149,6 +149,7 @@ if( Config::get('dp') OR Config::get('default') ) {
 }
 
 if( Config::get('ep') ) {
+    msg('');
     msg('[+] Enumerating Plugins');
     msg("[!] Warning: This may take a while!");
     $wpplugin = new WPEnum($wpscan->url, 'plugins');
@@ -162,7 +163,7 @@ if( Config::get('ep') ) {
 }
 
 if($plugins) {
-    $info['plugins'] = $plugins[0];
+    $info['plugins'] = $plugins;
     msg("");
     msg("[+] Finding plugin vulnerability");
     $wpvuln = new WPVuln('plugin');

@@ -129,6 +129,7 @@ class WPScan {
             $match[1][] = 'wordpress-seo';
         $plugins = array_unique($match[1]);
         foreach($plugins as $plugin) {
+            msg('');
             msg("[+] Found {$plugin} plugin.");
             if(in_array($plugin, $data)) {
                 msg("[!] Plugin URL: http://wordpress.org/extend/plugins/" . $plugin . "/");

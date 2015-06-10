@@ -36,8 +36,8 @@ class WPVersion {
 
 	function external_resources() {
 		$arr = [];
-		preg_match_all("#<link.+?rel='stylesheet'.+?href='.+ver=(".$pattern.")'.+?/>#i", $this->homepage_sc, $match1);
-		preg_match_all("#<script.+src='.+ver=(".$pattern.")'>#i", $this->homepage_sc, $match2);
+		preg_match_all("#<link.+?rel='stylesheet'.+?href='.+ver=(".$this->pattern.")'.+?/>#i", $this->homepage_sc, $match1);
+		preg_match_all("#<script.+src='.+ver=(".$this->pattern.")'>#i", $this->homepage_sc, $match2);
 		foreach(array_merge($match1[1], $match2[1]) as $ver) {
 			if( isset($arr[$ver]) ) {
 				$arr[$ver]++;
@@ -66,7 +66,7 @@ class WPVersion {
 	}
 	
 	function meta_generator() {
-		$data = HTTPRequest($this->homepage_sc);
+		$data = $this->homepage_sc;
 		preg_match('/name="generator" content="wordpress '.$this->pattern.'"/i', $data, $match);
 		return isset($match[1]) ? $match[1] : false;
 	}
