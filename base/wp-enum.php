@@ -15,6 +15,7 @@ class WPEnum {
 	
 	function enumerate() {
 		$return = false;
+		$str = rtrim($this->type, 's');
 		print "[!] how many threads to use? [default = 10] ";
 		$answer = trim(fgets(STDIN));
 		$threads = ctype_digit($answer) ? $answer : 10;   
@@ -27,7 +28,7 @@ class WPEnum {
 				if(stripos($resp, '200 ok') !== false OR stripos($resp, '301 moved') !== false) {
 				$return[] = $chunk[$key];
 				msg("");
-				msg("[!] Found {$chunk[$key]} theme.");
+				msg("[!] Found {$chunk[$key]} {$str}");
 				msg("[*]     URL: http://wordpress.org/extend/{$this->type}/" . $chunk[$key] . "/");
 				msg("[*]     SVN: http://{$this->type}.svn.wordpress.org/" . $chunk[$key] . "/");
 				}
