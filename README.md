@@ -49,17 +49,17 @@ Bruteforce:
 
 #### Installation
 
-## Windows 
+##### Windows 
 
 ```Download http://windows.php.net/downloads/releases/php-5.4.41-Win32-VC9-x86.zip```  
 
 ```Tick cURL Extension on installation step```  
 
-## Ubuntu/Debian-based
+##### Ubuntu/Debian-based
 
 ```sudo apt-get install php5 php5-curl php5-json```
 
-## Mac OSX
+##### Mac OSX
 
 ```curl -s http://php-osx.liip.ch/install.sh | bash -s 5.4```
 
@@ -80,6 +80,10 @@ Bruteforce:
 5. Push to the branch (`git push origin my-new-feature`)
 6. Create new Pull Request
 7. Pat yourself on the back for being so awesome
+
+### License
+
+MIT License. Copyright (c) 2015 Ahmad Ramadhan Amizudin. See [License](https://github.com/RamadhanAmizudin/Wordpress-scanner/blob/master/LICENSE.txt).
 
 ### Contacts
 
