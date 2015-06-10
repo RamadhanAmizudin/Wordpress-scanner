@@ -49,11 +49,19 @@ Bruteforce:
 
 #### Installation
 
-*Installing on Windows*  
+## Windows 
 
 ```Download http://windows.php.net/downloads/releases/php-5.4.41-Win32-VC9-x86.zip```  
 
 ```Tick cURL Extension on installation step```  
+
+## Ubuntu/Debian-based
+
+```sudo apt-get install php5 php5-curl php5-json```
+
+## Mac OSX
+
+```curl -s http://php-osx.liip.ch/install.sh | bash -s 5.4```
 
 #### To Do List
 - Rewrite code to be more modular
