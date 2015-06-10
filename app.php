@@ -203,7 +203,9 @@ if( Config::get('bf') ) {
         $brute = new WPBrute($wpscan->url, $method);
         $logins = $brute->brute();
 	if($logins) {
-            write_info('credentials', $logins);
+	    if( !Config::get('nl') ) {
+	          write_info('credentials', $logins);
+	    }
             foreach ($logins as $cred) {
                 msg("[!] ".$cred[0].":".$cred[1]);
             }
@@ -215,7 +217,6 @@ if( Config::get('bf') ) {
 
 if( !Config::get('nl') ) {
     write_info('site-information', $info);
-    write_info('credentials', $logins);
 }
 
 $end_time = time();
