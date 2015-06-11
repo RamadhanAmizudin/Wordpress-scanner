@@ -1,7 +1,7 @@
 <?php
 
 class Config {
-    
+
     protected static $config = array();
 
     public static function get($name) {
@@ -78,15 +78,15 @@ class Config {
 
         if( array_key_exists('b', $argv) OR array_key_exists('basic', $argv) ) {
             Config::set('basic', true);
-	}
+        }
 
-	if( array_key_exists('v', $argv) OR array_key_exists('version', $argv) ) {
-	    Config::set('version', true);
-	}
+        if( array_key_exists('v', $argv) OR array_key_exists('version', $argv) ) {
+            Config::set('version', true);
+        }
 
-	if( array_key_exists('u', $argv) OR array_key_exists('upgrade', $argv) ) {
-	    Config::set('upgrade', true);
-	}
+        if( array_key_exists('u', $argv) OR array_key_exists('upgrade', $argv) ) {
+            Config::set('upgrade', true);
+        }
 
         if( array_key_exists('wpvulndb', $argv) ) {
             Config::set('wpvulndb', true);
@@ -98,7 +98,7 @@ class Config {
 
         if( array_key_exists('bruteforce', $argv) OR array_key_exists('bf', $argv) ) {
             Config::set('bf', true);
-	}
+        }
 
         if( array_key_exists('xmlrpc', $argv) OR array_key_exists('x', $argv) ) {
             Config::set('xmlrpc', true);
@@ -118,6 +118,38 @@ class Config {
 
         if( array_key_exists('U', $argv) ) {
             Config::set('bfuser', $argv['U']);
+        }
+
+        if( array_key_exists('iterate', $argv) ) {
+            Config::set('iterate', $argv['iterate']);
+        }
+
+        if( array_key_exists('i', $argv) ) {
+            Config::set('iterate', $argv['i']);
+        }
+
+        if( array_key_exists('thread', $argv) ) {
+            Config::set('thread', $argv['thread']);
+        }
+
+        if( array_key_exists('t', $argv) ) {
+            Config::set('thread', $argv['t']);
+        }
+
+        if( array_key_exists('ubrute', $argv) ) {
+            if($argv['ubrute'] === true) {
+                Config::set('uwordlist', ROOT_PATH . '/base/data/wordlists.txt');
+            } else {
+                Config::set('uwordlist', $argv['userbrute']);
+            }
+        }
+
+        if( array_key_exists('B', $argv) ) {
+            if($argv['B'] === true) {
+                Config::set('uwordlist', ROOT_PATH . '/base/data/wordlists.txt');
+            } else {
+                Config::set('uwordlist', $argv['B']);
+            }
         }
 
         if( array_key_exists('wordlist', $argv) ) {
