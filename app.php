@@ -47,7 +47,7 @@ foreach( $keys as $key ) {
         case 'dt':
         case 'dp':
         case 'bf':
-	case 'eu':
+        case 'eu':
                 $ok = true;
             break;
     }
@@ -81,6 +81,7 @@ $version = $wpscan->get_version();
 if( $version ) {
     $info['version'] = $version;
     msg(vsprintf("[+] Wordpress Version %s, using %s method", $version));
+    msg("");
     msg("[+] Finding version vulnerability");
     $wpvuln = new WPVuln('version');
     $wpvuln->vuln($version['version']);
@@ -154,7 +155,7 @@ if( Config::get('dp') OR Config::get('default') ) {
     msg("[+] Looking for visible plugins on homepage");
     $wpscan->search_plugins();
     if($wpscan->list_plugins) {
-        $plugins[] = $wpscan->list_plugins; 
+        $plugins[] = $wpscan->list_plugins;
     }
 }
 
@@ -183,17 +184,17 @@ if($plugins) {
 }
 
 if( Config::get('eu') ) {
+    msg("");
     msg("[+] Enumerating Users");
     $wpuser = new WPUser($wpscan->url);
     $userlist = $wpuser->enumerate();
     if(is_array($userlist)) {
         $info['users'] = $userlist;
-        msg("");
         foreach ($userlist as $user) {
             msg("[+] {$user}");
         }
     } else {
-        msg("[-] No user was found."); 
+        msg("[-] No user was found");
     }
 }
 
@@ -206,18 +207,18 @@ if( Config::get('bf') ) {
         $method = 'wp-login';
     }
     if($method) {
-        $brute = new WPBrute($wpscan->url, $method);
-        $logins = $brute->brute();
-	if($logins) {
-	    if( !Config::get('nl') ) {
-	          write_info('credentials', $logins);
-	    }
+        $brute = new WPBrute($wpscan->url);
+        $logins = $brute->brute($method);
+        if($logins) {
+    	    if( !Config::get('nl') ) {
+    	        write_info('credentials', $logins);
+    	    }
             foreach ($logins as $cred) {
                 msg("[!] ".$cred[0].":".$cred[1]);
             }
         }
     } else {
-        msg("[-] XMLRPC interface is not available.");
+        msg("[-] XMLRPC interface is not available");
     }
 }
 

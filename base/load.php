@@ -34,22 +34,23 @@ function Help() {
     msg("Guidelines: https://www.owasp.org/index.php/OWASP_Wordpress_Security_Implementation_Guideline");
     msg("");
     msg("Options:");
-    msg("\t-h, --help\t\t\tShow this help message.");
-    msg("\t-u, --url\t\t\tTarget URL (e.g. \"http://mywp.com/\")");
-    msg("\t-f, --force\t\t\tIgnore if target is not wordpress.");
+    msg("\t-h,   --help\t\t\tShow this help message.");
+    msg("\t-u,   --url\t\t\tTarget URL (e.g. \"http://mywp.com/\")");
+    msg("\t-f,   --force\t\t\tIgnore if target is not wordpress.");
+    msg("\t-v,   --version\t\t\tCheck for available version");
+    msg("\t--upgrade\t\t\tUpgrade to newer version");
     msg("\t--wpvulndb\t\t\tUse WPVulnDB API Instead of local database. (Powered by wpvulndb.com API)");
     msg("\t--no-log\t\t\tDisable Logging");
-    msg("\t-v, --version\t\t\tCheck for available version");
-    msg("\t-u, --upgrade\t\t\tUpgrade to newer version");
     msg("");
     msg("Request:");
     msg("\t--ua, --user-agent\t\tSet user-agent, default: random user agent");
+    msg("\t-t,   --thread\t\t\tnumbers of threads, default: 10");
     msg("\t--proxy\t\t\t\tSet proxy. eg: protocol://[username:password@]host:port");
     msg('');
     msg("Scanning:");
-    msg("\t-d, --default\t\t\tDefault scanning mode");
+    msg("\t-d,   --default\t\t\tDefault scanning mode");
     msg("\t\t\t\t\tEquivalent to --dp,--dt,--b option");
-    msg("\t-b, --basic\t\t\tShow basic information about target");
+    msg("\t-b,   --basic\t\t\tShow basic information about target");
     msg("\t\t\t\t\tEg: robots.txt path, check multisite, registration enable, readme file");
     msg("\t--dp, --discover-plugin\t\tDiscover plugin(s) via html source");
     msg("\t--dt, --discover-theme\t\tDiscover theme(s) via html source");
@@ -58,14 +59,17 @@ function Help() {
     msg('');
     msg('User Enumeration:');
     msg("\t--eu, --enumerate-user\t\tEnumerate users");
+    msg("\t-i,   --iterate\t\t\tnumbers of iteration, default: 10");
     msg("\t-f,   --feed\t\t\tEnumerate through rss feeds, default: author pages");
+    msg("\t-B,   --ubrute\t\t\tSet wordlist file(full path) to bruteforce username, default will use built-in wordlist");
+    msg("\t-p,   --protect\t\t\tCheck if the site is protected before bruteforcing, use with -B or --ubrute");
     msg('');
     msg('Bruteforce:');
     msg("\t--bf, --bruteforce\t\tBruteforce Mode");
-    msg("\t-x,   --xmlrpc\t\t\tBruteforce through XMLRPC interface.");
-    msg("\t-p,   --protect\t\t\tCheck if the site is protected before bruteforcing.");
-    msg("\t-U,   --user\t\t\tSet username or file containing user lists.");
-    msg("\t-w,   --wordlist\t\tSet wordlist file(full path), default will use built-in wordlist.");
+    msg("\t-x,   --xmlrpc\t\t\tBruteforce through XMLRPC interface");
+    msg("\t-p,   --protect\t\t\tCheck if the site is protected before bruteforcing");
+    msg("\t-U,   --user\t\t\tSet username or file containing user lists");
+    msg("\t-w,   --wordlist\t\tSet wordlist file(full path), default will use built-in wordlist");
     msg();
 }
 
@@ -85,11 +89,11 @@ class WPScan {
     var $wp_content_path = 'wp-content';
     var $plugin_path = 'plugins';
     protected $homepage_sc;
-    
+
     function __construct($host) {
         $this->url = $this->new_url( rtrim( $host, '/' ) );
     }
-        
+
     function get_version() {
         $wpversion = new WPVersion($this->url, $this->homepage_sc);
         return $wpversion->get_version();
@@ -109,7 +113,7 @@ class WPScan {
         }
         return false;
     }
-    
+
     function search_plugins() {
         $data_path = ROOT_PATH . '/base/data/list-plugins.txt';
         $data = array_map('trim', file($data_path));
@@ -141,7 +145,7 @@ class WPScan {
         }
         $this->list_plugins = !empty($plugins) ? $plugins : false;
     }
-    
+
     function parser() {
         if( Config::get('default') OR Config::get('dt') ) {
             preg_match('#themes/(.*?)/style.css#i', $this->homepage_sc, $theme);
@@ -158,7 +162,7 @@ class WPScan {
 	    $this->__fpd();
         }
     }
-    
+
     private function __fpd() {
         $this->fpd_path = $this->url . '/wp-includes/rss-functions.php';
         $response = HTTPRequest($this->fpd_path);
@@ -180,9 +184,9 @@ class WPScan {
             $this->registration_enabled = false;
         }
     }
-    
+
     private function __is_multisite() {
-        $response = HTTPRequest($this->url . '/wp-signup.php', false, '', false);   
+        $response = HTTPRequest($this->url . '/wp-signup.php', false, '', false);
         $headers = explode("\r\n", $response);
         foreach($headers as $header) {
             if(stripos($header, 'location:') === 0) {
@@ -196,9 +200,9 @@ class WPScan {
                 $this->is_multisite =  true;
             }
         }
-        $this->is_multisite =  false;       
+        $this->is_multisite =  false;
     }
-    
+
     private function __search_sdb() {
         $files = array('sdb.php', 'searchreplacedb2.php');
         foreach($files as $file) {
@@ -209,7 +213,7 @@ class WPScan {
         }
         return false;
     }
-    
+
     private function new_url($current) {
         $response = HTTPRequest($current, false, '', false);
         $headers = explode("\r\n", $response);
