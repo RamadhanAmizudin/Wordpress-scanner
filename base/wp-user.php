@@ -35,7 +35,7 @@ class WPUser {
             foreach ($chunk as $id) {
                 $urls[] = $this->url . '/?author=' . $id;
             }
-            $respons = HTTPMultiRequest($urls, false);
+            $respons = HTTPMultiRequest($urls, false, false, false);
             foreach ($respons as $resp) {
                 if(stripos($resp, '200 ok') !== false) {
                     preg_match('#<body class="archive author author-([^\s]+)#i', $resp, $match);
@@ -65,20 +65,12 @@ class WPUser {
             foreach ($chunk as $id) {
                 $urls[] = $this->url . '/?feed=rss2&paged=' . $id;
             }
-            $respons = HTTPMultiRequest($urls, false);
+            $respons = HTTPMultiRequest($urls, true, false, false);
             foreach ($respons as $resp) {
-                if(stripos($resp, '200 ok') !== false) {
-                    preg_match_all('#<dc:creator><!\[CDATA\[(.+?)\]\]></dc:creator>#i', $resp, $match1);
-                    preg_match_all('#<dc:creator>(.+?)</dc:creator>#i', $resp, $match2);
-                    if( !empty($match1[1]) ) {
-                        foreach ($match1[1] as $user) {
-                            $users[] = $user;
-                        }
-                    }
-                    if( !empty($match2[1]) ) {
-                        foreach ($match2[1] as $user) {
-                            $users[] = $user;
-                        }
+                preg_match_all('#<dc:creator><!\[CDATA\[(.+?)\]\]></dc:creator>#i', $resp, $match1);
+                if( !empty($match1[1]) ) {
+                    foreach ($match1[1] as $user) {
+                        $users[] = $user;
                     }
                 }
             }

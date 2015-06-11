@@ -38,7 +38,7 @@ function Help() {
     msg("\t-u,   --url\t\t\tTarget URL (e.g. \"http://mywp.com/\")");
     msg("\t-f,   --force\t\t\tIgnore if target is not wordpress.");
     msg("\t-v,   --version\t\t\tCheck for available version");
-    msg("\t-u,   --upgrade\t\t\tUpgrade to newer version");
+    msg("\t--upgrade\t\t\tUpgrade to newer version");
     msg("\t--wpvulndb\t\t\tUse WPVulnDB API Instead of local database. (Powered by wpvulndb.com API)");
     msg("\t--no-log\t\t\tDisable Logging");
     msg("");

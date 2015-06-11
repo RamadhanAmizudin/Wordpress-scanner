@@ -81,6 +81,7 @@ $version = $wpscan->get_version();
 if( $version ) {
     $info['version'] = $version;
     msg(vsprintf("[+] Wordpress Version %s, using %s method", $version));
+    msg("");
     msg("[+] Finding version vulnerability");
     $wpvuln = new WPVuln('version');
     $wpvuln->vuln($version['version']);
@@ -183,17 +184,17 @@ if($plugins) {
 }
 
 if( Config::get('eu') ) {
+    msg("");
     msg("[+] Enumerating Users");
     $wpuser = new WPUser($wpscan->url);
     $userlist = $wpuser->enumerate();
     if(is_array($userlist)) {
         $info['users'] = $userlist;
-        msg("");
         foreach ($userlist as $user) {
             msg("[+] {$user}");
         }
     } else {
-        msg("[-] No user was found.");
+        msg("[-] No user was found");
     }
 }
 
@@ -217,7 +218,7 @@ if( Config::get('bf') ) {
             }
         }
     } else {
-        msg("[-] XMLRPC interface is not available.");
+        msg("[-] XMLRPC interface is not available");
     }
 }
 

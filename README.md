@@ -16,7 +16,7 @@ Options:
         -u,   --url                     Target URL (e.g. "http://mywp.com/")
         -f,   --force                   Ignore if target is not wordpress.
         -v,   --version                 Check for available version
-        -u,   --upgrade                 Upgrade to newer version
+        --upgrade                       Upgrade to newer version
         --wpvulndb                      Use WPVulnDB API Instead of local database. (Powered by wpvulndb.com API)
         --no-log                        Disable Logging
 
@@ -34,8 +34,6 @@ Scanning:
         --dt, --discover-theme          Discover theme(s) via html source
         --ep, --enumerate-plugin        Enumerate plugins
         --et, --enumerate-theme         Enumerate themes
-        --eu, --enumerate-user          Enumerate users
-        --bf, --bruteforce              Bruteforce Mode
 
 User Enumeration:
         --eu, --enumerate-user          Enumerate users
@@ -45,6 +43,7 @@ User Enumeration:
         -p,   --protect                 Check if the site is protected before bruteforcing, use with -B or --ubrute
 
 Bruteforce:
+        --bf, --bruteforce              Bruteforce Mode
         -x, --xmlrpc                    Bruteforce through XMLRPC interface.
         -p, --protect                   Check if the site is protected before bruteforcing.
         -U, --user                      Set username or file containing user lists.
