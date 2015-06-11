@@ -16,6 +16,8 @@ Options:
         -u, --url                       Target URL (e.g. "http://mywp.com/")
         -f, --force                     Ignore if target is not wordpress.
         --wpvulndb                      Use WPVulnDB API Instead of local database. (Powered by wpvulndb.com API)
+	-v, --version 			Check for available version
+	-u, --upgrade 			Upgrade to newer version
 
 Request:
         --ua, --user-agent              Set user-agent, default: random user agent
