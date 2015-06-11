@@ -6,8 +6,10 @@ function check_version() {
 	msg("[+] Current Version: ".Version);
 	if(isset($o[1])) {
 		if( version_compare(Version, $o[1], '<') ) {
+			Config::set('nl', true);
 			msg("[!] Newest version is available");
 		} else {
+			Config::set('nl', true);
 		  	msg("[!] No new version available");
 		}
 	}
