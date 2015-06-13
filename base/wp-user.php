@@ -33,7 +33,7 @@ class WPUser {
         $chunks = array_chunk(range(1, $this->iterate), $this->threads);
         foreach($chunks as $chunk) {
             foreach ($chunk as $id) {
-                $urls[] = $this->url . '/?bypass=1&author=' . $id;
+                $urls[] = $this->url . '/?bypass=1&author%00=' . $id;
             }
             $respons = HTTPMultiRequest($urls, false, false, false);
             foreach ($respons as $resp) {
