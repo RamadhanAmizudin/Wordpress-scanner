@@ -54,8 +54,12 @@ function Help() {
     msg("\t\t\t\t\tEg: robots.txt path, check multisite, registration enable, readme file");
     msg("\t--dp, --discover-plugin\t\tDiscover plugin(s) via html source");
     msg("\t--dt, --discover-theme\t\tDiscover theme(s) via html source");
+    msg('');
+    msg('Plugin/Theme Enumeration:');
     msg("\t--ep, --enumerate-plugin\tEnumerate plugins");
     msg("\t--et, --enumerate-theme\t\tEnumerate themes");
+    msg("\t--vp, --vuln-plugin\t\tEnumerate vulnerable plugins only");
+    msg("\t--vt, --vuln-theme\t\tEnumerate vulnerable themes only");
     msg('');
     msg('User Enumeration:');
     msg("\t--eu, --enumerate-user\t\tEnumerate users");

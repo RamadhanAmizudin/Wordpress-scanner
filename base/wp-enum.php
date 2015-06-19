@@ -8,7 +8,12 @@ class WPEnum {
 
     function __construct($url, $type) {
         $this->url = $url;
-        $this->array = array_map('trim', file(ROOT_PATH . "/base/data/list-{$type}.txt"));
+        if( Config::get('vuln-plugin') || Config::get('vuln-theme') ) {
+            $path = ROOT_PATH . '/base/data/'.rtrim($type, 's').'-vuln.txt';
+            $this->array = array_map(function($a) { return key($a); }, json_decode(file_get_contents($path), 1));
+        } else {
+            $this->array = array_map('trim', file(ROOT_PATH . "/base/data/list-{$type}.txt"));
+        }
         $this->total = count($this->array);
         $this->type = $type;
     }

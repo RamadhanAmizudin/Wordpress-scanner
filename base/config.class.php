@@ -64,8 +64,16 @@ class Config {
             Config::set('ep', true);
         }
 
+        if( array_key_exists('vp', $argv) OR array_key_exists('vuln-plugin', $argv)) {
+            Config::set('vuln-plugin', true);
+        }
+
         if( array_key_exists('et', $argv) OR array_key_exists('enumerate-theme', $argv)) {
             Config::set('et', true);
+        }
+
+        if( array_key_exists('vt', $argv) OR array_key_exists('vuln-theme', $argv)) {
+            Config::set('vuln-theme', true);
         }
 
         if( array_key_exists('eu', $argv) OR array_key_exists('enumerate-user', $argv)) {
