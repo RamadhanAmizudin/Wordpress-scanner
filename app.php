@@ -126,7 +126,7 @@ if( Config::get('default') OR Config::get('dt') ) {
     }
 }
 
-if( Config::get('et') ) {
+if( Config::get('et') OR Config::get('vuln-theme') ) {
     msg("");
     msg('[+] Enumerating themes');
     msg("[!] Warning: This may take a while!");
@@ -159,7 +159,7 @@ if( Config::get('dp') OR Config::get('default') ) {
     }
 }
 
-if( Config::get('ep') ) {
+if( Config::get('ep') OR Config::get('vuln-plugin') ) {
     msg('');
     msg('[+] Enumerating Plugins');
     msg("[!] Warning: This may take a while!");

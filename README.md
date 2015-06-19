@@ -32,8 +32,12 @@ Scanning:
                                         Eg: robots.txt path, check multisite, registration enable, readme file
         --dp, --discover-plugin         Discover plugin(s) via html source
         --dt, --discover-theme          Discover theme(s) via html source
+
+Plugin/Theme Enumeration:
         --ep, --enumerate-plugin        Enumerate plugins
         --et, --enumerate-theme         Enumerate themes
+        --vp, --vuln-plugin             Enumerate vulnerable plugins only
+        --vt, --vuln-theme              Enumerate vulnerable themes only
 
 User Enumeration:
         --eu, --enumerate-user          Enumerate users
