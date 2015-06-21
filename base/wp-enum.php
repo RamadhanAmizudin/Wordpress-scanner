@@ -9,7 +9,7 @@ class WPEnum {
     function __construct($url, $type) {
         $this->url = $url;
         if( Config::get('vuln-plugin') || Config::get('vuln-theme') ) {
-            $path = ROOT_PATH . '/base/data/'.rtrim($type, 's').'-vuln.txt';
+            $path = ROOT_PATH . '/base/data/'.rtrim($type, 's').'-vuln.json';
             $this->array = array_map(function($a) { return key($a); }, json_decode(file_get_contents($path), 1));
         } else {
             $this->array = array_map('trim', file(ROOT_PATH . "/base/data/list-{$type}.txt"));
