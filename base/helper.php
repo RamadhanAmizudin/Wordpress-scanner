@@ -134,13 +134,23 @@ function HTTPMultiRequest($urls = array(), $follow_redirection = true, $postData
     return ( !empty($arrData) ? $arrData : false );
 }
 
+
+//NotANoob: 
 function msg($txt = "") {
-    $text = sprintf("%s\n", $txt);
-    if( !Config::get('nl') ) {
-        write_log($text);
+	$text = $txt;
+	if(isGUI){
+		echo $txt.'<br>';
     }
-    print $text;
+	else{
+        $text = sprintf("%s\n", $txt);
+	    print $text;
+	}
+	
+	if( !Config::get('nl') ) {
+		write_log($text);
+    }
 }
+
 
 /**
  * parseArgs Command Line Interface (CLI) utility function.
