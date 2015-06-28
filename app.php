@@ -6,17 +6,134 @@ define('DS', DIRECTORY_SEPARATOR);
 define('LOG_FOLDER', 'logs');
 define('Version', '3.1.0');
 
+
+
+/*set_time_limit: 0 means infinite. Infinite is probably a bad idea as it may use up a lot of resources. 30 is default and might not be enough for enumerating themes and plugins. For more about set_time_limit read http://php.net/manual/en/function.set-time-limit.php*/
+set_time_limit(0);
+
+
 if( strtolower(php_sapi_name()) != 'cli' ) {
-    printf("%s\n", "Please run only from command line interface.");
-    exit;
+	define('isGUI', true);
+}
+else{
+	define('isGUI', false);
 }
 
+
+if(isGUI && !isset($_POST['blankwindow'])){//Start form
+	
+
+	
+?>
+<html>
+<head>
+<style>
+h2, h4, h6, a{
+	font-family:Verdana, Geneva, sans-serif;
+}
+</style>
+</head>
+<body>
+<form method="post">
+
+<h2>Wordpress vulnerability scanner </h2>
+
+<h6>Original by <a href="https://github.com/RamadhanAmizudin/" target="_blank">RamadhanAmizudin</a>. GUI added by <a href="https://github.com/NotANoob" target="_blank">NotANoob</a></h6>
+
+<!--
+I have commented out a few inputs because 
+i haven't tested them with the gui version yet
+You can uncomment and change them
+if you want to test them.
+
+From NotANoob
+-->
+
+
+<!--
+<input type="checkbox" name="v">Check version
+<input type="checkbox" name="upgrade">Update version<br><br>-->
+
+Target URL <!--(e.g. "http://mywp.com/"):--> <input type="text" name="u" value="<?php echo (isset($_POST['u']) ? htmlspecialchars($_POST['u']) : 'http://localhost'); ?>"><br><br>
+
+Options:<br>
+
+<input type="checkbox" name="f"> Ignore if target is not wordpress.<br>
+
+<input type="checkbox" name="wpvulndb"> Use WPVulnDB API Instead of local database. (Powered by wpvulndb.com API)<br>
+<input type="checkbox" name="no-log">   Disable Logging<br><br>
+
+<!--
+Request:<br>
+<input type="text" name="ua">    Set user-agent, default: random user agent<br>
+<input type="text" name="t">     Numbers of threads, default: 10<br>
+<input type="text" name="proxy"> Set proxy. eg: protocol://[username:password@]host:port<br><br>-->
+
+Scanning:<br>
+<input type="checkbox" name="d" checked>  Default scanning mode.<br>
+<input type="checkbox" name="b" checked>  Show basic information about target.<!-- Eg: robots.txt path, check multisite, registration enable, readme file--><br>
+<input type="checkbox" name="dp" checked> Discover plugin(s) via html source<br>
+<input type="checkbox" name="dt" checked> Discover theme(s) via html source<br><br>
+
+Plugin/Theme Enumeration:<br>
+<input type="checkbox" name="ep"> Enumerate plugins<br>
+<input type="checkbox" name="et"> Enumerate themes<br>
+<input type="checkbox" name="vp"> Enumerate vulnerable plugins only<br>
+<input type="checkbox" name="vt"> Enumerate vulnerable themes only<br><br>
+
+User Enumeration:<br>
+<input type="checkbox" name="eu"> Enumerate users<br>
+<!--<input type="text" name="i" value="10">  Numbers of iteration. <br>-->
+<input type="checkbox" name="f">  Enumerate through rss feeds, default: author pages<br>
+<!--<input type="checkbox" name="B">  Set wordlist file(full path) to bruteforce username, default will use built-in wordlist<br>-->
+<input type="checkbox" name="p">  Check if the site is protected before bruteforcing.
+<br><br>
+
+<!--
+Bruteforce:<br>
+<input type="checkbox" name="bf"> Bruteforce Mode<br>
+<input type="checkbox" name="x">  Bruteforce through XMLRPC interface.<br><br>
+<input type="checkbox" name="p">  Check if the site is protected before bruteforcing.<br>
+<input type="text" name="U">  Set username or file containing user lists.<br>
+<input type="checkbox" name="w">  Set wordlist file(full path), default will use built-in wordlist.<br><br>
+-->
+
+
+<!---->
+<input type="checkbox" name="blankwindow"> Show output in blank window<br><br>
+
+
+<input type="submit" name="submit" value="Submit"><br><br>
+
+</form>
+</body>
+</html>
+<?php
+	
+	if(!isset($_POST['submit'])){
+		//This die() is to stop the rest of the script being loaded if the form has not yet been submitted and they're using gui. It looks bad but you should leave it here.
+		die();
+	}
+	
+	
+}//End form
+
+
 require_once(ROOT_PATH . '/base/load.php');
+
+
+if(isGUI){
+	$argv = $_POST;
+}
+else{
+    $argv = parseArgs($argv);
+}
+
+
 
 Banner();
 CheckRequirement();
 
-$argv = parseArgs($argv);
 
 Config::handle($argv);
 
