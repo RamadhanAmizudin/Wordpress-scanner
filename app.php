@@ -188,7 +188,7 @@ if( Config::get('eu') ) {
     msg("[+] Enumerating Users");
     $wpuser = new WPUser($wpscan->url);
     $userlist = $wpuser->enumerate();
-    if(is_array($userlist)) {
+    if($userlist) {
         $info['users'] = $userlist;
         foreach ($userlist as $user) {
             msg("[+] {$user}");
@@ -208,6 +208,12 @@ if( Config::get('bf') ) {
     }
     if($method) {
         $brute = new WPBrute($wpscan->url);
+        if( Config::get('ufound') ) {
+            $brute->usernames = false;
+            if( Config::get('eu') ) {
+                $brute->usernames = $userlist;
+            }
+        }
         $logins = $brute->brute($method);
         if($logins) {
     	    if( !Config::get('nl') ) {
