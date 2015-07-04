@@ -72,6 +72,7 @@ function Help() {
     msg("\t--bf, --bruteforce\t\tBruteforce Mode");
     msg("\t-x,   --xmlrpc\t\t\tBruteforce through XMLRPC interface");
     msg("\t-p,   --protect\t\t\tCheck if the site is protected before bruteforcing");
+    msg("\t-F,   --ufound\t\t\tSet username to enumerated users");
     msg("\t-U,   --user\t\t\tSet username or file containing user lists");
     msg("\t-w,   --wordlist\t\tSet wordlist file(full path), default will use built-in wordlist");
     msg();
