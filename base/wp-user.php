@@ -47,7 +47,7 @@ class WPUser {
                         $users[] = $match2[1];
                     }
                 } elseif(stripos($resp, '301 moved permanently') !== false) {
-                    preg_match('#/author/([^/\b]+)/?#i', $resp, $match);
+                    preg_match('#/author/([^/\b"\']+)/?#i', $resp, $match);
                     if( isset($match[1]) ) {
                         $users[] = $match[1];
                     }

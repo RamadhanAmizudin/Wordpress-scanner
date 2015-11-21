@@ -52,6 +52,7 @@ Bruteforce:
         --bf, --bruteforce              Bruteforce Mode
         -x, --xmlrpc                    Bruteforce through XMLRPC interface.
         -p, --protect                   Check if the site is protected before bruteforcing.
+        -F, --ufound                    Set username to enumerated users.
         -U, --user                      Set username or file containing user lists.
         -w, --wordlist                  Set wordlist file(full path), default will use built-in wordlist.
 ```

@@ -144,6 +144,14 @@ class Config {
             Config::set('thread', $argv['t']);
         }
 
+        if( array_key_exists('ufound', $argv) ) {
+            Config::set('ufound', true);
+        }
+
+        if( array_key_exists('F', $argv) ) {
+            Config::set('ufound', true);
+        }
+
         if( array_key_exists('ubrute', $argv) ) {
             if($argv['ubrute'] === true) {
                 Config::set('uwordlist', ROOT_PATH . '/base/data/wordlists.txt');
