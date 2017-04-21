@@ -14,7 +14,8 @@ require ROOT_PATH . '/base/wp-brute.php';
 require ROOT_PATH . '/base/wp-enum.php';
 
 function Banner() {
-$text = "
+	
+    $text = "
 +----------------------------------------------------+
 |  __    __              _                           |
 | / / /\ \ \___  _ __ __| |_ __  _ __ ___  ___ ___   |
@@ -22,10 +23,19 @@ $text = "
 |  \  /\  / (_) | | | (_| | |_) | | |  __/\__ \__ \  |
 |   \/  \/ \___/|_|  \__,_| .__/|_|  \___||___/___/  |
 |                         |_|                        |
-|                      Vulnerability Scanner v".Version."  |
+|                       Vulnerability Scanner v".Version." |
+|                       Github.com/RamadhanAmizudin  |
+|                       GUI by Github.com/NotANoob   |
 +----------------------------------------------------+
 ";
-echo $text;
+
+    if(isGUI){
+	//Without pre tags it will all be on same line because html removes whitespace
+	$text = "<pre>".$text."</pre>";
+    }
+
+
+    echo $text;
 }
 
 function Help() {
@@ -34,7 +44,6 @@ function Help() {
     msg("Guidelines: https://www.owasp.org/index.php/OWASP_Wordpress_Security_Implementation_Guideline");
     msg("");
     msg("Options:");
-    msg("\t-h,   --help\t\t\tShow this help message.");
     msg("\t-u,   --url\t\t\tTarget URL (e.g. \"http://mywp.com/\")");
     msg("\t-f,   --force\t\t\tIgnore if target is not wordpress.");
     msg("\t-v,   --version\t\t\tCheck for available version");
